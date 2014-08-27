@@ -9,7 +9,7 @@ app.get('/scrape', function(req, res){
 	
 	//url = 'http://www.imdb.com/title/tt1229340/';
 	url = 'http://www.web-presence-in-china.com/';
-
+          //url = 'http://www.imdb.com/title/tt1355630/?ref_=shtt_ov_tt/';
 	request(url, function(error, response, html){
 		if(!error){
 			var $ = cheerio.load(html);
@@ -17,13 +17,17 @@ app.get('/scrape', function(req, res){
 			var title, release, rating;
 			var json = { title : "", release : "", rating : ""};
 
+			$('#data .h2').each(function() {
+   				 console.log($(this).text());
+			})
+
 			$('.header').filter(function(){
 		        var data = $(this);
-		        //title = data.children().first().text();
-			title = data.text();   
+		        title = data.children().first().text();
+			//title = data.text();   
           
-                //release = data.children().last().children().text();
-		        release = data.text();
+                        release = data.children().last().children().text();
+		        //release = data.text();
 
 		        json.title = title;
                 json.release = release;

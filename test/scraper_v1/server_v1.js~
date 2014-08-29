@@ -11,7 +11,35 @@ var scraperjs = require('scraperjs');
 app.get('/scrape', function(req, res){
 
 	var p_tag, list_tag, heading_tag;
-	var json_wpic = { p_tag : "", list_tag : "", heading_tag : ""};	
+	var json_wpic = { p_tag : "", list_tag : "", heading_tag : "", web_list : ""};	
+//////////////////////////////////////////////////////////////
+router
+    .otherwise(function(url) {
+    console.log("Url '"+url+"' couldn't be routed.");
+});
+
+var path = {};
+
+router.on('http://www.web-presence-in-china.com/')
+    .createStatic()
+    .scrape(function($) {
+        return $("a").map(function() {
+            return $(this).attr("href");
+        }).get();
+    }, function(links, utils) {
+	//console.log(utils);
+	console.log(links);
+	//console.log(path);
+	json_wpic.web_list =  links;
+        path[utils.params.id] = links
+    })
+
+router.route("http://www.web-presence-in-china.com/", function() {
+    console.log("i'm done");
+});
+
+
+//////////////////////////////////////////////////////////////
 
 	scraperjs.StaticScraper.create('http://www.web-presence-in-china.com/graphic-design-production')
     		.scrape(function($) {
@@ -19,7 +47,7 @@ app.get('/scrape', function(req, res){
     		        return $(this).text();
      		   }).get();
     		}, function(news) {
-		   json_wpic.p_tag = news;
+		   //json_wpic.p_tag = news;
      		   //console.log(news);
     	})
 
@@ -28,7 +56,7 @@ app.get('/scrape', function(req, res){
     		        return $(this).text();
      		   }).get();
     		}, function(news) {
-		   json_wpic.list_tag = news;
+		   //json_wpic.list_tag = news;
      		   //console.log(news);
     	})
 		.scrape(function($) {

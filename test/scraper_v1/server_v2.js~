@@ -11,7 +11,12 @@ var scraperjs = require('scraperjs');
 app.get('/scrape', function(req, res){
 
 	var p_tag, list_tag, heading_tag;
-	var json_wpic = { p_tag : "", list_tag : "", heading_tag : ""};	
+	var json_wpic = { p_tag : "", list_tag : "", heading_tag : "", web_address : ""};
+	
+
+
+
+//////////////////////////////////////////////////////////////
 
 	scraperjs.StaticScraper.create('http://www.web-presence-in-china.com/graphic-design-production')
     		.scrape(function($) {

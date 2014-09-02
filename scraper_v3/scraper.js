@@ -10,33 +10,9 @@ var scraperjs = require('scraperjs');
 var p_tag, list_tag, heading_tag;
 var web_address;
 
-var json = { p_tag : "", list_tag : "", heading_tag : "", web_address : ""};
+var json = { p_tag : "", list_tag : "", heading_tag : ""};
 	
 
-router
-    .otherwise(function(url) {
-    console.log("Url '"+url+"' couldn't be routed.");
-});
-
-var path = {};
-
-// http://www.web-presence-in-china.com/
-router.on('http://www.web-presence-in-china.com/')
-    .createStatic()
-    .scrape(function($) {
-        return $("a").map(function() {
-            return $(this).attr("href");
-        }).get();
-    }, function(links, utils) {
-        path[utils.params.id] = links;
-	//console.log(links);
-	json.web_address = links;
-	//console.log(json.web_address);
-    })
-
-router.route("http://www.web-presence-in-china.com/", function() {
-    console.log("Got all URL!");
-});
 
 scraperjs.StaticScraper.create('http://www.web-presence-in-china.com/graphic-design-production')
     		.scrape(function($) {

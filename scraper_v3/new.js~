@@ -10,7 +10,7 @@ var scraperjs = require('scraperjs');
 var p_tag, list_tag, heading_tag;
 var web_address;
 
-var json = { p_tag : "", list_tag : "", heading_tag : "", web_address : ""};
+var json = { web_address : ""};
 	
 
 router
@@ -38,34 +38,6 @@ router.route("http://www.web-presence-in-china.com/", function() {
     console.log("Got all URL!");
 });
 
-scraperjs.StaticScraper.create('http://www.web-presence-in-china.com/graphic-design-production')
-    		.scrape(function($) {
-     		   return $("p").map(function() {
-    		        return $(this).text();
-     		   }).get();
-    		}, function(news) {
-		   json.p_tag = news;
-     		   //console.log(news);
-		   //console.log(json.p_tag);
- })
-	.scrape(function($) {
-     		   return $("li").map(function() {
-    		        return $(this).text();
-     		   }).get();
-    		}, function(news) {
-		   json.list_tag = news;
-     		   //console.log(news);
-		   //console.log(json.list_tag);
-})
-		.scrape(function($) {
-     		  return $(":header").map(function() {
-    		        return $(this).text();
-     		   }).get();
-    		}, function(news) {
-		   json.heading_tag = news;
-     		   //console.log(news);
-		   //console.log(json.heading);
-})
 
 app.get('/scrape', function(req, res){
 	
@@ -77,7 +49,7 @@ app.get('/scrape', function(req, res){
 		}
  
 
-        fs.writeFile('output.json', JSON.stringify(json, null, 4), function(err){
+        fs.writeFile('URL_output.json', JSON.stringify(json, null, 4), function(err){
 
         	console.log('File successfully written! - Check your project directory for the output.json file');
 
@@ -88,8 +60,8 @@ app.get('/scrape', function(req, res){
 	})
 })
 
-app.listen('8081')
-console.log('Please go to "http://localhost:8081/scrape"');
+app.listen('8082')
+console.log('Please go to "http://localhost:8082/scrape"');
 exports = module.exports = app;
 
 

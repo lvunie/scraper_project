@@ -1,14 +1,13 @@
-
 {
-	"name"			:"node-web-scrapr",
-	"version"		:"0.0.1",
-	"description"		:"Scrape web",
-	"main"			:"server.js",
-	"author"		:"lvunie",
-	"dependencies"		:{
-		"express"	:"latest",
-		"request"	:"latest",
-		"cheerio"	:"latest"
-	}
-
+  "name": "node-web-scrapr",
+  "version": "0.0.1",
+  "description": "Scrape web",
+  "main": "server.js",
+  "author": "lvunie",
+  "dependencies": {
+    "cheerio": "latest",
+    "express": "latest",
+    "request": "latest",
+    "string": "^2.0.0"
+  }
 }

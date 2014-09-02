@@ -25,7 +25,7 @@ rd.on('line', function(line) {
 	
     if(vertify){
 	address = S(line).between('"', '"').s;
-	//console.log(address);
+	console.log(address);
     }
     
     //console.log('------------------------------------');

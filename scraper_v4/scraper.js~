@@ -36,10 +36,6 @@ rd.on('line', function(line) {
 //content include all text in between <p>, <li>, and all header tag(from <h1> to <h6>)
 function scrape(){
 
-	console.log('-----------------------------------------------------------------------------');
-	console.log(window.address);
-	console.log('-----------------------------------------------------------------------------');
-
 	scraperjs.StaticScraper.create('http://www.web-presence-in-china.com/graphic-design-production')
 	    		.scrape(function($) {
 	     		   return $("p").map(function() {

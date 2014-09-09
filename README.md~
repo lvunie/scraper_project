@@ -27,7 +27,9 @@ This program is develop in Ubuntu Kylin 14.01.1 operation system with nodejs and
 ## For install nodejs:
 
 Download source from nodejs.org/download/ with newest version.
+
 .........
+
 .........
 (to be finished)
 
@@ -42,20 +44,20 @@ Download source from nodejs.org/download/ with newest version.
 2. Scrape content from a given URL
   1. scraper.js read from URL_output.json to get all subURLs
   2. scraper.js can scrape all content from given URL and sort those text from different html tag,like header
-tag('<h1>'), paragraph tag('<p>') and list tag('<li>').... 
+tag, paragraph tag and list tag.... 
   3. scraper.js can write scraped content to a JSON file
 
-####Follow problems lists from different version I created:
+####Follow problems lists from different version:
 
-1. For WPIC_Scraper_v2:
+######For WPIC_Scraper_v2:
   1. It only can write the first URL to JSON
   2. local Port is not necessary to be used
-2. For WPIC_Scraper_v3:
+
+######For WPIC_Scraper_v3:
   1. json is a global variable in scraper.js and it is an array used to store URL scraped content, it is assigned in scrape function but in write function, so nothing write in JSON file.
 
 
-Commom problem:
-
+######Commom problem:
 1. What should the name for each JSON file that is make sence and easy to match with correspond URLs.
 2. In content of each JSON, there is lot of necessary symbol and need to be removed.
 

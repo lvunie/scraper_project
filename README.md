@@ -28,10 +28,19 @@ $ sudo make install
 $ npm install npm-install
 .........
 
-Now start to install
+Now start to install scraperjs and expressjs
 ````````````````````````````````
-npm install scraperjs
+$npm install scraperjs
+$npm install express
 ````````````````````````````````
+
+after installation above, you can download WPIC_scraper_v4 to try this program:
+When run this program you need to run URL_reader.js first to get whole URLs, then run scraper.js to get all JSON file.
+`````````````````````````````````
+$nodejs URL_reader.js
+$nodejs scraper.js
+`````````````````````````````````
+
 (to be finished)
 
 ## Usage:

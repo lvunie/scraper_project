@@ -6,7 +6,7 @@ This program is develop in Ubuntu Kylin 14.01.1 operation system write in nodejs
 
 ## Installation:
 
-Download source from ([nodejs.org/download/]) with newest version.
+Download source from [nodejs.org/download/] with newest version.
 
 .........
 
@@ -36,7 +36,7 @@ Download source from ([nodejs.org/download/]) with newest version.
 tag, paragraph tag and list tag.... 
   3. scraper.js can write scraped content to a JSON file
 
-####Follow problems lists from different version:
+####Problems lists from different version:
 
 ######For WPIC_Scraper_v2:
   1. It only can write the first URL to JSON

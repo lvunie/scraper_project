@@ -45,7 +45,7 @@ sudo make install
 tag, paragraph tag and list tag.... 
   3. scraper.js can write scraped content to a JSON file
 
-####Problems lists from different version:
+####Problems lists from different version(9_9):
 
 ######For WPIC_Scraper_v2:
   1. It only can write the first URL to JSON
@@ -59,6 +59,15 @@ tag, paragraph tag and list tag....
 1. What should the name for each JSON file that is make sence and easy to match with correspond URLs.
 2. In content of each JSON, there is lot of necessary symbol and need to be removed.
 
+####Problems lists from different version(9_10):
+
+######For WPIC_Scraper_v4
+There is a new version for v4 and this version almost fix all problem and functionality runs well. But still with common problem:
+
+
+######Commom problem:
+1. What should the name for each JSON file that is make sence and easy to match with correspond URLs.
+2. In content of each JSON, there is lot of necessary symbol and need to be removed.
 
 
 

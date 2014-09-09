@@ -14,7 +14,7 @@ $ sudo apt-get update
 $ sudo apt-get install build-essential openssl libssl-dev pkg-config
 `````````````````````````````
 Get link for larest tarball from Source Code. Download and extract it.
-then with the example from source node-v0.10.31
+Then with the example from source node-v0.10.31
 
 `````````````````````````````
 $ tar -xzf node-v0.10.31.tar.gz
@@ -24,9 +24,9 @@ $ sudo make
 $ sudo make install
 `````````````````````````````````
  Also need to install npm
-.........
+````````````````````````````````
 $ npm install npm-install
-.........
+``````````````````````````````````
 
 Now start to install scraperjs and expressjs
 ````````````````````````````````

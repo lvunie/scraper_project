@@ -28,7 +28,7 @@ rd.on('line', function(line) {
 	console.log(address);
     }
     
-    //console.log('------------------------------------');
+    console.log('------------------------------------');
 });
 
 
@@ -36,7 +36,7 @@ rd.on('line', function(line) {
 //content include all text in between <p>, <li>, and all header tag(from <h1> to <h6>)
 function scrape(){
 
-	scraperjs.StaticScraper.create('http://www.web-presence-in-china.com/graphic-design-production')
+	scraperjs.StaticScraper.create('http://www.web-presence-in-china.com/chinese-brand-development')
 	    		.scrape(function($) {
 	     		   return $("p").map(function() {
     		        	return $(this).text();

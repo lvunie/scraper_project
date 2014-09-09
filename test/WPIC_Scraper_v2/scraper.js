@@ -9,6 +9,8 @@ var S = require('string');
 var p_tag, list_tag, heading_tag;
 var json = { p_tag : "", list_tag : "", heading_tag : ""};
 var address;
+var test = 123;
+var json_filename;
 
 //open JOSN file to get URL for scraping
     readline = require('readline');
@@ -25,19 +27,22 @@ rd.on('line', function(line) {
 	
     if(vertify){
 	address = S(line).between('"', '"').s;
-	console.log(address);
+	//console.log(address);
     }
-    
-    console.log('------------------------------------');
+
+	scrape(address);
 });
 
 
 /////////////////////////Scrape content from given URL///////////////////////////////
 //content include all text in between <p>, <li>, and all header tag(from <h1> to <h6>)
 
-function scrape(){
+function scrape(address){
 
-	scraperjs.StaticScraper.create('http://www.web-presence-in-china.com/chinese-brand-development')
+	//console.log('test here point v1');
+	//console.log(address);
+
+	scraperjs.StaticScraper.create(json_filename)
 	    		.scrape(function($) {
 	     		   return $("p").map(function() {
     		        	return $(this).text();
@@ -61,33 +66,49 @@ function scrape(){
 		   json.heading_tag = news;
 	  
 	})
+
+	json_filename = address;
+	writeToJson(json_filename);
 }
 
-scrape();
+//scrape();
 
 // Write content to JSON file
 
-app.get('/scrape', function(req, res){
+function writeToJson(json_filename){
 	
-	url = '// http://www.web-presence-in-china.com/';
+	//console.log('here is file name!!!');
+	//console.log(json_filename);
+	
+	
+	test = test + 1;
+	var json_name = test + '.json';
+	console.log(json_name);
+	console.log('here is json file name');
 
-	request(url, function(error, response, html){
-		if(!error){
-			var $ = cheerio.load(html);
-		}
- 
-	//console.log(json);
-        fs.writeFile('output.json', JSON.stringify(json, null, 4), function(err){
-        	console.log('File successfully written! - Check your project directory for the output.json file');
-        })
 
-        res.send('Check your console!')
+	app.get('/scrape', function(req, res){
+	
+		url = '// http://www.web-presence-in-china.com/';
+
+		request(url, function(error, response, html){
+			if(!error){
+				var $ = cheerio.load(html);
+			}
+
+	
+        	fs.writeFile(json_name, JSON.stringify(json, null, 4), function(err){
+        		console.log('File successfully written! - Check your project directory for the output.json file');
+        	})
+
+        	res.send('Check your console!')
+		})
 	})
-})
+}
 
 ////////////////////////////port 8081//////////////////////////////////////
 app.listen('8081')
-console.log('V_1.6 Please go to "http://localhost:8081/scrape"');
+console.log('V_1.4 Please go to "http://localhost:8081/scrape"');
 exports = module.exports = app;
 
 

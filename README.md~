@@ -2,7 +2,7 @@
 
 WPIC WebScraper is a simple program  for scraping the entire contents of "Web Presence In China" with organized form.
 
-This program is develop in Ubuntu Kylin 14.01.1 operation system with nodejs and JSON.
+This program is develop in Ubuntu Kylin 14.01.1 operation system write in nodejs and JSON.
 
 ## Installation:
 
@@ -11,6 +11,7 @@ Download source from nodejs.org/download/ with newest version.
 .........
 
 .........
+
 (to be finished)
 
 

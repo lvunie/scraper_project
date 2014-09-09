@@ -6,7 +6,15 @@ This program is develop in Ubuntu Kylin 14.01.1 operation system write in nodejs
 
 ## Installation:
 
-Download source from nodejs.org/download/ with newest version.
+Download source from ([nodejs.org/download/]) with newest version.
+
+.........
+
+.........
+
+(to be finished)
+
+## Usage:
 
 .........
 

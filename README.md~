@@ -4,7 +4,7 @@ WPIC WebScraper is a simple program  for scraping the entire contents of "Web Pr
 
 This program is develop in Ubuntu Kylin 14.01.1 operation system with nodejs and JSON.
 
-## For install nodejs:
+## Installation:
 
 Download source from nodejs.org/download/ with newest version.
 
@@ -14,7 +14,7 @@ Download source from nodejs.org/download/ with newest version.
 (to be finished)
 
 
-## Following is the development process report for this program
+## Problem lists
 
 ####So far, the program can finish the following functionality:
 

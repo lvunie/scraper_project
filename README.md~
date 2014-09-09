@@ -8,19 +8,30 @@ This program is develop in Ubuntu Kylin 14.01.1 operation system write in nodejs
 
 Download source from [nodejs.org/download/] with newest version.
 
-then 
+Node.js needs a few things to complie so make sure they are installed.
 `````````````````````````````
-tar -xzf node-v0.10.31.tar.gz
-cd node-v0.10.31/
-sudo ./configure
-sudo make
-sudo make install
+sudo apt-get update
+sudo apt-get install build-essential openssl libssl-dev pkg-config
+`````````````````````````````
+Get link for larest tarball from Source Code. Download and extract it.
+then with the example from source node-v0.10.31
+
+`````````````````````````````
+$ tar -xzf node-v0.10.31.tar.gz
+$ cd node-v0.10.31/
+$ sudo ./configure
+$ sudo make
+$ sudo make install
 `````````````````````````````````
-
+ Also need to install npm
+.........
+$ npm install npm-install
 .........
 
-.........
-
+Now start to install
+````````````````````````````````
+npm install scraperjs
+````````````````````````````````
 (to be finished)
 
 ## Usage:

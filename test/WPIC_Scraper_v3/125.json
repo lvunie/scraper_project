@@ -1,5 +1,11 @@
 {
-    "p_tag": "",
-    "list_tag": "",
-    "heading_tag": ""
+    "p_tag": [
+        "\n                This bites! To ask the owner of the website a question, you need to enable JavaScript on your computer.\n              ",
+        "\n                The good news is this isn't so hard. If you're unsure what to do, simply contact your friendly neighborhood technologist. And do something nice for them in return!\n              ",
+        "\n                \n                  Photo Credit: Raj Maniar\n                \n              "
+    ],
+    "list_tag": [],
+    "heading_tag": [
+        "\n                Duh Dun - You need JavaScript enabled to use Olark\n              "
+    ]
 }

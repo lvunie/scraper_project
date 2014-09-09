@@ -8,6 +8,15 @@ This program is develop in Ubuntu Kylin 14.01.1 operation system write in nodejs
 
 Download source from [nodejs.org/download/] with newest version.
 
+then 
+`````````````````````````````
+tar -xzf node-v0.10.31.tar.gz
+cd node-v0.10.31/
+sudo ./configure
+sudo make
+sudo make install
+`````````````````````````````````
+
 .........
 
 .........

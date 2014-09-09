@@ -10,8 +10,8 @@ Download source from [nodejs.org/download/] with newest version.
 
 Node.js needs a few things to complie so make sure they are installed.
 `````````````````````````````
-sudo apt-get update
-sudo apt-get install build-essential openssl libssl-dev pkg-config
+$ sudo apt-get update
+$ sudo apt-get install build-essential openssl libssl-dev pkg-config
 `````````````````````````````
 Get link for larest tarball from Source Code. Download and extract it.
 then with the example from source node-v0.10.31
@@ -30,15 +30,15 @@ $ npm install npm-install
 
 Now start to install scraperjs and expressjs
 ````````````````````````````````
-$npm install scraperjs
-$npm install express
+$ npm install scraperjs
+$ npm install express
 ````````````````````````````````
 
-after installation above, you can download WPIC_scraper_v4 to try this program:
+After installation above, you can download WPIC_scraper_v4 to try this program:
 When run this program you need to run URL_reader.js first to get whole URLs, then run scraper.js to get all JSON file.
 `````````````````````````````````
-$nodejs URL_reader.js
-$nodejs scraper.js
+$ nodejs URL_reader.js
+$ nodejs scraper.js
 `````````````````````````````````
 
 (to be finished)

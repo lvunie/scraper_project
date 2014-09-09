@@ -41,7 +41,8 @@ Download source from nodejs.org/download/ with newest version.
   2. URL_reader.js sort those subURLS and write it to URL_output.son
 2. Scrape content from a given URL
   1. scraper.js read from URL_output.json to get all subURLs
-  2. scraper.js can scrape all content from given URL and sort those text from different html tag,like <hi>, <p>, <li>.... 
+  2. scraper.js can scrape all content from given URL and sort those text from different html tag,like header
+tag('<h1>'), paragraph tag('<p>') and list tag('<li>').... 
   3. scraper.js can write scraped content to a JSON file
 
 ####Follow problems lists from different version I created:
@@ -54,6 +55,7 @@ Download source from nodejs.org/download/ with newest version.
 
 
 Commom problem:
+
 1. What should the name for each JSON file that is make sence and easy to match with correspond URLs.
 2. In content of each JSON, there is lot of necessary symbol and need to be removed.
 

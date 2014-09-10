@@ -6,9 +6,9 @@ var scraperjs = require('scraperjs');
 //var json = { p_tag : }
 
 
-scraperjs.StaticScraper.create('http://www.web-presence-in-china.com/about-us')
+scraperjs.StaticScraper.create('https://news.ycombinator.com/')
     .scrape(function($) {
-        return $("p").map(function() {
+        return $(".title a").map(function() {
             return $(this).text();
         }).get();
     }, function(news) {

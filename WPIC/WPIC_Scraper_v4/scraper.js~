@@ -10,7 +10,7 @@ var title, catagory, content_tag, description;
 var json = { web_filename : "",  catagory : "", title : "", description : "", content_tag : "", description : ""};
 var address;
 
-var index_filename = 0;
+var index_filename = 1;
 var json_filename;
 
 

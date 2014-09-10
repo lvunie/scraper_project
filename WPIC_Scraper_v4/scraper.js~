@@ -5,11 +5,15 @@ var scraperjs = require('scraperjs');
 var app     = express();
 var S = require('string');
 
-var p_tag, list_tag, heading_tag;
-var json = { p_tag : "", list_tag : "", heading_tag : ""};
+var web_filename;
+var title, catagory, content_tag, description;
+var json = { web_filename : "",  catagory : "", title : "", description : "", content_tag : "", description : ""};
 var address;
-var test = 111;
+
+var index_filename = 0;
 var json_filename;
+
+
 
 var new_json_filename;
 
@@ -28,9 +32,11 @@ rd.on('line', function(line) {
 	
     if(vertify){
 	address = S(line).between('"', '"').s;
+	
     }
 
 	scrape(address);
+	
 });
 
 
@@ -39,33 +45,56 @@ rd.on('line', function(line) {
 
 function scrape(address){
 
-	//console.log('test here point v1');
-	//console.log(address);
-	json_filename = address;
+	
+
+	//json_filename = address;
 
 	scraperjs.StaticScraper.create(address)
 	    		.scrape(function($) {
-	     		   return $("p").map(function() {
+	     		   return $("title").map(function() {
     		        	return $(this).text();
      		   	}).get();
-    			}, function(news) {
-		   	json.p_tag = news;
+    			}, function(text) {
+			//json.title = text;
+			json.title = S(text).between('', '|').s ;
+			
  	})
 		.scrape(function($) {
-     		   	return $("li").map(function() {
+     		   	return $(".page-title").map(function() {
     		        	return $(this).text();
      		   	}).get();
-    			}, function(news) {
-		   	json.list_tag = news;
+    			}, function(text) {
+
+			json.catagory = S(text).trim().s;
    
 	})
 		.scrape(function($) {
-     		  return $(":header").map(function() {
+     		   	return $(".hidden-xs").map(function() {
+    		        	return $(this).text();
+     		   	}).get();
+    			}, function(text) {
+
+			json.description = S(text).trim().s;
+			///////////////////////////////////////////////////
+			//here = S(text).trim().s;			
+			//here = S(text).between('"', ',').s;
+			//console.log(here);
+			///////////////////////////////////////////////////
+			//json.description = here;
+   
+	})
+		.scrape(function($) {
+     		  return $("div .container").map(function() {
     		        return $(this).text();
      		   }).get();
-    		}, function(news) {
+    		}, function(text) {
 		   
-			json.heading_tag = news;
+			var index    = address.lastIndexOf('/');
+			json.web_filename         = address.slice(index+1); 
+			//console.log(here);
+			json_filename = address;
+
+			json.content_tag = text;
 			writeToJson(json_filename,json);
 	})
 
@@ -76,14 +105,14 @@ function scrape(address){
 
 function writeToJson(json_filename,json){
 	
-	test = test + 1;
-	var json_name = test + '.json';
+	index_filename = index_filename + 1;
+	var json_name = index_filename + '.json';
 
 	new_json_filename =  S(json_filename).between('.', '.').s;
 	//console.log(new_json_filename);
 	
         fs.writeFile(json_name, JSON.stringify(json, null, 4), function(err){
-        	console.log('ok');
+        	//console.log('ok');
         })
 	
 }

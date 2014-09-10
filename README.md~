@@ -128,11 +128,11 @@ JSON file for store scraped content is required with an specific form like this:
 {
     "web_filename": "chinese-brand-development",
     "catagory": "Marketing",
-    "title": "Chinese Brand Development ",
-    "description": "Positioning and Branding for the Chinese Market,Positioning and Branding for the Chinese Market",
-    "content_tag": [
-        "............"
-    ]
+    "data": {
+        "title": "Chinese Brand Development ",
+        "description": "Positioning and Branding for the Chinese Market,Positioning and Branding for the Chinese Market",
+        "content": "............."
+    }
 }
 ```````````````````````````````````````````````````````````````````````````````````````
 

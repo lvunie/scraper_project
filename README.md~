@@ -91,10 +91,55 @@ There is a new version for v4 and this version almost fix all problem and functi
 
 
 
+## 9-11:
 
+JSON file for store scraped content is required with an specific form like this:
 
+`````````````````````````````````````````````````````````````````````````````````
+{
+  "pages":{
+    "two":[
+      {
+        "filename" : "marketing",
+        "data" : {
+          "title" : "Marketing",
+          "description" : "........"
+        }
+      }
+    ],
+    "three":[
+      {
+        "filename" : "chinese-brand-development",
+        "catagory" : "Marketing",
+        "data" : {
+          "title" : "Chinese Brand Development",
+          "description" : "Chinese Brand Development",
+          "content" : "......"
+        }
+      }
+    ]
+  }
+}
+```````````````````````````````````````````````````````````````````````````````````````
 
+####For my example, the ouput json is like this:
 
+```````````````````````````````````````````````````````````````````````````````````````
+{
+    "web_filename": "chinese-brand-development",
+    "catagory": "Marketing",
+    "title": "Chinese Brand Development ",
+    "description": "Positioning and Branding for the Chinese Market,Positioning and Branding for the Chinese Market",
+    "content_tag": [
+        "............"
+    ]
+}
+```````````````````````````````````````````````````````````````````````````````````````
+
+So the problem is following:
+1. json format is not as require and need to be fixed.
+2. Cannot get correct content to "content" item.
+3. Cannot separate different index pages from URL.
 
 
 

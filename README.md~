@@ -137,9 +137,11 @@ JSON file for store scraped content is required with an specific form like this:
 ```````````````````````````````````````````````````````````````````````````````````````
 
 So the problem is following:
+
 1. json format is not as require and need to be fixed.
 2. Cannot get correct content to "content" item.
-3. Cannot separate different index pages from URL.
+4. In "description" item, content repeat.
+5. Cannot separate different index pages from URL.
 
 
 

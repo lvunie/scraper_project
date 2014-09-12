@@ -146,6 +146,110 @@ So the problem is following:
 
 ## 9-12 Problem list:
 
+New requirement:
+
+`````````````````````````````````````````````````````````````````````````````````````````````````
+{
+  "pages": {
+    "two": [{
+      "filename": "marketing",
+      "data": {
+        "title": "Marketing",
+        "description": "Drive China Sales with the Proven Performance Leaders",
+        "content": {
+          "items": [{
+            "cate-heading": "Chinese Brand Development",
+            "text": "Positioning and Branding for the Chinese Market",
+            "link": "http://web-presence-in-china.com/chinese-brand-development",
+            "img-slide": "http://web-presence-in-china.com/sites/default/files/brand-development-green.png",
+            "img-white": "http://web-presence-in-china.com/sites/default/files/brand-development-white.png",
+          }, {
+            "cate-heading": "Graphic Design Production",
+            "text": "Your Vision, Your Message – Localized",
+            "link": "http://web-presence-in-china.com/graphic-design-production",
+            "img-slide": "http://web-presence-in-china.com/sites/default/files/graphic-design.png",
+            "img-white": "http://web-presence-in-china.com/sites/default/files/graphic-design-white.png",
+          }]
+        }
+      }
+    }],
+    "three": [{
+      "filename": "chinese-brand-development",
+      "data": {
+        "title": "Chinese Brand Development",
+        "category": "Marketing",
+        "description": "Positioning and Branding for the Chinese Market",
+        "content": {
+          "tabs": [{
+            "title": "Overview",
+            "markdown": "/path/to/markdown.md"
+          }, {
+            "title": "Process",
+            "markdown": "/path/to/markdown.md"
+          }, {
+            "title": "Impact",
+            "markdown": "/path/to/markdown.md"
+          }],
+          "related": [{
+            "title": "Logistics & Fulfillment",
+            "icon": "http://web-presence-in-china.com/sites/default/files/logistics-%26-fulfillment.png"
+          }, {
+            "title": "Microsoft Dynamics",
+            "icon": "http://web-presence-in-china.com/sites/default/files/microsoft-dynamics.png"
+          }]
+        }
+      }
+    }]
+  }
+}
+`````````````````````````````````````````````````````````````````````````````````````````````````
+
+####My sample:
+````````````````````````````````
+{
+    "filename": "chinese-brand-development",
+    "data": {
+        "title": "Chinese Brand Development ",
+        "category": "Marketing",
+        "description": "Positioning and Branding for the Chinese Market",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": "Brand equity, as we used to know it, has plummeted in China as much as in the West. The Information Age enables consumers to compare products and services quickly and objectively, leaving little need to rely on a brand’s reputation. Therefore, branding is no longer an exercise in telling stories, or “telling” anything else, for that matter. Rather, it is an exercise in showing consumers value by engaging them along every phase of the sales journey., ,The Internet has created both this new model of branding, as well as the means by which to implement it. Digital marketing channels are growing integrated, so that performance marketing, social media, content marketing, and their variations can be rapidly deployed to work together in creating a new, vibrant brand experience for Chinese consumers., ,WPIC has developed a vetted process that gears western brands for quick, sustainable, revenue-generating traction in the China market. We believe in exploiting Chinese consumers’ perceived high quality and authenticity of western products and services, by providing them an on-brand experience customized for China’s unique Internet ecosystem. WPIC has capabilities for all aspects of such China brand development in its wheelhouse – technical, creative, and commercial. Your brand journey will be planned and executed with comprehensive measurement at all phases, for unrivaled adaptability, leading to most efficient market penetration., ,Get in touch now to discuss launching or revitalizing your brand in China with WPIC, and qualify for a free ten hours of customized consultation."
+                },
+                {
+                    "title": "Process",
+                    "markdown": ""
+                },
+                {
+                    "title": "Impact",
+                    "markdown": "A Canadian real estate marketing company wanted to establish a brand to attract Chinese overseas investors, and match them with Canadian agents and developers. The brand needed to convey luxury, reliability, and expertise. Furthermore, the brand needed to be launched across a broad yet targeted section of the Chinese Internet, in order to gain relatively rapid traction and recognition., ,Tactics:,Development of brand kit: logo, palette, fonts, Mandarin copy guidelinesCreation of brand media assets: videos, press releases, photo sets, introductory articlesDevelopment of a branded website, hosted in China, integrated for form fill and database buildingDigital PR plan, including steps for conversion and trackingCreation of Mandarin physical promotion assets: business cards, brochures, and displays, ,Results:,The marketing company was able to show Chinese engagement metrics, in the form of conversions, emails, and online reach, to secure over $250,000 worth of property advertising on the Chinese site within three months of launch."
+                }
+            ],
+            "related": [
+                {
+                    "title": "Asset Localization ",
+                    "icon": ""
+                },
+                {
+                    "title": "Content Localization & Translations Production",
+                    "icon": ""
+                },
+                {
+                    "title": "Content Marketing",
+                    "icon": ""
+                },
+                {
+                    "title": "Digital Public Relations",
+                    "icon": ""
+                }
+            ]
+        }
+    }
+}
+```````````````````````````````
+
 For WPIC_Scraper_v5, the ouput JSON file is almost the same as the requirement need but still cannot scrape pictures and with following problem:
 
 1. Cannot write all content to one JSON file

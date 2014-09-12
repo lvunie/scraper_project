@@ -1,18 +1,14 @@
 {
-    "filename": "mobile-advertising",
+    "filename": "chinese-seo",
     "data": {
-        "title": "Mobile Advertising ",
+        "title": "Search Engine Optimization (SEO) ",
         "category": "Marketing",
-        "description": "A New Channel for a Growing Segment",
+        "description": "Quick Discovery and High Trust through Organic Ranking",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": [
-                        "Now that more Chinese use mobile devices to access the Internet than laptops or PCs, the world outside the Web is growing too quickly to ignore the possibilities.  While the mobile advertising industry is nascent and fragmented in China, there are nonetheless still incredible opportunities, especially in arbitrage advertising rates, as costs per click are far below those for web-accessed platforms, relative to their traffic volume.",
-                        "",
-                        "Online English lesson provider creates app to drive branding and sales. Challenges include adapting app for range of Chinese devices, and publishing/advertising at budget that enables ROI."
-                    ]
+                    "markdown": "Despite the explosion in app usage, eighty percent of China’s Internet traffic still originates from search engines, with Baidu maintaining dominant market share. Appearing on the first page of search engine results, for keywords your target audience is searching for, remains the most efficient form of digital marketing available., ,Baidu has different procedures and standards for providing Chinese visitors with the best content possible. By and large, however, it and other Chinese search engines follow and trail Google best practice. WPIC is well-versed in accommodating the differences of Baidu regulations and ranking algorithms, as well as in leveraging the delta between Google and Chinese search engines., ,WPIC creates code, content, and links that will drive your rankings on China’s major search engines safely and sustainably, driving self-qualified traffic to your website for engagement and next steps., ,Get in touch now to qualify for a free ranking report, and assess your position on China’s Google."
                 },
                 {
                     "title": "Process",
@@ -20,13 +16,27 @@
                 },
                 {
                     "title": "Impact",
-                    "markdown": ""
+                    "markdown": "A global medical equipment provider wanted to be found on the first page of Baidu for a range of specialized product terms, to increase perceived authenticity and drive long-term lead gen, while dialing down advertising spend in the China market., ,Tactics:,Create bowler with JOP metrics and monthly targetsClean up existing site code for SEO optimizationLocalize English copy and media assets extant on siteDesign and execute content planRoll out six month linking campaignSeed content on Baidu knowledge properties & other key nodesTrack metrics with proprietary analytic softwareWeekly reporting and adjustment, ,Results:,For 25 keywords, no number one rankings, 80% out of the top 10, and 20% out of the top 500, finished with 96% in the top 10, with 60% at number 1."
                 }
             ],
-            "related": {
-                "title": "",
-                "icon": ""
-            }
+            "related": [
+                {
+                    "title": "Campaign Management Dashboards ",
+                    "icon": ""
+                },
+                {
+                    "title": "Display Advertising",
+                    "icon": ""
+                },
+                {
+                    "title": "Pay-Per-Click Advertising (PPC)",
+                    "icon": ""
+                },
+                {
+                    "title": "Website Analytics",
+                    "icon": ""
+                }
+            ]
         }
     }
 }

@@ -8,10 +8,7 @@
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": [
-                        "The key to China analytics is remembering you’re not in Google country anymore. Baidu, China’s Google, is years way from anything resembling Google’s landmark suite of tools. Third party site and search engine analytic tools touted as global solutions all fall short in China, as we’ve learned from experience.",
-                        ""
-                    ]
+                    "markdown": "The key to China analytics is remembering you’re not in Google country anymore. Baidu, China’s Google, is years way from anything resembling Google’s landmark suite of tools. Third party site and search engine analytic tools touted as global solutions all fall short in China, as we’ve learned from experience., ,The dearth of reliable, organized data and our focus on acquiring such has resulted in our service of designing and implementing data-driven analytical solutions customized to the China-specific needs of our clients., ,WPIC will assure fully leveraged data, by transforming it into useful information readily available to stakeholders in-country and out. Our custom analytic solutions are segmented into:, ,Get in touch to discuss how custom analytics can drive your China operations, and qualify for a free ten hours of customized consultation."
                 },
                 {
                     "title": "Process",
@@ -22,10 +19,24 @@
                     "markdown": ""
                 }
             ],
-            "related": {
-                "title": "",
-                "icon": ""
-            }
+            "related": [
+                {
+                    "title": "",
+                    "icon": ""
+                },
+                {
+                    "title": "",
+                    "icon": ""
+                },
+                {
+                    "title": "",
+                    "icon": ""
+                },
+                {
+                    "title": "",
+                    "icon": ""
+                }
+            ]
         }
     }
 }

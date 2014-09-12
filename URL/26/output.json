@@ -8,11 +8,7 @@
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": [
-                        "Without a doubt the most common problem western organizations face in lackluster traffic and conversion for their Chinese website is slow load times. Ironically, the more expensive the site, the slower it loads, with copious Flash and other multimedia applications dragging down the experience. It is critical to keep in mind that China’s Internet infrastructure is among the world’s weakest in terms of being able to supply the vast demands made on it moment to moment.",
-                        "",
-                        "An air filtration systems company discovered its Chinese site was loading extremely slowly, or not at all, resulting in a near halt to online lead nurturing and sales. The site was hosted in Australia, but had not had previous significant site problems."
-                    ]
+                    "markdown": "Without a doubt the most common problem western organizations face in lackluster traffic and conversion for their Chinese website is slow load times. Ironically, the more expensive the site, the slower it loads, with copious Flash and other multimedia applications dragging down the experience. It is critical to keep in mind that China’s Internet infrastructure is among the world’s weakest in terms of being able to supply the vast demands made on it moment to moment., ,Therefore, a China cloud hosting solution is usually the single best digital marketing tactic for those who have already established a presence, but are not hosting in country, or have a lackluster server configurations., ,WPIC’s tech team designs and implements China cloud hosting solutions that never fail to radically decrease load time, and turn around Chinese customer conversion rates. We have a proven record of taking the entire process from design to registration (see ICP) to implementation and testing. Our clients’ vastly improved site statistics tell the rest., ,Get in touch for a free report on your China site’s load times, and to qualify for ten free hours of customized consultation."
                 },
                 {
                     "title": "Process",
@@ -20,13 +16,27 @@
                 },
                 {
                     "title": "Impact",
-                    "markdown": ""
+                    "markdown": "An air filtration systems company discovered its Chinese site was loading extremely slowly, or not at all, resulting in a near halt to online lead nurturing and sales. The site was hosted in Australia, but had not had previous significant site problems., ,Tactics:,Perform quick infrastructure survey – no fundamental problems to site performance discoveredFacilitate registration of mainland China domain and ICPFacilitate and configure China cloud hosting solution (in this case, with Aliyun), ,Results:,Site was live again within two weeks, with average page load times under three seconds. Normal online marketing and sales activity resumed, with corollary benefit of marked improvement in keyword rankings on Baidu search engine, due to improved site performance.,"
                 }
             ],
-            "related": {
-                "title": "",
-                "icon": ""
-            }
+            "related": [
+                {
+                    "title": "Content Delivery / Distribution Network (CDN) ",
+                    "icon": ""
+                },
+                {
+                    "title": "Infrastructure Auditing",
+                    "icon": ""
+                },
+                {
+                    "title": "Systems Design",
+                    "icon": ""
+                },
+                {
+                    "title": "Website Deployment",
+                    "icon": ""
+                }
+            ]
         }
     }
 }

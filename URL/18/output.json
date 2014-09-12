@@ -1,18 +1,14 @@
 {
-    "filename": "channel-strategy",
+    "filename": "www.olark.com?welcome",
     "data": {
-        "title": "Channel Strategy ",
-        "category": "Marketing",
-        "description": "Deconstructing Silos for an Omni-Channel Market",
+        "title": "",
+        "category": "",
+        "description": "",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": [
-                        "If you are in business today, you are adapting your organization to the wealth of new direct channels opening up, and to the shortened process of indirect channels. It’s an ongoing, experimental process that takes on whole new layers of complexity when applied to China. Third party ecommerce platforms, focused industry portals, physical distribution agreements, and in-country sales reps, are some of the major pieces of a puzzle that must be put together as seamlessly as possible to present a unified brand experience.",
-                        "",
-                        "American shoe retailer with existing distributors in China wanted to clarify all of its online and offline channels, then streamline them into a unified marketing ecosystem without violating any previous agreements."
-                    ]
+                    "markdown": ""
                 },
                 {
                     "title": "Process",
@@ -23,10 +19,24 @@
                     "markdown": ""
                 }
             ],
-            "related": {
-                "title": "",
-                "icon": ""
-            }
+            "related": [
+                {
+                    "title": "",
+                    "icon": ""
+                },
+                {
+                    "title": "",
+                    "icon": ""
+                },
+                {
+                    "title": "",
+                    "icon": ""
+                },
+                {
+                    "title": "",
+                    "icon": ""
+                }
+            ]
         }
     }
 }

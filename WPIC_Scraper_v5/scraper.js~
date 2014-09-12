@@ -1,10 +1,10 @@
 var scraperjs = require('scraperjs');
-var express = require('express');
-var app     = express();
-var mkdirp = require('mkdirp');
+var express   = require('express');
+var app       = express();
+var mkdirp    = require('mkdirp');
 
-var S = require('string');
-var fs = require('fs');
+var S         = require('string');
+var fs        = require('fs');
 
 var fileIndex = 0;
 var address;
@@ -44,10 +44,24 @@ var tab = [
 	},	
 ];
 
-var related = {
-	title : "", 
-	icon : "", 
-};
+var related = [
+	{
+	     "title" : "", 
+	     "icon" : "", 
+	},	
+	{
+	     "title" : "", 
+	     "icon" : "", 
+	},
+	{
+	     "title" : "", 
+	     "icon" : "", 
+	},
+	{
+	     "title" : "", 
+	     "icon" : "", 
+	},	
+];
 
 
 ////////////////////////////open JOSN file to get URL for scraping//////////////////////////
@@ -67,7 +81,13 @@ rd.on('line', function(line) {
 	address = S(line).between('"', '"').s;
     }
 	scrape(address);
+
+	var pageTwo = S(line).indexOf('category');
+	console.log(pageTwo +': '+ address);
+	
 });
+
+
 
 
 /////////////////////////Scrape content from given URL///////////////////////////////////////
@@ -104,57 +124,117 @@ function scrape(address){
 				data.description = test;
    
 	})
+//////////////////////////////////////////////////////////////////////////////
 		.scrape(function($) {
-     		  	return $("h2 + p").map(function() {
-    		       		return $(this).text();
+     		   	return $(".slide-heading").map(function() {
+    		        	return $(this).text();
+     		   	}).get();
+    			}, function(text) {
+				
+				string = S(text).collapseWhitespace().s;				
+				first = S(string).between('',',').s;
+				
+				string = S(string).chompLeft(first).s;	
+				//console.log('first: ' + first);
+
+				related[0].title = first;
+				related[0].icon  = '';
+
+				second = S(string).between(',',',').s;
+				string = S(string).chompLeft(',' + second).s;
+
+				//console.log('second: ' + second);
+
+				related[1].title = S(second).trim().s;
+				related[1].icon  = '';
+
+				third = S(string).between(',',',').s;
+				string = S(string).chompLeft(',' + third).s;
+
+				//console.log('third: ' + third);
+
+				related[2].title = S(third).trim().s;
+				related[2].icon  = '';
+
+				fourth = S(string).between(',','').s;
+				string = S(string).chompLeft(', ' + fourth).s;
+
+				//console.log('fourth: ' + string);
+
+				related[3].title = string;
+				related[3].icon  = '';
+
+				content.related = related;
+   
+	})
+///////////////////////////content ////////////////////////////////
+		.scrape(function($) {
+     		   	return $("#tab1 p").map(function() {
+    		        	return $(this).text();
      		   	}).get();
     			}, function(text) {
 
-				//console.log(text);
-				//tab[0].markdown = text;			
-
-				var index    = address.lastIndexOf('/');
-				json.filename = address.slice(index+1); 
-/////////////////////////////////////////////////////////////////////////
+				text = S(text).lines();
+				text = S(text).trim().s;
+	
 				tab[0].title = 'Overview';
 				tab[0].markdown = text;
+   
+	})
+		.scrape(function($) {
+     		   	return $("#tab2 p").map(function() {
+    		        	return $(this).text();
+     		   	}).get();
+    			}, function(text) {
 
 				tab[1].title = 'Process';
 				tab[1].markdown = '';
+   
+	})
+		.scrape(function($) {
+     		  	return $("#tab3 p, ol").map(function() {
+    		       		return $(this).text();
+     		   	}).get();
+    			}, function(text) {
+				text = S(text).lines();
+				text = S(text).trim().s;
 
 				tab[2].title = 'Impact';
-				tab[2].markdown = '';
+				tab[2].markdown = text;
 				content.tab = tab;
-
-				related.title = '';
-				related.icon = '';
-				content.related = related;
 			
 				data.content = content;
-/////////////////////////////////////////////////////////////////////////////////////////////
 				json.data = data;
-				
-				
-				fileIndex = fileIndex +1;
-				console.log(fileIndex);
 
-				var pathName = '/home/lvunie/work/scraper_project/URL/' + fileIndex; 
-				mkdirp(pathName, function(err) { 
-				
-				var newAddress = pathName + '/' +'output.json';
-				writeToJson(newAddress,json);
-				
-				});
+				var index    = address.lastIndexOf('/');
+				json.filename = address.slice(index+1); 
 
+////////////////////////////////call write function////////////////////////////////////////
+		
+				writeToJson(address,json);
+				
 	})
 }
 
 
-////////////////////////////Write content to JSON file//////////////////////////////////////////////////
-function writeToJson(newAddress,json){
 
+
+////////////////////////////Write content to JSON file//////////////////////////////////////////////////
+function writeToJson(address,json){
+
+	fileIndex = fileIndex +1;
+	var pathName = '/home/lvunie/work/scraper_project/URL/' + fileIndex; 
+
+	//console.log(fileIndex);
+
+	mkdirp(pathName, function(err) { 
+		//console.log('ok');
+	});
+
+	
+	var newAddress = pathName + '/' +'output.json';
         fs.writeFile(newAddress, JSON.stringify(json, null, 4), function(err){
-        	//console.log('ok');
+        	//console.log(json);
         })
 	
 }

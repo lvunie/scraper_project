@@ -1,18 +1,14 @@
 {
-    "filename": "mobile-application-development",
+    "filename": "ecommerce-0",
     "data": {
-        "title": "Mobile Application Development ",
+        "title": "eCommerce ",
         "category": "Technology",
-        "description": "Build for China, or Scale for China",
+        "description": "Seamless Sales in the World’s Largest Online Economy",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": [
-                        "The transition from web-based to app-based Internet use is well under way in China, with 75 million Chinese downloading an app at least once a day. Android is the dominant Operating System, with Apple’s iOS still a viable force in the market. Meanwhile, Android-based Chinese OS are growing market share.",
-                        "",
-                        "A global advertising agency won the contract for an electronic giant’s app-driven global campaign. White label engagement with WPIC for development of the China version of the app, with the objective of keeping the core messaging and functionality consistent for the Chinese app ecosystem."
-                    ]
+                    "markdown": "Tmall for China? Yahoo Shopping for Japan? Perhaps a multi-language shopping cart, integrated into a 3rd Party CMS. The argument for e-commerce is simple, but the strategy gets more complex the wider your reach., ,WPIC is at the forefront of the e-commerce boom transforming China’s economy. Finding the right formula of technology, advertising, and logistics demands careful planning of a nimble strategy. The rewards of building online distribution, however, eclipse those of traditional brick and mortar models., ,By starting with your key China online demographic, and working back to your goals and resources, we will determine an ideal Ecommerce marketing mix. Whether that involves a payment gateway on your site, a managed Tmall store, or retail through other big Chinese shopping platforms, WPIC has proven experience on taking you every step of the way, from registration and compliance to customer service rep training., ,Get in touch to start your journey to the world’s biggest online marketplace, and to qualify for ten free hours of customized consultation."
                 },
                 {
                     "title": "Process",
@@ -20,13 +16,27 @@
                 },
                 {
                     "title": "Impact",
-                    "markdown": ""
+                    "markdown": "Color solutions provider had several non-integrated Chinese online channels, resulting in channel “noise”, weak brand integrity, and revenues far below targets., ,Tactics:,Onboard for mapping of client’s entire sales/marketing ecosystemCo-conceived strategy determined – Phase I: verified Tmall store; Phase II: new China site with Tmall store as payment gatewayPlan & execute simultaneous Tmall application and store designConceive and implement affiliate strategy to get buy-in from distributors with Tmall/Taobao presenceDesign and execute intra & extra-Tmall ad campaign, ,Results:,Online daily revenues rise over 20x  on branded Tmall store.,"
                 }
             ],
-            "related": {
-                "title": "",
-                "icon": ""
-            }
+            "related": [
+                {
+                    "title": "Asset Localization ",
+                    "icon": ""
+                },
+                {
+                    "title": "Licensing",
+                    "icon": ""
+                },
+                {
+                    "title": "Logistics & Fulfillment",
+                    "icon": ""
+                },
+                {
+                    "title": "Payment Gateway",
+                    "icon": ""
+                }
+            ]
         }
     }
 }

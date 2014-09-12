@@ -144,7 +144,13 @@ So the problem is following:
 5. Cannot separate different index pages from URL.
 
 
+## 9-12 Problem list:
 
+For WPIC_Scraper_v5, the ouput JSON file is almost the same as the requirement need but still cannot scrape pictures and with following problem:
+
+1. Cannot write all content to one JSON file
+2. Distinguish category page and other detail page
+3. Create markdown file for each URL content 
 
 
 

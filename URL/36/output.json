@@ -1,18 +1,14 @@
 {
-    "filename": "website-design",
+    "filename": "technology-solutions",
     "data": {
-        "title": "Website Design ",
+        "title": "Technology Solutions ",
         "category": "Technology",
-        "description": "An On-Brand Experience Optimized for Chinese Customers",
+        "description": "Enter and Excel in China’s Technology-Driven Markets",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": [
-                        "Rest assured – the cultural pundits are wrong. Principles of good UX are universal. Everyone likes clean, dynamic, image-driven, and intuitive. Everyone appreciates transparency and authenticity from your website.",
-                        "",
-                        "A city government’s tourism department wanted to re-design its Chinese website, to increase engagement, and facilitate provider/tourist interaction."
-                    ]
+                    "markdown": "Technology no longer shapes the market, it makes the market. In China, ecommerce and mobility are bridging all market gaps, by government mandate, while consumers demand digital convergence as a precondition of brand loyalty., ,Tech-oriented China markets call for a range of domestic technology services: software, hardware, and the solutions to align them with your business operations. WPIC’s in-house tech experts, strategic alliances, training, and other resources have helped global organizations to:, ,Core competencies in our wheelhouse include:, ,Get in touch now to discover what your ideal tech solution for China looks like, and to qualify for ten free hours of customized consultation."
                 },
                 {
                     "title": "Process",
@@ -20,13 +16,27 @@
                 },
                 {
                     "title": "Impact",
-                    "markdown": ""
+                    "markdown": "A specialty equipment company was gradually discovering that its target Chinese target consumer base lived in primarily 3rd tier cities and rural areas, where poor Internet infrastructure meant low bandwidth, and where people rely primarily on phones for Internet activity. As a result, the company’s Chinese website was experiencing poor comparative metrics and significant lead loss, even after a responsive redesign., ,Tactics:,Creation of a mobile micrositeConversion of microsite’s multimedia assets to lightest possible formatsCDN solution configured for fastest content delivery to targeted demographic base, in the “China 50”Creation of mobile site tracking tool, integrated into company’s CRM for fastest response to site conversions, ,Results:,Following design and implementation of a WPIC mobile advertising campaign, the company began experiencing a 12% month-on-month growth of qualified leads, driven primarily by the mobile site, at a cost per lead of approximately $45, far below the previous $70 average."
                 }
             ],
-            "related": {
-                "title": "",
-                "icon": ""
-            }
+            "related": [
+                {
+                    "title": "Business Integration Solutions ",
+                    "icon": ""
+                },
+                {
+                    "title": "China Cloud Hosting",
+                    "icon": ""
+                },
+                {
+                    "title": "Scraping",
+                    "icon": ""
+                },
+                {
+                    "title": "Systems Design",
+                    "icon": ""
+                }
+            ]
         }
     }
 }

@@ -1,0 +1,28 @@
+{
+    "filename": "systems-design",
+    "data": {
+        "title": "Systems Design ",
+        "category": "Consulting",
+        "description": "Arrange and Connect the Elements of Success",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": ""
+                },
+                {
+                    "title": "Process",
+                    "markdown": ""
+                },
+                {
+                    "title": "Impact",
+                    "markdown": ""
+                }
+            ],
+            "related": {
+                "title": "",
+                "icon": ""
+            }
+        }
+    }
+}

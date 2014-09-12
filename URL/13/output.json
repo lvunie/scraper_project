@@ -1,0 +1,32 @@
+{
+    "filename": "direct-marketing",
+    "data": {
+        "title": "Direct Marketing ",
+        "category": "Marketing",
+        "description": "Traditional Messaging is Still a Reliable Channel",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": [
+                        "Direct marketing shares several favorable characteristics with PPC – it’s not sexy, it’s not simple, and it requires a lot of testing to get it right. As a result, it presents arbitrage opportunities for organizations that leverage expertise in driving results through the channel. In China, email and SMS databases can be bought or rented for amounts that promise ROI even with the fractional conversions they offer.",
+                        "",
+                        "Client: A B2B real estate publisher based in England sought to build an engaged community of Chinese real estate agents that it could connect to its existing base of global agents in order to tap the booming segment of Chinese overseas property buyers."
+                    ]
+                },
+                {
+                    "title": "Process",
+                    "markdown": ""
+                },
+                {
+                    "title": "Impact",
+                    "markdown": ""
+                }
+            ],
+            "related": {
+                "title": "",
+                "icon": ""
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "filename": "logistics-fulfillment",
+    "data": {
+        "title": "Logistics & Fulfillment ",
+        "category": "Consulting",
+        "description": "More Than Just Provision, An Integrated Process",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": ""
+                },
+                {
+                    "title": "Process",
+                    "markdown": ""
+                },
+                {
+                    "title": "Impact",
+                    "markdown": ""
+                }
+            ],
+            "related": {
+                "title": "",
+                "icon": ""
+            }
+        }
+    }
+}

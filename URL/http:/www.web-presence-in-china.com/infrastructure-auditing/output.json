@@ -1,0 +1,32 @@
+{
+    "filename": "infrastructure-auditing",
+    "data": {
+        "title": "Infrastructure Auditing ",
+        "category": "Consulting",
+        "description": "Establish a Clear Baseline to Improve On",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": [
+                        "Setting a plan for improved digital performance is incomplete without a thorough knowledge of your current state of performance. Several factors can be hampering or even endangering your Chinese online ecosystem, from server synchronization issues to expiring domain accounts.",
+                        "",
+                        "A cosmetics re-seller had launched a Chinese version of its site, but the site metrics were revealing significant lead loss comparative to the company’s other sites, and was exhibiting evidence of having been hacked."
+                    ]
+                },
+                {
+                    "title": "Process",
+                    "markdown": ""
+                },
+                {
+                    "title": "Impact",
+                    "markdown": ""
+                }
+            ],
+            "related": {
+                "title": "",
+                "icon": ""
+            }
+        }
+    }
+}

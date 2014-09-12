@@ -1,0 +1,28 @@
+{
+    "filename": "website-deployment",
+    "data": {
+        "title": "Website Deployment ",
+        "category": "Technology",
+        "description": "‘Bridge the Gap’, ‘Span the Pass’… ‘Zip Line the Ravine’?",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": ""
+                },
+                {
+                    "title": "Process",
+                    "markdown": ""
+                },
+                {
+                    "title": "Impact",
+                    "markdown": ""
+                }
+            ],
+            "related": {
+                "title": "",
+                "icon": ""
+            }
+        }
+    }
+}

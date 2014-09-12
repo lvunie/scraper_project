@@ -1,0 +1,28 @@
+{
+    "filename": "icp-registration",
+    "data": {
+        "title": "ICP Registration ",
+        "category": "Consulting",
+        "description": "The First Step in China Digital Compliance",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": ""
+                },
+                {
+                    "title": "Process",
+                    "markdown": ""
+                },
+                {
+                    "title": "Impact",
+                    "markdown": ""
+                }
+            ],
+            "related": {
+                "title": "",
+                "icon": ""
+            }
+        }
+    }
+}

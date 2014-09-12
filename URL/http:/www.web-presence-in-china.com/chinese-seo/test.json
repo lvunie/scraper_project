@@ -1,0 +1,28 @@
+{
+    "filename": "chinese-seo",
+    "data": {
+        "title": "Search Engine Optimization (SEO) ",
+        "category": "Marketing",
+        "description": "Quick Discovery and High Trust through Organic Ranking",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": ""
+                },
+                {
+                    "title": "Process",
+                    "markdown": ""
+                },
+                {
+                    "title": "Impact",
+                    "markdown": ""
+                }
+            ],
+            "related": {
+                "title": "",
+                "icon": ""
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "filename": "microsoft-dynamics",
+    "data": {
+        "title": "Microsoft Dynamics ",
+        "category": "Technology",
+        "description": "The Ease & Flexibility of Microsoft, Implemented for Global Efficiency",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": ""
+                },
+                {
+                    "title": "Process",
+                    "markdown": ""
+                },
+                {
+                    "title": "Impact",
+                    "markdown": ""
+                }
+            ],
+            "related": {
+                "title": "",
+                "icon": ""
+            }
+        }
+    }
+}

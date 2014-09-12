@@ -1,0 +1,32 @@
+{
+    "filename": "ecommerce",
+    "data": {
+        "title": "eCommerce ",
+        "category": "Marketing",
+        "description": "Seamless Sales in the World’s Largest Online Economy",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": [
+                        "Tmall for China? Yahoo Shopping for Japan? Perhaps a multi-language shopping cart, integrated into a 3rd Party CMS. The argument for e-commerce is simple, but the strategy gets more complex the wider your reach.",
+                        "",
+                        "Color solutions provider had several non-integrated Chinese online channels, resulting in channel “noise”, weak brand integrity, and revenues far below targets."
+                    ]
+                },
+                {
+                    "title": "Process",
+                    "markdown": ""
+                },
+                {
+                    "title": "Impact",
+                    "markdown": ""
+                }
+            ],
+            "related": {
+                "title": "",
+                "icon": ""
+            }
+        }
+    }
+}

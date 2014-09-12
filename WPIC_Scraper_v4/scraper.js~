@@ -81,12 +81,24 @@ function scrape(address){
     		        	return $(this).text();
      		   	}).get();
     			}, function(text) {
-			
-			data.description = S(text).trim().s;
+		 
+			//data.description = S(text).trim().s;
+	
+			var number = S(text).length;
+			number =  number/2;
+
+			//console.log('-------------------------------------');
+			//console.log(text);
+
+			var test = S(text).left(number).s;
+			//console.log('   ' + test);
+
+			data.description = test;
+
    
 	})
 		.scrape(function($) {
-     		  return $("div .container").map(function() {
+     		  return $(".container").map(function() {
     		        return $(this).text();
      		   }).get();
     		}, function(text) {

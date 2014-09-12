@@ -1,0 +1,28 @@
+{
+    "filename": "scraping",
+    "data": {
+        "title": "Scraping ",
+        "category": "Technology",
+        "description": "Leverage China’s Biggest Data Source – Its Web",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": ""
+                },
+                {
+                    "title": "Process",
+                    "markdown": ""
+                },
+                {
+                    "title": "Impact",
+                    "markdown": ""
+                }
+            ],
+            "related": {
+                "title": "",
+                "icon": ""
+            }
+        }
+    }
+}

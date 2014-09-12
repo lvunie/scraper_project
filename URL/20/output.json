@@ -1,0 +1,32 @@
+{
+    "filename": "digital-public-relations",
+    "data": {
+        "title": "Digital Public Relations ",
+        "category": "Marketing",
+        "description": "Broad Reach with Next Steps",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": [
+                        "China offers a unique media advantage. In an environment where government controlled mass communications have marginal brand equity, private Internet portals have become the news source of choice. Companies like Sina and Sohu are trusted sources of timely information for all mainstream categories – think Yahoo meets the New York Times. Even better, these portals and others are thoroughly integrated, enabling endless opportunities for touchpoints.",
+                        "",
+                        "A 5-star airline wanted to raise awareness of its new non-stop route to Beijing. Sought tie in of digital public relations campaign to synergize with its traditional offline activities (journalist familiarization trip, events, industry magazine coverage, travel magazine coverage)."
+                    ]
+                },
+                {
+                    "title": "Process",
+                    "markdown": ""
+                },
+                {
+                    "title": "Impact",
+                    "markdown": ""
+                }
+            ],
+            "related": {
+                "title": "",
+                "icon": ""
+            }
+        }
+    }
+}

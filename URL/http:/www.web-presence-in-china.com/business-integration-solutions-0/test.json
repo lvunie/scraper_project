@@ -1,0 +1,28 @@
+{
+    "filename": "china-cloud-hosting",
+    "data": {
+        "title": "China Cloud Hosting ",
+        "category": "Technology",
+        "description": "Load Times are the First Step to a High Performance Site",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": ""
+                },
+                {
+                    "title": "Process",
+                    "markdown": ""
+                },
+                {
+                    "title": "Impact",
+                    "markdown": ""
+                }
+            ],
+            "related": {
+                "title": "",
+                "icon": ""
+            }
+        }
+    }
+}

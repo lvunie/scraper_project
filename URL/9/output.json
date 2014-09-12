@@ -1,0 +1,32 @@
+{
+    "filename": "chinese-seo",
+    "data": {
+        "title": "Search Engine Optimization (SEO) ",
+        "category": "Marketing",
+        "description": "Quick Discovery and High Trust through Organic Ranking",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": [
+                        "Despite the explosion in app usage, eighty percent of China’s Internet traffic still originates from search engines, with Baidu maintaining dominant market share. Appearing on the first page of search engine results, for keywords your target audience is searching for, remains the most efficient form of digital marketing available.",
+                        "",
+                        "A global medical equipment provider wanted to be found on the first page of Baidu for a range of specialized product terms, to increase perceived authenticity and drive long-term lead gen, while dialing down advertising spend in the China market."
+                    ]
+                },
+                {
+                    "title": "Process",
+                    "markdown": ""
+                },
+                {
+                    "title": "Impact",
+                    "markdown": ""
+                }
+            ],
+            "related": {
+                "title": "",
+                "icon": ""
+            }
+        }
+    }
+}

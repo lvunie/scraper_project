@@ -1,0 +1,28 @@
+{
+    "filename": "graphic-design-production",
+    "data": {
+        "title": "Graphic Design Production ",
+        "category": "Marketing",
+        "description": "Your Vision, Your Message – Localized",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": ""
+                },
+                {
+                    "title": "Process",
+                    "markdown": ""
+                },
+                {
+                    "title": "Impact",
+                    "markdown": ""
+                }
+            ],
+            "related": {
+                "title": "",
+                "icon": ""
+            }
+        }
+    }
+}

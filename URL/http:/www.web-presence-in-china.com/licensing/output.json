@@ -1,0 +1,32 @@
+{
+    "filename": "licensing",
+    "data": {
+        "title": "Licensing ",
+        "category": "Consulting",
+        "description": "Eased Market Entry Based on Trust",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": [
+                        "Realizing China market opportunities takes considerable due diligence, then sustained commitment of resources. Some organizations find the path to China sales considerably eased by finding a partner with whom to entrust market development.",
+                        "",
+                        "An Australian wine brand found that it was losing brand equity and sales to distributors who were in violation of agreements. The wine company wanted to license its China product line to a reputable distributor, with legal guarantees for brand and quality protection."
+                    ]
+                },
+                {
+                    "title": "Process",
+                    "markdown": ""
+                },
+                {
+                    "title": "Impact",
+                    "markdown": ""
+                }
+            ],
+            "related": {
+                "title": "",
+                "icon": ""
+            }
+        }
+    }
+}

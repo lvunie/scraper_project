@@ -1,0 +1,28 @@
+{
+    "filename": "direct-marketing",
+    "data": {
+        "title": "Direct Marketing ",
+        "category": "Marketing",
+        "description": "Traditional Messaging is Still a Reliable Channel",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": ""
+                },
+                {
+                    "title": "Process",
+                    "markdown": ""
+                },
+                {
+                    "title": "Impact",
+                    "markdown": ""
+                }
+            ],
+            "related": {
+                "title": "",
+                "icon": ""
+            }
+        }
+    }
+}

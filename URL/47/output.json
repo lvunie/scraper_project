@@ -1,0 +1,32 @@
+{
+    "filename": "icp-registration",
+    "data": {
+        "title": "ICP Registration ",
+        "category": "Consulting",
+        "description": "The First Step in China Digital Compliance",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": [
+                        "In-country hosting, SEO, PPC, Display Advertising – all are powerful tools for reaching targeted audiences across China and converting them into customers. However, none of these tools can be implemented to effect without first obtaining an Internet Content Provider number from China’s Ministry of Information.",
+                        "",
+                        "A Canadian government organization found itself unable to implement online advertising in China due to ICP registration history conflicts."
+                    ]
+                },
+                {
+                    "title": "Process",
+                    "markdown": ""
+                },
+                {
+                    "title": "Impact",
+                    "markdown": ""
+                }
+            ],
+            "related": {
+                "title": "",
+                "icon": ""
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "filename": "payment-gateway",
+    "data": {
+        "title": "Payment Gateway ",
+        "category": "Technology",
+        "description": "Stop Lead Loss at Its Biggest Source",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": [
+                        "In the West, the most common point of lead loss is at the payment gateway, and not just from customers’ second thoughts. Counter-intuitive, low-trust-creating UI is just as responsible for lost sales. The same holds true online in China, doubly so for western sites, whose payment options and procedures all too often greatly limit the number of Chinese who can transact with them. The surging popularity of mobile payments in China adds another important consideration towards an ideal payment solution.",
+                        "",
+                        "A boutique cosmetics online retailer had launched a Chinese site, maintaining its Paypal account as a payment gateway. This payment option is not well-known in China, and led to many lost sales."
+                    ]
+                },
+                {
+                    "title": "Process",
+                    "markdown": ""
+                },
+                {
+                    "title": "Impact",
+                    "markdown": ""
+                }
+            ],
+            "related": {
+                "title": "",
+                "icon": ""
+            }
+        }
+    }
+}

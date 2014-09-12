@@ -1,0 +1,32 @@
+{
+    "filename": "campaign-management-dashboards",
+    "data": {
+        "title": "Campaign Management Dashboards ",
+        "category": "Marketing",
+        "description": "Transparency Equals Efficiency",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": [
+                        "Success in China is not success, if your whole team, especially decision makers, do not have easy access to the numbers. One of the most common issues WPIC sees its clients struggle with is getting the data from its China offices to its western headquarters for shared, timely consideration.",
+                        "",
+                        "A Fortune 200 company had half a dozen operating companies with similar product lines and sales offices in China, but little transparency or accountability in the marketing/sales cycle."
+                    ]
+                },
+                {
+                    "title": "Process",
+                    "markdown": ""
+                },
+                {
+                    "title": "Impact",
+                    "markdown": ""
+                }
+            ],
+            "related": {
+                "title": "",
+                "icon": ""
+            }
+        }
+    }
+}

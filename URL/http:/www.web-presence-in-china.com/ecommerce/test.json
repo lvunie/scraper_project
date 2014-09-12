@@ -1,0 +1,28 @@
+{
+    "filename": "ecommerce",
+    "data": {
+        "title": "eCommerce ",
+        "category": "Marketing",
+        "description": "Seamless Sales in the World’s Largest Online Economy",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": ""
+                },
+                {
+                    "title": "Process",
+                    "markdown": ""
+                },
+                {
+                    "title": "Impact",
+                    "markdown": ""
+                }
+            ],
+            "related": {
+                "title": "",
+                "icon": ""
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "filename": "regional-planning",
+    "data": {
+        "title": "Regional Planning ",
+        "category": "Consulting",
+        "description": "The Best Channels and Strategies for Each Market",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": [
+                        "Addressing the APAC region as a single market is a high level approach that requires granular strategy. Each major country has its preferred search engines and platforms, with different regulations applying to establishment of a robust digital presence. To add a layer of complexity, APAC’s digital landscape is undergoing constant transformation, as ecommerce and mobility transform the consumer base in turn.",
+                        "",
+                        "A global design products manufacturer wanted to recalibrate its APAC strategy, using ecommerce as a key driver of revenue in the region. Existing distributor models were unclear, creating channel conflict. Client also wanted an online strategy that would provide greatest reach and best user experience without creating channel conflict."
+                    ]
+                },
+                {
+                    "title": "Process",
+                    "markdown": ""
+                },
+                {
+                    "title": "Impact",
+                    "markdown": ""
+                }
+            ],
+            "related": {
+                "title": "",
+                "icon": ""
+            }
+        }
+    }
+}

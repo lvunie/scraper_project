@@ -1,0 +1,28 @@
+{
+    "filename": "project-planning-management",
+    "data": {
+        "title": "Project Planning & Management ",
+        "category": "Consulting",
+        "description": "Flexible, Accountable Planning for China Operational Objectives",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": ""
+                },
+                {
+                    "title": "Process",
+                    "markdown": ""
+                },
+                {
+                    "title": "Impact",
+                    "markdown": ""
+                }
+            ],
+            "related": {
+                "title": "",
+                "icon": ""
+            }
+        }
+    }
+}

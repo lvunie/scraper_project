@@ -1,0 +1,28 @@
+{
+    "filename": "regional-planning",
+    "data": {
+        "title": "Regional Planning ",
+        "category": "Consulting",
+        "description": "The Best Channels and Strategies for Each Market",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": ""
+                },
+                {
+                    "title": "Process",
+                    "markdown": ""
+                },
+                {
+                    "title": "Impact",
+                    "markdown": ""
+                }
+            ],
+            "related": {
+                "title": "",
+                "icon": ""
+            }
+        }
+    }
+}

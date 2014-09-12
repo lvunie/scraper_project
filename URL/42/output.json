@@ -1,0 +1,32 @@
+{
+    "filename": "logistics-fulfillment",
+    "data": {
+        "title": "Logistics & Fulfillment ",
+        "category": "Consulting",
+        "description": "More Than Just Provision, An Integrated Process",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": [
+                        "Logistics often takes “afterthought” status in developing a complete e-Commerce strategy. For western companies selling in China, however, logistics and fulfillment must be integrated into every phase of the process. From clearing customs and ERP integration, to aftersales support, your 3PL solution is critical at every stage of your China revenue model.",
+                        "",
+                        "A New Zealand supplement brand, having success with mail order, needed a 3PL solution in order to reduce delivery times and increase market share."
+                    ]
+                },
+                {
+                    "title": "Process",
+                    "markdown": ""
+                },
+                {
+                    "title": "Impact",
+                    "markdown": ""
+                }
+            ],
+            "related": {
+                "title": "",
+                "icon": ""
+            }
+        }
+    }
+}

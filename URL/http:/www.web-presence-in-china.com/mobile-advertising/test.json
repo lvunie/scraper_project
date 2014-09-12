@@ -1,0 +1,28 @@
+{
+    "filename": "mobile-advertising",
+    "data": {
+        "title": "Mobile Advertising ",
+        "category": "Marketing",
+        "description": "A New Channel for a Growing Segment",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": ""
+                },
+                {
+                    "title": "Process",
+                    "markdown": ""
+                },
+                {
+                    "title": "Impact",
+                    "markdown": ""
+                }
+            ],
+            "related": {
+                "title": "",
+                "icon": ""
+            }
+        }
+    }
+}

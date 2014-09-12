@@ -1,0 +1,28 @@
+{
+    "filename": "licensing",
+    "data": {
+        "title": "Licensing ",
+        "category": "Consulting",
+        "description": "Eased Market Entry Based on Trust",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": ""
+                },
+                {
+                    "title": "Process",
+                    "markdown": ""
+                },
+                {
+                    "title": "Impact",
+                    "markdown": ""
+                }
+            ],
+            "related": {
+                "title": "",
+                "icon": ""
+            }
+        }
+    }
+}

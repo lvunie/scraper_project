@@ -1,0 +1,32 @@
+{
+    "filename": "website-design",
+    "data": {
+        "title": "Website Design ",
+        "category": "Technology",
+        "description": "An On-Brand Experience Optimized for Chinese Customers",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": [
+                        "Rest assured – the cultural pundits are wrong. Principles of good UX are universal. Everyone likes clean, dynamic, image-driven, and intuitive. Everyone appreciates transparency and authenticity from your website.",
+                        "",
+                        "A city government’s tourism department wanted to re-design its Chinese website, to increase engagement, and facilitate provider/tourist interaction."
+                    ]
+                },
+                {
+                    "title": "Process",
+                    "markdown": ""
+                },
+                {
+                    "title": "Impact",
+                    "markdown": ""
+                }
+            ],
+            "related": {
+                "title": "",
+                "icon": ""
+            }
+        }
+    }
+}

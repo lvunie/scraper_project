@@ -1,0 +1,32 @@
+{
+    "filename": "content-marketing",
+    "data": {
+        "title": "Content Marketing ",
+        "category": "Marketing",
+        "description": "Targeted Platforms for Targeted Consumers",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": [
+                        "Whatever your industry, whatever Chinese market you want share in, rest assured there is at least one major, heavily trafficked platform where vendors advertise, and dedicated consumers interact to make buying decisions. B2B or B2C, these platforms are integrated environments where carefully crafted and disseminated content has the maximum impact on your most focused target audience.",
+                        "",
+                        "A B2B real estate publisher based in England sought to build an engaged community of Chinese real estate agents that it could connect to its existing base of global agents in order to tap the booming segment of Chinese overseas property buyers. Alerting Chinese agents to the myriad opportunities available and educating them in the many considerations to take on behalf of their clients buying overseas property were the key messaging verticals."
+                    ]
+                },
+                {
+                    "title": "Process",
+                    "markdown": ""
+                },
+                {
+                    "title": "Impact",
+                    "markdown": ""
+                }
+            ],
+            "related": {
+                "title": "",
+                "icon": ""
+            }
+        }
+    }
+}

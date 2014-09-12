@@ -1,0 +1,28 @@
+{
+    "filename": "chinalytics",
+    "data": {
+        "title": "Chinalytics ",
+        "category": "Technology",
+        "description": "Custom Analytics That You Can Trust",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": ""
+                },
+                {
+                    "title": "Process",
+                    "markdown": ""
+                },
+                {
+                    "title": "Impact",
+                    "markdown": ""
+                }
+            ],
+            "related": {
+                "title": "",
+                "icon": ""
+            }
+        }
+    }
+}

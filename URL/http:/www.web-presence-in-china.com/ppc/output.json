@@ -1,0 +1,32 @@
+{
+    "filename": "ppc",
+    "data": {
+        "title": "Pay-Per-Click Advertising (PPC) ",
+        "category": "Marketing",
+        "description": "Highest Conversion Rates at the Lowest Cost Per Conversion",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": [
+                        "Successful PPC campaigns demand a methodical, scientific approach of continual measurement, adjustment, and remeasurement. Other components a superior PPC vendor must deliver are landing pages, and lead tracking consulting/technology.",
+                        "",
+                        "A Canadian government organization desiring Chinese leads for investment in key industrial and agricultural sectors. Conversion rates lagged those for the rest of the markets targeted, and cost per lead was much higher than average."
+                    ]
+                },
+                {
+                    "title": "Process",
+                    "markdown": ""
+                },
+                {
+                    "title": "Impact",
+                    "markdown": ""
+                }
+            ],
+            "related": {
+                "title": "",
+                "icon": ""
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "filename": "market-intelligence",
+    "data": {
+        "title": "Market Intelligence ",
+        "category": "Consulting",
+        "description": "Knowledge Geared to Winning Market Share",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": ""
+                },
+                {
+                    "title": "Process",
+                    "markdown": ""
+                },
+                {
+                    "title": "Impact",
+                    "markdown": ""
+                }
+            ],
+            "related": {
+                "title": "",
+                "icon": ""
+            }
+        }
+    }
+}

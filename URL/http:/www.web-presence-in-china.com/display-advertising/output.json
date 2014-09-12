@@ -1,0 +1,32 @@
+{
+    "filename": "display-advertising",
+    "data": {
+        "title": "Display Advertising ",
+        "category": "Marketing",
+        "description": "For a Complete Performance Marketing Campaign",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": [
+                        "In terms of Chinese performance marketing, SEO & SEM are foundational, as eighty percent of web traffic originates from search engines. Yet web traffic is trending down globally in the rise of increased app use. China's vast information and ecommerce portals already keep more and more traffic internal.",
+                        "",
+                        "A Canadian government organization desiring Chinese leads for investment in key industrial and agricultural sectors. Investmentor numbers for China lagged those for the rest of the markets targeted, and cost per lead was much higher than average."
+                    ]
+                },
+                {
+                    "title": "Process",
+                    "markdown": ""
+                },
+                {
+                    "title": "Impact",
+                    "markdown": ""
+                }
+            ],
+            "related": {
+                "title": "",
+                "icon": ""
+            }
+        }
+    }
+}

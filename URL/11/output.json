@@ -1,0 +1,32 @@
+{
+    "filename": "content-localization-translations-production",
+    "data": {
+        "title": "Content Localization & Translations Production ",
+        "category": "Marketing",
+        "description": "Translate for Accuracy and Impact",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": [
+                        "Copywriting is as important in engaging a Mandarin-speaking audience as it is an English-speaking one. Unfortunately, many organizations trust their copy to a translation firm whose main scope of experience is legal, technical, and medical documents. Add to that the fact that written Mandarin is vastly different from written, and the case for a firm with both professional translation and copywriting capabilities becomes apparent.",
+                        "",
+                        "Client: The world’s largest online cigar vendor sought to establish a Chinese site, had well over 1000 SKUs, employing quite a bit of terminology not yet translated into Chinese. Wanted to communicate varying qualities of a very diverse range of cigars in order to drive sales."
+                    ]
+                },
+                {
+                    "title": "Process",
+                    "markdown": ""
+                },
+                {
+                    "title": "Impact",
+                    "markdown": ""
+                }
+            ],
+            "related": {
+                "title": "",
+                "icon": ""
+            }
+        }
+    }
+}

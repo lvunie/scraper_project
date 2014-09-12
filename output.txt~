@@ -1,0 +1,240 @@
+lvunie@lvunie-VirtualBox:~/work/scraper_project/WPIC_Scraper_v5$ nodejs scraper.js
+[]
+1
+[]
+2
+[]
+3
+[ '\n\t\t\t\t\t\t\t\tChinese Brand Development \t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tGraphic Design Production \t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tWebsite Analytics\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tCampaign Tracking Dashboards\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tMarket Analysis\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tMobile Advertising\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tPay-Per-Click Advertising (PPC)\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tSearch Engine Optimization (SEO)\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\teCommerce\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tContent Localization & Translations Production\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tDisplay Advertising\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tContent Marketing\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tDirect Marketing\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tChannel Strategy\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tCampaign Management Dashboards\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tDigital Public Relations\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tAsset Localization \t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tAnalytics\t\t\t\t\t\t\t' ]
+4
+[]
+5
+[]
+6
+[]
+7
+[]
+8
+[]
+9
+[]
+10
+[]
+11
+[]
+12
+[]
+13
+[]
+14
+[]
+15
+[]
+16
+[]
+17
+[]
+18
+[]
+19
+[]
+20
+[]
+21
+[ '\n\t\t\t\t\t\t\t\tPayment Gateway\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tScraping\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tTechnology Solutions\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tWebsite Deployment\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tWebsite Design\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tChinalytics\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tAnalytics\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tBusiness Integration Solutions\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tChina Cloud Hosting\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tContent Delivery / Distribution Network (CDN)\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\teCommerce \t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tMicrosoft Dynamics\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tMobile Application Development\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tMobile Application Publishing\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tMobile Websites Design & Development\t\t\t\t\t\t\t' ]
+22
+[]
+23
+[]
+24
+[]
+25
+[]
+26
+[]
+27
+[]
+28
+[]
+29
+[]
+30
+[]
+31
+[]
+32
+[]
+33
+[]
+34
+[]
+35
+[]
+36
+[]
+37
+[]
+38
+[ '\n\t\t\t\t\t\t\t\tLegal & Structural Setup\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tLicensing\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tLogistics & Fulfillment\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tMarket Intelligence\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tProject Planning & Management\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tBusiness Integration Solutions\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tChannel Conflict Strategies\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tICP Registration\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tInfrastructure Auditing\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tSystems Design\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tRegional Planning\t\t\t\t\t\t\t' ]
+39
+[]
+40
+[]
+41
+[]
+42
+[]
+43
+[]
+44
+[]
+45
+[]
+46
+[]
+47
+[]
+48
+[]
+49
+[]
+50
+[]
+51
+[ '\n\t\t\t\t\t\t\t\tChinese Brand Development \t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tGraphic Design Production \t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tWebsite Analytics\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tCampaign Tracking Dashboards\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tMarket Analysis\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tMobile Advertising\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tPay-Per-Click Advertising (PPC)\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tSearch Engine Optimization (SEO)\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\teCommerce\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tContent Localization & Translations Production\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tDisplay Advertising\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tContent Marketing\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tDirect Marketing\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tChannel Strategy\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tCampaign Management Dashboards\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tDigital Public Relations\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tAsset Localization \t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tAnalytics\t\t\t\t\t\t\t' ]
+52
+[ '\n\t\t\t\t\t\t\t\tLegal & Structural Setup\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tLicensing\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tLogistics & Fulfillment\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tMarket Intelligence\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tProject Planning & Management\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tBusiness Integration Solutions\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tChannel Conflict Strategies\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tICP Registration\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tInfrastructure Auditing\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tSystems Design\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tRegional Planning\t\t\t\t\t\t\t' ]
+53
+[ '\n\t\t\t\t\t\t\t\tPayment Gateway\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tScraping\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tTechnology Solutions\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tWebsite Deployment\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tWebsite Design\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tChinalytics\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tAnalytics\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tBusiness Integration Solutions\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tChina Cloud Hosting\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tContent Delivery / Distribution Network (CDN)\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\teCommerce \t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tMicrosoft Dynamics\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tMobile Application Development\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tMobile Application Publishing\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tMobile Websites Design & Development\t\t\t\t\t\t\t' ]
+54
+[ '\n\t\t\t\t\t\t\t\tPayment Gateway\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tScraping\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tTechnology Solutions\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tWebsite Deployment\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tWebsite Design\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tChinalytics\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tAnalytics\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tBusiness Integration Solutions\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tChina Cloud Hosting\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tContent Delivery / Distribution Network (CDN)\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\teCommerce \t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tMicrosoft Dynamics\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tMobile Application Development\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tMobile Application Publishing\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tMobile Websites Design & Development\t\t\t\t\t\t\t' ]
+55
+[ '\n\t\t\t\t\t\t\t\tPayment Gateway\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tScraping\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tTechnology Solutions\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tWebsite Deployment\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tWebsite Design\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tChinalytics\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tAnalytics\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tBusiness Integration Solutions\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tChina Cloud Hosting\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tContent Delivery / Distribution Network (CDN)\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\teCommerce \t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tMicrosoft Dynamics\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tMobile Application Development\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tMobile Application Publishing\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tMobile Websites Design & Development\t\t\t\t\t\t\t' ]
+56
+[ '\n\t\t\t\t\t\t\t\tPayment Gateway\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tScraping\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tTechnology Solutions\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tWebsite Deployment\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tWebsite Design\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tChinalytics\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tAnalytics\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tBusiness Integration Solutions\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tChina Cloud Hosting\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tContent Delivery / Distribution Network (CDN)\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\teCommerce \t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tMicrosoft Dynamics\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tMobile Application Development\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tMobile Application Publishing\t\t\t\t\t\t\t',
+  '\n\t\t\t\t\t\t\t\tMobile Websites Design & Development\t\t\t\t\t\t\t' ]
+57
+

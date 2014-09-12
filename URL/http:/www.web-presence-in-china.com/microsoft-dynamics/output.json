@@ -1,0 +1,32 @@
+{
+    "filename": "microsoft-dynamics",
+    "data": {
+        "title": "Microsoft Dynamics ",
+        "category": "Technology",
+        "description": "The Ease & Flexibility of Microsoft, Implemented for Global Efficiency",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": [
+                        "Flexible and Intuitive, Microsoft Dynamics is increasingly chosen as a CRM solution by global companies. Dynamics avoids the complexities of SAP & Oracle, while providing the familiarity and support open-source solutions just can’t match.",
+                        "",
+                        "A Swedish engineering group wanted to fully integrate its Chinese sales offices with its headquarters, in order to increase market penetration and revenues."
+                    ]
+                },
+                {
+                    "title": "Process",
+                    "markdown": ""
+                },
+                {
+                    "title": "Impact",
+                    "markdown": ""
+                }
+            ],
+            "related": {
+                "title": "",
+                "icon": ""
+            }
+        }
+    }
+}

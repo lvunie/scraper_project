@@ -1,0 +1,32 @@
+{
+    "filename": "china-cloud-hosting",
+    "data": {
+        "title": "China Cloud Hosting ",
+        "category": "Technology",
+        "description": "Load Times are the First Step to a High Performance Site",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": [
+                        "Without a doubt the most common problem western organizations face in lackluster traffic and conversion for their Chinese website is slow load times. Ironically, the more expensive the site, the slower it loads, with copious Flash and other multimedia applications dragging down the experience. It is critical to keep in mind that China’s Internet infrastructure is among the world’s weakest in terms of being able to supply the vast demands made on it moment to moment.",
+                        "",
+                        "An air filtration systems company discovered its Chinese site was loading extremely slowly, or not at all, resulting in a near halt to online lead nurturing and sales. The site was hosted in Australia, but had not had previous significant site problems."
+                    ]
+                },
+                {
+                    "title": "Process",
+                    "markdown": ""
+                },
+                {
+                    "title": "Impact",
+                    "markdown": ""
+                }
+            ],
+            "related": {
+                "title": "",
+                "icon": ""
+            }
+        }
+    }
+}

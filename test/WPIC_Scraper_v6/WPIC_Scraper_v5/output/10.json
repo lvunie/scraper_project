@@ -1,0 +1,44 @@
+{
+    "page": {
+        "filename": "ecommerce",
+        "data": {
+            "title": "eCommerce ",
+            "category": "Marketing",
+            "description": "Seamless Sales in the World’s Largest Online Economy",
+            "content": {
+                "tab": [
+                    {
+                        "title": "Overview",
+                        "markdown": "Tmall for China? Yahoo Shopping for Japan? Perhaps a multi-language shopping cart, integrated into a 3rd Party CMS. The argument for e-commerce is simple, but the strategy gets more complex the wider your reach., ,WPIC is at the forefront of the e-commerce boom transforming China’s economy. Finding the right formula of technology, advertising, and logistics demands careful planning of a nimble strategy. The rewards of building online distribution, however, eclipse those of traditional brick and mortar models., ,By starting with your key China online demographic, and working back to your goals and resources, we will determine an ideal Ecommerce marketing mix. Whether that involves a payment gateway on your site, a managed Tmall store, or retail through other big Chinese shopping platforms, WPIC has proven experience on taking you every step of the way, from registration and compliance to customer service rep training., ,Get in touch now for a $12,000 credit, and get a jump start on driving China online ROI."
+                    },
+                    {
+                        "title": "Process",
+                        "markdown": ""
+                    },
+                    {
+                        "title": "Impact",
+                        "markdown": "Color solutions provider had several non-integrated Chinese online channels, resulting in channel “noise”, weak brand integrity, and revenues far below targets., ,Tactics:,Onboard for mapping of client’s entire sales/marketing ecosystemCo-conceived strategy determined – Phase I: verified Tmall store; Phase II: new China site with Tmall store as payment gatewayPlan & execute simultaneous Tmall application and store designConceive and implement affiliate strategy to get buy-in from distributors with Tmall/Taobao presenceDesign and execute intra & extra-Tmall ad campaign, ,Results:,Average daily online revenues rise 2500% across China e-commerce platforms within 3 months, with branded Tmall store driving 80% of these revenues sustainably."
+                    }
+                ],
+                "related": [
+                    {
+                        "title": "Graphic Design Production ",
+                        "icon": ""
+                    },
+                    {
+                        "title": "Legal & Structural Setup",
+                        "icon": ""
+                    },
+                    {
+                        "title": "Payment Gateway",
+                        "icon": ""
+                    },
+                    {
+                        "title": "Website Design",
+                        "icon": ""
+                    }
+                ]
+            }
+        }
+    }
+}

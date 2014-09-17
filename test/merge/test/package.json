@@ -1,0 +1,8 @@
+{
+  "name": "my-project-name",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-merge-locale": "^0.9.0"
+  }
+}

@@ -1,0 +1,44 @@
+{
+    "page": {
+        "filename": "website-analytics",
+        "data": {
+            "title": "Website Analytics ",
+            "category": "Marketing",
+            "description": "Accessible Chinese Traffic Insights You Can Trust",
+            "content": {
+                "tab": [
+                    {
+                        "title": "Overview",
+                        "markdown": "One of the primary shortcomings of Chinese search engines, including Baidu, the dominant leader, is an analytic suite far less reliable and comprehensive than Google’s. This shortcoming deprives analytics-focused organizations from the kinds of reliable data with which to make evidence-based decisions and strategy adjustments., ,WPIC picks up where Baidu and other Chinese engines leave off, early in the funnel of statistical site feedback, delivering the following segments:, ,We also offer flexible methods for you to access and view this data, from regular comprehensive reporting to custom-built dashboards for real-time results. Our tech team is experienced in cooperating with client IT departments for integrated solutions in minimum turnaround time scenarios., ,Contact WPIC to learn how reliable, comprehensive website analytics can result in optimized strategy and significant revenue increases. You may qualify for a complimentary report on your China site’s more significant analytic data."
+                    },
+                    {
+                        "title": "Process",
+                        "markdown": "<p><a class=\"imgpopup\" href=\"/sites/default/files/web_analytics2.jpg\"><img src=\"/sites/default/files/web_analytics2.jpg width=\"940\" height=\"734\" /></a></p> "
+                    },
+                    {
+                        "title": "Impact",
+                        "markdown": "A computer memory manufacturer wanted to phase out its China distributors and tackle China market penetration primarily online. At issue were which of the myriad platforms on which to sell, advertise, or otherwise promote its planned SKUs for the China market. The target set was $10m in revenue for the first year of sales, at a budget of 18% of planned revenue., ,Tactics:,Build a custom scraping tool to pull info from selected Chinese search engines, social media platforms, BBS, and focused portalsProgram scraper with algorithms to pull keywords, keyphrases, as well as varying ranges of symbols, numbers, and Mandarin characters around themBuild SQL database that segments data automaticallyBuild customized dashboard to track and report individual ads, clicks, raw leads, and cost per conversion in each vertical, including Tmall, with traditional Baidu analytics integrated., ,Results:,The scraper project yielded actionable evidence on key competitors, consumer profiles, most popular SKUs, consumer concerns relative to those SKUs, and price points. Statistics coupled with manual research revealed that Tmall and an array of focused portals would be the most cost-effective to sell on, relative to return on advertising investment."
+                    }
+                ],
+                "related": [
+                    {
+                        "title": "Analytics ",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/analytics-marketing-green.png"
+                    },
+                    {
+                        "title": "Campaign Management Dashboards",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-9898.png"
+                    },
+                    {
+                        "title": "Campaign Tracking Dashboards",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/campaign-tracking-dashboards.png"
+                    },
+                    {
+                        "title": "Market Analysis",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/marketing-analysis.png"
+                    }
+                ]
+            }
+        }
+    }
+}

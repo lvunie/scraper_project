@@ -1,0 +1,44 @@
+{
+    "page": {
+        "filename": "website-deployment",
+        "data": {
+            "title": "Website Deployment ",
+            "category": "Technology",
+            "description": "‘Bridge the Gap’, ‘Span the Pass’… ‘Zip Line the Ravine’?",
+            "content": {
+                "tab": [
+                    {
+                        "title": "Overview",
+                        "markdown": "Anyone with website experience knows the urgency of finding the right team, the relief of signing off on the project, and then the renewed urgency of getting the site developed and deployed without significant delays or added costs. The following are the steps in website deployment, usually underplayed in project launch, usually urgent in site launch:, , ,Like so many of our services, that of website deployment can take on an additional layer of complexity when executed in China. Fortunately, successfully resolving the myriad issues which website deployment for China typically presents is a core WPIC competency., ,Get in touch to find out how WPIC can champion the deployment phase of your China website, integrating seamlessly with the overall project, and qualify for ten free hours of customized consultation."
+                    },
+                    {
+                        "title": "Process",
+                        "markdown": ""
+                    },
+                    {
+                        "title": "Impact",
+                        "markdown": "Hosting and Server, Domain RegistrationSet Up DNS Records and Record ManagementWebsite Testing on Production ServerEmail Set UpLaunch of Site, with Back Up,A specialty foods seller found that the project plan for its China site had significant gaps between development and deployment, with resultant delays that were impacting tangential marketing and sales efforts., ,Tactics:,Resolve outstanding hosting issues by facilitating ICP, switching to cloud hostingServer security issues resolved through cloud hosting and comprehensive testingLoad testing revealed configuration problems, quickly resolvedSite backed upPlan for ongoing testing and monitoring implemented, ,Results:,Site was successfully launched only three weeks past project deadline, and two weeks after engaging WPIC. User experience and functionality superior enough to garner good reviews and drive sales."
+                    }
+                ],
+                "related": [
+                    {
+                        "title": "China Cloud Hosting ",
+                        "icon": ""
+                    },
+                    {
+                        "title": "Content Delivery / Distribution Network (CDN)",
+                        "icon": ""
+                    },
+                    {
+                        "title": "Mobile Websites Design & Development",
+                        "icon": ""
+                    },
+                    {
+                        "title": "Website Design",
+                        "icon": ""
+                    }
+                ]
+            }
+        }
+    }
+}

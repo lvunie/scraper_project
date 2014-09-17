@@ -1,0 +1,44 @@
+{
+    "page": {
+        "filename": "campaign-tracking-dashboards",
+        "data": {
+            "title": "Campaign Tracking Dashboards ",
+            "category": "Marketing",
+            "description": "Reliable Feedback on Chinese Media, Campaigns, & Brand Positions",
+            "content": {
+                "tab": [
+                    {
+                        "title": "Overview",
+                        "markdown": "Even plain, reliable site metrics can be a tall order in mainland China, where Google has negligible influence. Then consider that huge Chinese companies besides Baidu, China’s Google, have their own massive portals, with proprietary traffic, companies such as Sina, Tencent, and Alibaba. The ultra competitive nature of China’s Internet landscape means the task of collecting continuous, dependable feedback on your marketing efforts is more complex by an order of magnitude., ,WPIC has developed technology and systems that reduce this complexity, allowing you to gauge your marketing effectiveness across all platforms, whether you need site analytics, information on your Tmall store visitors, or profiles of visitors to your Sina Weibo account. Steer your campaigns effectively with strategic feedback, and benchmark your results against the competitive set., ,Get in touch to explore how campaign tracking can make your China marketing more efficient, and qualify for a free ten hours of customized consultation."
+                    },
+                    {
+                        "title": "Process",
+                        "markdown": ""
+                    },
+                    {
+                        "title": "Impact",
+                        "markdown": "A Fortune 200 company had half a dozen operating companies with similar product lines and sales offices in China, but little transparency or accountability in the marketing/sales cycle., ,Tactics:,Kaizen workshop to map current marketing/sales cycle, identify deltaCreation of bowlers for each operating company, with jumping off point metrics and realistic, mutually agreed targetsProgramming and implementation of customized CRM with dashboard interface including:, ,Results:,Dashboard was key deliverable in Fortune 200 company’s initiative to “close the loop” between marketing and sales. Conversion to sales increased four-fold. Ad metrics and customer data provided insights allowing for accurate cost-per-customer, able to buy traffic with competitor-beating advantage."
+                    }
+                ],
+                "related": [
+                    {
+                        "title": "Campaign Management Dashboards ",
+                        "icon": ""
+                    },
+                    {
+                        "title": "Display Advertising",
+                        "icon": ""
+                    },
+                    {
+                        "title": "Pay-Per-Click Advertising (PPC)",
+                        "icon": ""
+                    },
+                    {
+                        "title": "Website Analytics",
+                        "icon": ""
+                    }
+                ]
+            }
+        }
+    }
+}

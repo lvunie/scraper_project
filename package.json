@@ -9,5 +9,9 @@
     "express": "latest",
     "request": "latest",
     "string": "^2.0.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-merge-json": "^0.9.4"
   }
 }

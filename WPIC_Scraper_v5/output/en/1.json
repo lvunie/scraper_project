@@ -1,0 +1,44 @@
+{
+    "page": {
+        "filename": "market-analysis",
+        "data": {
+            "title": "Market Analysis ",
+            "category": "Marketing",
+            "description": "Knowledge Geared to Winning Market Share",
+            "content": {
+                "tab": [
+                    {
+                        "title": "Overview",
+                        "markdown": "China’s booming consumer economy offers stunning opportunities in virtually every industry. Of course, those opportunities only manifest as profit for those who take the time to map the market, and their organization’s place in it., ,WPIC’s market research has proven time and again that, although the pieces look different, the game of winning market share in China is largely the same as anywhere else. Yes, a few different rules apply. That is why quantitative is only 20% of our market intelligence process, not the 80% most clients are used to. Our China market research deliverables are always capped with qualitative, evidence-based strategies and recommendations. You’ll know what pieces you have, how to acquire the ones you’re missing, and which rules to watch out for, along with a game plan guaranteed to flatten your learning curve, and collapse the delta between your company and a profitable, sustainable China operations scenario., ,Get in touch now to discuss what China market research will yield highest value for your business goals, and qualify for a complimentary ten hours of reporting."
+                    },
+                    {
+                        "title": "Process",
+                        "markdown": "<p><a class=\"imgpopup\" href=\"/sites/default/files/market_analysis_3.jpg\"><img src=\"/sites/default/files/market_analysis_3.jpg width=\"940\" height=\"901\" /></a></p> "
+                    },
+                    {
+                        "title": "Impact",
+                        "markdown": "A travel company seeking higher conversion rates and lower costs per conversion was eager to supplant its direct marketing model with targeted advertising. The competitive nature of the industry in China, however, meant exorbitant advertising rates, and difficulty in targeting the higher price point tourist niche the company wanted to reach., ,Tactics:,Inventory of most popular travel platforms, calculating rates against projected conversions, based on reach, reported ad metrics, and estimated number of viewers that matched target demographicResearch of less popular, more focused platforms (luxury sites, luxury BBS, luxury ecommerce); research and application of same algorithms used to measure popular platform valueInvestigation of Baidu PPC rates for ads based on a range of the company’s 50 most relevant keywords and keyphrases, compared against search volumes and estimated Click Through Rate, in order to project a cost per qualified lead via the SEM channelComprehensive reporting of discoveries and projections, along with contact information for customer service reps at recommended platforms, recommended discount rate to bargain for, and associated content marketing plan in order to add “pull” factor to the advertisements on those platforms, as well as for rankings on Baidu, China’s top search engine., ,Results:,Within three months of campaign launch, the travel company more than doubled its daily conversions, and brought down its cost per conversion (booking) from approx. $120 to less than $90, ten months later. Interestingly, the PPC channel became the clear leader in driving traffic to the site and delivering lowest cost per conversion, albeit many of the ads were for discounted packages."
+                    }
+                ],
+                "related": [
+                    {
+                        "title": "Analytics ",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/analytics-tech-green.png"
+                    },
+                    {
+                        "title": "Market Intelligence",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/market-intelligence.png"
+                    },
+                    {
+                        "title": "Regional Planning",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/regional-planning.png"
+                    },
+                    {
+                        "title": "Scraping",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/scraping.png"
+                    }
+                ]
+            }
+        }
+    }
+}

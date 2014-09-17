@@ -1,0 +1,44 @@
+{
+    "page": {
+        "filename": "content-marketing",
+        "data": {
+            "title": "Content Marketing ",
+            "category": "Marketing",
+            "description": "Targeted Platforms for Targeted Consumers",
+            "content": {
+                "tab": [
+                    {
+                        "title": "Overview",
+                        "markdown": "Whatever your industry, whatever Chinese market you want share in, rest assured there is at least one major, heavily trafficked platform where vendors advertise, and dedicated consumers interact to make buying decisions. B2B or B2C, these platforms are integrated environments where carefully crafted and disseminated content has the maximum impact on your most focused target audience., ,WPIC specializes in establishing productive relationships with focused platforms on behalf of western clients, and maintains an extensive portfolio of platforms with pre-existing good will. We create content marketing plans that deploy the following components, among others:, ,All focused portal content is integrated into your larger strategy, with Calls to Action and other next steps included for conversion., ,Contact us to qualify for free identification of the focused portals that will build your brand and drive sales in China"
+                    },
+                    {
+                        "title": "Process",
+                        "markdown": "<p><a class=\"imgpopup\" href=\"/sites/default/files/content%20marketing.jpg\"><img src=\"/sites/default/files/content%20marketing.jpg width=\"940\" height=\"513\" /></a></p> "
+                    },
+                    {
+                        "title": "Impact",
+                        "markdown": "A B2B real estate publisher based in England sought to build an engaged community of Chinese real estate agents that it could connect to its existing base of global agents in order to tap the booming segment of Chinese overseas property buyers. Alerting Chinese agents to the myriad opportunities available and educating them in the many considerations to take on behalf of their clients buying overseas property were the key messaging verticals., ,Tactics:,Creation and distribution of a Mandarin version of the publisher’s magazine, included in-house coordination and training of editor and designerCreation of a series of guides for Chinese agents and investors in selecting, purchasing, and managing overseas propertyDistribution of guides through native content articles that tied download to registration in a databaseRe-publishing of magazine articles in relevant portions of Chinese Internet portals, linked to next steps for visiting site and/or downloading guides, where possibleProfiles of publishers and their content on Baidu knowledge properties for perceived authenticity and broader reach, ,Results,Magazine was downloaded average of 22,000 times per issue within a week of publication. Guides downloaded over 30,000 times each (total of 5 guides). Database grew to approximately 70,000 qualified stakeholders within 8 months of content marketing launch, used as profit center by publisher, who marketed to the community on behalf of western real estate developers and agents."
+                    }
+                ],
+                "related": [
+                    {
+                        "title": "Asset Localization ",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/asset-localization.png"
+                    },
+                    {
+                        "title": "Chinese Brand Development",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/brand-development-green.png"
+                    },
+                    {
+                        "title": "Content Localization & Translations Production",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/content-localization.png"
+                    },
+                    {
+                        "title": "Digital Public Relations",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/digital-PR.png"
+                    }
+                ]
+            }
+        }
+    }
+}

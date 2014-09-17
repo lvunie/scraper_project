@@ -1,0 +1,44 @@
+{
+    "page": {
+        "filename": "analytics-0",
+        "data": {
+            "title": "Analytics ",
+            "category": "Technology",
+            "description": "Transform Your Data Into Decision Making Evidence",
+            "content": {
+                "tab": [
+                    {
+                        "title": "Overview",
+                        "markdown": "The key to China analytics is remembering you’re not in Google country anymore. Baidu, China’s Google, is years way from anything resembling Google’s landmark suite of tools. Third party site and search engine analytic tools touted as global solutions all fall short in China, as we’ve learned from experience., ,The dearth of reliable, organized data and our focus on acquiring such has resulted in our service of designing and implementing data-driven analytical solutions customized to the China-specific needs of our clients., ,WPIC will assure fully leveraged data, by transforming it into useful information readily available to stakeholders in-country and out. Our custom analytic solutions are segmented into:, ,Get in touch to discuss how custom analytics can drive your China operations, and qualify for a free ten hours of customized consultation."
+                    },
+                    {
+                        "title": "Process",
+                        "markdown": "<p><a class=\"imgpopup\" href=\"/sites/default/files/analytics%20Tech_1.jpg\"><img src=\"/sites/default/files/analytics%20Tech_1.jpg width=\"940\" height=\"705\" /></a></p> "
+                    },
+                    {
+                        "title": "Impact",
+                        "markdown": "A computer memory manufacturer wanted to phase out its China distributors and tackle China market penetration primarily online. At issue were which of the myriad platforms on which to sell, advertise, or otherwise promote its planned SKUs for the China market. The target set was $10m in revenue for the first year of sales, at a budget of 18% of planned revenue., ,Tactics:,Build a custom scraping tool to pull info from selected Chinese search engines, social media platforms, BBS, and focused portalsProgram scraper with algorithms to pull keywords, keyphrases, as well as varying ranges of symbols, numbers, and Mandarin characters around themBuild t SQL database that segments data automaticallyBuild customized dashboard to track and report individual ads, clicks, raw leads, and cost per conversion in each vertical, including Tmall, with traditional Baidu analytics integrated., ,Results:,The scraper project yielded actionable evidence on key competitors, consumer profiles, most popular SKUs, consumer concerns relative to those SKUs, and price points. Statistics coupled with manual research revealed that Tmall and an array of focused portals would be the most cost-effective to sell on, relative to return on advertising investment."
+                    }
+                ],
+                "related": [
+                    {
+                        "title": "Campaign Management Dashboards ",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-9898.png"
+                    },
+                    {
+                        "title": "Market Analysis",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/marketing-analysis.png"
+                    },
+                    {
+                        "title": "Scraping",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/scraping.png"
+                    },
+                    {
+                        "title": "Website Analytics",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/web-analytics.png"
+                    }
+                ]
+            }
+        }
+    }
+}

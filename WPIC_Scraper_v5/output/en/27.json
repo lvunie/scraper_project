@@ -1,0 +1,44 @@
+{
+    "page": {
+        "filename": "website-design",
+        "data": {
+            "title": "Website Design ",
+            "category": "Technology",
+            "description": "An On-Brand Experience Optimized for Chinese Customers",
+            "content": {
+                "tab": [
+                    {
+                        "title": "Overview",
+                        "markdown": "Rest assured – the cultural pundits are wrong. Principles of good UX are universal. Everyone likes clean, dynamic, image-driven, and intuitive. Everyone appreciates transparency and authenticity from your website., ,So the challenge for your China site lies in adjusting not for multicultural, but rather multi-tech environment adjustments. Designing for different Internet speeds, integrating with different third party APIs – a host of complexities stand between the clear messaging of your website and your target Chinese customers., ,WPIC offers a multi-disciplined team, experienced in addressing all China complexities, while still delivering the hallmarks of a superior website – clean code, responsive design, full integration, and user-friendly CMS., ,Get in touch to view our portfolio, and explore what a WPIC-designed website can do for your brand."
+                    },
+                    {
+                        "title": "Process",
+                        "markdown": "<p><a class=\"imgpopup\" href=\"/sites/default/files/web%20design.jpg\"><img src=\"/sites/default/files/web%20design.jpg width=\"940\" height=\"379\" /></a></p> "
+                    },
+                    {
+                        "title": "Impact",
+                        "markdown": "A city government’s tourism department wanted to re-design its Chinese website, to increase engagement, and facilitate provider/tourist interaction., ,Tactics:,Requirements gathering meetingMedia asset gathering and localizationMockup process - themes adapted from best-performing tourism sites worldwideDesign team deployed on approval of themeIT team installs new Drupal 7 back-end, best for English-Mandarin implementationContent optimized for China SEO and implementedIntegration for 3rd party advertising, Chinese social media, sign-upSite cloud-hosted in China, ,Results:,A cutting-edge, parralax layout, dynamic, picture-driven design garnered positive reviews from Chinese and Western press on re-launch. All site metrics greatly improved, particularly time on site (from under half a minute to over three minutes average.) Partners able to offer deals and next steps to readers."
+                    }
+                ],
+                "related": [
+                    {
+                        "title": "China Cloud Hosting ",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting.png"
+                    },
+                    {
+                        "title": "ICP Registration",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/ICP-Registration.png"
+                    },
+                    {
+                        "title": "Mobile Websites Design & Development",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-website.png"
+                    },
+                    {
+                        "title": "Website Deployment",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/website-deployment.png"
+                    }
+                ]
+            }
+        }
+    }
+}

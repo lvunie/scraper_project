@@ -1,0 +1,40 @@
+{
+    "page": {
+        "filename": "about-us",
+        "data": {
+            "title": "ABOUT US ",
+            "category": "",
+            "description": "",
+            "content": {
+                "tab": [
+                    {
+                        "title": "Overview",
+                        "markdown": "Web Presence In China is a full-service digital agency, providing all services necessary to drive online revenue in the Chinese and larger APAC market.,Western Management and Chinese Operations,Working with Web Presence in China means western service standards matched to proven in-market, on-the-ground experience. We work to understand your objectives, help you plan for feasible wins, and deliver unmatched ROI. Every time., ,Closing the Loop,Our service doesn’t stop at top rankings, PPC leads, or other successful deliverables. Instead, we connect results to revenue, whether that means close work with your Chinese team, daily reports to headquarters, or integrated lead tracking dashboards. All projects begin with agreed targets, and all targets go green, no exceptions."
+                    },
+                    {
+                        "title": "Process",
+                        "markdown": "<p><a class=\"imgpopup\" href=\"\"><img src=\" width=\"\" height=\"\" /></a></p> "
+                    },
+                    {
+                        "title": "Impact",
+                        "markdown": "Digital is the present and future of marketing, and China is the world’s biggest market. We’re always looking for talented people to work with on full-time, part-time, freelance, and flexi-work arrangements., ,If you’re interested in working with us, please get in touch using the form below. We’re happy to hear from you!"
+                    }
+                ],
+                "related": [
+                    {
+                        "title": ""
+                    },
+                    {
+                        "title": ""
+                    },
+                    {
+                        "title": ""
+                    },
+                    {
+                        "title": ""
+                    }
+                ]
+            }
+        }
+    }
+}

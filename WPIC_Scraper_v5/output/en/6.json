@@ -1,0 +1,44 @@
+{
+    "page": {
+        "filename": "ppc",
+        "data": {
+            "title": "Pay-Per-Click Advertising (PPC) ",
+            "category": "Marketing",
+            "description": "Highest Conversion Rates at the Lowest Cost Per Conversion",
+            "content": {
+                "tab": [
+                    {
+                        "title": "Overview",
+                        "markdown": "Successful PPC campaigns demand a methodical, scientific approach of continual measurement, adjustment, and remeasurement. Other components a superior PPC vendor must deliver are landing pages, and lead tracking consulting/technology., ,The challenges to good PPC in China increase: registrations, regulations, and infrastructure irregularities. WPIC has an unmatched record for meeting such challenges, and successfully implementing all necessary PPC components to drive conversions, at rates that routinely exceed anything seen by global clients in their other markets., ,Our clients refer us for PPC campaigns across the APASC region on the basis of such results, obtained not just through superior application, but also an ability to align ourselves with your in-country sales team and upper management, for closed loop reporting that drives conversion rates, making PPC your highest ROI channel., ,Get in touch now to receive an instant $888 credit in advertising, and start driving revenue to your site!"
+                    },
+                    {
+                        "title": "Process",
+                        "markdown": "<p><a class=\"imgpopup\" href=\"/sites/default/files/PPC2.jpg\"><img src=\"/sites/default/files/PPC2.jpg width=\"940\" height=\"703\" /></a></p> "
+                    },
+                    {
+                        "title": "Impact",
+                        "markdown": "A Canadian government organization desiring Chinese leads for investment in key industrial and agricultural sectors. Conversion rates lagged those for the rest of the markets targeted, and cost per lead was much higher than average.,Kaizen orientation of government organization stakeholders, in order to set targets and divide PPC campaign into effective categories.Creation of bowler with pre-established KPIs and assigned ownership of leadsEstablishment of Baidu PPC accountKeyword/Key phrase research to set bidding levelsDesign and implementation of PPC ad copy and relevant landing pagesHost landing pages on local serverTrack metrics daily, full reporting & ad adjustment weekly, ,Result: ,A six month campaign saw conversions per day in China go from .3 to 6 on average, while cost per lead (CPL) went from $172 to $48, making it the lowest CPL for any market save the U.S.A."
+                    }
+                ],
+                "related": [
+                    {
+                        "title": "Campaign Management Dashboards ",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-9898.png"
+                    },
+                    {
+                        "title": "Display Advertising",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/display-advertising.png"
+                    },
+                    {
+                        "title": "Search Engine Optimization (SEO)",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/SEO.png"
+                    },
+                    {
+                        "title": "Website Analytics",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/web-analytics.png"
+                    }
+                ]
+            }
+        }
+    }
+}

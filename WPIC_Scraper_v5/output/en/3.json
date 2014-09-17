@@ -1,0 +1,44 @@
+{
+    "page": {
+        "filename": "marketing",
+        "data": {
+            "title": "Marketing ",
+            "category": "",
+            "description": "",
+            "content": {
+                "tab": [
+                    {
+                        "title": "Overview",
+                        "markdown": ""
+                    },
+                    {
+                        "title": "Process",
+                        "markdown": "<p><a class=\"imgpopup\" href=\"\"><img src=\" width=\"\" height=\"\" /></a></p> "
+                    },
+                    {
+                        "title": "Impact",
+                        "markdown": ""
+                    }
+                ],
+                "related": [
+                    {
+                        "title": "",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/brand-development-green.png"
+                    },
+                    {
+                        "title": "",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/brand-development-white.png"
+                    },
+                    {
+                        "title": "",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/graphic-design.png"
+                    },
+                    {
+                        "title": "",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/graphic-design-white.png"
+                    }
+                ]
+            }
+        }
+    }
+}

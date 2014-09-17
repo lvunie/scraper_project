@@ -1,0 +1,44 @@
+{
+    "page": {
+        "filename": "mobile-advertising",
+        "data": {
+            "title": "Mobile Advertising ",
+            "category": "Marketing",
+            "description": "A New Channel for a Growing Segment",
+            "content": {
+                "tab": [
+                    {
+                        "title": "Overview",
+                        "markdown": "Now that more Chinese use mobile devices to access the Internet than laptops or PCs, the world outside the Web is growing too quickly to ignore the possibilities.  While the mobile advertising industry is nascent and fragmented in China, there are nonetheless still incredible opportunities, especially in arbitrage advertising rates, as costs per click are far below those for web-accessed platforms, relative to their traffic volume., ,In fact, navigating China’s mobile advertising industry is still murky enough that it is generally the province of app developers looking to monetize. WPIC, however, has carved out a network of reliable partners, who can place advertising in targeted apps across China’s vast and fragmented mobile ecosystem. We can outsource everything from design of your ads and landing pages, to account management, to comprehensive reporting via manual report and/or shared dashboard., ,Get in touch to discuss how a mobile advertising campaign can drive market share among your China demographic, and qualify for a free ten hours of customized consultation."
+                    },
+                    {
+                        "title": "Process",
+                        "markdown": "<p><a class=\"imgpopup\" href=\"/sites/default/files/MOBILE1.jpg\"><img src=\"/sites/default/files/MOBILE1.jpg width=\"\" height=\"\" /></a></p> "
+                    },
+                    {
+                        "title": "Impact",
+                        "markdown": "Online English lesson provider creates app to drive branding and sales. Challenges include adapting app for range of Chinese devices, and publishing/advertising at budget that enables ROI., ,Tactics:,Optimize code for best functionality on China device ecosystemResearch top ten China app download sites for best distribution mixDevise app advertising plan and targetsFacilitate licensing for distribution on chosen platformsExecute publishing and advertising with bowler reporting, ,Results:"
+                    }
+                ],
+                "related": [
+                    {
+                        "title": "Display Advertising ",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/display-advertising.png"
+                    },
+                    {
+                        "title": "Mobile Application Publishing",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/icon23.png"
+                    },
+                    {
+                        "title": "Mobile Websites Design & Development",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-website.png"
+                    },
+                    {
+                        "title": "Pay-Per-Click Advertising (PPC)",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/PPC1.png"
+                    }
+                ]
+            }
+        }
+    }
+}

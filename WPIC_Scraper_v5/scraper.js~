@@ -10,6 +10,11 @@ var fileIndex = 0;
 var address;
 var filename;
 var title, category, content, description;
+var page = 0;
+
+var three = {
+	page: "",
+};
 
 var json = { 
 	filename : "",  
@@ -63,6 +68,17 @@ var related = [
 	},	
 ];
 
+function createFolder(){
+
+	var pathName = '/home/lvunie/work/scraper_project/WPIC_Scraper_v5/output'; 
+
+	mkdirp(pathName, function(err) { 
+		//console.log('ok');
+	});
+
+}
+
+createFolder();
 
 ////////////////////////////open JOSN file to get URL for scraping//////////////////////////
     readline = require('readline');
@@ -80,14 +96,19 @@ rd.on('line', function(line) {
     if(vertify){
 	address = S(line).between('"', '"').s;
     }
-	scrape(address);
+	
 
-	var pageTwo = S(line).indexOf('category');
-	console.log(pageTwo +': '+ address);
+	var about_page = S(line).indexOf('about-us');
+	if(about_page >0)
+	{
+		//console.log('about-us');
+	}else{
+		scrape(address);
+		//console.log(address);
+	}
+		
 	
 });
-
-
 
 
 /////////////////////////Scrape content from given URL///////////////////////////////////////
@@ -122,9 +143,69 @@ function scrape(address){
 
 				var test = S(text).left(number).s;
 				data.description = test;
-   
 	})
-//////////////////////////////////////////////////////////////////////////////
+////////////////////////////start///////////////////////////////////
+
+		.scrape(function($) {
+     		   	return $(".img-slide > img").map(function() {
+    		        	return $(this).attr("src");
+     		   	}).get();
+    			}, function(link) {
+
+				related[0].icon  = link[0];
+				related[1].icon  = link[1];
+				related[2].icon  = link[2];
+				related[3].icon  = link[3];
+	
+	})
+
+//////////////////////////end////////////////////////////////////
+
+////////////////////////////start///////////////////////////////////
+
+		.scrape(function($) {
+     		   	return $(".imgpopup").map(function() {
+    		        	return $(this).attr("href");
+     		   	}).get();
+    			}, function(process) {
+
+			part1 = '<p><a class=\"imgpopup" href=\"' + process + '\"><img src=\"';
+	
+	})
+
+		.scrape(function($) {
+     		   	return $(".imgpopup img").map(function() {
+    		        	return $(this).attr("width");
+     		   	}).get();
+    			}, function(width) {
+			
+			part3 = width;
+	
+	})
+		.scrape(function($) {
+     		   	return $(".imgpopup img").map(function() {
+    		        	return $(this).attr("height");
+     		   	}).get();
+    			}, function(height) {
+			
+			part4 = height ;
+
+	
+	})
+		.scrape(function($) {
+     		   	return $(".imgpopup img").map(function() {
+    		        	return $(this).attr("src");
+     		   	}).get();
+    			}, function(process2) {
+			
+			part2 = process2 + " width=\"" + part3 + "\" height=\"" + part4 + "\" /></a></p> ";
+			
+			tab[1].markdown = part1 + part2;
+	
+	})
+
+//////////////////////////end////////////////////////////////////
+
 		.scrape(function($) {
      		   	return $(".slide-heading").map(function() {
     		        	return $(this).text();
@@ -135,34 +216,27 @@ function scrape(address){
 				first = S(string).between('',',').s;
 				
 				string = S(string).chompLeft(first).s;	
-				//console.log('first: ' + first);
 
 				related[0].title = first;
-				related[0].icon  = '';
+				//related[0].icon  = '';
 
 				second = S(string).between(',',',').s;
 				string = S(string).chompLeft(',' + second).s;
 
-				//console.log('second: ' + second);
-
 				related[1].title = S(second).trim().s;
-				related[1].icon  = '';
+				//related[1].icon  = '';
 
 				third = S(string).between(',',',').s;
 				string = S(string).chompLeft(',' + third).s;
 
-				//console.log('third: ' + third);
-
 				related[2].title = S(third).trim().s;
-				related[2].icon  = '';
+				//related[2].icon  = '';
 
 				fourth = S(string).between(',','').s;
 				string = S(string).chompLeft(', ' + fourth).s;
 
-				//console.log('fourth: ' + string);
-
 				related[3].title = string;
-				related[3].icon  = '';
+				//related[3].icon  = '';
 
 				content.related = related;
    
@@ -188,7 +262,6 @@ function scrape(address){
     			}, function(text) {
 
 				tab[1].title = 'Process';
-				tab[1].markdown = '';
    
 	})
 		.scrape(function($) {
@@ -210,33 +283,25 @@ function scrape(address){
 				json.filename = address.slice(index+1); 
 
 ////////////////////////////////call write function////////////////////////////////////////
-		
-				writeToJson(address,json);
+				three.page = json;
+				writeToJson(address,three);
 				
 	})
 }
-
-
 
 
 ////////////////////////////Write content to JSON file//////////////////////////////////////////////////
 function writeToJson(address,json){
 
 	fileIndex = fileIndex +1;
-	var pathName = '/home/lvunie/work/scraper_project/URL/' + fileIndex; 
 
-	//console.log(fileIndex);
-
-	mkdirp(pathName, function(err) { 
-		//console.log('ok');
-	});
+	var pathName = '/home/lvunie/work/scraper_project/WPIC_Scraper_v5/output/en/' + fileIndex; 
 
 	
-	var newAddress = pathName + '/' +'output.json';
-        fs.writeFile(newAddress, JSON.stringify(json, null, 4), function(err){
-        	//console.log(json);
-        })
-	
+	var newAddress = pathName + '.json';
+        fs.writeFile(newAddress, JSON.stringify(three, null, 4), function(err){
+  
+        })	
 }
 
 

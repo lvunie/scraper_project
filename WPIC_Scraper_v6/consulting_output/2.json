@@ -1,0 +1,90 @@
+{
+    "page": {
+        "filename": "consulting",
+        "data": {
+            "title": "Consulting ",
+            "description": "The Best Answers for Growing China Revenue",
+            "content": {
+                "items": [
+                    {
+                        "cate_heading": "Legal & Structural Setup",
+                        "two_text": "",
+                        "link": "",
+                        "img_slide": "",
+                        "img_white": ""
+                    },
+                    {
+                        "cate_heading": "Licensing",
+                        "two_text": "",
+                        "link": "",
+                        "img_slide": "",
+                        "img_white": ""
+                    },
+                    {
+                        "cate_heading": "Logistics & Fulfillment",
+                        "two_text": "",
+                        "link": "",
+                        "img_slide": "",
+                        "img_white": ""
+                    },
+                    {
+                        "cate_heading": "Market Intelligence",
+                        "two_text": "",
+                        "link": "",
+                        "img_slide": "",
+                        "img_white": ""
+                    },
+                    {
+                        "cate_heading": "Project Planning & Management",
+                        "two_text": "",
+                        "link": "",
+                        "img_slide": "",
+                        "img_white": ""
+                    },
+                    {
+                        "cate_heading": "Business Integration Solutions",
+                        "two_text": "",
+                        "link": "",
+                        "img_slide": "",
+                        "img_white": ""
+                    },
+                    {
+                        "cate_heading": "Channel Conflict Strategies",
+                        "two_text": "",
+                        "link": "",
+                        "img_slide": "",
+                        "img_white": ""
+                    },
+                    {
+                        "cate_heading": "ICP Registration",
+                        "two_text": "",
+                        "link": "",
+                        "img_slide": "",
+                        "img_white": ""
+                    },
+                    {
+                        "cate_heading": "Infrastructure Auditing",
+                        "two_text": "",
+                        "link": "",
+                        "img_slide": "",
+                        "img_white": ""
+                    },
+                    {
+                        "cate_heading": "Systems Design",
+                        "two_text": "",
+                        "link": "",
+                        "img_slide": "",
+                        "img_white": ""
+                    },
+                    {
+                        "cate_heading": "Regional Planning",
+                        "two_text": "",
+                        "link": "",
+                        "img_slide": "",
+                        "img_white": ""
+                    }
+                ]
+            }
+        }
+    }
+}

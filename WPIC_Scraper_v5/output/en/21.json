@@ -1,32 +1,28 @@
 {
     "page": {
-        "filename": "mobile-application-publishing",
+        "filename": "mobile-websites-design-development",
         "data": {
-            "title": "Mobile Application Publishing ",
+            "title": "Mobile Websites Design & Development ",
             "category": "Technology",
-            "description": "Helping You Navigate a Path to ROI",
+            "description": "Profit by Adapting to China’s Mobile Revolution",
             "content": {
                 "tab": [
                     {
                         "title": "Overview",
-                        "markdown": "The potential of China’s vast app market is compromised by its incredibly fragmented nature. Hundreds of app platforms surge and wane in popularity, and the dominant ones each have their own set of complex terms for distribution., ,Nonetheless, hundreds of millions of Chinese are on the lookout for apps that entertain and inform, and are increasingly willing to pay for quality content. WPIC starts with your app’s key demographic in China, and identifies the best stores and platforms to publish on, handling all regulatory and QA procedures necessary, before implementing strategies to get your app in front of the right eyes for download."
+                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Overview/mobile-websites-design-development/"
                     },
                     {
                         "title": "Process",
-                        "markdown": "<p><a class=\"imgpopup\" href=\"/sites/default/files/app%20publishing.jpg\"><img src=\"/sites/default/files/app%20publishing.jpg width=\"940\" height=\"705\" /></a></p> "
+                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Process/mobile-websites-design-development/"
                     },
                     {
                         "title": "Impact",
-                        "markdown": "Online English lesson provider creates app to drive branding and sales. Challenges include adapting app for range of Chinese devices, and publishing/advertising at budget that enables ROI., ,Tactics:,Optimize code for best functionality on China device ecosystemResearch top ten China app download sites for best distribution mixDevise app advertising plan and targetsFacilitate licensing for distribution on chosen platformsExecute publishing and advertising with bowler reporting, ,Results:,Month 1. 3100 downloads,Month 2. 4800 downloads,Month 3. 5700 downloads,Month 4. 13,900 downloads,Month 5. 16,800 downloads,Month 6. 24,500 downloads,320% increased enrollment from China, 180% ROI"
+                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Impact/mobile-websites-design-development/"
                     }
                 ],
                 "related": [
                     {
-                        "title": "Licensing ",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/licensing.png"
-                    },
-                    {
-                        "title": "Mobile Advertising",
+                        "title": "Mobile Advertising ",
                         "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-ads.png"
                     },
                     {
@@ -34,8 +30,12 @@
                         "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-app-development.png"
                     },
                     {
-                        "title": "Mobile Websites Design & Development",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-website.png"
+                        "title": "Mobile Application Publishing",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/icon23.png"
+                    },
+                    {
+                        "title": "Website Deployment",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/website-deployment.png"
                     }
                 ]
             }

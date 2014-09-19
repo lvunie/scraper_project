@@ -1,41 +1,41 @@
 {
     "page": {
-        "filename": "content-localization-translations-production",
+        "filename": "ecommerce",
         "data": {
-            "title": "Content Localization & Translations Production ",
+            "title": "eCommerce ",
             "category": "Marketing",
-            "description": "Translate for Accuracy and Impact",
+            "description": "Seamless Sales in the World’s Largest Online Economy",
             "content": {
                 "tab": [
                     {
                         "title": "Overview",
-                        "markdown": "Copywriting is as important in engaging a Mandarin-speaking audience as it is an English-speaking one. Unfortunately, many organizations trust their copy to a translation firm whose main scope of experience is legal, technical, and medical documents. Add to that the fact that written Mandarin is vastly different from written, and the case for a firm with both professional translation and copywriting capabilities becomes apparent., ,WPIC maintains a network of both certified translators and experienced Mandarin copywriters. They work together with both native English and Mandarin-speaking editors, in a double draft process that ensures on-brand messaging with maximum impact on Chinese viewers., ,Our translation approach carries over into multimedia formats such as video subtitling, dubbing, and original copywriting. Contact us for an easy quote, or an in-depth discussion of your Chinese localization needs."
+                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Overview/ecommerce/"
                     },
                     {
                         "title": "Process",
-                        "markdown": "<p><a class=\"imgpopup\" href=\"/sites/default/files/content_localization.jpg\"><img src=\"/sites/default/files/content%20localization.jpg width=\"940\" height=\"321\" /></a></p> "
+                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Process/ecommerce/"
                     },
                     {
                         "title": "Impact",
-                        "markdown": "Client: The world’s largest online cigar vendor sought to establish a Chinese site, had well over 1000 SKUs, employing quite a bit of terminology not yet translated into Chinese. Wanted to communicate varying qualities of a very diverse range of cigars in order to drive sales., ,Tactics:,Appoint both native English and native Mandarin-speaking editors to implement double draft process. Assemble team of three certified translators and two copywriters, reporting to Chinese editor, who reported simultaneously to western editor, who reported to client, and helped Chinese editor elucidate terminology to translators and copywriters.Contact established with manager of a Beijing cigar club, incented him to read through product descriptions, vetted the translations as “clear and outstanding”.Implemented translations on new Chinese site, including shopping cart., ,Results:,Range of cigar names and brands previously without results on Chinese search engines now returned for many sites, showing translations were adopted as China industry standard. Top results go to Cigar vendor’s site as original source of cigar terminology and information."
+                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Impact/ecommerce/"
                     }
                 ],
                 "related": [
                     {
-                        "title": "Asset Localization ",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/asset-localization.png"
+                        "title": "Graphic Design Production ",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/graphic-design.png"
                     },
                     {
-                        "title": "Chinese Brand Development",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/brand-development-green.png"
+                        "title": "Legal & Structural Setup",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/legal-%26-structural-setup.png"
                     },
                     {
-                        "title": "Content Marketing",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-24a.png"
+                        "title": "Payment Gateway",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/payment-gateways.png"
                     },
                     {
-                        "title": "Digital Public Relations",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/digital-PR.png"
+                        "title": "Website Design",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/website-design.png"
                     }
                 ]
             }

@@ -1,41 +1,41 @@
 {
     "page": {
-        "filename": "licensing",
+        "filename": "channel-conflict-strategies",
         "data": {
-            "title": "Licensing ",
+            "title": "Channel Conflict Strategies ",
             "category": "Consulting",
-            "description": "Eased Market Entry Based on Trust",
+            "description": "Striving for Perfect Market Coverage",
             "content": {
                 "tab": [
                     {
                         "title": "Overview",
-                        "markdown": "Realizing China market opportunities takes considerable due diligence, then sustained commitment of resources. Some organizations find the path to China sales considerably eased by finding a partner with whom to entrust market development., ,WPIC has the know-how and experience to establish a mutually satisfactory licensing partnership agreement, and then develop that partnership profitably through pre-agreed channels. Always flexible and scalable, such partnerships allow for the peace of mind that comes from knowing your brand is being well-represented, leaving you with a safe, sustainable new segment."
+                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Overview/channel-conflict-strategies/"
                     },
                     {
                         "title": "Process",
-                        "markdown": "<p><a class=\"imgpopup\" href=\"/sites/default/files/licensing2.jpg\"><img src=\"/sites/default/files/licensing2.jpg width=\"\" height=\"\" /></a></p> "
+                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Process/channel-conflict-strategies/"
                     },
                     {
                         "title": "Impact",
-                        "markdown": "An Australian wine brand found that it was losing brand equity and sales to distributors who were in violation of agreements. The wine company wanted to license its China product line to a reputable distributor, with legal guarantees for brand and quality protection., ,Tactics:,Research of Chinese Internet for B2B wine distributorsVetted contact database with emails, then phone callsFacilitation of meetings with vetted, interested distributorsFacilitation of legal process to draft licensing agreement, including translations of contracts, ,Results:,Satisfactory licensing agreement reached, including terms for new distributor to action steps in preventing counterfeiting of the Australian brand. Wine company’s China operations now reduced to shipping product to distributor, sending an average of ten containers per year."
+                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Impact/channel-conflict-strategies/"
                     }
                 ],
                 "related": [
                     {
-                        "title": "eCommerce ",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/ecommerce.png"
-                    },
-                    {
-                        "title": "ICP Registration",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/ICP-Registration.png"
+                        "title": "Channel Strategy ",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/channel-strategy.png"
                     },
                     {
                         "title": "Legal & Structural Setup",
                         "icon": "http://www.web-presence-in-china.com/sites/default/files/legal-%26-structural-setup.png"
                     },
                     {
-                        "title": "Logistics & Fulfillment",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/logistics-%26-fulfillment.png"
+                        "title": "Licensing",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/licensing.png"
+                    },
+                    {
+                        "title": "Project Planning & Management",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/project-planning-%26-management.png"
                     }
                 ]
             }

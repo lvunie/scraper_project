@@ -9,15 +9,15 @@
                 "tab": [
                     {
                         "title": "Overview",
-                        "markdown": ""
+                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Overview/technology/"
                     },
                     {
                         "title": "Process",
-                        "markdown": "<p><a class=\"imgpopup\" href=\"\"><img src=\" width=\"\" height=\"\" /></a></p> "
+                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Process/technology/"
                     },
                     {
                         "title": "Impact",
-                        "markdown": ""
+                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Impact/technology/"
                     }
                 ],
                 "related": [

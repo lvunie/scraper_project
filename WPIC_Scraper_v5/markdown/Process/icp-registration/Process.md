@@ -1,0 +1,1 @@
+"<p><a class=\"imgpopup\" href=\"/sites/default/files/icp_registration2.jpg\"><img src=\"/sites/default/files/icp_registration2.jpg width=\"\" height=\"\" /></a></p> "

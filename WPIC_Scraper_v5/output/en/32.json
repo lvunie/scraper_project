@@ -9,15 +9,15 @@
                 "tab": [
                     {
                         "title": "Overview",
-                        "markdown": "The plugged-in executive is asking, “How will technology support growth?” Reaching the right audience on the right scale demands IT that supports the best customer experience possible, across multiple touch points., ,Essentially, cloud hosting utilizes a network of servers to ensure reliability, while a CDN puts your content on servers as geographically close to your audience as possible.  One or a combination of both solutions may work best for your organization, depending where your customers are and how you want to engage them. Talk to us to find out more."
+                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Overview/content-delivery-distribution-network-cdn/"
                     },
                     {
                         "title": "Process",
-                        "markdown": "<p><a class=\"imgpopup\" href=\"/sites/default/files/content%20delivery%20network.jpg\"><img src=\"/sites/default/files/content%20delivery%20network.jpg width=\"940\" height=\"705\" /></a></p> "
+                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Process/content-delivery-distribution-network-cdn/"
                     },
                     {
                         "title": "Impact",
-                        "markdown": "Global medical supply company with complex hosting schema, unable to host in China. Media-heavy site (17k+ indexed pages) compromised as a result, leading to unacceptably slow load times and lead loss., ,Tactics:,Monitor site performance across 500 targeted locations across ChinaMap data points on network latency and performance degradation for baseline metricsComprise inventory of images, documents, CSS files, and script files to be hosted on CDNMap reference points to CDN from within CMSDesign and implement CDN configurationOngoing testing to gauge performance, ,Results:,Load times originally 11-12 times longer reduced to on par performance with U.S. times."
+                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Impact/content-delivery-distribution-network-cdn/"
                     }
                 ],
                 "related": [

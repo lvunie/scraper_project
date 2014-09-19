@@ -1,41 +1,41 @@
 {
     "page": {
-        "filename": "legal-structural-setup",
+        "filename": "consulting",
         "data": {
-            "title": "Legal & Structural Setup ",
-            "category": "Consulting",
-            "description": "Compliance for a Smooth Path to Revenue",
+            "title": "Consulting ",
+            "category": "",
+            "description": "",
             "content": {
                 "tab": [
                     {
                         "title": "Overview",
-                        "markdown": "China’s regulatory environment for foreign enterprises is a restrictive one. Proper establishment of a physical or digital presence in China, or a combination of both, requires time and patience. It also requires the counsel of legal professionals experienced in guiding foreign enterprises to the compliancy scenarios most advantage  eous to them., ,WPIC’s network of legal advisors has been vetted over a decade of establishing different legal entities for foreign companies wishing to do business in China. Let us know what issues you have and what outcomes you wish to achieve, and we will refer you to the right legal team to assure your company’s compliance, and on the path to doing business in China with an optimal tax and reporting structure."
+                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Overview/consulting/"
                     },
                     {
                         "title": "Process",
-                        "markdown": "<p><a class=\"imgpopup\" href=\"/sites/default/files/legal_structural_setup2.jpg\"><img src=\"/sites/default/files/legal_structural_setup2.jpg width=\"1200\" height=\"825\" /></a></p> "
+                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Process/consulting/"
                     },
                     {
                         "title": "Impact",
-                        "markdown": "A cosmetics reseller wants to take payments online in China for its products., ,Tactics:,Determine appropriate establishment scenario (in this case, Hong Kong corporation/bank account)Connect to correct legal office in WPIC network for facilitationProcess newly registered entity with Alipay, Tenpay, & Unionpay (top China online payment systems)Integrate payment options into site shopping cart, ,Results:,China percentage of sales went from 2 to 15% of total in 3 months.,Daily revenue from China increased to an average of $105 per day from less than $15 per day."
+                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Impact/consulting/"
                     }
                 ],
                 "related": [
                     {
-                        "title": "ICP Registration ",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/ICP-Registration.png"
+                        "title": "",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/legal-%26-structural-setup.png"
                     },
                     {
-                        "title": "Licensing",
+                        "title": "",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/legal-%26-structural-setup-white.png"
+                    },
+                    {
+                        "title": "",
                         "icon": "http://www.web-presence-in-china.com/sites/default/files/licensing.png"
                     },
                     {
-                        "title": "Payment Gateway",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/payment-gateways.png"
-                    },
-                    {
-                        "title": "Regional Planning",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/regional-planning.png"
+                        "title": "",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/licensing-white.png"
                     }
                 ]
             }

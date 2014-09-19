@@ -1,41 +1,41 @@
 {
     "page": {
-        "filename": "logistics-fulfillment",
+        "filename": "licensing",
         "data": {
-            "title": "Logistics & Fulfillment ",
+            "title": "Licensing ",
             "category": "Consulting",
-            "description": "More Than Just Provision, An Integrated Process",
+            "description": "Eased Market Entry Based on Trust",
             "content": {
                 "tab": [
                     {
                         "title": "Overview",
-                        "markdown": "Logistics often takes “afterthought” status in developing a complete e-Commerce strategy. For western companies selling in China, however, logistics and fulfillment must be integrated into every phase of the process. From clearing customs and ERP integration, to aftersales support, your 3PL solution is critical at every stage of your China revenue model., ,While you can find many Chinese 3PL providers willing to partner with you, WPIC has narrowed down those with the proven ability to serve a western company reliably to a handful. We have worked with them in products from refrigerated produce to electronic goods. Together, we offer the peace of mind brought by outsourcing to an experienced provider with western best practice in the wheelhouse."
+                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Overview/licensing/"
                     },
                     {
                         "title": "Process",
-                        "markdown": "<p><a class=\"imgpopup\" href=\"/sites/default/files/logistics_fulfillment2.jpg\"><img src=\"/sites/default/files/logistics_fulfillment2.jpg width=\"940\" height=\"565\" /></a></p> "
+                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Process/licensing/"
                     },
                     {
                         "title": "Impact",
-                        "markdown": "A New Zealand supplement brand, having success with mail order, needed a 3PL solution in order to reduce delivery times and increase market share., ,Tactics:,Facilitation of licensing with China State Food and Drug AdministrationFacilitation of online meetings with WPIC 3PL network, consultation on preferred partner selectionTraining of 3PL manager and dedicated CSR to provide brand service standards and experienceIntegration of 3PL tracking software into site’s Magento platform for real time tracking of orders and other relevant metrics, ,Results:,Delivery time to mainland China customers reduced from 3 weeks average to 3 days maximumAble to offer free shipping, sales boosted by 27% as a resultOther Pertinent Metrics, ,order-shipping accuracy: 82% to 99%, ,China inventory accuracy: 92% to 99%, ,Returns due to damages: 6% to <1%, ,Delayed delivery complaints: 15% of orders to <1%"
+                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Impact/licensing/"
                     }
                 ],
                 "related": [
                     {
-                        "title": "Business Integration Solutions ",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/business-integration-solutions-green.png"
+                        "title": "eCommerce ",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/ecommerce.png"
                     },
                     {
-                        "title": "eCommerce",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/ecommerce.png"
+                        "title": "ICP Registration",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/ICP-Registration.png"
                     },
                     {
                         "title": "Legal & Structural Setup",
                         "icon": "http://www.web-presence-in-china.com/sites/default/files/legal-%26-structural-setup.png"
                     },
                     {
-                        "title": "Licensing",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/licensing.png"
+                        "title": "Logistics & Fulfillment",
+                        "icon": "http://www.web-presence-in-china.com/sites/default/files/logistics-%26-fulfillment.png"
                     }
                 ]
             }

@@ -1,0 +1,1 @@
+"<p><a class=\"imgpopup\" href=\"/sites/default/files/brand_development_0.jpg\"><img src=\"/sites/default/files/brand%20development.jpg width=\"940\" height=\"687\" /></a></p> "

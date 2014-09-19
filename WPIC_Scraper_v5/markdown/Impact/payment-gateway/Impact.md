@@ -1,0 +1,9 @@
+[
+    "A boutique cosmetics online retailer had launched a Chinese site, maintaining its Paypal account as a payment gateway. This payment option is not well-known in China, and led to many lost sales.",
+    " ",
+    "Tactics:",
+    "Facilitation of Alipay account registrationTechnical integration of Alipay into website using Java API",
+    " ",
+    "Results:",
+    "Conversion rate on Chinese website improved seven-fold, leading to an average of nine sales per day against less than two previously."
+]

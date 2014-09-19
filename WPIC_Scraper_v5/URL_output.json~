@@ -1,7 +1,5 @@
 {
     "web_address": [
-        "#main-content",
-        "/",
         "http://www.web-presence-in-china.com/category/marketing",
         "http://www.web-presence-in-china.com/chinese-brand-development",
         "http://www.web-presence-in-china.com/graphic-design-production",
@@ -49,14 +47,6 @@
         "http://www.web-presence-in-china.com/infrastructure-auditing",
         "http://www.web-presence-in-china.com/systems-design",
         "http://www.web-presence-in-china.com/regional-planning",
-        "http://www.web-presence-in-china.com/about-us",
-        "http://www.web-presence-in-china.com/category/marketing",
-        "http://www.web-presence-in-china.com/category/consulting",
-        "http://www.web-presence-in-china.com/category/technology",
-        "#myCarousel",
-        "#myCarousel",
-        "#get-touch",
-        "https://www.olark.com/site/4991-411-10-3434/contact",
-        "http://www.olark.com?welcome"
+        "http://www.web-presence-in-china.com/about-us"
     ]
 }

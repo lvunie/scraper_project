@@ -12,7 +12,7 @@ var filename;
 var title, category, content, description;
 var page = 0;
 
-var three = {
+var frame = {
 	page: "",
 };
 
@@ -34,8 +34,7 @@ var content = {
 	related : "", 
 };
 
-var tab = [
-	{
+var tab = [{
 	     "title": "",
              "markdown": ""
 	},	
@@ -46,11 +45,9 @@ var tab = [
 	{
 	     "title": "",
              "markdown": ""
-	},	
-];
+}];
 
-var related = [
-	{
+var related = [{
 	     "title" : "", 
 	     "icon" : "", 
 	},	
@@ -65,14 +62,18 @@ var related = [
 	{
 	     "title" : "", 
 	     "icon" : "", 
-	},	
-];
+}];
 
 function createFolder(){
 
-	var pathName = '/home/lvunie/work/scraper_project/WPIC_Scraper_v5/output'; 
+	var pathName = '/home/lvunie/work/scraper_project/WPIC_Scraper_v5/output/en'; 
+	var markdown_pathName = '/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown'; 
 
 	mkdirp(pathName, function(err) { 
+		//console.log('ok');
+	});
+
+	mkdirp(markdown_pathName, function(err) { 
 		//console.log('ok');
 	});
 
@@ -97,7 +98,6 @@ rd.on('line', function(line) {
 	address = S(line).between('"', '"').s;
     }
 	
-
 	var about_page = S(line).indexOf('about-us');
 	if(about_page >0)
 	{
@@ -105,8 +105,7 @@ rd.on('line', function(line) {
 	}else{
 		scrape(address);
 		//console.log(address);
-	}
-		
+	}	
 	
 });
 
@@ -116,6 +115,7 @@ rd.on('line', function(line) {
 
 function scrape(address){
 
+	
 	scraperjs.StaticScraper.create(address)
 	    		.scrape(function($) {
 	     		   return $("title").map(function() {
@@ -123,6 +123,10 @@ function scrape(address){
      		   	}).get();
     			}, function(text) {
 				data.title = S(text).between('', '|').s ;
+
+				var index    = address.lastIndexOf('/');
+				json.filename = address.slice(index+1); 
+
  	})
 		.scrape(function($) {
      		   	return $(".page-title").map(function() {
@@ -144,7 +148,7 @@ function scrape(address){
 				var test = S(text).left(number).s;
 				data.description = test;
 	})
-////////////////////////////start///////////////////////////////////
+////////////////////////////related title//////////////////////////////////
 
 		.scrape(function($) {
      		   	return $(".img-slide > img").map(function() {
@@ -159,9 +163,7 @@ function scrape(address){
 	
 	})
 
-//////////////////////////end////////////////////////////////////
-
-////////////////////////////start///////////////////////////////////
+////////////////////////////////Process content//////////////////////////////////
 
 		.scrape(function($) {
      		   	return $(".imgpopup").map(function() {
@@ -199,12 +201,16 @@ function scrape(address){
     			}, function(process2) {
 			
 			part2 = process2 + " width=\"" + part3 + "\" height=\"" + part4 + "\" /></a></p> ";
+
+			html_png = part1 + part2;
 			
-			tab[1].markdown = part1 + part2;
-	
+			option = 'Process';
+			process_path = make_tab_folder(json.filename, option, html_png );
+
+			tab[1].markdown = process_path;
 	})
 
-//////////////////////////end////////////////////////////////////
+////////////////////////////////////write related title//////////////////////////////////
 
 		.scrape(function($) {
      		   	return $(".slide-heading").map(function() {
@@ -216,43 +222,35 @@ function scrape(address){
 				first = S(string).between('',',').s;
 				
 				string = S(string).chompLeft(first).s;	
-
 				related[0].title = first;
-				//related[0].icon  = '';
 
 				second = S(string).between(',',',').s;
 				string = S(string).chompLeft(',' + second).s;
-
 				related[1].title = S(second).trim().s;
-				//related[1].icon  = '';
 
 				third = S(string).between(',',',').s;
 				string = S(string).chompLeft(',' + third).s;
-
 				related[2].title = S(third).trim().s;
-				//related[2].icon  = '';
 
 				fourth = S(string).between(',','').s;
 				string = S(string).chompLeft(', ' + fourth).s;
-
 				related[3].title = string;
-				//related[3].icon  = '';
 
 				content.related = related;
    
 	})
-///////////////////////////content ////////////////////////////////
+////////////////////////////// content ////////////////////////////////
 		.scrape(function($) {
      		   	return $("#tab1 p").map(function() {
     		        	return $(this).text();
      		   	}).get();
     			}, function(text) {
+					
+				option = 'Overview';
+				overview_path = make_tab_folder(json.filename, option, text );
 
-				text = S(text).lines();
-				text = S(text).trim().s;
-	
-				tab[0].title = 'Overview';
-				tab[0].markdown = text;
+				tab[0].title = option;
+				tab[0].markdown = overview_path;
    
 	})
 		.scrape(function($) {
@@ -262,34 +260,34 @@ function scrape(address){
     			}, function(text) {
 
 				tab[1].title = 'Process';
-   
+
 	})
 		.scrape(function($) {
      		  	return $("#tab3 p, ol").map(function() {
     		       		return $(this).text();
      		   	}).get();
     			}, function(text) {
-				text = S(text).lines();
-				text = S(text).trim().s;
+				//console.log(text);
 
-				tab[2].title = 'Impact';
-				tab[2].markdown = text;
+				option = 'Impact';
+				impact_path = make_tab_folder(json.filename, option, text );
+
+				tab[2].title = option;
+				tab[2].markdown = impact_path;
+				
+////////////////////////////////assign value to json format///////////////////////////////
 				content.tab = tab;
-			
 				data.content = content;
 				json.data = data;
 
-				var index    = address.lastIndexOf('/');
-				json.filename = address.slice(index+1); 
-
 ////////////////////////////////call write function////////////////////////////////////////
-				three.page = json;
-				writeToJson(address,three);
+				frame.page = json;
+				writeToJson(address,frame);
 				
 	})
 }
 
-
+//////
 ////////////////////////////Write content to JSON file//////////////////////////////////////////////////
 function writeToJson(address,json){
 
@@ -299,9 +297,34 @@ function writeToJson(address,json){
 
 	
 	var newAddress = pathName + '.json';
-        fs.writeFile(newAddress, JSON.stringify(three, null, 4), function(err){
+        fs.writeFile(newAddress, JSON.stringify(frame, null, 4), function(err){
   
         })	
+}
+
+//////
+////////////////////////////create folder for markdown//////////////////////////////////////////////////
+function make_tab_folder(address, option , text ){
+
+	var option_path ='/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/' + option + '/' + address + '/';			
+
+	mkdirp(option_path, function(err) { 
+		//console.log('ok');
+	});
+
+	var option_markdown = option_path + '/' + option +'.md';
+	writeToMarkdown(option_markdown, text);
+			
+	return option_path;
+
+}
+
+function writeToMarkdown(option_markdown, text){
+
+	fs.writeFile(option_markdown, JSON.stringify(text, null, 4), function(err){
+       	
+	});
+
 }
 
 

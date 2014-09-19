@@ -1,0 +1,9 @@
+[
+    "Brand equity, as we used to know it, has plummeted in China as much as in the West. The Information Age enables consumers to compare products and services quickly and objectively, leaving little need to rely on a brand’s reputation. Therefore, branding is no longer an exercise in telling stories, or “telling” anything else, for that matter. Rather, it is an exercise in showing consumers value by engaging them along every phase of the sales journey.",
+    " ",
+    "The Internet has created both this new model of branding, as well as the means by which to implement it. Digital marketing channels are growing integrated, so that performance marketing, social media, content marketing, and their variations can be rapidly deployed to work together in creating a new, vibrant brand experience for Chinese consumers.",
+    " ",
+    "WPIC has developed a vetted process that gears western brands for quick, sustainable, revenue-generating traction in the China market. We believe in exploiting Chinese consumers’ perceived high quality and authenticity of western products and services, by providing them an on-brand experience customized for China’s unique Internet ecosystem. WPIC has capabilities for all aspects of such China brand development in its wheelhouse – technical, creative, and commercial. Your brand journey will be planned and executed with comprehensive measurement at all phases, for unrivaled adaptability, leading to most efficient market penetration.",
+    " ",
+    "Get in touch now to discuss launching or revitalizing your brand in China with WPIC, and qualify for a free ten hours of customized consultation."
+]

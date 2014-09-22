@@ -1,44 +1,44 @@
 {
-    "page": {
-        "filename": "consulting",
-        "data": {
-            "title": "Consulting ",
-            "category": "",
-            "description": "",
-            "content": {
-                "tab": [
-                    {
-                        "title": "Overview",
-                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Overview/consulting/"
-                    },
-                    {
-                        "title": "Process",
-                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Process/consulting/"
-                    },
-                    {
-                        "title": "Impact",
-                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Impact/consulting/"
-                    }
-                ],
-                "related": [
-                    {
-                        "title": "",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/legal-%26-structural-setup.png"
-                    },
-                    {
-                        "title": "",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/legal-%26-structural-setup-white.png"
-                    },
-                    {
-                        "title": "",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/licensing.png"
-                    },
-                    {
-                        "title": "",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/licensing-white.png"
-                    }
-                ]
-            }
+    "filename": "project-planning-management",
+    "data": {
+        "title": "Project Planning & Management ",
+        "category": "Consulting",
+        "description": "Flexible, Accountable Planning for China Operational Objectives",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Overview/project-planning-management/"
+                },
+                {
+                    "title": "Process",
+                    "markdown": [
+                        "<a class=\"imgpopup\" href=\"/sites/default/files/project_management2.jpg\"><img src=\"/sites/default/files/project_management2.jpg\"></a>"
+                    ]
+                },
+                {
+                    "title": "Impact",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Impact/project-planning-management/"
+                }
+            ],
+            "related": [
+                {
+                    "title": "Campaign Management Dashboards ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-9898.png"
+                },
+                {
+                    "title": "Channel Strategy",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/channel-strategy.png"
+                },
+                {
+                    "title": "Market Intelligence",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/market-intelligence.png"
+                },
+                {
+                    "title": "Regional Planning",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/regional-planning.png"
+                }
+            ]
         }
     }
 }

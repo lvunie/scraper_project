@@ -1,118 +1,116 @@
 {
-    "page": {
-        "filename": "technology",
-        "data": {
-            "title": "Technology ",
-            "description": "Tools You Need to Succeed Online",
-            "content": {
-                "items": [
-                    {
-                        "cate_heading": "Analytics",
-                        "two_text": "Transform Your Data Into Decision Making Evidence",
-                        "link": "http://www.web-presence-in-china.com/analytics-0",
-                        "img_slide": "http://www.web-presence-in-china.com/sites/default/files/analytics-tech-green.png",
-                        "img_white": "http://www.web-presence-in-china.com/sites/default/files/analytics-tech-white.png"
-                    },
-                    {
-                        "cate_heading": "Business Integration Solutions",
-                        "two_text": "Aligning Your Processes with Your Technology",
-                        "link": "http://www.web-presence-in-china.com/business-integration-solutions-0",
-                        "img_slide": "http://www.web-presence-in-china.com/sites/default/files/business-integration-solutions-green.png",
-                        "img_white": "http://www.web-presence-in-china.com/sites/default/files/business-integration-solutions-white.png"
-                    },
-                    {
-                        "cate_heading": "China Cloud Hosting",
-                        "two_text": "Load Times are the First Step to a High Performance Site",
-                        "link": "http://www.web-presence-in-china.com/china-cloud-hosting",
-                        "img_slide": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting.png",
-                        "img_white": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting-white.png"
-                    },
-                    {
-                        "cate_heading": "Content Delivery / Distribution Network (CDN)",
-                        "two_text": "Delivering Superior Customer Experience",
-                        "link": "http://www.web-presence-in-china.com/content-delivery-distribution-network-cdn",
-                        "img_slide": "http://www.web-presence-in-china.com/sites/default/files/content-delivery-network-green.png",
-                        "img_white": "http://www.web-presence-in-china.com/sites/default/files/content-delivery-network-white.png"
-                    },
-                    {
-                        "cate_heading": "eCommerce",
-                        "two_text": "Seamless Sales in the World’s Largest Online Economy",
-                        "link": "http://www.web-presence-in-china.com/ecommerce-0",
-                        "img_slide": "http://www.web-presence-in-china.com/sites/default/files/eCommerce1.png",
-                        "img_white": "http://www.web-presence-in-china.com/sites/default/files/eCommerce1-white.png"
-                    },
-                    {
-                        "cate_heading": "Microsoft Dynamics",
-                        "two_text": "The Ease & Flexibility of Microsoft, Implemented for Global Efficiency",
-                        "link": "http://www.web-presence-in-china.com/microsoft-dynamics",
-                        "img_slide": "http://www.web-presence-in-china.com/sites/default/files/microsoft-dynamics.png",
-                        "img_white": "http://www.web-presence-in-china.com/sites/default/files/microsoft-dynamics-white.png"
-                    },
-                    {
-                        "cate_heading": "Mobile Application Development",
-                        "two_text": "Build for China, or Scale for China",
-                        "link": "http://www.web-presence-in-china.com/mobile-application-development",
-                        "img_slide": "http://www.web-presence-in-china.com/sites/default/files/mobile-app-development.png",
-                        "img_white": "http://www.web-presence-in-china.com/sites/default/files/mobile-app-development-white.png"
-                    },
-                    {
-                        "cate_heading": "Mobile Application Publishing",
-                        "two_text": "Helping You Navigate a Path to ROI",
-                        "link": "http://www.web-presence-in-china.com/mobile-application-publishing",
-                        "img_slide": "http://www.web-presence-in-china.com/sites/default/files/icon23.png",
-                        "img_white": "http://www.web-presence-in-china.com/sites/default/files/icon23a.png"
-                    },
-                    {
-                        "cate_heading": "Mobile Websites Design & Development",
-                        "two_text": "Profit by Adapting to China’s Mobile Revolution",
-                        "link": "http://www.web-presence-in-china.com/mobile-websites-design-development",
-                        "img_slide": "http://www.web-presence-in-china.com/sites/default/files/mobile-website.png",
-                        "img_white": "http://www.web-presence-in-china.com/sites/default/files/mobile-website-white.png"
-                    },
-                    {
-                        "cate_heading": "Payment Gateway",
-                        "two_text": "Stop Lead Loss at Its Biggest Source",
-                        "link": "http://www.web-presence-in-china.com/payment-gateway",
-                        "img_slide": "http://www.web-presence-in-china.com/sites/default/files/payment-gateways.png",
-                        "img_white": "http://www.web-presence-in-china.com/sites/default/files/payment-gateways-white.png"
-                    },
-                    {
-                        "cate_heading": "Scraping",
-                        "two_text": "Leverage China’s Biggest Data Source – Its Web",
-                        "link": "http://www.web-presence-in-china.com/scraping",
-                        "img_slide": "http://www.web-presence-in-china.com/sites/default/files/scraping.png",
-                        "img_white": "http://www.web-presence-in-china.com/sites/default/files/scraping-white.png"
-                    },
-                    {
-                        "cate_heading": "Technology Solutions",
-                        "two_text": "Enter and Excel in China’s Technology-Driven Markets",
-                        "link": "http://www.web-presence-in-china.com/technology-solutions",
-                        "img_slide": "http://www.web-presence-in-china.com/sites/default/files/technology-solutions.png",
-                        "img_white": "http://www.web-presence-in-china.com/sites/default/files/technology-solutions-white.png"
-                    },
-                    {
-                        "cate_heading": "Website Deployment",
-                        "two_text": "‘Bridge the Gap’, ‘Span the Pass’… ‘Zip Line the Ravine’?",
-                        "link": "http://www.web-presence-in-china.com/website-deployment",
-                        "img_slide": "http://www.web-presence-in-china.com/sites/default/files/website-deployment.png",
-                        "img_white": "http://www.web-presence-in-china.com/sites/default/files/website-deployment-white.png"
-                    },
-                    {
-                        "cate_heading": "Website Design",
-                        "two_text": "An On-Brand Experience Optimized for Chinese Customers",
-                        "link": "http://www.web-presence-in-china.com/website-design",
-                        "img_slide": "http://www.web-presence-in-china.com/sites/default/files/website-design.png",
-                        "img_white": "http://www.web-presence-in-china.com/sites/default/files/website-design2.png"
-                    },
-                    {
-                        "cate_heading": "Chinalytics",
-                        "two_text": "Custom Analytics That You Can Trust",
-                        "link": "http://www.web-presence-in-china.com/chinalytics",
-                        "img_slide": "http://www.web-presence-in-china.com/sites/default/files/web-analytics.png",
-                        "img_white": "http://www.web-presence-in-china.com/sites/default/files/web-analytics-white.png"
-                    }
-                ]
-            }
+    "filename": "technology",
+    "data": {
+        "title": "Technology ",
+        "description": "Tools You Need to Succeed Online",
+        "content": {
+            "items": [
+                {
+                    "cate_heading": "Analytics",
+                    "two_text": "Transform Your Data Into Decision Making Evidence",
+                    "link": "http://www.web-presence-in-china.com/analytics-0",
+                    "img_slide": "http://www.web-presence-in-china.com/sites/default/files/analytics-tech-green.png",
+                    "img_white": "http://www.web-presence-in-china.com/sites/default/files/analytics-tech-white.png"
+                },
+                {
+                    "cate_heading": "Business Integration Solutions",
+                    "two_text": "Aligning Your Processes with Your Technology",
+                    "link": "http://www.web-presence-in-china.com/business-integration-solutions-0",
+                    "img_slide": "http://www.web-presence-in-china.com/sites/default/files/business-integration-solutions-green.png",
+                    "img_white": "http://www.web-presence-in-china.com/sites/default/files/business-integration-solutions-white.png"
+                },
+                {
+                    "cate_heading": "China Cloud Hosting",
+                    "two_text": "Load Times are the First Step to a High Performance Site",
+                    "link": "http://www.web-presence-in-china.com/china-cloud-hosting",
+                    "img_slide": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting.png",
+                    "img_white": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting-white.png"
+                },
+                {
+                    "cate_heading": "Content Delivery / Distribution Network (CDN)",
+                    "two_text": "Delivering Superior Customer Experience",
+                    "link": "http://www.web-presence-in-china.com/content-delivery-distribution-network-cdn",
+                    "img_slide": "http://www.web-presence-in-china.com/sites/default/files/content-delivery-network-green.png",
+                    "img_white": "http://www.web-presence-in-china.com/sites/default/files/content-delivery-network-white.png"
+                },
+                {
+                    "cate_heading": "eCommerce",
+                    "two_text": "Seamless Sales in the World’s Largest Online Economy",
+                    "link": "http://www.web-presence-in-china.com/ecommerce-0",
+                    "img_slide": "http://www.web-presence-in-china.com/sites/default/files/eCommerce1.png",
+                    "img_white": "http://www.web-presence-in-china.com/sites/default/files/eCommerce1-white.png"
+                },
+                {
+                    "cate_heading": "Microsoft Dynamics",
+                    "two_text": "The Ease & Flexibility of Microsoft, Implemented for Global Efficiency",
+                    "link": "http://www.web-presence-in-china.com/microsoft-dynamics",
+                    "img_slide": "http://www.web-presence-in-china.com/sites/default/files/microsoft-dynamics.png",
+                    "img_white": "http://www.web-presence-in-china.com/sites/default/files/microsoft-dynamics-white.png"
+                },
+                {
+                    "cate_heading": "Mobile Application Development",
+                    "two_text": "Build for China, or Scale for China",
+                    "link": "http://www.web-presence-in-china.com/mobile-application-development",
+                    "img_slide": "http://www.web-presence-in-china.com/sites/default/files/mobile-app-development.png",
+                    "img_white": "http://www.web-presence-in-china.com/sites/default/files/mobile-app-development-white.png"
+                },
+                {
+                    "cate_heading": "Mobile Application Publishing",
+                    "two_text": "Helping You Navigate a Path to ROI",
+                    "link": "http://www.web-presence-in-china.com/mobile-application-publishing",
+                    "img_slide": "http://www.web-presence-in-china.com/sites/default/files/icon23.png",
+                    "img_white": "http://www.web-presence-in-china.com/sites/default/files/icon23a.png"
+                },
+                {
+                    "cate_heading": "Mobile Websites Design & Development",
+                    "two_text": "Profit by Adapting to China’s Mobile Revolution",
+                    "link": "http://www.web-presence-in-china.com/mobile-websites-design-development",
+                    "img_slide": "http://www.web-presence-in-china.com/sites/default/files/mobile-website.png",
+                    "img_white": "http://www.web-presence-in-china.com/sites/default/files/mobile-website-white.png"
+                },
+                {
+                    "cate_heading": "Payment Gateway",
+                    "two_text": "Stop Lead Loss at Its Biggest Source",
+                    "link": "http://www.web-presence-in-china.com/payment-gateway",
+                    "img_slide": "http://www.web-presence-in-china.com/sites/default/files/payment-gateways.png",
+                    "img_white": "http://www.web-presence-in-china.com/sites/default/files/payment-gateways-white.png"
+                },
+                {
+                    "cate_heading": "Scraping",
+                    "two_text": "Leverage China’s Biggest Data Source – Its Web",
+                    "link": "http://www.web-presence-in-china.com/scraping",
+                    "img_slide": "http://www.web-presence-in-china.com/sites/default/files/scraping.png",
+                    "img_white": "http://www.web-presence-in-china.com/sites/default/files/scraping-white.png"
+                },
+                {
+                    "cate_heading": "Technology Solutions",
+                    "two_text": "Enter and Excel in China’s Technology-Driven Markets",
+                    "link": "http://www.web-presence-in-china.com/technology-solutions",
+                    "img_slide": "http://www.web-presence-in-china.com/sites/default/files/technology-solutions.png",
+                    "img_white": "http://www.web-presence-in-china.com/sites/default/files/technology-solutions-white.png"
+                },
+                {
+                    "cate_heading": "Website Deployment",
+                    "two_text": "‘Bridge the Gap’, ‘Span the Pass’… ‘Zip Line the Ravine’?",
+                    "link": "http://www.web-presence-in-china.com/website-deployment",
+                    "img_slide": "http://www.web-presence-in-china.com/sites/default/files/website-deployment.png",
+                    "img_white": "http://www.web-presence-in-china.com/sites/default/files/website-deployment-white.png"
+                },
+                {
+                    "cate_heading": "Website Design",
+                    "two_text": "An On-Brand Experience Optimized for Chinese Customers",
+                    "link": "http://www.web-presence-in-china.com/website-design",
+                    "img_slide": "http://www.web-presence-in-china.com/sites/default/files/website-design.png",
+                    "img_white": "http://www.web-presence-in-china.com/sites/default/files/website-design2.png"
+                },
+                {
+                    "cate_heading": "Chinalytics",
+                    "two_text": "Custom Analytics That You Can Trust",
+                    "link": "http://www.web-presence-in-china.com/chinalytics",
+                    "img_slide": "http://www.web-presence-in-china.com/sites/default/files/web-analytics.png",
+                    "img_white": "http://www.web-presence-in-china.com/sites/default/files/web-analytics-white.png"
+                }
+            ]
         }
     }
 }

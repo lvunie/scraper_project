@@ -1,44 +1,44 @@
 {
-    "page": {
-        "filename": "mobile-advertising",
-        "data": {
-            "title": "Mobile Advertising ",
-            "category": "Marketing",
-            "description": "A New Channel for a Growing Segment",
-            "content": {
-                "tab": [
-                    {
-                        "title": "Overview",
-                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Overview/mobile-advertising/"
-                    },
-                    {
-                        "title": "Process",
-                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Process/mobile-advertising/"
-                    },
-                    {
-                        "title": "Impact",
-                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Impact/mobile-advertising/"
-                    }
-                ],
-                "related": [
-                    {
-                        "title": "Display Advertising ",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/display-advertising.png"
-                    },
-                    {
-                        "title": "Mobile Application Publishing",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/icon23.png"
-                    },
-                    {
-                        "title": "Mobile Websites Design & Development",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-website.png"
-                    },
-                    {
-                        "title": "Pay-Per-Click Advertising (PPC)",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/PPC1.png"
-                    }
-                ]
-            }
+    "filename": "mobile-advertising",
+    "data": {
+        "title": "Mobile Advertising ",
+        "category": "Marketing",
+        "description": "A New Channel for a Growing Segment",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Overview/mobile-advertising/"
+                },
+                {
+                    "title": "Process",
+                    "markdown": [
+                        "<a class=\"imgpopup\" href=\"/sites/default/files/MOBILE1.jpg\"><img src=\"/sites/default/files/MOBILE1.jpg\"></a>"
+                    ]
+                },
+                {
+                    "title": "Impact",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Impact/mobile-advertising/"
+                }
+            ],
+            "related": [
+                {
+                    "title": "Display Advertising ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/display-advertising.png"
+                },
+                {
+                    "title": "Mobile Application Publishing",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon23.png"
+                },
+                {
+                    "title": "Mobile Websites Design & Development",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-website.png"
+                },
+                {
+                    "title": "Pay-Per-Click Advertising (PPC)",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/PPC1.png"
+                }
+            ]
         }
     }
 }

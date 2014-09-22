@@ -1,44 +1,44 @@
 {
-    "page": {
-        "filename": "legal-structural-setup",
-        "data": {
-            "title": "Legal & Structural Setup ",
-            "category": "Consulting",
-            "description": "Compliance for a Smooth Path to Revenue",
-            "content": {
-                "tab": [
-                    {
-                        "title": "Overview",
-                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Overview/legal-structural-setup/"
-                    },
-                    {
-                        "title": "Process",
-                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Process/legal-structural-setup/"
-                    },
-                    {
-                        "title": "Impact",
-                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Impact/legal-structural-setup/"
-                    }
-                ],
-                "related": [
-                    {
-                        "title": "ICP Registration ",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/ICP-Registration.png"
-                    },
-                    {
-                        "title": "Licensing",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/licensing.png"
-                    },
-                    {
-                        "title": "Payment Gateway",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/payment-gateways.png"
-                    },
-                    {
-                        "title": "Regional Planning",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/regional-planning.png"
-                    }
-                ]
-            }
+    "filename": "logistics-fulfillment",
+    "data": {
+        "title": "Logistics & Fulfillment ",
+        "category": "Consulting",
+        "description": "More Than Just Provision, An Integrated Process",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Overview/logistics-fulfillment/"
+                },
+                {
+                    "title": "Process",
+                    "markdown": [
+                        "<a class=\"imgpopup\" href=\"/sites/default/files/logistics_fulfillment2.jpg\"><img src=\"/sites/default/files/logistics_fulfillment2.jpg\" width=\"940\" height=\"565\"></a>"
+                    ]
+                },
+                {
+                    "title": "Impact",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Impact/logistics-fulfillment/"
+                }
+            ],
+            "related": [
+                {
+                    "title": "Business Integration Solutions ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/business-integration-solutions-green.png"
+                },
+                {
+                    "title": "eCommerce",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ecommerce.png"
+                },
+                {
+                    "title": "Legal & Structural Setup",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/legal-%26-structural-setup.png"
+                },
+                {
+                    "title": "Licensing",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/licensing.png"
+                }
+            ]
         }
     }
 }

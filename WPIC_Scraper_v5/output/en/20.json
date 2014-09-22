@@ -1,44 +1,44 @@
 {
-    "page": {
-        "filename": "technology",
-        "data": {
-            "title": "Technology ",
-            "category": "",
-            "description": "",
-            "content": {
-                "tab": [
-                    {
-                        "title": "Overview",
-                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Overview/technology/"
-                    },
-                    {
-                        "title": "Process",
-                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Process/technology/"
-                    },
-                    {
-                        "title": "Impact",
-                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Impact/technology/"
-                    }
-                ],
-                "related": [
-                    {
-                        "title": "",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/analytics-tech-green.png"
-                    },
-                    {
-                        "title": "",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/analytics-tech-white.png"
-                    },
-                    {
-                        "title": "",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/business-integration-solutions-green.png"
-                    },
-                    {
-                        "title": "",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/business-integration-solutions-white.png"
-                    }
-                ]
-            }
+    "filename": "mobile-websites-design-development",
+    "data": {
+        "title": "Mobile Websites Design & Development ",
+        "category": "Technology",
+        "description": "Profit by Adapting to China’s Mobile Revolution",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Overview/mobile-websites-design-development/"
+                },
+                {
+                    "title": "Process",
+                    "markdown": [
+                        "<a class=\"imgpopup\" href=\"/sites/default/files/mobile%20websites.jpg\"><img src=\"/sites/default/files/mobile%20websites.jpg\" width=\"940\" height=\"379\"></a>"
+                    ]
+                },
+                {
+                    "title": "Impact",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Impact/mobile-websites-design-development/"
+                }
+            ],
+            "related": [
+                {
+                    "title": "Mobile Advertising ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-ads.png"
+                },
+                {
+                    "title": "Mobile Application Development",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-app-development.png"
+                },
+                {
+                    "title": "Mobile Application Publishing",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon23.png"
+                },
+                {
+                    "title": "Website Deployment",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/website-deployment.png"
+                }
+            ]
         }
     }
 }

@@ -1,44 +1,44 @@
 {
-    "page": {
-        "filename": "graphic-design-production",
-        "data": {
-            "title": "Graphic Design Production ",
-            "category": "Marketing",
-            "description": "Your Vision, Your Message – Localized",
-            "content": {
-                "tab": [
-                    {
-                        "title": "Overview",
-                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Overview/graphic-design-production/"
-                    },
-                    {
-                        "title": "Process",
-                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Process/graphic-design-production/"
-                    },
-                    {
-                        "title": "Impact",
-                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Impact/graphic-design-production/"
-                    }
-                ],
-                "related": [
-                    {
-                        "title": "Asset Localization ",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/asset-localization.png"
-                    },
-                    {
-                        "title": "Chinese Brand Development",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/brand-development-green.png"
-                    },
-                    {
-                        "title": "Content Localization & Translations Production",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/content-localization.png"
-                    },
-                    {
-                        "title": "Mobile Websites Design & Development",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-website.png"
-                    }
-                ]
-            }
+    "filename": "chinese-brand-development",
+    "data": {
+        "title": "Chinese Brand Development ",
+        "category": "Marketing",
+        "description": "Positioning and Branding for the Chinese Market",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Overview/chinese-brand-development/"
+                },
+                {
+                    "title": "Process",
+                    "markdown": [
+                        "<a class=\"imgpopup\" href=\"/sites/default/files/brand_development_0.jpg\"><img src=\"/sites/default/files/brand%20development.jpg\" width=\"940\" height=\"687\"></a>"
+                    ]
+                },
+                {
+                    "title": "Impact",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Impact/chinese-brand-development/"
+                }
+            ],
+            "related": [
+                {
+                    "title": "Asset Localization ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/asset-localization.png"
+                },
+                {
+                    "title": "Content Localization & Translations Production",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/content-localization.png"
+                },
+                {
+                    "title": "Content Marketing",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-24a.png"
+                },
+                {
+                    "title": "Digital Public Relations",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/digital-PR.png"
+                }
+            ]
         }
     }
 }

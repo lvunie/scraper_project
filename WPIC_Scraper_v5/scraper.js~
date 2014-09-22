@@ -3,6 +3,10 @@ var express   = require('express');
 var app       = express();
 var mkdirp    = require('mkdirp');
 
+var he = require('he');
+var toMarkdown = require('to-markdown').toMarkdown;
+//toMarktown()
+
 var S         = require('string');
 var fs        = require('fs');
 
@@ -13,7 +17,7 @@ var title, category, content, description;
 var page = 0;
 
 var frame = {
-	page: "",
+	//page: "",
 };
 
 var json = { 
@@ -98,8 +102,10 @@ rd.on('line', function(line) {
 	address = S(line).between('"', '"').s;
     }
 	
-	var about_page = S(line).indexOf('about-us');
-	if(about_page >0)
+	var about_page = S(address).indexOf('about-us');
+	var index_page  = S(address).indexOf('category');
+
+	if((about_page >0) || (index_page)>0)
 	{
 		//console.log('about-us');
 	}else{
@@ -115,7 +121,6 @@ rd.on('line', function(line) {
 
 function scrape(address){
 
-	
 	scraperjs.StaticScraper.create(address)
 	    		.scrape(function($) {
 	     		   return $("title").map(function() {
@@ -207,7 +212,7 @@ function scrape(address){
 			option = 'Process';
 			process_path = make_tab_folder(json.filename, option, html_png );
 
-			tab[1].markdown = process_path;
+			//tab[1].markdown = process_path;
 	})
 
 ////////////////////////////////////write related title//////////////////////////////////
@@ -241,13 +246,23 @@ function scrape(address){
 	})
 ////////////////////////////// content ////////////////////////////////
 		.scrape(function($) {
-     		   	return $("#tab1 p").map(function() {
-    		        	return $(this).text();
+     		   	return $("#tab1").map(function() {
+    		        	return $(this).html();
      		   	}).get();
-    			}, function(text) {
+    			}, function(html) {
 					
 				option = 'Overview';
-				overview_path = make_tab_folder(json.filename, option, text );
+				html = S(html).collapseWhitespace().s;
+				html = toMarkdown(html);
+				
+				//console.log(html);
+				//html = S(html).decodeHTMLEntities().s;
+				//html = S(html).replaceAll('<h2>' , '##').s;
+				//html = S(html).replaceAll('</h2>' , '\n\n').s;
+				//html = S(html).replaceAll('<p>' , '').s;
+				//html = S(html).replaceAll('</p>' , '\n\n').s;
+
+				overview_path = make_tab_folder(json.filename, option, html );
 
 				tab[0].title = option;
 				tab[0].markdown = overview_path;
@@ -255,22 +270,26 @@ function scrape(address){
 	})
 		.scrape(function($) {
      		   	return $("#tab2 p").map(function() {
-    		        	return $(this).text();
+    		        	return $(this).html();
      		   	}).get();
-    			}, function(text) {
+    			}, function(html) {
 
+				//
 				tab[1].title = 'Process';
-
+				tab[1].markdown = html;
 	})
 		.scrape(function($) {
      		  	return $("#tab3 p, ol").map(function() {
-    		       		return $(this).text();
+    		       		return $(this).html();
      		   	}).get();
-    			}, function(text) {
+    			}, function(html) {
 				//console.log(text);
 
 				option = 'Impact';
-				impact_path = make_tab_folder(json.filename, option, text );
+
+				html = S(html).decodeHTMLEntities().s;
+
+				impact_path = make_tab_folder(json.filename, option, html );
 
 				tab[2].title = option;
 				tab[2].markdown = impact_path;
@@ -281,7 +300,7 @@ function scrape(address){
 				json.data = data;
 
 ////////////////////////////////call write function////////////////////////////////////////
-				frame.page = json;
+				frame = json;
 				writeToJson(address,frame);
 				
 	})
@@ -320,8 +339,15 @@ function make_tab_folder(address, option , text ){
 }
 
 function writeToMarkdown(option_markdown, text){
+	
+	//text = S(text).collapseWhitespace().s;
+	//text = S(text).lines();	
+	//text = S(text).replaceAll(', ,' , '\n\n').s;
+	//text = text + '\n\n' + 'HIIIIIIII';
+	//text  = S(text).replaceAll(':,' , ':\n').s;
 
-	fs.writeFile(option_markdown, JSON.stringify(text, null, 4), function(err){
+	//console.log(text);
+	fs.writeFile(option_markdown, text, function(err){
        	
 	});
 

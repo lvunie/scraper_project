@@ -1,9 +1,1 @@
-[
-    "A cosmetics re-seller had launched a Chinese version of its site, but the site metrics were revealing significant lead loss comparative to the company’s other sites, and was exhibiting evidence of having been hacked.",
-    " ",
-    "Tactics:",
-    "Test servers for proper configurations to ensure efficiency and securityScan for hardware specific productivity drainsTest hardware for causes of frequent problemsEnsure adequate backup systems and monitoringDetermine risks to information assetsAssess controls to mitigate risksDevise schema for optimal continuity, maintenance, and security",
-    " ",
-    "Results:",
-    "Average site loading times reduced from 18 seconds, China-wide, to less than 3 seconds. New security configuration has been hack-free since implementing over three years ago. Site analytics now performing in line with other sites, and in several areas (bounce rate, pages viewed) better than other sites."
-]
+A cosmetics re-seller had launched a Chinese version of its site, but the site metrics were revealing significant lead loss comparative to the company’s other sites, and was exhibiting evidence of having been hacked., ,Tactics:,<li>Test servers for proper configurations to ensure efficiency and security</li><li>Scan for hardware specific productivity drains</li><li>Test hardware for causes of frequent problems</li><li>Ensure adequate backup systems and monitoring</li><li>Determine risks to information assets</li><li>Assess controls to mitigate risks</li><li>Devise schema for optimal continuity, maintenance, and security</li>, ,Results:,Average site loading times reduced from 18 seconds, China-wide, to less than 3 seconds. New security configuration has been hack-free since implementing over three years ago. Site analytics now performing in line with other sites, and in several areas (bounce rate, pages viewed) better than other sites.

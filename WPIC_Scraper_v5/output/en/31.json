@@ -1,44 +1,44 @@
 {
-    "page": {
-        "filename": "china-cloud-hosting",
-        "data": {
-            "title": "China Cloud Hosting ",
-            "category": "Technology",
-            "description": "Load Times are the First Step to a High Performance Site",
-            "content": {
-                "tab": [
-                    {
-                        "title": "Overview",
-                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Overview/china-cloud-hosting/"
-                    },
-                    {
-                        "title": "Process",
-                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Process/china-cloud-hosting/"
-                    },
-                    {
-                        "title": "Impact",
-                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Impact/china-cloud-hosting/"
-                    }
-                ],
-                "related": [
-                    {
-                        "title": "Content Delivery / Distribution Network (CDN) ",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/content-delivery-network-green.png"
-                    },
-                    {
-                        "title": "Infrastructure Auditing",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/infrastructure-auditing.png"
-                    },
-                    {
-                        "title": "Systems Design",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/systems-design.png"
-                    },
-                    {
-                        "title": "Website Deployment",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/website-deployment.png"
-                    }
-                ]
-            }
+    "filename": "ecommerce-0",
+    "data": {
+        "title": "eCommerce ",
+        "category": "Technology",
+        "description": "Seamless Sales in the World’s Largest Online Economy",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Overview/ecommerce-0/"
+                },
+                {
+                    "title": "Process",
+                    "markdown": [
+                        "<a class=\"imgpopup\" href=\"/sites/default/files/ecommerce%20tech1.jpg\"><img src=\"/sites/default/files/ecommerce%20tech1.jpg\" width=\"1200\" height=\"800\"></a>"
+                    ]
+                },
+                {
+                    "title": "Impact",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Impact/ecommerce-0/"
+                }
+            ],
+            "related": [
+                {
+                    "title": "Asset Localization ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/asset-localization.png"
+                },
+                {
+                    "title": "Licensing",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/licensing.png"
+                },
+                {
+                    "title": "Logistics & Fulfillment",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/logistics-%26-fulfillment.png"
+                },
+                {
+                    "title": "Payment Gateway",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/payment-gateways.png"
+                }
+            ]
         }
     }
 }

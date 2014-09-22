@@ -1,44 +1,44 @@
 {
-    "page": {
-        "filename": "mobile-application-publishing",
-        "data": {
-            "title": "Mobile Application Publishing ",
-            "category": "Technology",
-            "description": "Helping You Navigate a Path to ROI",
-            "content": {
-                "tab": [
-                    {
-                        "title": "Overview",
-                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Overview/mobile-application-publishing/"
-                    },
-                    {
-                        "title": "Process",
-                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Process/mobile-application-publishing/"
-                    },
-                    {
-                        "title": "Impact",
-                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Impact/mobile-application-publishing/"
-                    }
-                ],
-                "related": [
-                    {
-                        "title": "Licensing ",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/licensing.png"
-                    },
-                    {
-                        "title": "Mobile Advertising",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-ads.png"
-                    },
-                    {
-                        "title": "Mobile Application Development",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-app-development.png"
-                    },
-                    {
-                        "title": "Mobile Websites Design & Development",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-website.png"
-                    }
-                ]
-            }
+    "filename": "scraping",
+    "data": {
+        "title": "Scraping ",
+        "category": "Technology",
+        "description": "Leverage China’s Biggest Data Source – Its Web",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Overview/scraping/"
+                },
+                {
+                    "title": "Process",
+                    "markdown": [
+                        "<a class=\"imgpopup\" href=\"/sites/default/files/web_scraping2.jpg\"><img src=\"/sites/default/files/web_scraping2.jpg\" width=\"1200\" height=\"604\"></a>"
+                    ]
+                },
+                {
+                    "title": "Impact",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Impact/scraping/"
+                }
+            ],
+            "related": [
+                {
+                    "title": "Analytics ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/analytics-tech-green.png"
+                },
+                {
+                    "title": "Market Analysis",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/marketing-analysis.png"
+                },
+                {
+                    "title": "Market Intelligence",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/market-intelligence.png"
+                },
+                {
+                    "title": "Technology Solutions",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/technology-solutions.png"
+                }
+            ]
         }
     }
 }

@@ -1,1 +1,1 @@
-"<p><a class=\"imgpopup\" href=\"/sites/default/files/logistics_fulfillment2.jpg\"><img src=\"/sites/default/files/logistics_fulfillment2.jpg width=\"940\" height=\"565\" /></a></p> "
+<p><a class="imgpopup" href="/sites/default/files/logistics_fulfillment2.jpg"><img src="/sites/default/files/logistics_fulfillment2.jpg width="940" height="565" /></a></p> 

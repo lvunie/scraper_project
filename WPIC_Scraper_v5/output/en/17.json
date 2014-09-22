@@ -1,44 +1,44 @@
 {
-    "page": {
-        "filename": "campaign-management-dashboards",
-        "data": {
-            "title": "Campaign Management Dashboards ",
-            "category": "Marketing",
-            "description": "Transparency Equals Efficiency",
-            "content": {
-                "tab": [
-                    {
-                        "title": "Overview",
-                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Overview/campaign-management-dashboards/"
-                    },
-                    {
-                        "title": "Process",
-                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Process/campaign-management-dashboards/"
-                    },
-                    {
-                        "title": "Impact",
-                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Impact/campaign-management-dashboards/"
-                    }
-                ],
-                "related": [
-                    {
-                        "title": "Analytics ",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/analytics-marketing-green.png"
-                    },
-                    {
-                        "title": "Campaign Tracking Dashboards",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/campaign-tracking-dashboards.png"
-                    },
-                    {
-                        "title": "Market Analysis",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/marketing-analysis.png"
-                    },
-                    {
-                        "title": "Website Analytics",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/web-analytics.png"
-                    }
-                ]
-            }
+    "filename": "analytics",
+    "data": {
+        "title": "Analytics ",
+        "category": "Marketing",
+        "description": "Turning Big Data into Market Advantage",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Overview/analytics/"
+                },
+                {
+                    "title": "Process",
+                    "markdown": [
+                        "<a class=\"imgpopup\" href=\"/sites/default/files/wheel2.jpg\"><img src=\"/sites/default/files/wheel2.jpg\" width=\"940\" height=\"286\"></a>"
+                    ]
+                },
+                {
+                    "title": "Impact",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Impact/analytics/"
+                }
+            ],
+            "related": [
+                {
+                    "title": "Campaign Management Dashboards ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-9898.png"
+                },
+                {
+                    "title": "Campaign Tracking Dashboards",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/campaign-tracking-dashboards.png"
+                },
+                {
+                    "title": "Market Analysis",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/marketing-analysis.png"
+                },
+                {
+                    "title": "Website Analytics",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/web-analytics.png"
+                }
+            ]
         }
     }
 }

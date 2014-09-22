@@ -1,1 +1,1 @@
-"<p><a class=\"imgpopup\" href=\"/sites/default/files/regional_planning2.jpg\"><img src=\"/sites/default/files/regional_planning2.jpg width=\"1200\" height=\"835\" /></a></p> "
+<p><a class="imgpopup" href="/sites/default/files/regional_planning2.jpg"><img src="/sites/default/files/regional_planning2.jpg width="1200" height="835" /></a></p> 

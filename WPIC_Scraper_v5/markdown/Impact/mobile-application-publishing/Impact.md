@@ -1,15 +1,1 @@
-[
-    "Online English lesson provider creates app to drive branding and sales. Challenges include adapting app for range of Chinese devices, and publishing/advertising at budget that enables ROI.",
-    " ",
-    "Tactics:",
-    "Optimize code for best functionality on China device ecosystemResearch top ten China app download sites for best distribution mixDevise app advertising plan and targetsFacilitate licensing for distribution on chosen platformsExecute publishing and advertising with bowler reporting",
-    " ",
-    "Results:",
-    "Month 1. 3100 downloads",
-    "Month 2. 4800 downloads",
-    "Month 3. 5700 downloads",
-    "Month 4. 13,900 downloads",
-    "Month 5. 16,800 downloads",
-    "Month 6. 24,500 downloads",
-    "320% increased enrollment from China, 180% ROI"
-]
+Online English lesson provider creates app to drive branding and sales. Challenges include adapting app for range of Chinese devices, and publishing/advertising at budget that enables ROI., ,Tactics:,<li>Optimize code for best functionality on China device ecosystem</li><li>Research top ten China app download sites for best distribution mix</li><li>Devise app advertising plan and targets</li><li>Facilitate licensing for distribution on chosen platforms</li><li>Execute publishing and advertising with bowler reporting</li>, ,Results:,Month 1. 3100 downloads,Month 2. 4800 downloads,Month 3. 5700 downloads,Month 4. 13,900 downloads,Month 5. 16,800 downloads,Month 6. 24,500 downloads,320% increased enrollment from China, 180% ROI

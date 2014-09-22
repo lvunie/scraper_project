@@ -1,40 +1,44 @@
 {
-    "page": {
-        "filename": "chinalytics",
-        "data": {
-            "title": "Chinalytics ",
-            "category": "Technology",
-            "description": "Custom Analytics That You Can Trust",
-            "content": {
-                "tab": [
-                    {
-                        "title": "Overview",
-                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Overview/chinalytics/"
-                    },
-                    {
-                        "title": "Process",
-                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Process/chinalytics/"
-                    },
-                    {
-                        "title": "Impact",
-                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Impact/chinalytics/"
-                    }
-                ],
-                "related": [
-                    {
-                        "title": ""
-                    },
-                    {
-                        "title": ""
-                    },
-                    {
-                        "title": ""
-                    },
-                    {
-                        "title": ""
-                    }
-                ]
-            }
+    "filename": "analytics-0",
+    "data": {
+        "title": "Analytics ",
+        "category": "Technology",
+        "description": "Transform Your Data Into Decision Making Evidence",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Overview/analytics-0/"
+                },
+                {
+                    "title": "Process",
+                    "markdown": [
+                        "<a class=\"imgpopup\" href=\"/sites/default/files/analytics%20Tech_1.jpg\"><img src=\"/sites/default/files/analytics%20Tech_1.jpg\" width=\"940\" height=\"705\"></a>"
+                    ]
+                },
+                {
+                    "title": "Impact",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Impact/analytics-0/"
+                }
+            ],
+            "related": [
+                {
+                    "title": "Campaign Management Dashboards ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-9898.png"
+                },
+                {
+                    "title": "Market Analysis",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/marketing-analysis.png"
+                },
+                {
+                    "title": "Scraping",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/scraping.png"
+                },
+                {
+                    "title": "Website Analytics",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/web-analytics.png"
+                }
+            ]
         }
     }
 }

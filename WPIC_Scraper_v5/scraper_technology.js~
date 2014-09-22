@@ -13,7 +13,7 @@ var title, category, content, description;
 var cate_heading, two_text, link, img_slide, img_white;
 
 var three = {
-	page: "",
+	//page: "",
 };
 
 var json = { 
@@ -462,7 +462,7 @@ function scrape(address){
 				json.filename = address.slice(index+1); 
 
 ////////////////////////////////call write function////////////////////////////////////////
-				three.page = json;
+				three = json;  //three.page = json;
 				writeToJson(address,three);
 				
 	})

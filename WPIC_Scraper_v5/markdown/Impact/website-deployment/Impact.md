@@ -1,10 +1,1 @@
-[
-    "Hosting and Server, Domain RegistrationSet Up DNS Records and Record ManagementWebsite Testing on Production ServerEmail Set UpLaunch of Site, with Back Up",
-    "A specialty foods seller found that the project plan for its China site had significant gaps between development and deployment, with resultant delays that were impacting tangential marketing and sales efforts.",
-    " ",
-    "Tactics:",
-    "Resolve outstanding hosting issues by facilitating ICP, switching to cloud hostingServer security issues resolved through cloud hosting and comprehensive testingLoad testing revealed configuration problems, quickly resolvedSite backed upPlan for ongoing testing and monitoring implemented",
-    " ",
-    "Results:",
-    "Site was successfully launched only three weeks past project deadline, and two weeks after engaging WPIC. User experience and functionality superior enough to garner good reviews and drive sales."
-]
+<li>Hosting and Server, Domain Registration</li><li>Set Up DNS Records and Record Management</li><li>Website Testing on Production Server</li><li>Email Set Up</li><li>Launch of Site, with Back Up</li>,A specialty foods seller found that the project plan for its China site had significant gaps between development and deployment, with resultant delays that were impacting tangential marketing and sales efforts., ,Tactics:,<li>Resolve outstanding hosting issues by facilitating ICP, switching to cloud hosting</li><li>Server security issues resolved through cloud hosting and comprehensive testing</li><li>Load testing revealed configuration problems, quickly resolved</li><li>Site backed up</li><li>Plan for ongoing testing and monitoring implemented</li>, ,Results:,Site was successfully launched only three weeks past project deadline, and two weeks after engaging WPIC. User experience and functionality superior enough to garner good reviews and drive sales.

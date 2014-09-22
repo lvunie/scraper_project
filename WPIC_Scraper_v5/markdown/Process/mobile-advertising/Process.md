@@ -1,1 +1,1 @@
-"<p><a class=\"imgpopup\" href=\"/sites/default/files/MOBILE1.jpg\"><img src=\"/sites/default/files/MOBILE1.jpg width=\"\" height=\"\" /></a></p> "
+<p><a class="imgpopup" href="/sites/default/files/MOBILE1.jpg"><img src="/sites/default/files/MOBILE1.jpg width="" height="" /></a></p> 

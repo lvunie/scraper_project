@@ -1,44 +1,44 @@
 {
-    "page": {
-        "filename": "icp-registration",
-        "data": {
-            "title": "ICP Registration ",
-            "category": "Consulting",
-            "description": "The First Step in China Digital Compliance",
-            "content": {
-                "tab": [
-                    {
-                        "title": "Overview",
-                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Overview/icp-registration/"
-                    },
-                    {
-                        "title": "Process",
-                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Process/icp-registration/"
-                    },
-                    {
-                        "title": "Impact",
-                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Impact/icp-registration/"
-                    }
-                ],
-                "related": [
-                    {
-                        "title": "China Cloud Hosting ",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting.png"
-                    },
-                    {
-                        "title": "Content Delivery / Distribution Network (CDN)",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/content-delivery-network-green.png"
-                    },
-                    {
-                        "title": "Website Analytics",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/web-analytics.png"
-                    },
-                    {
-                        "title": "Website Deployment",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/website-deployment.png"
-                    }
-                ]
-            }
+    "filename": "regional-planning",
+    "data": {
+        "title": "Regional Planning ",
+        "category": "Consulting",
+        "description": "The Best Channels and Strategies for Each Market",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Overview/regional-planning/"
+                },
+                {
+                    "title": "Process",
+                    "markdown": [
+                        "<a class=\"imgpopup\" href=\"/sites/default/files/regional_planning2.jpg\"><img src=\"/sites/default/files/regional_planning2.jpg\" width=\"1200\" height=\"835\"></a>"
+                    ]
+                },
+                {
+                    "title": "Impact",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Impact/regional-planning/"
+                }
+            ],
+            "related": [
+                {
+                    "title": "Business Integration Solutions ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/business-integration-solutions-green.png"
+                },
+                {
+                    "title": "Channel Strategy",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/channel-strategy.png"
+                },
+                {
+                    "title": "eCommerce",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ecommerce.png"
+                },
+                {
+                    "title": "Project Planning & Management",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/project-planning-%26-management.png"
+                }
+            ]
         }
     }
 }

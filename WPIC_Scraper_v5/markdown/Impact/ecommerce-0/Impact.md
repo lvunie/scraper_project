@@ -1,10 +1,1 @@
-[
-    "Color solutions provider had several non-integrated Chinese online channels, resulting in channel “noise”, weak brand integrity, and revenues far below targets.",
-    " ",
-    "Tactics:",
-    "Onboard for mapping of client’s entire sales/marketing ecosystemCo-conceived strategy determined – Phase I: verified Tmall store; Phase II: new China site with Tmall store as payment gatewayPlan & execute simultaneous Tmall application and store designConceive and implement affiliate strategy to get buy-in from distributors with Tmall/Taobao presenceDesign and execute intra & extra-Tmall ad campaign",
-    " ",
-    "Results:",
-    "Online daily revenues rise over 20x  on branded Tmall store.",
-    " "
-]
+Color solutions provider had several non-integrated Chinese online channels, resulting in channel “noise”, weak brand integrity, and revenues far below targets., ,Tactics:,<li>Onboard for mapping of client’s entire sales/marketing ecosystem</li><li>Co-conceived strategy determined – Phase I: verified Tmall store; Phase II: new China site with Tmall store as payment gateway</li><li>Plan & execute simultaneous Tmall application and store design</li><li>Conceive and implement affiliate strategy to get buy-in from distributors with Tmall/Taobao presence</li><li>Design and execute intra & extra-Tmall ad campaign</li>, ,Results:,Online daily revenues rise <strong>over 20x</strong>  on branded Tmall store., 

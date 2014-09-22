@@ -1,44 +1,44 @@
 {
-    "page": {
-        "filename": "business-integration-solutions-0",
-        "data": {
-            "title": "Business Integration Solutions ",
-            "category": "Technology",
-            "description": "Aligning Your Processes with Your Technology",
-            "content": {
-                "tab": [
-                    {
-                        "title": "Overview",
-                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Overview/business-integration-solutions-0/"
-                    },
-                    {
-                        "title": "Process",
-                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Process/business-integration-solutions-0/"
-                    },
-                    {
-                        "title": "Impact",
-                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Impact/business-integration-solutions-0/"
-                    }
-                ],
-                "related": [
-                    {
-                        "title": "Logistics & Fulfillment ",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/logistics-%26-fulfillment.png"
-                    },
-                    {
-                        "title": "Microsoft Dynamics",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/microsoft-dynamics.png"
-                    },
-                    {
-                        "title": "Systems Design",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/systems-design.png"
-                    },
-                    {
-                        "title": "Technology Solutions",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/technology-solutions.png"
-                    }
-                ]
-            }
+    "filename": "china-cloud-hosting",
+    "data": {
+        "title": "China Cloud Hosting ",
+        "category": "Technology",
+        "description": "Load Times are the First Step to a High Performance Site",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Overview/china-cloud-hosting/"
+                },
+                {
+                    "title": "Process",
+                    "markdown": [
+                        "<a class=\"imgpopup\" href=\"/sites/default/files/china_cloud_hosting2.jpg\"><img src=\"/sites/default/files/china_cloud_hosting2.jpg\" width=\"1200\" height=\"871\"></a>"
+                    ]
+                },
+                {
+                    "title": "Impact",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Impact/china-cloud-hosting/"
+                }
+            ],
+            "related": [
+                {
+                    "title": "Content Delivery / Distribution Network (CDN) ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/content-delivery-network-green.png"
+                },
+                {
+                    "title": "Infrastructure Auditing",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/infrastructure-auditing.png"
+                },
+                {
+                    "title": "Systems Design",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/systems-design.png"
+                },
+                {
+                    "title": "Website Deployment",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/website-deployment.png"
+                }
+            ]
         }
     }
 }

@@ -1,44 +1,44 @@
 {
-    "page": {
-        "filename": "digital-public-relations",
-        "data": {
-            "title": "Digital Public Relations ",
-            "category": "Marketing",
-            "description": "Broad Reach with Next Steps",
-            "content": {
-                "tab": [
-                    {
-                        "title": "Overview",
-                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Overview/digital-public-relations/"
-                    },
-                    {
-                        "title": "Process",
-                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Process/digital-public-relations/"
-                    },
-                    {
-                        "title": "Impact",
-                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Impact/digital-public-relations/"
-                    }
-                ],
-                "related": [
-                    {
-                        "title": "Asset Localization ",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/asset-localization.png"
-                    },
-                    {
-                        "title": "Chinese Brand Development",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/brand-development-green.png"
-                    },
-                    {
-                        "title": "Content Localization & Translations Production",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/content-localization.png"
-                    },
-                    {
-                        "title": "Content Marketing",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-24a.png"
-                    }
-                ]
-            }
+    "filename": "campaign-management-dashboards",
+    "data": {
+        "title": "Campaign Management Dashboards ",
+        "category": "Marketing",
+        "description": "Transparency Equals Efficiency",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Overview/campaign-management-dashboards/"
+                },
+                {
+                    "title": "Process",
+                    "markdown": [
+                        "<a class=\"imgpopup\" href=\"/sites/default/files/campaign_tracking_dashboards2.jpg\"><img src=\"/sites/default/files/campaign_tracking_dashboards2.jpg\" width=\"940\" height=\"950\"></a>"
+                    ]
+                },
+                {
+                    "title": "Impact",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Impact/campaign-management-dashboards/"
+                }
+            ],
+            "related": [
+                {
+                    "title": "Analytics ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/analytics-marketing-green.png"
+                },
+                {
+                    "title": "Campaign Tracking Dashboards",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/campaign-tracking-dashboards.png"
+                },
+                {
+                    "title": "Market Analysis",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/marketing-analysis.png"
+                },
+                {
+                    "title": "Website Analytics",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/web-analytics.png"
+                }
+            ]
         }
     }
 }

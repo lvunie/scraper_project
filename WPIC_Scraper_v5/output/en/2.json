@@ -1,44 +1,44 @@
 {
-    "page": {
-        "filename": "marketing",
-        "data": {
-            "title": "Marketing ",
-            "category": "",
-            "description": "",
-            "content": {
-                "tab": [
-                    {
-                        "title": "Overview",
-                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Overview/marketing/"
-                    },
-                    {
-                        "title": "Process",
-                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Process/marketing/"
-                    },
-                    {
-                        "title": "Impact",
-                        "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Impact/marketing/"
-                    }
-                ],
-                "related": [
-                    {
-                        "title": "",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/brand-development-green.png"
-                    },
-                    {
-                        "title": "",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/brand-development-white.png"
-                    },
-                    {
-                        "title": "",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/graphic-design.png"
-                    },
-                    {
-                        "title": "",
-                        "icon": "http://www.web-presence-in-china.com/sites/default/files/graphic-design-white.png"
-                    }
-                ]
-            }
+    "filename": "market-analysis",
+    "data": {
+        "title": "Market Analysis ",
+        "category": "Marketing",
+        "description": "Knowledge Geared to Winning Market Share",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Overview/market-analysis/"
+                },
+                {
+                    "title": "Process",
+                    "markdown": [
+                        "<a class=\"imgpopup\" href=\"/sites/default/files/market_analysis_3.jpg\"><img src=\"/sites/default/files/market_analysis_3.jpg\" width=\"940\" height=\"901\"></a>"
+                    ]
+                },
+                {
+                    "title": "Impact",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Impact/market-analysis/"
+                }
+            ],
+            "related": [
+                {
+                    "title": "Analytics ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/analytics-tech-green.png"
+                },
+                {
+                    "title": "Market Intelligence",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/market-intelligence.png"
+                },
+                {
+                    "title": "Regional Planning",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/regional-planning.png"
+                },
+                {
+                    "title": "Scraping",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/scraping.png"
+                }
+            ]
         }
     }
 }

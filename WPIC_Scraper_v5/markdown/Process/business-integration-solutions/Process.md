@@ -1,1 +1,1 @@
-"<p><a class=\"imgpopup\" href=\"/sites/default/files/business%20integration%20solutions.jpg\"><img src=\"/sites/default/files/business%20integration%20solutions.jpg width=\"940\" height=\"597\" /></a></p> "
+<p><a class="imgpopup" href="/sites/default/files/business%20integration%20solutions.jpg"><img src="/sites/default/files/business%20integration%20solutions.jpg width="940" height="597" /></a></p> 

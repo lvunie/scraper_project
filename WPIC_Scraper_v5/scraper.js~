@@ -279,7 +279,7 @@ function scrape(address){
 				tab[1].markdown = html;
 	})
 		.scrape(function($) {
-     		  	return $("#tab3 p, ol").map(function() {
+     		  	return $("#tab3").map(function() {
     		       		return $(this).html();
      		   	}).get();
     			}, function(html) {
@@ -288,6 +288,7 @@ function scrape(address){
 				option = 'Impact';
 
 				html = S(html).decodeHTMLEntities().s;
+				html = toMarkdown(html);
 
 				impact_path = make_tab_folder(json.filename, option, html );
 

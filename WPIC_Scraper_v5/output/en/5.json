@@ -1,42 +1,42 @@
 {
-    "filename": "ppc",
+    "filename": "mobile-advertising",
     "data": {
-        "title": "Pay-Per-Click Advertising (PPC) ",
+        "title": "Mobile Advertising ",
         "category": "Marketing",
-        "description": "Highest Conversion Rates at the Lowest Cost Per Conversion",
+        "description": "A New Channel for a Growing Segment",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Overview/ppc/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Overview/mobile-advertising/"
                 },
                 {
                     "title": "Process",
                     "markdown": [
-                        "<a class=\"imgpopup\" href=\"/sites/default/files/PPC2.jpg\"><img src=\"/sites/default/files/PPC2.jpg\" width=\"940\" height=\"703\"></a>"
+                        "<a class=\"imgpopup\" href=\"/sites/default/files/MOBILE1.jpg\"><img src=\"/sites/default/files/MOBILE1.jpg\"></a>"
                     ]
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Impact/ppc/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Impact/mobile-advertising/"
                 }
             ],
             "related": [
                 {
-                    "title": "Campaign Management Dashboards ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-9898.png"
-                },
-                {
-                    "title": "Display Advertising",
+                    "title": "Display Advertising ",
                     "icon": "http://www.web-presence-in-china.com/sites/default/files/display-advertising.png"
                 },
                 {
-                    "title": "Search Engine Optimization (SEO)",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/SEO.png"
+                    "title": "Mobile Application Publishing",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon23.png"
                 },
                 {
-                    "title": "Website Analytics",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/web-analytics.png"
+                    "title": "Mobile Websites Design & Development",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-website.png"
+                },
+                {
+                    "title": "Pay-Per-Click Advertising (PPC)",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/PPC1.png"
                 }
             ]
         }

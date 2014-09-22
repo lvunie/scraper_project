@@ -1,42 +1,42 @@
 {
-    "filename": "mobile-application-development",
+    "filename": "microsoft-dynamics",
     "data": {
-        "title": "Mobile Application Development ",
+        "title": "Microsoft Dynamics ",
         "category": "Technology",
-        "description": "Build for China, or Scale for China",
+        "description": "The Ease & Flexibility of Microsoft, Implemented for Global Efficiency",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Overview/mobile-application-development/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Overview/microsoft-dynamics/"
                 },
                 {
                     "title": "Process",
                     "markdown": [
-                        "<a class=\"imgpopup\" href=\"/sites/default/files/app_development1.jpg\"><img src=\"/sites/default/files/app_development1.jpg\" width=\"1200\" height=\"1069\"></a>"
+                        "<a class=\"imgpopup\" href=\"/sites/default/files/microsoft%20dynamics.jpg\"><img src=\"/sites/default/files/microsoft%20dynamics.jpg\" width=\"940\" height=\"797\"></a>"
                     ]
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Impact/mobile-application-development/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Impact/microsoft-dynamics/"
                 }
             ],
             "related": [
                 {
-                    "title": "Asset Localization ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/asset-localization.png"
+                    "title": "Business Integration Solutions ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/business-integration-solutions-green.png"
                 },
                 {
-                    "title": "Mobile Advertising",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-ads.png"
+                    "title": "Campaign Management Dashboards",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-9898.png"
                 },
                 {
-                    "title": "Mobile Application Publishing",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon23.png"
+                    "title": "Systems Design",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/systems-design.png"
                 },
                 {
-                    "title": "Mobile Websites Design & Development",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-website.png"
+                    "title": "Technology Solutions",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/technology-solutions.png"
                 }
             ]
         }

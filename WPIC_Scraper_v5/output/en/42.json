@@ -1,33 +1,29 @@
 {
-    "filename": "systems-design",
+    "filename": "infrastructure-auditing",
     "data": {
-        "title": "Systems Design ",
+        "title": "Infrastructure Auditing ",
         "category": "Consulting",
-        "description": "Arrange and Connect the Elements of Success",
+        "description": "Establish a Clear Baseline to Improve On",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Overview/systems-design/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Overview/infrastructure-auditing/"
                 },
                 {
                     "title": "Process",
                     "markdown": [
-                        "<a class=\"imgpopup\" href=\"/sites/default/files/system%20design.jpg\"><img src=\"/sites/default/files/system%20design.jpg\" width=\"940\" height=\"594\"></a>"
+                        "<a class=\"imgpopup\" href=\"/sites/default/files/infrastructure%20auditing.jpg\"><img src=\"/sites/default/files/infrastructure%20auditing.jpg\" width=\"940\" height=\"483\"></a>"
                     ]
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Impact/systems-design/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Impact/infrastructure-auditing/"
                 }
             ],
             "related": [
                 {
-                    "title": "Business Integration Solutions ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/business-integration-solutions-green.png"
-                },
-                {
-                    "title": "China Cloud Hosting",
+                    "title": "China Cloud Hosting ",
                     "icon": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting.png"
                 },
                 {
@@ -35,8 +31,12 @@
                     "icon": "http://www.web-presence-in-china.com/sites/default/files/content-delivery-network-green.png"
                 },
                 {
-                    "title": "Technology Solutions",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/technology-solutions.png"
+                    "title": "Systems Design",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/systems-design.png"
+                },
+                {
+                    "title": "Website Deployment",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/website-deployment.png"
                 }
             ]
         }

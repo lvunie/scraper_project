@@ -1,42 +1,42 @@
 {
-    "filename": "analytics",
+    "filename": "asset-localization",
     "data": {
-        "title": "Analytics ",
+        "title": "Asset Localization ",
         "category": "Marketing",
-        "description": "Turning Big Data into Market Advantage",
+        "description": "Building a Second Syntax for Your Brand",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Overview/analytics/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Overview/asset-localization/"
                 },
                 {
                     "title": "Process",
                     "markdown": [
-                        "<a class=\"imgpopup\" href=\"/sites/default/files/wheel2.jpg\"><img src=\"/sites/default/files/wheel2.jpg\" width=\"940\" height=\"286\"></a>"
+                        "<a class=\"imgpopup\" href=\"/sites/default/files/asset_localization2.jpg\"><img src=\"/sites/default/files/asset_localization2.jpg\"></a>"
                     ]
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Impact/analytics/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/Impact/asset-localization/"
                 }
             ],
             "related": [
                 {
-                    "title": "Campaign Management Dashboards ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-9898.png"
+                    "title": "Chinese Brand Development ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/brand-development-green.png"
                 },
                 {
-                    "title": "Campaign Tracking Dashboards",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/campaign-tracking-dashboards.png"
+                    "title": "Content Localization & Translations Production",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/content-localization.png"
                 },
                 {
-                    "title": "Market Analysis",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/marketing-analysis.png"
+                    "title": "Content Marketing",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-24a.png"
                 },
                 {
-                    "title": "Website Analytics",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/web-analytics.png"
+                    "title": "Graphic Design Production",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/graphic-design.png"
                 }
             ]
         }

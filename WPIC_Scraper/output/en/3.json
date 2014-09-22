@@ -1,0 +1,44 @@
+{
+    "filename": "market-analysis",
+    "data": {
+        "title": "Market Analysis ",
+        "category": "Marketing",
+        "description": "Knowledge Geared to Winning Market Share",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/market-analysis/"
+                },
+                {
+                    "title": "process",
+                    "markdown": [
+                        "<a class=\"imgpopup\" href=\"/sites/default/files/market_analysis_3.jpg\"><img src=\"/sites/default/files/market_analysis_3.jpg\" width=\"940\" height=\"901\"></a>"
+                    ]
+                },
+                {
+                    "title": "Impact",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/market-analysis/"
+                }
+            ],
+            "related": [
+                {
+                    "title": "Analytics ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/analytics-tech-green.png"
+                },
+                {
+                    "title": "Market Intelligence",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/market-intelligence.png"
+                },
+                {
+                    "title": "Regional Planning",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/regional-planning.png"
+                },
+                {
+                    "title": "Scraping",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/scraping.png"
+                }
+            ]
+        }
+    }
+}

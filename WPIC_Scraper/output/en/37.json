@@ -1,0 +1,44 @@
+{
+    "filename": "licensing",
+    "data": {
+        "title": "Licensing ",
+        "category": "Consulting",
+        "description": "Eased Market Entry Based on Trust",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/licensing/"
+                },
+                {
+                    "title": "process",
+                    "markdown": [
+                        "<a class=\"imgpopup\" href=\"/sites/default/files/licensing2.jpg\"><img src=\"/sites/default/files/licensing2.jpg\"></a>"
+                    ]
+                },
+                {
+                    "title": "Impact",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/licensing/"
+                }
+            ],
+            "related": [
+                {
+                    "title": "eCommerce ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ecommerce.png"
+                },
+                {
+                    "title": "ICP Registration",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ICP-Registration.png"
+                },
+                {
+                    "title": "Legal & Structural Setup",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/legal-%26-structural-setup.png"
+                },
+                {
+                    "title": "Logistics & Fulfillment",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/logistics-%26-fulfillment.png"
+                }
+            ]
+        }
+    }
+}

@@ -1,19 +1,24 @@
 var scraperjs = require('scraperjs');
-var express = require('express');
-var app     = express();
-var mkdirp = require('mkdirp');
+var express   = require('express');
+var app       = express();
+var mkdirp    = require('mkdirp');
 
-var S = require('string');
-var fs = require('fs');
+var he = require('he');
+var toMarkdown = require('to-markdown').toMarkdown;
+//toMarktown()
 
+var S         = require('string');
+var fs        = require('fs');
+
+var fileIndex = 0;
 var address;
-var index_filename = 0;
-var json_filename;
-var new_json_filename;
-
-
 var filename;
 var title, category, content, description;
+var page = 0;
+
+var frame = {
+	//page: "",
+};
 
 var json = { 
 	filename : "",  
@@ -33,8 +38,7 @@ var content = {
 	related : "", 
 };
 
-var tab = [
-	{
+var tab = [{
 	     "title": "",
              "markdown": ""
 	},	
@@ -45,16 +49,41 @@ var tab = [
 	{
 	     "title": "",
              "markdown": ""
+}];
+
+var related = [{
+	     "title" : "", 
+	     "icon" : "", 
 	},	
-];
+	{
+	     "title" : "", 
+	     "icon" : "", 
+	},
+	{
+	     "title" : "", 
+	     "icon" : "", 
+	},
+	{
+	     "title" : "", 
+	     "icon" : "", 
+}];
 
-var related = {
-	title : "", 
-	icon : "", 
-};
+function createFolder(){
 
+	var pathName = '/home/lvunie/work/scraper_project/WPIC_Scraper_v5/output/en'; 
+	var markdown_pathName = '/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown'; 
 
+	mkdirp(pathName, function(err) { 
+		//console.log('ok');
+	});
 
+	mkdirp(markdown_pathName, function(err) { 
+		//console.log('ok');
+	});
+
+}
+
+createFolder();
 
 ////////////////////////////open JOSN file to get URL for scraping//////////////////////////
     readline = require('readline');
@@ -72,8 +101,18 @@ rd.on('line', function(line) {
     if(vertify){
 	address = S(line).between('"', '"').s;
     }
+	
+	var about_page = S(address).indexOf('about-us');
+	var index_page  = S(address).indexOf('category');
 
-	scrape(address);
+	if((about_page >0) || (index_page)>0)
+	{
+		//console.log('about-us');
+	}else{
+		scrape(address);
+		//console.log(address);
+	}	
+	
 });
 
 
@@ -89,6 +128,10 @@ function scrape(address){
      		   	}).get();
     			}, function(text) {
 				data.title = S(text).between('', '|').s ;
+
+				var index    = address.lastIndexOf('/');
+				json.filename = address.slice(index+1); 
+
  	})
 		.scrape(function($) {
      		   	return $(".page-title").map(function() {
@@ -109,60 +152,206 @@ function scrape(address){
 
 				var test = S(text).left(number).s;
 				data.description = test;
+	})
+////////////////////////////related title//////////////////////////////////
+
+		.scrape(function($) {
+     		   	return $(".img-slide > img").map(function() {
+    		        	return $(this).attr("src");
+     		   	}).get();
+    			}, function(link) {
+
+				related[0].icon  = link[0];
+				related[1].icon  = link[1];
+				related[2].icon  = link[2];
+				related[3].icon  = link[3];
+	
+	})
+
+////////////////////////////////Process content//////////////////////////////////
+
+		.scrape(function($) {
+     		   	return $(".imgpopup").map(function() {
+    		        	return $(this).attr("href");
+     		   	}).get();
+    			}, function(process) {
+
+			part1 = '<p><a class=\"imgpopup" href=\"' + process + '\"><img src=\"';
+	
+	})
+
+		.scrape(function($) {
+     		   	return $(".imgpopup img").map(function() {
+    		        	return $(this).attr("width");
+     		   	}).get();
+    			}, function(width) {
+			
+			part3 = width;
+	
+	})
+		.scrape(function($) {
+     		   	return $(".imgpopup img").map(function() {
+    		        	return $(this).attr("height");
+     		   	}).get();
+    			}, function(height) {
+			
+			part4 = height ;
+
+	
+	})
+		.scrape(function($) {
+     		   	return $(".imgpopup img").map(function() {
+    		        	return $(this).attr("src");
+     		   	}).get();
+    			}, function(process2) {
+			
+			part2 = process2 + " width=\"" + part3 + "\" height=\"" + part4 + "\" /></a></p> ";
+
+			html_png = part1 + part2;
+			
+			option = 'Process';
+			process_path = make_tab_folder(json.filename, option, html_png );
+
+			//tab[1].markdown = process_path;
+	})
+
+////////////////////////////////////write related title//////////////////////////////////
+
+		.scrape(function($) {
+     		   	return $(".slide-heading").map(function() {
+    		        	return $(this).text();
+     		   	}).get();
+    			}, function(text) {
+				
+				string = S(text).collapseWhitespace().s;				
+				first = S(string).between('',',').s;
+				
+				string = S(string).chompLeft(first).s;	
+				related[0].title = first;
+
+				second = S(string).between(',',',').s;
+				string = S(string).chompLeft(',' + second).s;
+				related[1].title = S(second).trim().s;
+
+				third = S(string).between(',',',').s;
+				string = S(string).chompLeft(',' + third).s;
+				related[2].title = S(third).trim().s;
+
+				fourth = S(string).between(',','').s;
+				string = S(string).chompLeft(', ' + fourth).s;
+				related[3].title = string;
+
+				content.related = related;
+   
+	})
+////////////////////////////// content ////////////////////////////////
+		.scrape(function($) {
+     		   	return $("#tab1").map(function() {
+    		        	return $(this).html();
+     		   	}).get();
+    			}, function(html) {
+					
+				option = 'Overview';
+				html = S(html).collapseWhitespace().s;
+				html = toMarkdown(html);
+				
+				//console.log(html);
+				//html = S(html).decodeHTMLEntities().s;
+				//html = S(html).replaceAll('<h2>' , '##').s;
+				//html = S(html).replaceAll('</h2>' , '\n\n').s;
+				//html = S(html).replaceAll('<p>' , '').s;
+				//html = S(html).replaceAll('</p>' , '\n\n').s;
+
+				overview_path = make_tab_folder(json.filename, option, html );
+
+				tab[0].title = option;
+				tab[0].markdown = overview_path;
    
 	})
 		.scrape(function($) {
-     		  	return $("h2").map(function() {
-    		       		return $(this).text();
+     		   	return $("#tab2 p").map(function() {
+    		        	return $(this).html();
      		   	}).get();
-    			}, function(text) {
+    			}, function(html) {
 
-				var index    = address.lastIndexOf('/');
-				json.filename = address.slice(index+1); 
-/////////////////////////////////////////////////////////////////////////
-				tab[0].title = 'Overview';
-				tab[0].markdown = '';
-
+				//
 				tab[1].title = 'Process';
-				tab[1].markdown = '';
+				tab[1].markdown = html;
+	})
+		.scrape(function($) {
+     		  	return $("#tab3").map(function() {
+    		       		return $(this).html();
+     		   	}).get();
+    			}, function(html) {
+				//console.log(text);
 
-				tab[2].title = 'Impact';
-				tab[2].markdown = '';
+				option = 'Impact';
+
+				html = S(html).decodeHTMLEntities().s;
+				html = toMarkdown(html);
+
+				impact_path = make_tab_folder(json.filename, option, html );
+
+				tab[2].title = option;
+				tab[2].markdown = impact_path;
+				
+////////////////////////////////assign value to json format///////////////////////////////
 				content.tab = tab;
-
-				related.title = '';
-				related.icon = '';
-				content.related = related;
-			
 				data.content = content;
-/////////////////////////////////////////////////////////////////////////
-				json_filename = address;
 				json.data = data;
 
-				mkdirp(json_filename, function(err) { 
-					console.log('Folder created');
-				});
-
-				writeToJson(json_filename,json);
-			
+////////////////////////////////call write function////////////////////////////////////////
+				frame = json;
+				writeToJson(address,frame);
+				
 	})
+}
+
+//////
+////////////////////////////Write content to JSON file//////////////////////////////////////////////////
+function writeToJson(address,json){
+
+	fileIndex = fileIndex +1;
+
+	var pathName = '/home/lvunie/work/scraper_project/WPIC_Scraper_v5/output/en/' + fileIndex; 
+
+	
+	var newAddress = pathName + '.json';
+        fs.writeFile(newAddress, JSON.stringify(frame, null, 4), function(err){
+  
+        })	
+}
+
+//////
+////////////////////////////create folder for markdown//////////////////////////////////////////////////
+function make_tab_folder(address, option , text ){
+
+	var option_path ='/home/lvunie/work/scraper_project/WPIC_Scraper_v5/markdown/' + option + '/' + address + '/';			
+
+	mkdirp(option_path, function(err) { 
+		//console.log('ok');
+	});
+
+	var option_markdown = option_path + '/' + option +'.md';
+	writeToMarkdown(option_markdown, text);
+			
+	return option_path;
 
 }
 
-
-////////////////////////////Write content to JSON file//////////////////////////////////////////////////
-
-function writeToJson(json_filename,json){
+function writeToMarkdown(option_markdown, text){
 	
-	index_filename = index_filename + 1;
-	var json_name = index_filename + '.json';
+	//text = S(text).collapseWhitespace().s;
+	//text = S(text).lines();	
+	//text = S(text).replaceAll(', ,' , '\n\n').s;
+	//text = text + '\n\n' + 'HIIIIIIII';
+	//text  = S(text).replaceAll(':,' , ':\n').s;
 
-	//new_json_filename =  S(json_filename).between('.', '.').s;
+	//console.log(text);
+	fs.writeFile(option_markdown, text, function(err){
+       	
+	});
 
-        fs.writeFile(json_name, JSON.stringify(json, null, 4), function(err){
-        	//console.log('ok');
-        })
-	
 }
 
 

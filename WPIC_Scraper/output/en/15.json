@@ -1,0 +1,44 @@
+{
+    "filename": "digital-public-relations",
+    "data": {
+        "title": "Digital Public Relations ",
+        "category": "Marketing",
+        "description": "Broad Reach with Next Steps",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/digital-public-relations/"
+                },
+                {
+                    "title": "process",
+                    "markdown": [
+                        "<a class=\"imgpopup\" href=\"/sites/default/files/digital_public_relations.jpg\"><img src=\"/sites/default/files/digital%20public%20relations.jpg\" width=\"940\" height=\"667\"></a>"
+                    ]
+                },
+                {
+                    "title": "Impact",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/digital-public-relations/"
+                }
+            ],
+            "related": [
+                {
+                    "title": "Asset Localization ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/asset-localization.png"
+                },
+                {
+                    "title": "Chinese Brand Development",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/brand-development-green.png"
+                },
+                {
+                    "title": "Content Localization & Translations Production",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/content-localization.png"
+                },
+                {
+                    "title": "Content Marketing",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-24a.png"
+                }
+            ]
+        }
+    }
+}

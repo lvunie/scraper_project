@@ -1,0 +1,44 @@
+{
+    "filename": "systems-design",
+    "data": {
+        "title": "Systems Design ",
+        "category": "Consulting",
+        "description": "Arrange and Connect the Elements of Success",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/systems-design/"
+                },
+                {
+                    "title": "process",
+                    "markdown": [
+                        "<a class=\"imgpopup\" href=\"/sites/default/files/system%20design.jpg\"><img src=\"/sites/default/files/system%20design.jpg\" width=\"940\" height=\"594\"></a>"
+                    ]
+                },
+                {
+                    "title": "Impact",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/systems-design/"
+                }
+            ],
+            "related": [
+                {
+                    "title": "Business Integration Solutions ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/business-integration-solutions-green.png"
+                },
+                {
+                    "title": "China Cloud Hosting",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting.png"
+                },
+                {
+                    "title": "Content Delivery / Distribution Network (CDN)",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/content-delivery-network-green.png"
+                },
+                {
+                    "title": "Technology Solutions",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/technology-solutions.png"
+                }
+            ]
+        }
+    }
+}

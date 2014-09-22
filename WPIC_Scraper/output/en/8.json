@@ -1,0 +1,44 @@
+{
+    "filename": "website-analytics",
+    "data": {
+        "title": "Website Analytics ",
+        "category": "Marketing",
+        "description": "Accessible Chinese Traffic Insights You Can Trust",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/website-analytics/"
+                },
+                {
+                    "title": "process",
+                    "markdown": [
+                        "<a class=\"imgpopup\" href=\"/sites/default/files/web_analytics2.jpg\"><img src=\"/sites/default/files/web_analytics2.jpg\" width=\"940\" height=\"734\"></a>"
+                    ]
+                },
+                {
+                    "title": "Impact",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/website-analytics/"
+                }
+            ],
+            "related": [
+                {
+                    "title": "Analytics ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/analytics-marketing-green.png"
+                },
+                {
+                    "title": "Campaign Management Dashboards",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-9898.png"
+                },
+                {
+                    "title": "Campaign Tracking Dashboards",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/campaign-tracking-dashboards.png"
+                },
+                {
+                    "title": "Market Analysis",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/marketing-analysis.png"
+                }
+            ]
+        }
+    }
+}

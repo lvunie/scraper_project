@@ -1,0 +1,44 @@
+{
+    "filename": "china-cloud-hosting",
+    "data": {
+        "title": "China Cloud Hosting ",
+        "category": "Technology",
+        "description": "Load Times are the First Step to a High Performance Site",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/china-cloud-hosting/"
+                },
+                {
+                    "title": "process",
+                    "markdown": [
+                        "<a class=\"imgpopup\" href=\"/sites/default/files/china_cloud_hosting2.jpg\"><img src=\"/sites/default/files/china_cloud_hosting2.jpg\" width=\"1200\" height=\"871\"></a>"
+                    ]
+                },
+                {
+                    "title": "Impact",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/china-cloud-hosting/"
+                }
+            ],
+            "related": [
+                {
+                    "title": "Content Delivery / Distribution Network (CDN) ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/content-delivery-network-green.png"
+                },
+                {
+                    "title": "Infrastructure Auditing",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/infrastructure-auditing.png"
+                },
+                {
+                    "title": "Systems Design",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/systems-design.png"
+                },
+                {
+                    "title": "Website Deployment",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/website-deployment.png"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "filename": "website-design",
+    "data": {
+        "title": "Website Design ",
+        "category": "Technology",
+        "description": "An On-Brand Experience Optimized for Chinese Customers",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/website-design/"
+                },
+                {
+                    "title": "process",
+                    "markdown": [
+                        "<a class=\"imgpopup\" href=\"/sites/default/files/web%20design.jpg\"><img src=\"/sites/default/files/web%20design.jpg\" width=\"940\" height=\"379\"></a>"
+                    ]
+                },
+                {
+                    "title": "Impact",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/website-design/"
+                }
+            ],
+            "related": [
+                {
+                    "title": "China Cloud Hosting ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting.png"
+                },
+                {
+                    "title": "ICP Registration",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ICP-Registration.png"
+                },
+                {
+                    "title": "Mobile Websites Design & Development",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-website.png"
+                },
+                {
+                    "title": "Website Deployment",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/website-deployment.png"
+                }
+            ]
+        }
+    }
+}

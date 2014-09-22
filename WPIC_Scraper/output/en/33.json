@@ -1,0 +1,44 @@
+{
+    "filename": "mobile-application-development",
+    "data": {
+        "title": "Mobile Application Development ",
+        "category": "Technology",
+        "description": "Build for China, or Scale for China",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/mobile-application-development/"
+                },
+                {
+                    "title": "process",
+                    "markdown": [
+                        "<a class=\"imgpopup\" href=\"/sites/default/files/app_development1.jpg\"><img src=\"/sites/default/files/app_development1.jpg\" width=\"1200\" height=\"1069\"></a>"
+                    ]
+                },
+                {
+                    "title": "Impact",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/mobile-application-development/"
+                }
+            ],
+            "related": [
+                {
+                    "title": "Asset Localization ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/asset-localization.png"
+                },
+                {
+                    "title": "Mobile Advertising",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-ads.png"
+                },
+                {
+                    "title": "Mobile Application Publishing",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon23.png"
+                },
+                {
+                    "title": "Mobile Websites Design & Development",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-website.png"
+                }
+            ]
+        }
+    }
+}

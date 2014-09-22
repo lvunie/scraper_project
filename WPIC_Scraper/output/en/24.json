@@ -1,0 +1,40 @@
+{
+    "filename": "chinalytics",
+    "data": {
+        "title": "Chinalytics ",
+        "category": "Technology",
+        "description": "Custom Analytics That You Can Trust",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/chinalytics/"
+                },
+                {
+                    "title": "process",
+                    "markdown": [
+                        "<a class=\"imgpopup\" href=\"/sites/default/files/analytics%20Tech_1.jpg\"><img src=\"/sites/default/files/analytics%20Tech_1.jpg\" width=\"940\" height=\"705\"></a>"
+                    ]
+                },
+                {
+                    "title": "Impact",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/chinalytics/"
+                }
+            ],
+            "related": [
+                {
+                    "title": ""
+                },
+                {
+                    "title": ""
+                },
+                {
+                    "title": ""
+                },
+                {
+                    "title": ""
+                }
+            ]
+        }
+    }
+}

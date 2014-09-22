@@ -1,0 +1,44 @@
+{
+    "filename": "channel-strategy",
+    "data": {
+        "title": "Channel Strategy ",
+        "category": "Marketing",
+        "description": "Deconstructing Silos for an Omni-Channel Market",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/channel-strategy/"
+                },
+                {
+                    "title": "process",
+                    "markdown": [
+                        "<a class=\"imgpopup\" href=\"/sites/default/files/channel%20strategy.jpg\"><img src=\"/sites/default/files/channel%20strategy.jpg\" width=\"940\" height=\"734\"></a>"
+                    ]
+                },
+                {
+                    "title": "Impact",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/channel-strategy/"
+                }
+            ],
+            "related": [
+                {
+                    "title": "Channel Conflict Strategies ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/channel-conflict-strategies.png"
+                },
+                {
+                    "title": "eCommerce",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ecommerce.png"
+                },
+                {
+                    "title": "Market Intelligence",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/market-intelligence.png"
+                },
+                {
+                    "title": "Project Planning & Management",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/project-planning-%26-management.png"
+                }
+            ]
+        }
+    }
+}

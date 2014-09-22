@@ -11,6 +11,10 @@ var address;
 var filename;
 var title, category, content, description;
 
+var three = {
+	page: "",
+};
+
 var json = { 
 	filename : "",  
 	data: "",
@@ -63,6 +67,19 @@ var related = [
 	},	
 ];
 
+function createFolder(){
+
+	var pathName = '/home/lvunie/work/scraper_project/WPIC_Scraper_v5/output'; 
+
+
+	mkdirp(pathName, function(err) { 
+		//console.log('ok');
+	});
+
+
+}
+
+createFolder();
 
 ////////////////////////////open JOSN file to get URL for scraping//////////////////////////
     readline = require('readline');
@@ -83,7 +100,7 @@ rd.on('line', function(line) {
 	scrape(address);
 
 	var pageTwo = S(line).indexOf('category');
-	console.log(pageTwo +': '+ address);
+	//console.log(pageTwo +': '+ address);
 	
 });
 
@@ -124,6 +141,17 @@ function scrape(address){
 				data.description = test;
    
 	})
+//////////////////////////////////////new for/////////////////////////////////
+		.scrape(function($) {
+     		   	return $("img-slide").map(function() {
+    		        	return $(img).attr('src').text();
+     		   	}).get();
+    			}, function(text) {
+			console.log(text);
+				
+   
+	})
+
 //////////////////////////////////////////////////////////////////////////////
 		.scrape(function($) {
      		   	return $(".slide-heading").map(function() {
@@ -210,33 +238,43 @@ function scrape(address){
 				json.filename = address.slice(index+1); 
 
 ////////////////////////////////call write function////////////////////////////////////////
-		
-				writeToJson(address,json);
+				three.page = json;
+				writeToJson(address,three);
 				
 	})
 }
-
-
 
 
 ////////////////////////////Write content to JSON file//////////////////////////////////////////////////
 function writeToJson(address,json){
 
 	fileIndex = fileIndex +1;
-	var pathName = '/home/lvunie/work/scraper_project/URL/' + fileIndex; 
 
-	//console.log(fileIndex);
-
-	mkdirp(pathName, function(err) { 
-		//console.log('ok');
-	});
+	var pathName = '/home/lvunie/work/scraper_project/WPIC_Scraper_v5/output/' + fileIndex; 
 
 	
-	var newAddress = pathName + '/' +'output.json';
-        fs.writeFile(newAddress, JSON.stringify(json, null, 4), function(err){
+	var newAddress = pathName + '.json';
+        fs.writeFile(newAddress, JSON.stringify(three, null, 4), function(err){
         	//console.log(json);
-        })
-	
+        })	
+}
+
+//function loop(){
+	//alert()
+//	$('.img-slide').click(function(){
+//		var src = $this.attr('src');
+//		console.log(src);
+//		console.log('here-------------------');
+//	});
+//}
+
+//loop();
+function loop(){
+$('.img-slide').click(function(){
+	var src = $this.attr('src');
+	console.log(src);
+	console.log('here-------------------');
+	});
 }
 
 

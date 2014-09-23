@@ -1,36 +1,36 @@
 {
-    "filename": "legal-structural-setup",
+    "filename": "project-planning-management",
     "data": {
-        "title": "Legal & Structural Setup ",
+        "title": "Project Planning & Management ",
         "category": "Consulting",
-        "description": "Compliance for a Smooth Path to Revenue",
+        "description": "Flexible, Accountable Planning for China Operational Objectives",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/legal-structural-setup/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/project-planning-management/"
                 },
                 {
-                    "title": "process",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/process/legal-structural-setup/"
+                    "title": "Process",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Process/project-planning-management/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/legal-structural-setup/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/project-planning-management/"
                 }
             ],
             "related": [
                 {
-                    "title": "ICP Registration ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ICP-Registration.png"
+                    "title": "Campaign Management Dashboards ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-9898.png"
                 },
                 {
-                    "title": "Licensing",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/licensing.png"
+                    "title": "Channel Strategy",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/channel-strategy.png"
                 },
                 {
-                    "title": "Payment Gateway",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/payment-gateways.png"
+                    "title": "Market Intelligence",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/market-intelligence.png"
                 },
                 {
                     "title": "Regional Planning",

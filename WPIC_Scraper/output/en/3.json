@@ -1,40 +1,40 @@
 {
-    "filename": "chinese-brand-development",
+    "filename": "market-analysis",
     "data": {
-        "title": "Chinese Brand Development ",
+        "title": "Market Analysis ",
         "category": "Marketing",
-        "description": "Positioning and Branding for the Chinese Market",
+        "description": "Knowledge Geared to Winning Market Share",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/chinese-brand-development/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/market-analysis/"
                 },
                 {
-                    "title": "process",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/process/chinese-brand-development/"
+                    "title": "Process",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Process/market-analysis/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/chinese-brand-development/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/market-analysis/"
                 }
             ],
             "related": [
                 {
-                    "title": "Asset Localization ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/asset-localization.png"
+                    "title": "Analytics ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/analytics-tech-green.png"
                 },
                 {
-                    "title": "Content Localization & Translations Production",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/content-localization.png"
+                    "title": "Market Intelligence",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/market-intelligence.png"
                 },
                 {
-                    "title": "Content Marketing",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-24a.png"
+                    "title": "Regional Planning",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/regional-planning.png"
                 },
                 {
-                    "title": "Digital Public Relations",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/digital-PR.png"
+                    "title": "Scraping",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/scraping.png"
                 }
             ]
         }

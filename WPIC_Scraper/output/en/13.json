@@ -1,22 +1,22 @@
 {
-    "filename": "content-marketing",
+    "filename": "digital-public-relations",
     "data": {
-        "title": "Content Marketing ",
+        "title": "Digital Public Relations ",
         "category": "Marketing",
-        "description": "Targeted Platforms for Targeted Consumers",
+        "description": "Broad Reach with Next Steps",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/content-marketing/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/digital-public-relations/"
                 },
                 {
-                    "title": "process",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/process/content-marketing/"
+                    "title": "Process",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Process/digital-public-relations/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/content-marketing/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/digital-public-relations/"
                 }
             ],
             "related": [
@@ -33,8 +33,8 @@
                     "icon": "http://www.web-presence-in-china.com/sites/default/files/content-localization.png"
                 },
                 {
-                    "title": "Digital Public Relations",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/digital-PR.png"
+                    "title": "Content Marketing",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-24a.png"
                 }
             ]
         }

@@ -15,6 +15,24 @@ var filename;
 var title, category, content, description;
 var page = 0;
 
+
+///////////////////////////////////////////////////////////////////////////////////////////
+//////////////////scrape image///////////////////
+
+
+
+// Dependencies
+var fs = require('fs');
+var url = require('url');
+var http = require('http');
+var exec = require('child_process').exec;
+var spawn = require('child_process').spawn;
+
+// App variables
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
 var frame = {
 	//page: "",
 };
@@ -120,6 +138,9 @@ rd.on('line', function(line) {
 
 function scrape(address){
 
+	//console.log('here');
+	url.resolve('http://www.web-presence-in-china.com/sites/all/themes/wpchina/logo.png','/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/');
+
 	scraperjs.StaticScraper.create(address)
 	    		.scrape(function($) {
 	     		   return $("title").map(function() {
@@ -214,22 +235,39 @@ function scrape(address){
 				tab[0].markdown = overview_path;
    
 	})
-		.scrape(function($) {
-     		   	return $("#tab2 p").map(function() {
-    		        	return $(this).html();
-     		   	}).get();
-    			}, function(html) {
+		//.scrape(function($) {
+     		 //  	return $("#tab2 p").map(function() {
+    		//        	return $(this).html();
+     		 //  	}).get();
+    		//	}, function(html) {
 				
-				option = 'process';
+		//		option = 'process';
 
-				html = S(html).decodeHTMLEntities().s;
-				//html = toMarkdown(html);
+		//		html = S(html).decodeHTMLEntities().s;
+				//DOWNLOAD_DIR = '/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/process/' + json.filename + '/';
+				//process_path = make_tab_folder(json.filename, option, html );
+				//imgScrape(file_url,DOWNLOAD_DIR);
 
-				process_path = make_tab_folder(json.filename, option, html );
+		//		tab[1].title = option;
+		//		tab[1].markdown = process_path;
+	//})
 
-				tab[1].title = option;
-				tab[1].markdown = process_path;
+		.scrape(function($) {
+     		   	return $(".imgpopup img").map(function() {
+    		        	return $(this).attr("src");
+     		   	}).get();
+    			}, function(process2) {
+			
+			file_url = 'http://www.web-presence-in-china.com' + process2;
+			DOWNLOAD_DIR = '/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Process/' + json.filename + '/';
+
+			imgScraper(file_url, DOWNLOAD_DIR);
+
+			tab[1].title = 'Process';
+			tab[1].markdown = DOWNLOAD_DIR;
+			
 	})
+
 		.scrape(function($) {
      		  	return $("#tab3").map(function() {
     		       		return $(this).html();
@@ -299,5 +337,38 @@ function writeToMarkdown(option_markdown, text){
 }
 
 
+
+
+function imgScraper(file_url, DOWNLOAD_DIR){
+	// We will be downloading the files to a directory, so make sure it's there
+	// This step is not required if you have manually created the directory
+	var mkdir = 'mkdir -p ' + DOWNLOAD_DIR;
+	var child = exec(mkdir, function(err, stdout, stderr) {
+	    if (err) throw err;
+	    else download_file_httpget(file_url);
+	});
+	
+	// Function to download file using HTTP.get
+	var download_file_httpget = function(file_url) {
+	var options = {
+	    host: url.parse(file_url).host,
+	    port: 80,
+	    path: url.parse(file_url).pathname
+	};
+	
+	var file_name = url.parse(file_url).pathname.split('/').pop();
+	var file = fs.createWriteStream(DOWNLOAD_DIR + file_name);
+	
+	http.get(options, function(res) {
+	    res.on('data', function(data) {
+	            file.write(data);
+	        }).on('end', function() {
+	            file.end();
+	            console.log(file_name + ' downloaded to ' + DOWNLOAD_DIR);
+	        });
+	    });
+	};
+
+}
 
 

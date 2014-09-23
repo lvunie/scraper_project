@@ -1,1 +1,0 @@
-<a class="imgpopup" href="/sites/default/files/market_intelligence2.jpg"><img src="/sites/default/files/market_intelligence2.jpg" width="940" height="871"></a>

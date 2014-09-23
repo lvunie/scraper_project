@@ -1,1 +1,0 @@
-<a class="imgpopup" href="/sites/default/files/MOBILE1.jpg"><img src="/sites/default/files/MOBILE1.jpg"></a>

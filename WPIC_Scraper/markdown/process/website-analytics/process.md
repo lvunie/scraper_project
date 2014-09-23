@@ -1,1 +1,0 @@
-<a class="imgpopup" href="/sites/default/files/web_analytics2.jpg"><img src="/sites/default/files/web_analytics2.jpg" width="940" height="734"></a>

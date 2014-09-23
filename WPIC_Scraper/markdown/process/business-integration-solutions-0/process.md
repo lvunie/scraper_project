@@ -1,1 +1,0 @@
-<a class="imgpopup" href="/sites/default/files/business%20integration%20solutions_0.jpg"><img src="/sites/default/files/business%20integration%20solutions_0.jpg" width="940" height="597"></a>

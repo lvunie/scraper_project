@@ -1,28 +1,28 @@
 {
-    "filename": "campaign-management-dashboards",
+    "filename": "analytics",
     "data": {
-        "title": "Campaign Management Dashboards ",
+        "title": "Analytics ",
         "category": "Marketing",
-        "description": "Transparency Equals Efficiency",
+        "description": "Turning Big Data into Market Advantage",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/campaign-management-dashboards/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/analytics/"
                 },
                 {
-                    "title": "process",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/process/campaign-management-dashboards/"
+                    "title": "Process",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Process/analytics/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/campaign-management-dashboards/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/analytics/"
                 }
             ],
             "related": [
                 {
-                    "title": "Analytics ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/analytics-marketing-green.png"
+                    "title": "Campaign Management Dashboards ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-9898.png"
                 },
                 {
                     "title": "Campaign Tracking Dashboards",

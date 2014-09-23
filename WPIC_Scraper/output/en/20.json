@@ -1,33 +1,27 @@
 {
-    "filename": "mobile-application-publishing",
+    "filename": "mobile-websites-design-development",
     "data": {
-        "title": "Mobile Application Publishing ",
+        "title": "Mobile Websites Design & Development ",
         "category": "Technology",
-        "description": "Helping You Navigate a Path to ROI",
+        "description": "Profit by Adapting to China’s Mobile Revolution",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/mobile-application-publishing/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/mobile-websites-design-development/"
                 },
                 {
                     "title": "process",
-                    "markdown": [
-                        "<a class=\"imgpopup\" href=\"/sites/default/files/app%20publishing.jpg\"><img src=\"/sites/default/files/app%20publishing.jpg\" width=\"940\" height=\"705\"></a>"
-                    ]
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/process/mobile-websites-design-development/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/mobile-application-publishing/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/mobile-websites-design-development/"
                 }
             ],
             "related": [
                 {
-                    "title": "Licensing ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/licensing.png"
-                },
-                {
-                    "title": "Mobile Advertising",
+                    "title": "Mobile Advertising ",
                     "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-ads.png"
                 },
                 {
@@ -35,8 +29,12 @@
                     "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-app-development.png"
                 },
                 {
-                    "title": "Mobile Websites Design & Development",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-website.png"
+                    "title": "Mobile Application Publishing",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon23.png"
+                },
+                {
+                    "title": "Website Deployment",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/website-deployment.png"
                 }
             ]
         }

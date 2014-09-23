@@ -1,38 +1,40 @@
 {
-    "filename": "chinalytics",
+    "filename": "website-deployment",
     "data": {
-        "title": "Chinalytics ",
+        "title": "Website Deployment ",
         "category": "Technology",
-        "description": "Custom Analytics That You Can Trust",
+        "description": "‘Bridge the Gap’, ‘Span the Pass’… ‘Zip Line the Ravine’?",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/chinalytics/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/website-deployment/"
                 },
                 {
                     "title": "process",
-                    "markdown": [
-                        "<a class=\"imgpopup\" href=\"/sites/default/files/analytics%20Tech_1.jpg\"><img src=\"/sites/default/files/analytics%20Tech_1.jpg\" width=\"940\" height=\"705\"></a>"
-                    ]
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/process/website-deployment/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/chinalytics/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/website-deployment/"
                 }
             ],
             "related": [
                 {
-                    "title": ""
+                    "title": "China Cloud Hosting ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting.png"
                 },
                 {
-                    "title": ""
+                    "title": "Content Delivery / Distribution Network (CDN)",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/content-delivery-network-green.png"
                 },
                 {
-                    "title": ""
+                    "title": "Mobile Websites Design & Development",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-website.png"
                 },
                 {
-                    "title": ""
+                    "title": "Website Design",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/website-design.png"
                 }
             ]
         }

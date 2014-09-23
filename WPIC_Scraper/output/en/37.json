@@ -1,42 +1,40 @@
 {
-    "filename": "licensing",
+    "filename": "business-integration-solutions",
     "data": {
-        "title": "Licensing ",
+        "title": "Business Integration Solutions ",
         "category": "Consulting",
-        "description": "Eased Market Entry Based on Trust",
+        "description": "Aligning Your Processes with Your Technology",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/licensing/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/business-integration-solutions/"
                 },
                 {
                     "title": "process",
-                    "markdown": [
-                        "<a class=\"imgpopup\" href=\"/sites/default/files/licensing2.jpg\"><img src=\"/sites/default/files/licensing2.jpg\"></a>"
-                    ]
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/process/business-integration-solutions/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/licensing/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/business-integration-solutions/"
                 }
             ],
             "related": [
                 {
-                    "title": "eCommerce ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ecommerce.png"
-                },
-                {
-                    "title": "ICP Registration",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ICP-Registration.png"
-                },
-                {
-                    "title": "Legal & Structural Setup",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/legal-%26-structural-setup.png"
-                },
-                {
-                    "title": "Logistics & Fulfillment",
+                    "title": "Logistics & Fulfillment ",
                     "icon": "http://www.web-presence-in-china.com/sites/default/files/logistics-%26-fulfillment.png"
+                },
+                {
+                    "title": "Microsoft Dynamics",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/microsoft-dynamics.png"
+                },
+                {
+                    "title": "Project Planning & Management",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/project-planning-%26-management.png"
+                },
+                {
+                    "title": "Systems Design",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/systems-design.png"
                 }
             ]
         }

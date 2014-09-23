@@ -1,42 +1,36 @@
 {
-    "filename": "scraping",
+    "filename": "chinalytics",
     "data": {
-        "title": "Scraping ",
+        "title": "Chinalytics ",
         "category": "Technology",
-        "description": "Leverage China’s Biggest Data Source – Its Web",
+        "description": "Custom Analytics That You Can Trust",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/scraping/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/chinalytics/"
                 },
                 {
                     "title": "process",
-                    "markdown": [
-                        "<a class=\"imgpopup\" href=\"/sites/default/files/web_scraping2.jpg\"><img src=\"/sites/default/files/web_scraping2.jpg\" width=\"1200\" height=\"604\"></a>"
-                    ]
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/process/chinalytics/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/scraping/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/chinalytics/"
                 }
             ],
             "related": [
                 {
-                    "title": "Analytics ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/analytics-tech-green.png"
+                    "title": ""
                 },
                 {
-                    "title": "Market Analysis",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/marketing-analysis.png"
+                    "title": ""
                 },
                 {
-                    "title": "Market Intelligence",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/market-intelligence.png"
+                    "title": ""
                 },
                 {
-                    "title": "Technology Solutions",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/technology-solutions.png"
+                    "title": ""
                 }
             ]
         }

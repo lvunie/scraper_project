@@ -1,42 +1,40 @@
 {
-    "filename": "analytics",
+    "filename": "payment-gateway",
     "data": {
-        "title": "Analytics ",
-        "category": "Marketing",
-        "description": "Turning Big Data into Market Advantage",
+        "title": "Payment Gateway ",
+        "category": "Technology",
+        "description": "Stop Lead Loss at Its Biggest Source",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/analytics/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/payment-gateway/"
                 },
                 {
                     "title": "process",
-                    "markdown": [
-                        "<a class=\"imgpopup\" href=\"/sites/default/files/wheel2.jpg\"><img src=\"/sites/default/files/wheel2.jpg\" width=\"940\" height=\"286\"></a>"
-                    ]
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/process/payment-gateway/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/analytics/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/payment-gateway/"
                 }
             ],
             "related": [
                 {
-                    "title": "Campaign Management Dashboards ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-9898.png"
+                    "title": "eCommerce ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/eCommerce1.png"
                 },
                 {
-                    "title": "Campaign Tracking Dashboards",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/campaign-tracking-dashboards.png"
+                    "title": "Legal & Structural Setup",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/legal-%26-structural-setup.png"
                 },
                 {
-                    "title": "Market Analysis",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/marketing-analysis.png"
+                    "title": "Licensing",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/licensing.png"
                 },
                 {
-                    "title": "Website Analytics",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/web-analytics.png"
+                    "title": "Logistics & Fulfillment",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/logistics-%26-fulfillment.png"
                 }
             ]
         }

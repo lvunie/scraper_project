@@ -1,24 +1,22 @@
 {
-    "filename": "chinese-seo",
+    "filename": "campaign-tracking-dashboards",
     "data": {
-        "title": "Search Engine Optimization (SEO) ",
+        "title": "Campaign Tracking Dashboards ",
         "category": "Marketing",
-        "description": "Quick Discovery and High Trust through Organic Ranking",
+        "description": "Reliable Feedback on Chinese Media, Campaigns, & Brand Positions",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/chinese-seo/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/campaign-tracking-dashboards/"
                 },
                 {
                     "title": "process",
-                    "markdown": [
-                        "<a class=\"imgpopup\" href=\"/sites/default/files/seo.jpg\"><img src=\"/sites/default/files/seo.jpg\" width=\"1194\" height=\"627\"></a>"
-                    ]
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/process/campaign-tracking-dashboards/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/chinese-seo/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/campaign-tracking-dashboards/"
                 }
             ],
             "related": [

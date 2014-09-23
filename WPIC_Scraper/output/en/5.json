@@ -12,9 +12,7 @@
                 },
                 {
                     "title": "process",
-                    "markdown": [
-                        "<a class=\"imgpopup\" href=\"/sites/default/files/PPC2.jpg\"><img src=\"/sites/default/files/PPC2.jpg\" width=\"940\" height=\"703\"></a>"
-                    ]
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/process/ppc/"
                 },
                 {
                     "title": "Impact",

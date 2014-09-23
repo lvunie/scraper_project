@@ -1,24 +1,22 @@
 {
-    "filename": "content-marketing",
+    "filename": "direct-marketing",
     "data": {
-        "title": "Content Marketing ",
+        "title": "Direct Marketing ",
         "category": "Marketing",
-        "description": "Targeted Platforms for Targeted Consumers",
+        "description": "Traditional Messaging is Still a Reliable Channel",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/content-marketing/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/direct-marketing/"
                 },
                 {
                     "title": "process",
-                    "markdown": [
-                        "<a class=\"imgpopup\" href=\"/sites/default/files/content%20marketing.jpg\"><img src=\"/sites/default/files/content%20marketing.jpg\" width=\"940\" height=\"513\"></a>"
-                    ]
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/process/direct-marketing/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/content-marketing/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/direct-marketing/"
                 }
             ],
             "related": [
@@ -27,16 +25,16 @@
                     "icon": "http://www.web-presence-in-china.com/sites/default/files/asset-localization.png"
                 },
                 {
-                    "title": "Chinese Brand Development",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/brand-development-green.png"
-                },
-                {
                     "title": "Content Localization & Translations Production",
                     "icon": "http://www.web-presence-in-china.com/sites/default/files/content-localization.png"
                 },
                 {
-                    "title": "Digital Public Relations",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/digital-PR.png"
+                    "title": "Content Marketing",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-24a.png"
+                },
+                {
+                    "title": "Graphic Design Production",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/graphic-design.png"
                 }
             ]
         }

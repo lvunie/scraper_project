@@ -1,0 +1,1 @@
+<a class="imgpopup" href="/sites/default/files/channel%20strategy.jpg"><img src="/sites/default/files/channel%20strategy.jpg" width="940" height="734"></a>

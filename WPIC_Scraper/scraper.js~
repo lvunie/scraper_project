@@ -222,8 +222,13 @@ function scrape(address){
 				
 				option = 'process';
 
+				html = S(html).decodeHTMLEntities().s;
+				//html = toMarkdown(html);
+
+				process_path = make_tab_folder(json.filename, option, html );
+
 				tab[1].title = option;
-				tab[1].markdown = html;
+				tab[1].markdown = process_path;
 	})
 		.scrape(function($) {
      		  	return $("#tab3").map(function() {

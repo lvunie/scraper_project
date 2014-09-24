@@ -1,27 +1,31 @@
 {
-    "filename": "infrastructure-auditing",
+    "filename": "systems-design",
     "data": {
-        "title": "Infrastructure Auditing ",
+        "title": "Systems Design ",
         "category": "Consulting",
-        "description": "Establish a Clear Baseline to Improve On",
+        "description": "Arrange and Connect the Elements of Success",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/infrastructure-auditing/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/systems-design/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Process/infrastructure-auditing/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Process/systems-design/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/infrastructure-auditing/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/systems-design/"
                 }
             ],
             "related": [
                 {
-                    "title": "China Cloud Hosting ",
+                    "title": "Business Integration Solutions ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/business-integration-solutions-green.png"
+                },
+                {
+                    "title": "China Cloud Hosting",
                     "icon": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting.png"
                 },
                 {
@@ -29,12 +33,8 @@
                     "icon": "http://www.web-presence-in-china.com/sites/default/files/content-delivery-network-green.png"
                 },
                 {
-                    "title": "Systems Design",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/systems-design.png"
-                },
-                {
-                    "title": "Website Deployment",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/website-deployment.png"
+                    "title": "Technology Solutions",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/technology-solutions.png"
                 }
             ]
         }

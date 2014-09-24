@@ -1,22 +1,22 @@
 {
-    "filename": "website-design",
+    "filename": "website-deployment",
     "data": {
-        "title": "Website Design ",
+        "title": "Website Deployment ",
         "category": "Technology",
-        "description": "An On-Brand Experience Optimized for Chinese Customers",
+        "description": "‘Bridge the Gap’, ‘Span the Pass’… ‘Zip Line the Ravine’?",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/website-design/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/website-deployment/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Process/website-design/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Process/website-deployment/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/website-design/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/website-deployment/"
                 }
             ],
             "related": [
@@ -25,16 +25,16 @@
                     "icon": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting.png"
                 },
                 {
-                    "title": "ICP Registration",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ICP-Registration.png"
+                    "title": "Content Delivery / Distribution Network (CDN)",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/content-delivery-network-green.png"
                 },
                 {
                     "title": "Mobile Websites Design & Development",
                     "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-website.png"
                 },
                 {
-                    "title": "Website Deployment",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/website-deployment.png"
+                    "title": "Website Design",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/website-design.png"
                 }
             ]
         }

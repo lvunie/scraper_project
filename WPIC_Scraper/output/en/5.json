@@ -1,40 +1,40 @@
 {
-    "filename": "market-analysis",
+    "filename": "mobile-advertising",
     "data": {
-        "title": "Market Analysis ",
+        "title": "Mobile Advertising ",
         "category": "Marketing",
-        "description": "Knowledge Geared to Winning Market Share",
+        "description": "A New Channel for a Growing Segment",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/market-analysis/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/mobile-advertising/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Process/market-analysis/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Process/mobile-advertising/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/market-analysis/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/mobile-advertising/"
                 }
             ],
             "related": [
                 {
-                    "title": "Analytics ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/analytics-tech-green.png"
+                    "title": "Display Advertising ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/display-advertising.png"
                 },
                 {
-                    "title": "Market Intelligence",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/market-intelligence.png"
+                    "title": "Mobile Application Publishing",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon23.png"
                 },
                 {
-                    "title": "Regional Planning",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/regional-planning.png"
+                    "title": "Mobile Websites Design & Development",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-website.png"
                 },
                 {
-                    "title": "Scraping",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/scraping.png"
+                    "title": "Pay-Per-Click Advertising (PPC)",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/PPC1.png"
                 }
             ]
         }

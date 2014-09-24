@@ -1,40 +1,40 @@
 {
-    "filename": "scraping",
+    "filename": "technology-solutions",
     "data": {
-        "title": "Scraping ",
+        "title": "Technology Solutions ",
         "category": "Technology",
-        "description": "Leverage China’s Biggest Data Source – Its Web",
+        "description": "Enter and Excel in China’s Technology-Driven Markets",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/scraping/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/technology-solutions/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Process/scraping/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Process/technology-solutions/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/scraping/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/technology-solutions/"
                 }
             ],
             "related": [
                 {
-                    "title": "Analytics ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/analytics-tech-green.png"
+                    "title": "Business Integration Solutions ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/business-integration-solutions-green.png"
                 },
                 {
-                    "title": "Market Analysis",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/marketing-analysis.png"
+                    "title": "China Cloud Hosting",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting.png"
                 },
                 {
-                    "title": "Market Intelligence",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/market-intelligence.png"
+                    "title": "Scraping",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/scraping.png"
                 },
                 {
-                    "title": "Technology Solutions",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/technology-solutions.png"
+                    "title": "Systems Design",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/systems-design.png"
                 }
             ]
         }

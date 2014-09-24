@@ -1,40 +1,40 @@
 {
-    "filename": "website-deployment",
+    "filename": "scraping",
     "data": {
-        "title": "Website Deployment ",
+        "title": "Scraping ",
         "category": "Technology",
-        "description": "‘Bridge the Gap’, ‘Span the Pass’… ‘Zip Line the Ravine’?",
+        "description": "Leverage China’s Biggest Data Source – Its Web",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/website-deployment/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/scraping/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Process/website-deployment/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Process/scraping/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/website-deployment/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/scraping/"
                 }
             ],
             "related": [
                 {
-                    "title": "China Cloud Hosting ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting.png"
+                    "title": "Analytics ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/analytics-tech-green.png"
                 },
                 {
-                    "title": "Content Delivery / Distribution Network (CDN)",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/content-delivery-network-green.png"
+                    "title": "Market Analysis",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/marketing-analysis.png"
                 },
                 {
-                    "title": "Mobile Websites Design & Development",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-website.png"
+                    "title": "Market Intelligence",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/market-intelligence.png"
                 },
                 {
-                    "title": "Website Design",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/website-design.png"
+                    "title": "Technology Solutions",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/technology-solutions.png"
                 }
             ]
         }

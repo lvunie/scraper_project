@@ -368,6 +368,10 @@ function imgScraper(file_url, DOWNLOAD_DIR){
 	};
 	
 	var file_name = url.parse(file_url).pathname.split('/').pop();
+	file_name = unescape(file_name);
+	//newName = unescape(file_url);
+	console.log(file_name);
+
 	var file = fs.createWriteStream(DOWNLOAD_DIR + file_name);
 	
 	http.get(options, function(res) {
@@ -375,7 +379,7 @@ function imgScraper(file_url, DOWNLOAD_DIR){
 	            file.write(data);
 	        }).on('end', function() {
 	            file.end();
-	            console.log(file_name + ' downloaded to ' + DOWNLOAD_DIR);
+	            //console.log(file_name + ' downloaded to ' + DOWNLOAD_DIR);
 	        });
 	    });
 	};

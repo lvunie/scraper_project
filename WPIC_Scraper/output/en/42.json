@@ -1,40 +1,40 @@
 {
-    "filename": "regional-planning",
+    "filename": "infrastructure-auditing",
     "data": {
-        "title": "Regional Planning ",
+        "title": "Infrastructure Auditing ",
         "category": "Consulting",
-        "description": "The Best Channels and Strategies for Each Market",
+        "description": "Establish a Clear Baseline to Improve On",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/regional-planning/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/infrastructure-auditing/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Process/regional-planning/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Process/infrastructure-auditing/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/regional-planning/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/infrastructure-auditing/"
                 }
             ],
             "related": [
                 {
-                    "title": "Business Integration Solutions ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/business-integration-solutions-green.png"
+                    "title": "China Cloud Hosting ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting.png"
                 },
                 {
-                    "title": "Channel Strategy",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/channel-strategy.png"
+                    "title": "Content Delivery / Distribution Network (CDN)",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/content-delivery-network-green.png"
                 },
                 {
-                    "title": "eCommerce",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ecommerce.png"
+                    "title": "Systems Design",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/systems-design.png"
                 },
                 {
-                    "title": "Project Planning & Management",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/project-planning-%26-management.png"
+                    "title": "Website Deployment",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/website-deployment.png"
                 }
             ]
         }

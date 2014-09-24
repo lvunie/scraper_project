@@ -1,40 +1,40 @@
 {
-    "filename": "licensing",
+    "filename": "market-intelligence",
     "data": {
-        "title": "Licensing ",
+        "title": "Market Intelligence ",
         "category": "Consulting",
-        "description": "Eased Market Entry Based on Trust",
+        "description": "Knowledge Geared to Winning Market Share",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/licensing/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/market-intelligence/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Process/licensing/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Process/market-intelligence/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/licensing/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/market-intelligence/"
                 }
             ],
             "related": [
                 {
-                    "title": "eCommerce ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ecommerce.png"
+                    "title": "Channel Conflict Strategies ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/channel-conflict-strategies.png"
                 },
                 {
-                    "title": "ICP Registration",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ICP-Registration.png"
+                    "title": "Channel Strategy",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/channel-strategy.png"
                 },
                 {
-                    "title": "Legal & Structural Setup",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/legal-%26-structural-setup.png"
+                    "title": "Market Analysis",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/marketing-analysis.png"
                 },
                 {
-                    "title": "Logistics & Fulfillment",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/logistics-%26-fulfillment.png"
+                    "title": "Scraping",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/scraping.png"
                 }
             ]
         }

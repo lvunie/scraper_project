@@ -1,40 +1,40 @@
 {
-    "filename": "business-integration-solutions-0",
+    "filename": "content-delivery-distribution-network-cdn",
     "data": {
-        "title": "Business Integration Solutions ",
+        "title": "Content Delivery / Distribution Network (CDN) ",
         "category": "Technology",
-        "description": "Aligning Your Processes with Your Technology",
+        "description": "Delivering Superior Customer Experience",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/business-integration-solutions-0/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/content-delivery-distribution-network-cdn/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Process/business-integration-solutions-0/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Process/content-delivery-distribution-network-cdn/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/business-integration-solutions-0/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/content-delivery-distribution-network-cdn/"
                 }
             ],
             "related": [
                 {
-                    "title": "Logistics & Fulfillment ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/logistics-%26-fulfillment.png"
+                    "title": "China Cloud Hosting ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting.png"
                 },
                 {
-                    "title": "Microsoft Dynamics",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/microsoft-dynamics.png"
+                    "title": "ICP Registration",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ICP-Registration.png"
+                },
+                {
+                    "title": "Infrastructure Auditing",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/infrastructure-auditing.png"
                 },
                 {
                     "title": "Systems Design",
                     "icon": "http://www.web-presence-in-china.com/sites/default/files/systems-design.png"
-                },
-                {
-                    "title": "Technology Solutions",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/technology-solutions.png"
                 }
             ]
         }

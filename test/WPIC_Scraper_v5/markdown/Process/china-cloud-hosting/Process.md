@@ -1,1 +1,0 @@
-<p><a class="imgpopup" href="/sites/default/files/china_cloud_hosting2.jpg"><img src="/sites/default/files/china_cloud_hosting2.jpg width="1200" height="871" /></a></p> 

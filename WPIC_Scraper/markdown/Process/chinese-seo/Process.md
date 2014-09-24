@@ -1,0 +1,1 @@
+<a class="imgpopup" href="seo.jpg"><img src="seo.jpg" width="1194" height="627"></a>

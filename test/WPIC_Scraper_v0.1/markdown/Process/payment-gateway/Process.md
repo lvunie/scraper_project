@@ -1,0 +1,1 @@
+<a class="imgpopup" href="payment%20gateways.jpg"><img src="payment%20gateways.jpg" width="940" height="571"></a>

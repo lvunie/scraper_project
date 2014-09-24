@@ -1,1 +1,0 @@
-<p><a class="imgpopup" href="/sites/default/files/licensing2.jpg"><img src="/sites/default/files/licensing2.jpg width="" height="" /></a></p> 

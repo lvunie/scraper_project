@@ -1,1 +1,0 @@
-"<p><a class=\"imgpopup\" href=\"\"><img src=\" width=\"\" height=\"\" /></a></p> "

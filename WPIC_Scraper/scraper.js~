@@ -235,22 +235,33 @@ function scrape(address){
 				tab[0].markdown = overview_path;
    
 	})
-		//.scrape(function($) {
-     		 //  	return $("#tab2 p").map(function() {
-    		//        	return $(this).html();
-     		 //  	}).get();
-    		//	}, function(html) {
+		.scrape(function($) {
+     		   	return $("#tab2 p").map(function() {
+    		        	return $(this).html();
+     		   	}).get();
+    			}, function(html) {
 				
-		//		option = 'process';
-
-		//		html = S(html).decodeHTMLEntities().s;
-				//DOWNLOAD_DIR = '/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/process/' + json.filename + '/';
-				//process_path = make_tab_folder(json.filename, option, html );
-				//imgScrape(file_url,DOWNLOAD_DIR);
+				option = 'Process';
+				html = S(html).replaceAll('/sites/default/files/','').s;
+				make_tab_folder(json.filename, option, html );
 
 		//		tab[1].title = option;
 		//		tab[1].markdown = process_path;
-	//})
+	})
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		.scrape(function($) {
+     		   	return $(".imgpopup").map(function() {
+    		        	return $(this).attr("href");
+     		   	}).get();
+    			}, function(process) {
+
+			file_url = 'http://www.web-presence-in-china.com' + process;
+			DOWNLOAD_DIR = '/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Process/' + json.filename + '/';
+
+			imgScraper(file_url, DOWNLOAD_DIR);
+	
+	})
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 		.scrape(function($) {
      		   	return $(".imgpopup img").map(function() {

@@ -1,0 +1,1 @@
+<a class="imgpopup" href="market_analysis_3.jpg"><img src="market_analysis_3.jpg" width="940" height="901"></a>

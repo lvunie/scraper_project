@@ -1,1 +1,0 @@
-<p><a class="imgpopup" href="/sites/default/files/PPC2.jpg"><img src="/sites/default/files/PPC2.jpg width="940" height="703" /></a></p> 

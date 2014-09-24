@@ -1,0 +1,42 @@
+{
+    "filename": "microsoft-dynamics",
+    "data": {
+        "title": "Microsoft Dynamics ",
+        "category": "Technology",
+        "description": "The Ease & Flexibility of Microsoft, Implemented for Global Efficiency",
+        "content": {
+            "tab": [
+                {
+                    "title": "Overview",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/microsoft-dynamics/"
+                },
+                {
+                    "title": "Process",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Process/microsoft-dynamics/"
+                },
+                {
+                    "title": "Impact",
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/microsoft-dynamics/"
+                }
+            ],
+            "related": [
+                {
+                    "title": "Business Integration Solutions ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/business-integration-solutions-green.png"
+                },
+                {
+                    "title": "Campaign Management Dashboards",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-9898.png"
+                },
+                {
+                    "title": "Systems Design",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/systems-design.png"
+                },
+                {
+                    "title": "Technology Solutions",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/technology-solutions.png"
+                }
+            ]
+        }
+    }
+}

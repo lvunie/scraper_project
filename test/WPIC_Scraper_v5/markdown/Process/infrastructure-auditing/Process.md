@@ -1,1 +1,0 @@
-<p><a class="imgpopup" href="/sites/default/files/infrastructure%20auditing.jpg"><img src="/sites/default/files/infrastructure%20auditing.jpg width="940" height="483" /></a></p> 

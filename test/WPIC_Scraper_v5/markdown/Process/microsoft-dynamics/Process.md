@@ -1,1 +1,0 @@
-<p><a class="imgpopup" href="/sites/default/files/microsoft%20dynamics.jpg"><img src="/sites/default/files/microsoft%20dynamics.jpg width="940" height="797" /></a></p> 

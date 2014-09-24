@@ -1,1 +1,0 @@
-<p><a class="imgpopup" href="/sites/default/files/channel%20conflict%20strategies.jpg"><img src="/sites/default/files/channel%20conflict%20strategies.jpg width="940" height="367" /></a></p> 

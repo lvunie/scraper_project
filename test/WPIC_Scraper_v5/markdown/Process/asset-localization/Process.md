@@ -1,1 +1,0 @@
-<p><a class="imgpopup" href="/sites/default/files/asset_localization2.jpg"><img src="/sites/default/files/asset_localization2.jpg width="" height="" /></a></p> 

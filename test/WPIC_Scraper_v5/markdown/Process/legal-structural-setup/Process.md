@@ -1,1 +1,0 @@
-<p><a class="imgpopup" href="/sites/default/files/legal_structural_setup2.jpg"><img src="/sites/default/files/legal_structural_setup2.jpg width="1200" height="825" /></a></p> 

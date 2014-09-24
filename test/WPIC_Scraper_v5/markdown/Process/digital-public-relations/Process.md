@@ -1,1 +1,0 @@
-<p><a class="imgpopup" href="/sites/default/files/digital_public_relations.jpg"><img src="/sites/default/files/digital%20public%20relations.jpg width="940" height="667" /></a></p> 

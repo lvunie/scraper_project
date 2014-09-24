@@ -1,0 +1,1 @@
+<a class="imgpopup" href="asset_localization2.jpg"><img src="asset_localization2.jpg"></a>

@@ -138,9 +138,6 @@ rd.on('line', function(line) {
 
 function scrape(address){
 
-	//console.log('here');
-	url.resolve('http://www.web-presence-in-china.com/sites/all/themes/wpchina/logo.png','/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/');
-
 	scraperjs.StaticScraper.create(address)
 	    		.scrape(function($) {
 	     		   return $("title").map(function() {
@@ -256,7 +253,7 @@ function scrape(address){
     			}, function(process) {
 
 			file_url = 'http://www.web-presence-in-china.com' + process;
-			DOWNLOAD_DIR = '/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Process/' + json.filename + '/';
+			DOWNLOAD_DIR = '/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/' + json.filename + '/';
 
 			imgScraper(file_url, DOWNLOAD_DIR);
 	
@@ -270,7 +267,7 @@ function scrape(address){
     			}, function(process2) {
 			
 			file_url = 'http://www.web-presence-in-china.com' + process2;
-			DOWNLOAD_DIR = '/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Process/' + json.filename + '/';
+			DOWNLOAD_DIR = '/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/' + json.filename + '/';
 
 			imgScraper(file_url, DOWNLOAD_DIR);
 
@@ -326,13 +323,15 @@ function writeToJson(address,json){
 ////////////////////////////create folder for markdown//////////////////////////////////////////////////
 function make_tab_folder(address, option , text ){
 
-	var option_path ='/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/' + option + '/' + address + '/';			
+	var option_path ='/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/' + address + '/';			
 
 	mkdirp(option_path, function(err) { 
 		//console.log('ok');
 	});
 
-	var option_markdown = option_path + '/' + option +'.md';
+	option = option.toLowerCase();
+
+	var option_markdown = option_path + '/' +  option  +'.md';
 	writeToMarkdown(option_markdown, text);
 			
 	return option_path;
@@ -370,7 +369,7 @@ function imgScraper(file_url, DOWNLOAD_DIR){
 	var file_name = url.parse(file_url).pathname.split('/').pop();
 	file_name = unescape(file_name);
 	//newName = unescape(file_url);
-	console.log(file_name);
+	//console.log(file_name);
 
 	var file = fs.createWriteStream(DOWNLOAD_DIR + file_name);
 	

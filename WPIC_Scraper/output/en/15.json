@@ -1,40 +1,40 @@
 {
-    "filename": "campaign-management-dashboards",
+    "filename": "digital-public-relations",
     "data": {
-        "title": "Campaign Management Dashboards ",
+        "title": "Digital Public Relations ",
         "category": "Marketing",
-        "description": "Transparency Equals Efficiency",
+        "description": "Broad Reach with Next Steps",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/campaign-management-dashboards/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/digital-public-relations/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Process/campaign-management-dashboards/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/digital-public-relations/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/campaign-management-dashboards/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/digital-public-relations/"
                 }
             ],
             "related": [
                 {
-                    "title": "Analytics ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/analytics-marketing-green.png"
+                    "title": "Asset Localization ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/asset-localization.png"
                 },
                 {
-                    "title": "Campaign Tracking Dashboards",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/campaign-tracking-dashboards.png"
+                    "title": "Chinese Brand Development",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/brand-development-green.png"
                 },
                 {
-                    "title": "Market Analysis",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/marketing-analysis.png"
+                    "title": "Content Localization & Translations Production",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/content-localization.png"
                 },
                 {
-                    "title": "Website Analytics",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/web-analytics.png"
+                    "title": "Content Marketing",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-24a.png"
                 }
             ]
         }

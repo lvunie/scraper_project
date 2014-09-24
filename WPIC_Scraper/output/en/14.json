@@ -1,40 +1,40 @@
 {
-    "filename": "channel-strategy",
+    "filename": "direct-marketing",
     "data": {
-        "title": "Channel Strategy ",
+        "title": "Direct Marketing ",
         "category": "Marketing",
-        "description": "Deconstructing Silos for an Omni-Channel Market",
+        "description": "Traditional Messaging is Still a Reliable Channel",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/channel-strategy/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/direct-marketing/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Process/channel-strategy/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/direct-marketing/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/channel-strategy/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/direct-marketing/"
                 }
             ],
             "related": [
                 {
-                    "title": "Channel Conflict Strategies ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/channel-conflict-strategies.png"
+                    "title": "Asset Localization ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/asset-localization.png"
                 },
                 {
-                    "title": "eCommerce",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ecommerce.png"
+                    "title": "Content Localization & Translations Production",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/content-localization.png"
                 },
                 {
-                    "title": "Market Intelligence",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/market-intelligence.png"
+                    "title": "Content Marketing",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-24a.png"
                 },
                 {
-                    "title": "Project Planning & Management",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/project-planning-%26-management.png"
+                    "title": "Graphic Design Production",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/graphic-design.png"
                 }
             ]
         }

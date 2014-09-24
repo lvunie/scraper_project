@@ -1,40 +1,40 @@
 {
-    "filename": "china-cloud-hosting",
+    "filename": "business-integration-solutions-0",
     "data": {
-        "title": "China Cloud Hosting ",
+        "title": "Business Integration Solutions ",
         "category": "Technology",
-        "description": "Load Times are the First Step to a High Performance Site",
+        "description": "Aligning Your Processes with Your Technology",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/china-cloud-hosting/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/business-integration-solutions-0/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Process/china-cloud-hosting/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/business-integration-solutions-0/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/china-cloud-hosting/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/business-integration-solutions-0/"
                 }
             ],
             "related": [
                 {
-                    "title": "Content Delivery / Distribution Network (CDN) ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/content-delivery-network-green.png"
+                    "title": "Logistics & Fulfillment ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/logistics-%26-fulfillment.png"
                 },
                 {
-                    "title": "Infrastructure Auditing",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/infrastructure-auditing.png"
+                    "title": "Microsoft Dynamics",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/microsoft-dynamics.png"
                 },
                 {
                     "title": "Systems Design",
                     "icon": "http://www.web-presence-in-china.com/sites/default/files/systems-design.png"
                 },
                 {
-                    "title": "Website Deployment",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/website-deployment.png"
+                    "title": "Technology Solutions",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/technology-solutions.png"
                 }
             ]
         }

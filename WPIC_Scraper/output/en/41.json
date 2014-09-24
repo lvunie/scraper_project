@@ -8,15 +8,15 @@
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/icp-registration/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/icp-registration/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Process/icp-registration/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/icp-registration/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/icp-registration/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/icp-registration/"
                 }
             ],
             "related": [

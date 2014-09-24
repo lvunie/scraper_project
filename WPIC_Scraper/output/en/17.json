@@ -1,31 +1,27 @@
 {
-    "filename": "digital-public-relations",
+    "filename": "asset-localization",
     "data": {
-        "title": "Digital Public Relations ",
+        "title": "Asset Localization ",
         "category": "Marketing",
-        "description": "Broad Reach with Next Steps",
+        "description": "Building a Second Syntax for Your Brand",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/digital-public-relations/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/asset-localization/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Process/digital-public-relations/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/asset-localization/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/digital-public-relations/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/asset-localization/"
                 }
             ],
             "related": [
                 {
-                    "title": "Asset Localization ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/asset-localization.png"
-                },
-                {
-                    "title": "Chinese Brand Development",
+                    "title": "Chinese Brand Development ",
                     "icon": "http://www.web-presence-in-china.com/sites/default/files/brand-development-green.png"
                 },
                 {
@@ -35,6 +31,10 @@
                 {
                     "title": "Content Marketing",
                     "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-24a.png"
+                },
+                {
+                    "title": "Graphic Design Production",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/graphic-design.png"
                 }
             ]
         }

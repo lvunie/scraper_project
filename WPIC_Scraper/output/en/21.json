@@ -8,15 +8,15 @@
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/payment-gateway/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/payment-gateway/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Process/payment-gateway/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/payment-gateway/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/payment-gateway/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/payment-gateway/"
                 }
             ],
             "related": [

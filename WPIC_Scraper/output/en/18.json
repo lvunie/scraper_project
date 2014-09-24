@@ -8,15 +8,15 @@
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/analytics/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/analytics/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Process/analytics/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/analytics/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/analytics/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/analytics/"
                 }
             ],
             "related": [

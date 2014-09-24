@@ -8,15 +8,15 @@
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Overview/chinalytics/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/chinalytics/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Process/chinalytics/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/chinalytics/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/Impact/chinalytics/"
+                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/chinalytics/"
                 }
             ],
             "related": [

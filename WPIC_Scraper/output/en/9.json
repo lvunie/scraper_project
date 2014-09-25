@@ -8,33 +8,37 @@
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/ecommerce/"
+                    "markdown": "markdown/ecommerce/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/ecommerce/"
+                    "markdown": "markdown/ecommerce/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/ecommerce/"
+                    "markdown": "markdown/ecommerce/"
                 }
             ],
             "related": [
                 {
                     "title": "Graphic Design Production ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/graphic-design.png"
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/graphic-design.png",
+                    "url": "http://www.web-presence-in-china.com/graphic-design-production"
                 },
                 {
                     "title": "Legal & Structural Setup",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/legal-%26-structural-setup.png"
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/legal-%26-structural-setup.png",
+                    "url": "http://www.web-presence-in-china.com/legal-structural-setup"
                 },
                 {
                     "title": "Payment Gateway",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/payment-gateways.png"
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/payment-gateways.png",
+                    "url": "http://www.web-presence-in-china.com/payment-gateway"
                 },
                 {
                     "title": "Website Design",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/website-design.png"
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/website-design.png",
+                    "url": "http://www.web-presence-in-china.com/website-design"
                 }
             ]
         }

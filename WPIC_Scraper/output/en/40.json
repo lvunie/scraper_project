@@ -8,33 +8,37 @@
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/channel-conflict-strategies/"
+                    "markdown": "markdown/channel-conflict-strategies/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/channel-conflict-strategies/"
+                    "markdown": "markdown/channel-conflict-strategies/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/channel-conflict-strategies/"
+                    "markdown": "markdown/channel-conflict-strategies/"
                 }
             ],
             "related": [
                 {
                     "title": "Channel Strategy ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/channel-strategy.png"
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/channel-strategy.png",
+                    "url": "http://www.web-presence-in-china.com/channel-strategy"
                 },
                 {
                     "title": "Legal & Structural Setup",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/legal-%26-structural-setup.png"
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/legal-%26-structural-setup.png",
+                    "url": "http://www.web-presence-in-china.com/legal-structural-setup"
                 },
                 {
                     "title": "Licensing",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/licensing.png"
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/licensing.png",
+                    "url": "http://www.web-presence-in-china.com/licensing"
                 },
                 {
                     "title": "Project Planning & Management",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/project-planning-%26-management.png"
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/project-planning-%26-management.png",
+                    "url": "http://www.web-presence-in-china.com/project-planning-management"
                 }
             ]
         }

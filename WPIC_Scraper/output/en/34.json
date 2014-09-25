@@ -1,40 +1,44 @@
 {
-    "filename": "legal-structural-setup",
+    "filename": "market-intelligence",
     "data": {
-        "title": "Legal & Structural Setup ",
+        "title": "Market Intelligence ",
         "category": "Consulting",
-        "description": "Compliance for a Smooth Path to Revenue",
+        "description": "Knowledge Geared to Winning Market Share",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/legal-structural-setup/"
+                    "markdown": "markdown/market-intelligence/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/legal-structural-setup/"
+                    "markdown": "markdown/market-intelligence/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/legal-structural-setup/"
+                    "markdown": "markdown/market-intelligence/"
                 }
             ],
             "related": [
                 {
-                    "title": "ICP Registration ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ICP-Registration.png"
+                    "title": "Channel Conflict Strategies ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/channel-conflict-strategies.png",
+                    "url": "http://www.web-presence-in-china.com/channel-conflict-strategies"
                 },
                 {
-                    "title": "Licensing",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/licensing.png"
+                    "title": "Channel Strategy",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/channel-strategy.png",
+                    "url": "http://www.web-presence-in-china.com/channel-strategy"
                 },
                 {
-                    "title": "Payment Gateway",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/payment-gateways.png"
+                    "title": "Market Analysis",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/marketing-analysis.png",
+                    "url": "http://www.web-presence-in-china.com/market-analysis"
                 },
                 {
-                    "title": "Regional Planning",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/regional-planning.png"
+                    "title": "Scraping",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/scraping.png",
+                    "url": "http://www.web-presence-in-china.com/scraping"
                 }
             ]
         }

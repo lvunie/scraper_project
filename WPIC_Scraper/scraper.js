@@ -15,26 +15,17 @@ var filename;
 var title, category, content, description;
 var page = 0;
 
-
-///////////////////////////////////////////////////////////////////////////////////////////
-//////////////////scrape image///////////////////
-
-
-
-// Dependencies
+// Dependencies for scrape image from URL
 var fs = require('fs');
 var url = require('url');
 var http = require('http');
 var exec = require('child_process').exec;
 var spawn = require('child_process').spawn;
 
-// App variables
 
-
-//////////////////////////////////////////////////////////////////////////////////////////
-
+// JSON format
 var frame = {
-	//page: "",
+	
 };
 
 var json = { 
@@ -71,24 +62,32 @@ var tab = [{
 var related = [{
 	     "title" : "", 
 	     "icon" : "", 
+	     "url" : ""
 	},	
 	{
 	     "title" : "", 
 	     "icon" : "", 
+	     "url" : ""
 	},
 	{
 	     "title" : "", 
 	     "icon" : "", 
+	     "url" : ""
 	},
 	{
 	     "title" : "", 
 	     "icon" : "", 
+	     "url" : ""
 }];
 
+//create output folder for each type three's JSON, markdown folder
 function createFolder(){
 
-	var pathName = '/home/lvunie/work/scraper_project/WPIC_Scraper/output/en'; 
-	var markdown_pathName = '/home/lvunie/work/scraper_project/WPIC_Scraper/markdown'; 
+	//var pathName = '/home/lvunie/work/scraper_project/WPIC_Scraper/output/en'; 
+	//var markdown_pathName = '/home/lvunie/work/scraper_project/WPIC_Scraper/markdown'; 
+
+	var pathName = 'output/en'; 
+	var markdown_pathName = 'markdown'; 
 
 	mkdirp(pathName, function(err) { 
 
@@ -102,7 +101,8 @@ function createFolder(){
 
 createFolder();
 
-////////////////////////////open JOSN file to get URL for scraping//////////////////////////
+
+//open JOSN file to get each URL 
     readline = require('readline');
 
 var rd = readline.createInterface({
@@ -133,11 +133,10 @@ rd.on('line', function(line) {
 });
 
 
-/////////////////////////Scrape content from given URL///////////////////////////////////////
-//content include all text in between <p>, <li>, and all header tag(from <h1> to <h6>)
-
+//Scrape content from given URL
 function scrape(address){
-
+	
+	//get title name
 	scraperjs.StaticScraper.create(address)
 	    		.scrape(function($) {
 	     		   return $("title").map(function() {
@@ -149,7 +148,10 @@ function scrape(address){
 				var index    = address.lastIndexOf('/');
 				json.filename = address.slice(index+1); 
 
+				create_markdown_folder(json.filename);
+
  	})
+		//get categoy 
 		.scrape(function($) {
      		   	return $(".page-title").map(function() {
     		        	return $(this).text();
@@ -159,6 +161,7 @@ function scrape(address){
 				data.category = S(text).trim().s;
    
 	})
+		//get description
 		.scrape(function($) {
      		   	return $(".hidden-xs").map(function() {
     		        	return $(this).text();
@@ -170,8 +173,8 @@ function scrape(address){
 				var test = S(text).left(number).s;
 				data.description = test;
 	})
-////////////////////////////related title//////////////////////////////////
 
+////////////////////////////related icon//////////////////////////////////
 		.scrape(function($) {
      		   	return $(".img-slide > img").map(function() {
     		        	return $(this).attr("src");
@@ -185,8 +188,24 @@ function scrape(address){
 	
 	})
 
+////////////////////////////related url//////////////////////////////////
+		.scrape(function($) {
+     		   	return $(".slide-content a").map(function() {
+    		        	return $(this).attr("href");
+     		   	}).get();
+    			}, function(link) {
 
-////////////////////////////////////write related title//////////////////////////////////
+				//console.log(link);
+				//console.log('-----------------------------------');
+				related[0].url  = link[0];
+				related[1].url  = link[1];
+				related[2].url  = link[2];
+				related[3].url  = link[3];
+	
+	})
+
+
+//////////////////////////////////write related title//////////////////////////////////
 
 		.scrape(function($) {
      		   	return $(".slide-heading").map(function() {
@@ -253,7 +272,8 @@ function scrape(address){
     			}, function(process) {
 
 			file_url = 'http://www.web-presence-in-china.com' + process;
-			DOWNLOAD_DIR = '/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/' + json.filename + '/';
+			//DOWNLOAD_DIR = '/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/' + json.filename + '/';
+			DOWNLOAD_DIR = 'markdown/' + json.filename + '/';
 
 			imgScraper(file_url, DOWNLOAD_DIR);
 	
@@ -267,7 +287,8 @@ function scrape(address){
     			}, function(process2) {
 			
 			file_url = 'http://www.web-presence-in-china.com' + process2;
-			DOWNLOAD_DIR = '/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/' + json.filename + '/';
+			//DOWNLOAD_DIR = '/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/' + json.filename + '/';
+			DOWNLOAD_DIR = 'markdown/' + json.filename + '/';
 
 			imgScraper(file_url, DOWNLOAD_DIR);
 
@@ -310,7 +331,8 @@ function writeToJson(address,json){
 
 	fileIndex = fileIndex +1;
 
-	var pathName = '/home/lvunie/work/scraper_project/WPIC_Scraper/output/en/' + fileIndex; 
+	//var pathName = '/home/lvunie/work/scraper_project/WPIC_Scraper/output/en/' + fileIndex; 
+	var pathName = 'output/en/' + fileIndex; 
 
 	
 	var newAddress = pathName + '.json';
@@ -323,12 +345,9 @@ function writeToJson(address,json){
 ////////////////////////////create folder for markdown//////////////////////////////////////////////////
 function make_tab_folder(address, option , text ){
 
-	var option_path ='/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/' + address + '/';			
-
-	mkdirp(option_path, function(err) { 
-		//console.log('ok');
-	});
-
+	//var option_path ='/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/' + address + '/';	
+	var option_path ='markdown/' + address + '/';			
+		
 	option = option.toLowerCase();
 
 	var option_markdown = option_path + '/' +  option  +'.md';
@@ -336,6 +355,16 @@ function make_tab_folder(address, option , text ){
 			
 	return option_path;
 
+}
+//////////////
+function create_markdown_folder(address){
+
+	//var option_path ='/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/' + address + '/';
+	var option_path ='markdown/' + address + '/';				
+
+	mkdirp(option_path, function(err) { 
+		//console.log('ok');
+	});
 }
 
 function writeToMarkdown(option_markdown, text){

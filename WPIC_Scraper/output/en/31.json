@@ -1,40 +1,44 @@
 {
-    "filename": "content-delivery-distribution-network-cdn",
+    "filename": "microsoft-dynamics",
     "data": {
-        "title": "Content Delivery / Distribution Network (CDN) ",
+        "title": "Microsoft Dynamics ",
         "category": "Technology",
-        "description": "Delivering Superior Customer Experience",
+        "description": "The Ease & Flexibility of Microsoft, Implemented for Global Efficiency",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/content-delivery-distribution-network-cdn/"
+                    "markdown": "markdown/microsoft-dynamics/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/content-delivery-distribution-network-cdn/"
+                    "markdown": "markdown/microsoft-dynamics/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/content-delivery-distribution-network-cdn/"
+                    "markdown": "markdown/microsoft-dynamics/"
                 }
             ],
             "related": [
                 {
-                    "title": "China Cloud Hosting ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting.png"
+                    "title": "Business Integration Solutions ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/business-integration-solutions-green.png",
+                    "url": "http://www.web-presence-in-china.com/business-integration-solutions-0"
                 },
                 {
-                    "title": "ICP Registration",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ICP-Registration.png"
-                },
-                {
-                    "title": "Infrastructure Auditing",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/infrastructure-auditing.png"
+                    "title": "Campaign Management Dashboards",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-9898.png",
+                    "url": "http://www.web-presence-in-china.com/campaign-management-dashboards"
                 },
                 {
                     "title": "Systems Design",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/systems-design.png"
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/systems-design.png",
+                    "url": "http://www.web-presence-in-china.com/systems-design"
+                },
+                {
+                    "title": "Technology Solutions",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/technology-solutions.png",
+                    "url": "http://www.web-presence-in-china.com/technology-solutions"
                 }
             ]
         }

@@ -8,33 +8,37 @@
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/technology-solutions/"
+                    "markdown": "markdown/technology-solutions/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/technology-solutions/"
+                    "markdown": "markdown/technology-solutions/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/technology-solutions/"
+                    "markdown": "markdown/technology-solutions/"
                 }
             ],
             "related": [
                 {
                     "title": "Business Integration Solutions ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/business-integration-solutions-green.png"
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/business-integration-solutions-green.png",
+                    "url": "http://www.web-presence-in-china.com/business-integration-solutions-0"
                 },
                 {
                     "title": "China Cloud Hosting",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting.png"
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting.png",
+                    "url": "http://www.web-presence-in-china.com/china-cloud-hosting"
                 },
                 {
                     "title": "Scraping",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/scraping.png"
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/scraping.png",
+                    "url": "http://www.web-presence-in-china.com/scraping"
                 },
                 {
                     "title": "Systems Design",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/systems-design.png"
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/systems-design.png",
+                    "url": "http://www.web-presence-in-china.com/systems-design"
                 }
             ]
         }

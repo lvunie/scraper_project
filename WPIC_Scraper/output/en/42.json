@@ -1,40 +1,44 @@
 {
-    "filename": "infrastructure-auditing",
+    "filename": "icp-registration",
     "data": {
-        "title": "Infrastructure Auditing ",
+        "title": "ICP Registration ",
         "category": "Consulting",
-        "description": "Establish a Clear Baseline to Improve On",
+        "description": "The First Step in China Digital Compliance",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/infrastructure-auditing/"
+                    "markdown": "markdown/icp-registration/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/infrastructure-auditing/"
+                    "markdown": "markdown/icp-registration/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/infrastructure-auditing/"
+                    "markdown": "markdown/icp-registration/"
                 }
             ],
             "related": [
                 {
                     "title": "China Cloud Hosting ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting.png"
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting.png",
+                    "url": "http://www.web-presence-in-china.com/china-cloud-hosting"
                 },
                 {
                     "title": "Content Delivery / Distribution Network (CDN)",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/content-delivery-network-green.png"
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/content-delivery-network-green.png",
+                    "url": "http://www.web-presence-in-china.com/content-delivery-distribution-network-cdn"
                 },
                 {
-                    "title": "Systems Design",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/systems-design.png"
+                    "title": "Website Analytics",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/web-analytics.png",
+                    "url": "http://www.web-presence-in-china.com/website-analytics"
                 },
                 {
                     "title": "Website Deployment",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/website-deployment.png"
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/website-deployment.png",
+                    "url": "http://www.web-presence-in-china.com/website-deployment"
                 }
             ]
         }

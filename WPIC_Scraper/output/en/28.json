@@ -8,33 +8,37 @@
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/china-cloud-hosting/"
+                    "markdown": "markdown/china-cloud-hosting/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/china-cloud-hosting/"
+                    "markdown": "markdown/china-cloud-hosting/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/china-cloud-hosting/"
+                    "markdown": "markdown/china-cloud-hosting/"
                 }
             ],
             "related": [
                 {
                     "title": "Content Delivery / Distribution Network (CDN) ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/content-delivery-network-green.png"
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/content-delivery-network-green.png",
+                    "url": "http://www.web-presence-in-china.com/content-delivery-distribution-network-cdn"
                 },
                 {
                     "title": "Infrastructure Auditing",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/infrastructure-auditing.png"
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/infrastructure-auditing.png",
+                    "url": "http://www.web-presence-in-china.com/infrastructure-auditing"
                 },
                 {
                     "title": "Systems Design",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/systems-design.png"
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/systems-design.png",
+                    "url": "http://www.web-presence-in-china.com/systems-design"
                 },
                 {
                     "title": "Website Deployment",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/website-deployment.png"
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/website-deployment.png",
+                    "url": "http://www.web-presence-in-china.com/website-deployment"
                 }
             ]
         }

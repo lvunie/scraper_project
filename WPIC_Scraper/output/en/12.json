@@ -1,40 +1,44 @@
 {
-    "filename": "display-advertising",
+    "filename": "direct-marketing",
     "data": {
-        "title": "Display Advertising ",
+        "title": "Direct Marketing ",
         "category": "Marketing",
-        "description": "For a Complete Performance Marketing Campaign",
+        "description": "Traditional Messaging is Still a Reliable Channel",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/display-advertising/"
+                    "markdown": "markdown/direct-marketing/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/display-advertising/"
+                    "markdown": "markdown/direct-marketing/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/display-advertising/"
+                    "markdown": "markdown/direct-marketing/"
                 }
             ],
             "related": [
                 {
-                    "title": "Campaign Tracking Dashboards ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/campaign-tracking-dashboards.png"
+                    "title": "Asset Localization ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/asset-localization.png",
+                    "url": "http://www.web-presence-in-china.com/asset-localization"
                 },
                 {
-                    "title": "Mobile Advertising",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-ads.png"
+                    "title": "Content Localization & Translations Production",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/content-localization.png",
+                    "url": "http://www.web-presence-in-china.com/content-localization-translations-production"
                 },
                 {
-                    "title": "Pay-Per-Click Advertising (PPC)",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/PPC1.png"
+                    "title": "Content Marketing",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-24a.png",
+                    "url": "http://www.web-presence-in-china.com/content-marketing"
                 },
                 {
-                    "title": "Search Engine Optimization (SEO)",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/SEO.png"
+                    "title": "Graphic Design Production",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/graphic-design.png",
+                    "url": "http://www.web-presence-in-china.com/graphic-design-production"
                 }
             ]
         }

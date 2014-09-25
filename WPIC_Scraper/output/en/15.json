@@ -1,40 +1,44 @@
 {
-    "filename": "digital-public-relations",
+    "filename": "asset-localization",
     "data": {
-        "title": "Digital Public Relations ",
+        "title": "Asset Localization ",
         "category": "Marketing",
-        "description": "Broad Reach with Next Steps",
+        "description": "Building a Second Syntax for Your Brand",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/digital-public-relations/"
+                    "markdown": "markdown/asset-localization/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/digital-public-relations/"
+                    "markdown": "markdown/asset-localization/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/digital-public-relations/"
+                    "markdown": "markdown/asset-localization/"
                 }
             ],
             "related": [
                 {
-                    "title": "Asset Localization ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/asset-localization.png"
-                },
-                {
-                    "title": "Chinese Brand Development",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/brand-development-green.png"
+                    "title": "Chinese Brand Development ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/brand-development-green.png",
+                    "url": "http://www.web-presence-in-china.com/chinese-brand-development"
                 },
                 {
                     "title": "Content Localization & Translations Production",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/content-localization.png"
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/content-localization.png",
+                    "url": "http://www.web-presence-in-china.com/content-localization-translations-production"
                 },
                 {
                     "title": "Content Marketing",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-24a.png"
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-24a.png",
+                    "url": "http://www.web-presence-in-china.com/content-marketing"
+                },
+                {
+                    "title": "Graphic Design Production",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/graphic-design.png",
+                    "url": "http://www.web-presence-in-china.com/graphic-design-production"
                 }
             ]
         }

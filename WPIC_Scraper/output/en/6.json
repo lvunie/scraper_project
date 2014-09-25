@@ -8,33 +8,37 @@
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/chinese-seo/"
+                    "markdown": "markdown/chinese-seo/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/chinese-seo/"
+                    "markdown": "markdown/chinese-seo/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/chinese-seo/"
+                    "markdown": "markdown/chinese-seo/"
                 }
             ],
             "related": [
                 {
                     "title": "Campaign Management Dashboards ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-9898.png"
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-9898.png",
+                    "url": "http://www.web-presence-in-china.com/campaign-management-dashboards"
                 },
                 {
                     "title": "Display Advertising",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/display-advertising.png"
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/display-advertising.png",
+                    "url": "http://www.web-presence-in-china.com/display-advertising"
                 },
                 {
                     "title": "Pay-Per-Click Advertising (PPC)",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/PPC1.png"
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/PPC1.png",
+                    "url": "http://www.web-presence-in-china.com/ppc"
                 },
                 {
                     "title": "Website Analytics",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/web-analytics.png"
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/web-analytics.png",
+                    "url": "http://www.web-presence-in-china.com/website-analytics"
                 }
             ]
         }

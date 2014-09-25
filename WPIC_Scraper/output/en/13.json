@@ -1,40 +1,44 @@
 {
-    "filename": "channel-strategy",
+    "filename": "display-advertising",
     "data": {
-        "title": "Channel Strategy ",
+        "title": "Display Advertising ",
         "category": "Marketing",
-        "description": "Deconstructing Silos for an Omni-Channel Market",
+        "description": "For a Complete Performance Marketing Campaign",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/channel-strategy/"
+                    "markdown": "markdown/display-advertising/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/channel-strategy/"
+                    "markdown": "markdown/display-advertising/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/channel-strategy/"
+                    "markdown": "markdown/display-advertising/"
                 }
             ],
             "related": [
                 {
-                    "title": "Channel Conflict Strategies ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/channel-conflict-strategies.png"
+                    "title": "Campaign Tracking Dashboards ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/campaign-tracking-dashboards.png",
+                    "url": "http://www.web-presence-in-china.com/campaign-tracking-dashboards"
                 },
                 {
-                    "title": "eCommerce",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ecommerce.png"
+                    "title": "Mobile Advertising",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-ads.png",
+                    "url": "http://www.web-presence-in-china.com/mobile-advertising"
                 },
                 {
-                    "title": "Market Intelligence",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/market-intelligence.png"
+                    "title": "Pay-Per-Click Advertising (PPC)",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/PPC1.png",
+                    "url": "http://www.web-presence-in-china.com/ppc"
                 },
                 {
-                    "title": "Project Planning & Management",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/project-planning-%26-management.png"
+                    "title": "Search Engine Optimization (SEO)",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/SEO.png",
+                    "url": "http://www.web-presence-in-china.com/chinese-seo"
                 }
             ]
         }

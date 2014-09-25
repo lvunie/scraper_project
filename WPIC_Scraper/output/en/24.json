@@ -1,40 +1,44 @@
 {
-    "filename": "website-deployment",
+    "filename": "website-design",
     "data": {
-        "title": "Website Deployment ",
+        "title": "Website Design ",
         "category": "Technology",
-        "description": "‘Bridge the Gap’, ‘Span the Pass’… ‘Zip Line the Ravine’?",
+        "description": "An On-Brand Experience Optimized for Chinese Customers",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/website-deployment/"
+                    "markdown": "markdown/website-design/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/website-deployment/"
+                    "markdown": "markdown/website-design/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/website-deployment/"
+                    "markdown": "markdown/website-design/"
                 }
             ],
             "related": [
                 {
                     "title": "China Cloud Hosting ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting.png"
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting.png",
+                    "url": "http://www.web-presence-in-china.com/china-cloud-hosting"
                 },
                 {
-                    "title": "Content Delivery / Distribution Network (CDN)",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/content-delivery-network-green.png"
+                    "title": "ICP Registration",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ICP-Registration.png",
+                    "url": "http://www.web-presence-in-china.com/icp-registration"
                 },
                 {
                     "title": "Mobile Websites Design & Development",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-website.png"
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-website.png",
+                    "url": "http://www.web-presence-in-china.com/mobile-websites-design-development"
                 },
                 {
-                    "title": "Website Design",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/website-design.png"
+                    "title": "Website Deployment",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/website-deployment.png",
+                    "url": "http://www.web-presence-in-china.com/website-deployment"
                 }
             ]
         }

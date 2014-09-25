@@ -1,40 +1,44 @@
 {
-    "filename": "regional-planning",
+    "filename": "systems-design",
     "data": {
-        "title": "Regional Planning ",
+        "title": "Systems Design ",
         "category": "Consulting",
-        "description": "The Best Channels and Strategies for Each Market",
+        "description": "Arrange and Connect the Elements of Success",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/regional-planning/"
+                    "markdown": "markdown/systems-design/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/regional-planning/"
+                    "markdown": "markdown/systems-design/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/regional-planning/"
+                    "markdown": "markdown/systems-design/"
                 }
             ],
             "related": [
                 {
                     "title": "Business Integration Solutions ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/business-integration-solutions-green.png"
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/business-integration-solutions-green.png",
+                    "url": "http://www.web-presence-in-china.com/business-integration-solutions-0"
                 },
                 {
-                    "title": "Channel Strategy",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/channel-strategy.png"
+                    "title": "China Cloud Hosting",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting.png",
+                    "url": "http://www.web-presence-in-china.com/china-cloud-hosting"
                 },
                 {
-                    "title": "eCommerce",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ecommerce.png"
+                    "title": "Content Delivery / Distribution Network (CDN)",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/content-delivery-network-green.png",
+                    "url": "http://www.web-presence-in-china.com/content-delivery-distribution-network-cdn"
                 },
                 {
-                    "title": "Project Planning & Management",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/project-planning-%26-management.png"
+                    "title": "Technology Solutions",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/technology-solutions.png",
+                    "url": "http://www.web-presence-in-china.com/technology-solutions"
                 }
             ]
         }

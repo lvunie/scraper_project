@@ -8,33 +8,37 @@
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/scraping/"
+                    "markdown": "markdown/scraping/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/scraping/"
+                    "markdown": "markdown/scraping/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/scraping/"
+                    "markdown": "markdown/scraping/"
                 }
             ],
             "related": [
                 {
                     "title": "Analytics ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/analytics-tech-green.png"
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/analytics-tech-green.png",
+                    "url": "http://www.web-presence-in-china.com/analytics-0"
                 },
                 {
                     "title": "Market Analysis",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/marketing-analysis.png"
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/marketing-analysis.png",
+                    "url": "http://www.web-presence-in-china.com/market-analysis"
                 },
                 {
                     "title": "Market Intelligence",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/market-intelligence.png"
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/market-intelligence.png",
+                    "url": "http://www.web-presence-in-china.com/market-intelligence"
                 },
                 {
                     "title": "Technology Solutions",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/technology-solutions.png"
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/technology-solutions.png",
+                    "url": "http://www.web-presence-in-china.com/technology-solutions"
                 }
             ]
         }

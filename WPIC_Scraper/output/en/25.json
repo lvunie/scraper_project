@@ -1,40 +1,36 @@
 {
-    "filename": "website-design",
+    "filename": "chinalytics",
     "data": {
-        "title": "Website Design ",
+        "title": "Chinalytics ",
         "category": "Technology",
-        "description": "An On-Brand Experience Optimized for Chinese Customers",
+        "description": "Custom Analytics That You Can Trust",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/website-design/"
+                    "markdown": "markdown/chinalytics/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/website-design/"
+                    "markdown": "markdown/chinalytics/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/website-design/"
+                    "markdown": "markdown/chinalytics/"
                 }
             ],
             "related": [
                 {
-                    "title": "China Cloud Hosting ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting.png"
+                    "title": ""
                 },
                 {
-                    "title": "ICP Registration",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ICP-Registration.png"
+                    "title": ""
                 },
                 {
-                    "title": "Mobile Websites Design & Development",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-website.png"
+                    "title": ""
                 },
                 {
-                    "title": "Website Deployment",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/website-deployment.png"
+                    "title": ""
                 }
             ]
         }

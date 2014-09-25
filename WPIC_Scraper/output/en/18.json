@@ -8,33 +8,37 @@
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/analytics/"
+                    "markdown": "markdown/analytics/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/analytics/"
+                    "markdown": "markdown/analytics/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/analytics/"
+                    "markdown": "markdown/analytics/"
                 }
             ],
             "related": [
                 {
                     "title": "Campaign Management Dashboards ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-9898.png"
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-9898.png",
+                    "url": "http://www.web-presence-in-china.com/campaign-management-dashboards"
                 },
                 {
                     "title": "Campaign Tracking Dashboards",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/campaign-tracking-dashboards.png"
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/campaign-tracking-dashboards.png",
+                    "url": "http://www.web-presence-in-china.com/campaign-tracking-dashboards"
                 },
                 {
                     "title": "Market Analysis",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/marketing-analysis.png"
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/marketing-analysis.png",
+                    "url": "http://www.web-presence-in-china.com/market-analysis"
                 },
                 {
                     "title": "Website Analytics",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/web-analytics.png"
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/web-analytics.png",
+                    "url": "http://www.web-presence-in-china.com/website-analytics"
                 }
             ]
         }

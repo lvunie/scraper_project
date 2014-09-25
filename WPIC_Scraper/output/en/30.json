@@ -1,40 +1,44 @@
 {
-    "filename": "ecommerce-0",
+    "filename": "content-delivery-distribution-network-cdn",
     "data": {
-        "title": "eCommerce ",
+        "title": "Content Delivery / Distribution Network (CDN) ",
         "category": "Technology",
-        "description": "Seamless Sales in the World’s Largest Online Economy",
+        "description": "Delivering Superior Customer Experience",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/ecommerce-0/"
+                    "markdown": "markdown/content-delivery-distribution-network-cdn/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/ecommerce-0/"
+                    "markdown": "markdown/content-delivery-distribution-network-cdn/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/ecommerce-0/"
+                    "markdown": "markdown/content-delivery-distribution-network-cdn/"
                 }
             ],
             "related": [
                 {
-                    "title": "Asset Localization ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/asset-localization.png"
+                    "title": "China Cloud Hosting ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting.png",
+                    "url": "http://www.web-presence-in-china.com/china-cloud-hosting"
                 },
                 {
-                    "title": "Licensing",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/licensing.png"
+                    "title": "ICP Registration",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ICP-Registration.png",
+                    "url": "http://www.web-presence-in-china.com/icp-registration"
                 },
                 {
-                    "title": "Logistics & Fulfillment",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/logistics-%26-fulfillment.png"
+                    "title": "Infrastructure Auditing",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/infrastructure-auditing.png",
+                    "url": "http://www.web-presence-in-china.com/infrastructure-auditing"
                 },
                 {
-                    "title": "Payment Gateway",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/payment-gateways.png"
+                    "title": "Systems Design",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/systems-design.png",
+                    "url": "http://www.web-presence-in-china.com/systems-design"
                 }
             ]
         }

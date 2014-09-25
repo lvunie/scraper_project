@@ -1,44 +1,44 @@
 {
-    "filename": "technology-solutions",
+    "filename": "website-deployment",
     "data": {
-        "title": "Technology Solutions ",
+        "title": "Website Deployment ",
         "category": "Technology",
-        "description": "Enter and Excel in China’s Technology-Driven Markets",
+        "description": "‘Bridge the Gap’, ‘Span the Pass’… ‘Zip Line the Ravine’?",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/technology-solutions/"
+                    "markdown": "markdown/website-deployment/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/technology-solutions/"
+                    "markdown": "markdown/website-deployment/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/technology-solutions/"
+                    "markdown": "markdown/website-deployment/"
                 }
             ],
             "related": [
                 {
-                    "title": "Business Integration Solutions ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/business-integration-solutions-green.png",
-                    "url": "http://www.web-presence-in-china.com/business-integration-solutions-0"
-                },
-                {
-                    "title": "China Cloud Hosting",
+                    "title": "China Cloud Hosting ",
                     "icon": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting.png",
                     "url": "http://www.web-presence-in-china.com/china-cloud-hosting"
                 },
                 {
-                    "title": "Scraping",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/scraping.png",
-                    "url": "http://www.web-presence-in-china.com/scraping"
+                    "title": "Content Delivery / Distribution Network (CDN)",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/content-delivery-network-green.png",
+                    "url": "http://www.web-presence-in-china.com/content-delivery-distribution-network-cdn"
                 },
                 {
-                    "title": "Systems Design",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/systems-design.png",
-                    "url": "http://www.web-presence-in-china.com/systems-design"
+                    "title": "Mobile Websites Design & Development",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-website.png",
+                    "url": "http://www.web-presence-in-china.com/mobile-websites-design-development"
+                },
+                {
+                    "title": "Website Design",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/website-design.png",
+                    "url": "http://www.web-presence-in-china.com/website-design"
                 }
             ]
         }

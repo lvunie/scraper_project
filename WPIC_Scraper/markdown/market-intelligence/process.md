@@ -1,0 +1,1 @@
+<a class="imgpopup" href="market_intelligence2.jpg"><img src="market_intelligence2.jpg" width="940" height="871"></a>

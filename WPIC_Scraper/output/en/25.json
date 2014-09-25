@@ -1,36 +1,44 @@
 {
-    "filename": "chinalytics",
+    "filename": "website-design",
     "data": {
-        "title": "Chinalytics ",
+        "title": "Website Design ",
         "category": "Technology",
-        "description": "Custom Analytics That You Can Trust",
+        "description": "An On-Brand Experience Optimized for Chinese Customers",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/chinalytics/"
+                    "markdown": "markdown/website-design/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/chinalytics/"
+                    "markdown": "markdown/website-design/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/chinalytics/"
+                    "markdown": "markdown/website-design/"
                 }
             ],
             "related": [
                 {
-                    "title": ""
+                    "title": "China Cloud Hosting ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting.png",
+                    "url": "http://www.web-presence-in-china.com/china-cloud-hosting"
                 },
                 {
-                    "title": ""
+                    "title": "ICP Registration",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ICP-Registration.png",
+                    "url": "http://www.web-presence-in-china.com/icp-registration"
                 },
                 {
-                    "title": ""
+                    "title": "Mobile Websites Design & Development",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-website.png",
+                    "url": "http://www.web-presence-in-china.com/mobile-websites-design-development"
                 },
                 {
-                    "title": ""
+                    "title": "Website Deployment",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/website-deployment.png",
+                    "url": "http://www.web-presence-in-china.com/website-deployment"
                 }
             ]
         }

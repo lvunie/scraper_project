@@ -1,44 +1,44 @@
 {
-    "filename": "ppc",
+    "filename": "mobile-advertising",
     "data": {
-        "title": "Pay-Per-Click Advertising (PPC) ",
+        "title": "Mobile Advertising ",
         "category": "Marketing",
-        "description": "Highest Conversion Rates at the Lowest Cost Per Conversion",
+        "description": "A New Channel for a Growing Segment",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/ppc/"
+                    "markdown": "markdown/mobile-advertising/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/ppc/"
+                    "markdown": "markdown/mobile-advertising/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/ppc/"
+                    "markdown": "markdown/mobile-advertising/"
                 }
             ],
             "related": [
                 {
-                    "title": "Campaign Management Dashboards ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-9898.png",
-                    "url": "http://www.web-presence-in-china.com/campaign-management-dashboards"
-                },
-                {
-                    "title": "Display Advertising",
+                    "title": "Display Advertising ",
                     "icon": "http://www.web-presence-in-china.com/sites/default/files/display-advertising.png",
                     "url": "http://www.web-presence-in-china.com/display-advertising"
                 },
                 {
-                    "title": "Search Engine Optimization (SEO)",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/SEO.png",
-                    "url": "http://www.web-presence-in-china.com/chinese-seo"
+                    "title": "Mobile Application Publishing",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon23.png",
+                    "url": "http://www.web-presence-in-china.com/mobile-application-publishing"
                 },
                 {
-                    "title": "Website Analytics",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/web-analytics.png",
-                    "url": "http://www.web-presence-in-china.com/website-analytics"
+                    "title": "Mobile Websites Design & Development",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-website.png",
+                    "url": "http://www.web-presence-in-china.com/mobile-websites-design-development"
+                },
+                {
+                    "title": "Pay-Per-Click Advertising (PPC)",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/PPC1.png",
+                    "url": "http://www.web-presence-in-china.com/ppc"
                 }
             ]
         }

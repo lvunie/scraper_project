@@ -1,0 +1,1 @@
+<a class="imgpopup" href="content_localization.jpg"><img src="content%20localization.jpg" width="940" height="321"></a>

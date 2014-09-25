@@ -1,44 +1,44 @@
 {
-    "filename": "graphic-design-production",
+    "filename": "market-analysis",
     "data": {
-        "title": "Graphic Design Production ",
+        "title": "Market Analysis ",
         "category": "Marketing",
-        "description": "Your Vision, Your Message – Localized",
+        "description": "Knowledge Geared to Winning Market Share",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/graphic-design-production/"
+                    "markdown": "markdown/market-analysis/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/graphic-design-production/"
+                    "markdown": "markdown/market-analysis/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/graphic-design-production/"
+                    "markdown": "markdown/market-analysis/"
                 }
             ],
             "related": [
                 {
-                    "title": "Asset Localization ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/asset-localization.png",
-                    "url": "http://www.web-presence-in-china.com/asset-localization"
+                    "title": "Analytics ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/analytics-tech-green.png",
+                    "url": "http://www.web-presence-in-china.com/analytics-0"
                 },
                 {
-                    "title": "Chinese Brand Development",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/brand-development-green.png",
-                    "url": "http://www.web-presence-in-china.com/chinese-brand-development"
+                    "title": "Market Intelligence",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/market-intelligence.png",
+                    "url": "http://www.web-presence-in-china.com/market-intelligence"
                 },
                 {
-                    "title": "Content Localization & Translations Production",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/content-localization.png",
-                    "url": "http://www.web-presence-in-china.com/content-localization-translations-production"
+                    "title": "Regional Planning",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/regional-planning.png",
+                    "url": "http://www.web-presence-in-china.com/regional-planning"
                 },
                 {
-                    "title": "Mobile Websites Design & Development",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-website.png",
-                    "url": "http://www.web-presence-in-china.com/mobile-websites-design-development"
+                    "title": "Scraping",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/scraping.png",
+                    "url": "http://www.web-presence-in-china.com/scraping"
                 }
             ]
         }

@@ -1,22 +1,22 @@
 {
-    "filename": "icp-registration",
+    "filename": "infrastructure-auditing",
     "data": {
-        "title": "ICP Registration ",
+        "title": "Infrastructure Auditing ",
         "category": "Consulting",
-        "description": "The First Step in China Digital Compliance",
+        "description": "Establish a Clear Baseline to Improve On",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/icp-registration/"
+                    "markdown": "markdown/infrastructure-auditing/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/icp-registration/"
+                    "markdown": "markdown/infrastructure-auditing/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/icp-registration/"
+                    "markdown": "markdown/infrastructure-auditing/"
                 }
             ],
             "related": [
@@ -31,9 +31,9 @@
                     "url": "http://www.web-presence-in-china.com/content-delivery-distribution-network-cdn"
                 },
                 {
-                    "title": "Website Analytics",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/web-analytics.png",
-                    "url": "http://www.web-presence-in-china.com/website-analytics"
+                    "title": "Systems Design",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/systems-design.png",
+                    "url": "http://www.web-presence-in-china.com/systems-design"
                 },
                 {
                     "title": "Website Deployment",

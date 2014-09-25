@@ -1,44 +1,44 @@
 {
-    "filename": "business-integration-solutions",
+    "filename": "logistics-fulfillment",
     "data": {
-        "title": "Business Integration Solutions ",
+        "title": "Logistics & Fulfillment ",
         "category": "Consulting",
-        "description": "Aligning Your Processes with Your Technology",
+        "description": "More Than Just Provision, An Integrated Process",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/business-integration-solutions/"
+                    "markdown": "markdown/logistics-fulfillment/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/business-integration-solutions/"
+                    "markdown": "markdown/logistics-fulfillment/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/business-integration-solutions/"
+                    "markdown": "markdown/logistics-fulfillment/"
                 }
             ],
             "related": [
                 {
-                    "title": "Logistics & Fulfillment ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/logistics-%26-fulfillment.png",
-                    "url": "http://www.web-presence-in-china.com/logistics-fulfillment"
+                    "title": "Business Integration Solutions ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/business-integration-solutions-green.png",
+                    "url": "http://www.web-presence-in-china.com/business-integration-solutions-0"
                 },
                 {
-                    "title": "Microsoft Dynamics",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/microsoft-dynamics.png",
-                    "url": "http://www.web-presence-in-china.com/microsoft-dynamics"
+                    "title": "eCommerce",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ecommerce.png",
+                    "url": "http://www.web-presence-in-china.com/ecommerce"
                 },
                 {
-                    "title": "Project Planning & Management",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/project-planning-%26-management.png",
-                    "url": "http://www.web-presence-in-china.com/project-planning-management"
+                    "title": "Legal & Structural Setup",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/legal-%26-structural-setup.png",
+                    "url": "http://www.web-presence-in-china.com/legal-structural-setup"
                 },
                 {
-                    "title": "Systems Design",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/systems-design.png",
-                    "url": "http://www.web-presence-in-china.com/systems-design"
+                    "title": "Licensing",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/licensing.png",
+                    "url": "http://www.web-presence-in-china.com/licensing"
                 }
             ]
         }

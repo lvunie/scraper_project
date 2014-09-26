@@ -1,44 +1,45 @@
 {
-    "filename": "ppc",
+    "filename": "market-analysis",
     "data": {
-        "title": "Pay-Per-Click Advertising (PPC) ",
+        "title": "Market Analysis ",
         "category": "Marketing",
-        "description": "Highest Conversion Rates at the Lowest Cost Per Conversion",
+        "description": "Knowledge Geared to Winning Market Share",
+        "filename": "market-analysis",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/ppc/"
+                    "markdown": "markdown/market-analysis/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/ppc/"
+                    "markdown": "markdown/market-analysis/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/ppc/"
+                    "markdown": "markdown/market-analysis/"
                 }
             ],
             "related": [
                 {
-                    "title": "Campaign Management Dashboards ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-9898.png",
-                    "url": "http://www.web-presence-in-china.com/campaign-management-dashboards"
+                    "title": "Analytics ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/analytics-tech-green.png",
+                    "url": "http://www.web-presence-in-china.com/analytics-0"
                 },
                 {
-                    "title": "Display Advertising",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/display-advertising.png",
-                    "url": "http://www.web-presence-in-china.com/display-advertising"
+                    "title": "Market Intelligence",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/market-intelligence.png",
+                    "url": "http://www.web-presence-in-china.com/market-intelligence"
                 },
                 {
-                    "title": "Search Engine Optimization (SEO)",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/SEO.png",
-                    "url": "http://www.web-presence-in-china.com/chinese-seo"
+                    "title": "Regional Planning",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/regional-planning.png",
+                    "url": "http://www.web-presence-in-china.com/regional-planning"
                 },
                 {
-                    "title": "Website Analytics",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/web-analytics.png",
-                    "url": "http://www.web-presence-in-china.com/website-analytics"
+                    "title": "Scraping",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/scraping.png",
+                    "url": "http://www.web-presence-in-china.com/scraping"
                 }
             ]
         }

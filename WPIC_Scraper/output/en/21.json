@@ -1,44 +1,45 @@
 {
-    "filename": "payment-gateway",
+    "filename": "scraping",
     "data": {
-        "title": "Payment Gateway ",
+        "title": "Scraping ",
         "category": "Technology",
-        "description": "Stop Lead Loss at Its Biggest Source",
+        "description": "Leverage China’s Biggest Data Source – Its Web",
+        "filename": "scraping",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/payment-gateway/"
+                    "markdown": "markdown/scraping/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/payment-gateway/"
+                    "markdown": "markdown/scraping/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/payment-gateway/"
+                    "markdown": "markdown/scraping/"
                 }
             ],
             "related": [
                 {
-                    "title": "eCommerce ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/eCommerce1.png",
-                    "url": "http://www.web-presence-in-china.com/ecommerce-0"
+                    "title": "Analytics ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/analytics-tech-green.png",
+                    "url": "http://www.web-presence-in-china.com/analytics-0"
                 },
                 {
-                    "title": "Legal & Structural Setup",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/legal-%26-structural-setup.png",
-                    "url": "http://www.web-presence-in-china.com/legal-structural-setup"
+                    "title": "Market Analysis",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/marketing-analysis.png",
+                    "url": "http://www.web-presence-in-china.com/market-analysis"
                 },
                 {
-                    "title": "Licensing",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/licensing.png",
-                    "url": "http://www.web-presence-in-china.com/licensing"
+                    "title": "Market Intelligence",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/market-intelligence.png",
+                    "url": "http://www.web-presence-in-china.com/market-intelligence"
                 },
                 {
-                    "title": "Logistics & Fulfillment",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/logistics-%26-fulfillment.png",
-                    "url": "http://www.web-presence-in-china.com/logistics-fulfillment"
+                    "title": "Technology Solutions",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/technology-solutions.png",
+                    "url": "http://www.web-presence-in-china.com/technology-solutions"
                 }
             ]
         }

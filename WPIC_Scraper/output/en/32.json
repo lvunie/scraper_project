@@ -1,44 +1,45 @@
 {
-    "filename": "microsoft-dynamics",
+    "filename": "legal-structural-setup",
     "data": {
-        "title": "Microsoft Dynamics ",
-        "category": "Technology",
-        "description": "The Ease & Flexibility of Microsoft, Implemented for Global Efficiency",
+        "title": "Legal & Structural Setup ",
+        "category": "Consulting",
+        "description": "Compliance for a Smooth Path to Revenue",
+        "filename": "legal-structural-setup",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/microsoft-dynamics/"
+                    "markdown": "markdown/legal-structural-setup/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/microsoft-dynamics/"
+                    "markdown": "markdown/legal-structural-setup/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/microsoft-dynamics/"
+                    "markdown": "markdown/legal-structural-setup/"
                 }
             ],
             "related": [
                 {
-                    "title": "Business Integration Solutions ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/business-integration-solutions-green.png",
-                    "url": "http://www.web-presence-in-china.com/business-integration-solutions-0"
+                    "title": "ICP Registration ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ICP-Registration.png",
+                    "url": "http://www.web-presence-in-china.com/icp-registration"
                 },
                 {
-                    "title": "Campaign Management Dashboards",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-9898.png",
-                    "url": "http://www.web-presence-in-china.com/campaign-management-dashboards"
+                    "title": "Licensing",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/licensing.png",
+                    "url": "http://www.web-presence-in-china.com/licensing"
                 },
                 {
-                    "title": "Systems Design",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/systems-design.png",
-                    "url": "http://www.web-presence-in-china.com/systems-design"
+                    "title": "Payment Gateway",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/payment-gateways.png",
+                    "url": "http://www.web-presence-in-china.com/payment-gateway"
                 },
                 {
-                    "title": "Technology Solutions",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/technology-solutions.png",
-                    "url": "http://www.web-presence-in-china.com/technology-solutions"
+                    "title": "Regional Planning",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/regional-planning.png",
+                    "url": "http://www.web-presence-in-china.com/regional-planning"
                 }
             ]
         }

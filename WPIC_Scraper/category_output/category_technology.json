@@ -3,36 +3,9 @@
     "data": {
         "title": "Technology ",
         "description": "Tools You Need to Succeed Online",
+        "filename": "technology",
         "content": {
             "items": [
-                {
-                    "cate_heading": "Technology Solutions",
-                    "two_text": "Enter and Excel in China’s Technology-Driven Markets",
-                    "link": "http://www.web-presence-in-china.com/technology-solutions",
-                    "img_slide": "http://www.web-presence-in-china.com/sites/default/files/technology-solutions.png",
-                    "img_white": "http://www.web-presence-in-china.com/sites/default/files/technology-solutions-white.png"
-                },
-                {
-                    "cate_heading": "Website Deployment",
-                    "two_text": "‘Bridge the Gap’, ‘Span the Pass’… ‘Zip Line the Ravine’?",
-                    "link": "http://www.web-presence-in-china.com/website-deployment",
-                    "img_slide": "http://www.web-presence-in-china.com/sites/default/files/website-deployment.png",
-                    "img_white": "http://www.web-presence-in-china.com/sites/default/files/website-deployment-white.png"
-                },
-                {
-                    "cate_heading": "Website Design",
-                    "two_text": "An On-Brand Experience Optimized for Chinese Customers",
-                    "link": "http://www.web-presence-in-china.com/website-design",
-                    "img_slide": "http://www.web-presence-in-china.com/sites/default/files/website-design.png",
-                    "img_white": "http://www.web-presence-in-china.com/sites/default/files/website-design2.png"
-                },
-                {
-                    "cate_heading": "Chinalytics",
-                    "two_text": "Custom Analytics That You Can Trust",
-                    "link": "http://www.web-presence-in-china.com/chinalytics",
-                    "img_slide": "http://www.web-presence-in-china.com/sites/default/files/web-analytics.png",
-                    "img_white": "http://www.web-presence-in-china.com/sites/default/files/web-analytics-white.png"
-                },
                 {
                     "cate_heading": "Analytics",
                     "two_text": "Transform Your Data Into Decision Making Evidence",
@@ -109,6 +82,34 @@
                     "link": "http://www.web-presence-in-china.com/scraping",
                     "img_slide": "http://www.web-presence-in-china.com/sites/default/files/scraping.png",
                     "img_white": "http://www.web-presence-in-china.com/sites/default/files/scraping-white.png"
+                },
+                {
+                    "cate_heading": "Technology Solutions",
+                    "two_text": "Enter and Excel in China’s Technology-Driven Markets",
+                    "link": "http://www.web-presence-in-china.com/technology-solutions",
+                    "img_slide": "http://www.web-presence-in-china.com/sites/default/files/technology-solutions.png",
+                    "img_white": "http://www.web-presence-in-china.com/sites/default/files/technology-solutions-white.png"
+                },
+                {
+                    "cate_heading": "Website Deployment",
+                    "two_text": "‘Bridge the Gap’, ‘Span the Pass’… ‘Zip Line the Ravine’?",
+                    "link": "http://www.web-presence-in-china.com/website-deployment",
+                    "img_slide": "http://www.web-presence-in-china.com/sites/default/files/website-deployment.png",
+                    "img_white": "http://www.web-presence-in-china.com/sites/default/files/website-deployment-white.png"
+                },
+                {
+                    "cate_heading": "Website Design",
+                    "two_text": "An On-Brand Experience Optimized for Chinese Customers",
+                    "link": "http://www.web-presence-in-china.com/website-design",
+                    "img_slide": "http://www.web-presence-in-china.com/sites/default/files/website-design.png",
+                    "img_white": "http://www.web-presence-in-china.com/sites/default/files/website-design2.png"
+                },
+                {
+                    "cate_heading": "Chinalytics",
+                    "two_text": "Custom Analytics That You Can Trust",
+                    "link": "http://www.web-presence-in-china.com/chinalytics",
+                    "img_slide": "http://www.web-presence-in-china.com/sites/default/files/web-analytics.png",
+                    "img_white": "http://www.web-presence-in-china.com/sites/default/files/web-analytics-white.png"
                 }
             ]
         }

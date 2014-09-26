@@ -1,44 +1,45 @@
 {
-    "filename": "asset-localization",
+    "filename": "mobile-application-publishing",
     "data": {
-        "title": "Asset Localization ",
-        "category": "Marketing",
-        "description": "Building a Second Syntax for Your Brand",
+        "title": "Mobile Application Publishing ",
+        "category": "Technology",
+        "description": "Helping You Navigate a Path to ROI",
+        "filename": "mobile-application-publishing",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/asset-localization/"
+                    "markdown": "markdown/mobile-application-publishing/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/asset-localization/"
+                    "markdown": "markdown/mobile-application-publishing/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/asset-localization/"
+                    "markdown": "markdown/mobile-application-publishing/"
                 }
             ],
             "related": [
                 {
-                    "title": "Chinese Brand Development ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/brand-development-green.png",
-                    "url": "http://www.web-presence-in-china.com/chinese-brand-development"
+                    "title": "Licensing ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/licensing.png",
+                    "url": "http://www.web-presence-in-china.com/licensing"
                 },
                 {
-                    "title": "Content Localization & Translations Production",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/content-localization.png",
-                    "url": "http://www.web-presence-in-china.com/content-localization-translations-production"
+                    "title": "Mobile Advertising",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-ads.png",
+                    "url": "http://www.web-presence-in-china.com/mobile-advertising"
                 },
                 {
-                    "title": "Content Marketing",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-24a.png",
-                    "url": "http://www.web-presence-in-china.com/content-marketing"
+                    "title": "Mobile Application Development",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-app-development.png",
+                    "url": "http://www.web-presence-in-china.com/mobile-application-development"
                 },
                 {
-                    "title": "Graphic Design Production",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/graphic-design.png",
-                    "url": "http://www.web-presence-in-china.com/graphic-design-production"
+                    "title": "Mobile Websites Design & Development",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-website.png",
+                    "url": "http://www.web-presence-in-china.com/mobile-websites-design-development"
                 }
             ]
         }

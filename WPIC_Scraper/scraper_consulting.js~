@@ -24,6 +24,7 @@ var json = {
 var data = {
 	title : "", 
 	description : "", 
+	filename : "", 
 	content : ""
 };
 
@@ -33,77 +34,77 @@ var content = {
 
 var items = [
 	{
-		"cate-heading":"",
+		"cate_heading":"",
 		"two_text": "",
 		"link": "",
 		"img_slide": "",
 		"img_white": "",
 	},	
 	{
-		"cate-heading":"",
+		"cate_heading":"",
 		"two_text": "",
 		"link": "",
 		"img_slide": "",
 		"img_white": "",
 	},
 	{
-		"cate-heading":"",
+		"cate_heading":"",
 		"two_text": "",
 		"link": "",
 		"img_slide": "",
 		"img_white": "",
 	},
 	{
-		"cate-heading":"",
+		"cate_heading":"",
 		"two_text": "",
 		"link": "",
 		"img_slide": "",
 		"img_white": "",
 	},	
 	{
-		"cate-heading":"",
+		"cate_heading":"",
 		"two_text": "",
 		"link": "",
 		"img_slide": "",
 		"img_white": "",
 	},	
 	{
-		"cate-heading":"",
+		"cate_heading":"",
 		"two_text": "",
 		"link": "",
 		"img_slide": "",
 		"img_white": "",
 	},	
 	{
-		"cate-heading":"",
+		"cate_heading":"",
 		"two_text": "",
 		"link": "",
 		"img_slide": "",
 		"img_white": "",
 	},	
 	{
-		"cate-heading":"",
+		"cate_heading":"",
 		"two_text": "",
 		"link": "",
 		"img_slide": "",
 		"img_white": "",
 	},	
 	{
-		"cate-heading":"",
+		"cate_heading":"",
 		"two_text": "",
 		"link": "",
 		"img_slide": "",
 		"img_white": "",
 	},	
 	{
-		"cate-heading":"",
+		"cate_heading":"",
 		"two_text": "",
 		"link": "",
 		"img_slide": "",
 		"img_white": "",
 	},	
 	{
-		"cate-heading":"",
+		"cate_heading":"",
 		"two_text": "",
 		"link": "",
 		"img_slide": "",
@@ -291,77 +292,77 @@ function scrape(address){
 				temp = S(string).between('',',').s;	
 				string = S(string).chompLeft(temp).s;	
 
-				items[0].cate-heading = S(temp).trim().s;
+				items[0].cate_heading = S(temp).trim().s;
 				//items[0].two_text = string;
 
 				temp = S(string).between(',',',').s;
 				number = temp.length + 1;
 				string = string.substring(number);
 
-				items[1].cate-heading = S(temp).trim().s;
+				items[1].cate_heading = S(temp).trim().s;
 				//items[1].two_text = string;
 
 				temp = S(string).between(',',',').s;
 				number = temp.length + 1;
 				string = string.substring(number);
 
-				items[2].cate-heading = S(temp).trim().s;
+				items[2].cate_heading = S(temp).trim().s;
 				//items[2].two_text = string;
 
 				temp = S(string).between(',',',').s;
 				number = temp.length + 1;
 				string = string.substring(number);
 
-				items[3].cate-heading = S(temp).trim().s;
+				items[3].cate_heading = S(temp).trim().s;
 				//items[3].two_text = string;
 
 				temp = S(string).between(',',',').s;
 				number = temp.length + 1;
 				string = string.substring(number);
 
-				items[4].cate-heading = S(temp).trim().s;
+				items[4].cate_heading = S(temp).trim().s;
 				//items[4].two_text = string;
 
 				temp = S(string).between(',',',').s;
 				number = temp.length + 1;
 				string = string.substring(number);
 
-				items[5].cate-heading = S(temp).trim().s;
+				items[5].cate_heading = S(temp).trim().s;
 				//items[5].two_text = string;
 
 				temp = S(string).between(',',',').s;
 				number = temp.length + 1;
 				string = string.substring(number);
 
-				items[6].cate-heading = S(temp).trim().s;
+				items[6].cate_heading = S(temp).trim().s;
 				//items[6].two_text = string;
 
 				temp = S(string).between(',',',').s;
 				number = temp.length + 1;
 				string = string.substring(number);
 
-				items[7].cate-heading = S(temp).trim().s;
+				items[7].cate_heading = S(temp).trim().s;
 				//items[7].two_text = string;
 
 				temp = S(string).between(',',',').s;
 				number = temp.length + 1;
 				string = string.substring(number);
 
-				items[8].cate-heading = S(temp).trim().s;
+				items[8].cate_heading = S(temp).trim().s;
 				//items[8].two_text = string;
 
 				temp = S(string).between(',',',').s;
 				number = temp.length + 1;
 				string = string.substring(number);
 
-				items[9].cate-heading = S(temp).trim().s;
+				items[9].cate_heading = S(temp).trim().s;
 				//items[9].two_text = string;
 
 				temp = S(string).between(',',',').s;
 				number = temp.length + 1;
 				string = string.substring(number);
 
-				items[10].cate-heading = S(string).trim().s;
+				items[10].cate_heading = S(string).trim().s;
 				//items[10].two_text = string;
 
 				content.items = items;
@@ -384,6 +385,7 @@ function scrape(address){
 
 				var index    = address.lastIndexOf('/');
 				json.filename = address.slice(index+1); 
+				data.filename = json.filename;
 
 ////////////////////////////////call write function////////////////////////////////////////
 				three = json;		//three.page = json;

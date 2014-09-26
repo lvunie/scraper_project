@@ -1,44 +1,45 @@
 {
-    "filename": "project-planning-management",
+    "filename": "licensing",
     "data": {
-        "title": "Project Planning & Management ",
+        "title": "Licensing ",
         "category": "Consulting",
-        "description": "Flexible, Accountable Planning for China Operational Objectives",
+        "description": "Eased Market Entry Based on Trust",
+        "filename": "licensing",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/project-planning-management/"
+                    "markdown": "markdown/licensing/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/project-planning-management/"
+                    "markdown": "markdown/licensing/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/project-planning-management/"
+                    "markdown": "markdown/licensing/"
                 }
             ],
             "related": [
                 {
-                    "title": "Campaign Management Dashboards ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-9898.png",
-                    "url": "http://www.web-presence-in-china.com/campaign-management-dashboards"
+                    "title": "eCommerce ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ecommerce.png",
+                    "url": "http://www.web-presence-in-china.com/ecommerce"
                 },
                 {
-                    "title": "Channel Strategy",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/channel-strategy.png",
-                    "url": "http://www.web-presence-in-china.com/channel-strategy"
+                    "title": "ICP Registration",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ICP-Registration.png",
+                    "url": "http://www.web-presence-in-china.com/icp-registration"
                 },
                 {
-                    "title": "Market Intelligence",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/market-intelligence.png",
-                    "url": "http://www.web-presence-in-china.com/market-intelligence"
+                    "title": "Legal & Structural Setup",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/legal-%26-structural-setup.png",
+                    "url": "http://www.web-presence-in-china.com/legal-structural-setup"
                 },
                 {
-                    "title": "Regional Planning",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/regional-planning.png",
-                    "url": "http://www.web-presence-in-china.com/regional-planning"
+                    "title": "Logistics & Fulfillment",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/logistics-%26-fulfillment.png",
+                    "url": "http://www.web-presence-in-china.com/logistics-fulfillment"
                 }
             ]
         }

@@ -38,6 +38,7 @@ var data = {
 	title : "", 
 	category : "", 
 	description : "", 
+	filename : "", 
 	content : ""
 };
 
@@ -147,6 +148,7 @@ function scrape(address){
 
 				var index    = address.lastIndexOf('/');
 				json.filename = address.slice(index+1); 
+				data.filename = json.filename;
 
 				create_markdown_folder(json.filename);
 

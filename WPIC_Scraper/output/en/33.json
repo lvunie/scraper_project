@@ -1,44 +1,45 @@
 {
-    "filename": "mobile-application-development",
+    "filename": "microsoft-dynamics",
     "data": {
-        "title": "Mobile Application Development ",
+        "title": "Microsoft Dynamics ",
         "category": "Technology",
-        "description": "Build for China, or Scale for China",
+        "description": "The Ease & Flexibility of Microsoft, Implemented for Global Efficiency",
+        "filename": "microsoft-dynamics",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/mobile-application-development/"
+                    "markdown": "markdown/microsoft-dynamics/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/mobile-application-development/"
+                    "markdown": "markdown/microsoft-dynamics/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/mobile-application-development/"
+                    "markdown": "markdown/microsoft-dynamics/"
                 }
             ],
             "related": [
                 {
-                    "title": "Asset Localization ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/asset-localization.png",
-                    "url": "http://www.web-presence-in-china.com/asset-localization"
+                    "title": "Business Integration Solutions ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/business-integration-solutions-green.png",
+                    "url": "http://www.web-presence-in-china.com/business-integration-solutions-0"
                 },
                 {
-                    "title": "Mobile Advertising",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-ads.png",
-                    "url": "http://www.web-presence-in-china.com/mobile-advertising"
+                    "title": "Campaign Management Dashboards",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-9898.png",
+                    "url": "http://www.web-presence-in-china.com/campaign-management-dashboards"
                 },
                 {
-                    "title": "Mobile Application Publishing",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon23.png",
-                    "url": "http://www.web-presence-in-china.com/mobile-application-publishing"
+                    "title": "Systems Design",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/systems-design.png",
+                    "url": "http://www.web-presence-in-china.com/systems-design"
                 },
                 {
-                    "title": "Mobile Websites Design & Development",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-website.png",
-                    "url": "http://www.web-presence-in-china.com/mobile-websites-design-development"
+                    "title": "Technology Solutions",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/technology-solutions.png",
+                    "url": "http://www.web-presence-in-china.com/technology-solutions"
                 }
             ]
         }

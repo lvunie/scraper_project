@@ -1,44 +1,45 @@
 {
-    "filename": "mobile-application-publishing",
+    "filename": "campaign-management-dashboards",
     "data": {
-        "title": "Mobile Application Publishing ",
-        "category": "Technology",
-        "description": "Helping You Navigate a Path to ROI",
+        "title": "Campaign Management Dashboards ",
+        "category": "Marketing",
+        "description": "Transparency Equals Efficiency",
+        "filename": "campaign-management-dashboards",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/mobile-application-publishing/"
+                    "markdown": "markdown/campaign-management-dashboards/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/mobile-application-publishing/"
+                    "markdown": "markdown/campaign-management-dashboards/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/mobile-application-publishing/"
+                    "markdown": "markdown/campaign-management-dashboards/"
                 }
             ],
             "related": [
                 {
-                    "title": "Licensing ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/licensing.png",
-                    "url": "http://www.web-presence-in-china.com/licensing"
+                    "title": "Analytics ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/analytics-marketing-green.png",
+                    "url": "http://www.web-presence-in-china.com/analytics"
                 },
                 {
-                    "title": "Mobile Advertising",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-ads.png",
-                    "url": "http://www.web-presence-in-china.com/mobile-advertising"
+                    "title": "Campaign Tracking Dashboards",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/campaign-tracking-dashboards.png",
+                    "url": "http://www.web-presence-in-china.com/campaign-tracking-dashboards"
                 },
                 {
-                    "title": "Mobile Application Development",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-app-development.png",
-                    "url": "http://www.web-presence-in-china.com/mobile-application-development"
+                    "title": "Market Analysis",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/marketing-analysis.png",
+                    "url": "http://www.web-presence-in-china.com/market-analysis"
                 },
                 {
-                    "title": "Mobile Websites Design & Development",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-website.png",
-                    "url": "http://www.web-presence-in-china.com/mobile-websites-design-development"
+                    "title": "Website Analytics",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/web-analytics.png",
+                    "url": "http://www.web-presence-in-china.com/website-analytics"
                 }
             ]
         }

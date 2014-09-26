@@ -24,6 +24,7 @@ var json = {
 var data = {
 	title : "", 
 	description : "", 
+	filename : "",
 	content : ""
 };
 
@@ -509,6 +510,7 @@ function scrape(address){
 
 				var index    = address.lastIndexOf('/');
 				json.filename = address.slice(index+1); 
+				data.filename = json.filename;
 
 ////////////////////////////////call write function////////////////////////////////////////
 				three = json; //three.page = json;

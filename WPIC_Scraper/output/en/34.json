@@ -1,44 +1,45 @@
 {
-    "filename": "legal-structural-setup",
+    "filename": "mobile-application-development",
     "data": {
-        "title": "Legal & Structural Setup ",
-        "category": "Consulting",
-        "description": "Compliance for a Smooth Path to Revenue",
+        "title": "Mobile Application Development ",
+        "category": "Technology",
+        "description": "Build for China, or Scale for China",
+        "filename": "mobile-application-development",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/legal-structural-setup/"
+                    "markdown": "markdown/mobile-application-development/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/legal-structural-setup/"
+                    "markdown": "markdown/mobile-application-development/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/legal-structural-setup/"
+                    "markdown": "markdown/mobile-application-development/"
                 }
             ],
             "related": [
                 {
-                    "title": "ICP Registration ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ICP-Registration.png",
-                    "url": "http://www.web-presence-in-china.com/icp-registration"
+                    "title": "Asset Localization ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/asset-localization.png",
+                    "url": "http://www.web-presence-in-china.com/asset-localization"
                 },
                 {
-                    "title": "Licensing",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/licensing.png",
-                    "url": "http://www.web-presence-in-china.com/licensing"
+                    "title": "Mobile Advertising",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-ads.png",
+                    "url": "http://www.web-presence-in-china.com/mobile-advertising"
                 },
                 {
-                    "title": "Payment Gateway",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/payment-gateways.png",
-                    "url": "http://www.web-presence-in-china.com/payment-gateway"
+                    "title": "Mobile Application Publishing",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon23.png",
+                    "url": "http://www.web-presence-in-china.com/mobile-application-publishing"
                 },
                 {
-                    "title": "Regional Planning",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/regional-planning.png",
-                    "url": "http://www.web-presence-in-china.com/regional-planning"
+                    "title": "Mobile Websites Design & Development",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-website.png",
+                    "url": "http://www.web-presence-in-china.com/mobile-websites-design-development"
                 }
             ]
         }

@@ -1,44 +1,45 @@
 {
-    "filename": "ecommerce",
+    "filename": "content-localization-translations-production",
     "data": {
-        "title": "eCommerce ",
+        "title": "Content Localization & Translations Production ",
         "category": "Marketing",
-        "description": "Seamless Sales in the World’s Largest Online Economy",
+        "description": "Translate for Accuracy and Impact",
+        "filename": "content-localization-translations-production",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/ecommerce/"
+                    "markdown": "markdown/content-localization-translations-production/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/ecommerce/"
+                    "markdown": "markdown/content-localization-translations-production/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/ecommerce/"
+                    "markdown": "markdown/content-localization-translations-production/"
                 }
             ],
             "related": [
                 {
-                    "title": "Graphic Design Production ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/graphic-design.png",
-                    "url": "http://www.web-presence-in-china.com/graphic-design-production"
+                    "title": "Asset Localization ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/asset-localization.png",
+                    "url": "http://www.web-presence-in-china.com/asset-localization"
                 },
                 {
-                    "title": "Legal & Structural Setup",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/legal-%26-structural-setup.png",
-                    "url": "http://www.web-presence-in-china.com/legal-structural-setup"
+                    "title": "Chinese Brand Development",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/brand-development-green.png",
+                    "url": "http://www.web-presence-in-china.com/chinese-brand-development"
                 },
                 {
-                    "title": "Payment Gateway",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/payment-gateways.png",
-                    "url": "http://www.web-presence-in-china.com/payment-gateway"
+                    "title": "Content Marketing",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-24a.png",
+                    "url": "http://www.web-presence-in-china.com/content-marketing"
                 },
                 {
-                    "title": "Website Design",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/website-design.png",
-                    "url": "http://www.web-presence-in-china.com/website-design"
+                    "title": "Digital Public Relations",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/digital-PR.png",
+                    "url": "http://www.web-presence-in-china.com/digital-public-relations"
                 }
             ]
         }

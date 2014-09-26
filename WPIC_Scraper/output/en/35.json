@@ -1,29 +1,30 @@
 {
-    "filename": "market-intelligence",
+    "filename": "project-planning-management",
     "data": {
-        "title": "Market Intelligence ",
+        "title": "Project Planning & Management ",
         "category": "Consulting",
-        "description": "Knowledge Geared to Winning Market Share",
+        "description": "Flexible, Accountable Planning for China Operational Objectives",
+        "filename": "project-planning-management",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/market-intelligence/"
+                    "markdown": "markdown/project-planning-management/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/market-intelligence/"
+                    "markdown": "markdown/project-planning-management/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/market-intelligence/"
+                    "markdown": "markdown/project-planning-management/"
                 }
             ],
             "related": [
                 {
-                    "title": "Channel Conflict Strategies ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/channel-conflict-strategies.png",
-                    "url": "http://www.web-presence-in-china.com/channel-conflict-strategies"
+                    "title": "Campaign Management Dashboards ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-9898.png",
+                    "url": "http://www.web-presence-in-china.com/campaign-management-dashboards"
                 },
                 {
                     "title": "Channel Strategy",
@@ -31,14 +32,14 @@
                     "url": "http://www.web-presence-in-china.com/channel-strategy"
                 },
                 {
-                    "title": "Market Analysis",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/marketing-analysis.png",
-                    "url": "http://www.web-presence-in-china.com/market-analysis"
+                    "title": "Market Intelligence",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/market-intelligence.png",
+                    "url": "http://www.web-presence-in-china.com/market-intelligence"
                 },
                 {
-                    "title": "Scraping",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/scraping.png",
-                    "url": "http://www.web-presence-in-china.com/scraping"
+                    "title": "Regional Planning",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/regional-planning.png",
+                    "url": "http://www.web-presence-in-china.com/regional-planning"
                 }
             ]
         }

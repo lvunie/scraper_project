@@ -1,44 +1,45 @@
 {
-    "filename": "digital-public-relations",
+    "filename": "channel-strategy",
     "data": {
-        "title": "Digital Public Relations ",
+        "title": "Channel Strategy ",
         "category": "Marketing",
-        "description": "Broad Reach with Next Steps",
+        "description": "Deconstructing Silos for an Omni-Channel Market",
+        "filename": "channel-strategy",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/digital-public-relations/"
+                    "markdown": "markdown/channel-strategy/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/digital-public-relations/"
+                    "markdown": "markdown/channel-strategy/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/digital-public-relations/"
+                    "markdown": "markdown/channel-strategy/"
                 }
             ],
             "related": [
                 {
-                    "title": "Asset Localization ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/asset-localization.png",
-                    "url": "http://www.web-presence-in-china.com/asset-localization"
+                    "title": "Channel Conflict Strategies ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/channel-conflict-strategies.png",
+                    "url": "http://www.web-presence-in-china.com/channel-conflict-strategies"
                 },
                 {
-                    "title": "Chinese Brand Development",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/brand-development-green.png",
-                    "url": "http://www.web-presence-in-china.com/chinese-brand-development"
+                    "title": "eCommerce",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ecommerce.png",
+                    "url": "http://www.web-presence-in-china.com/ecommerce"
                 },
                 {
-                    "title": "Content Localization & Translations Production",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/content-localization.png",
-                    "url": "http://www.web-presence-in-china.com/content-localization-translations-production"
+                    "title": "Market Intelligence",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/market-intelligence.png",
+                    "url": "http://www.web-presence-in-china.com/market-intelligence"
                 },
                 {
-                    "title": "Content Marketing",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-24a.png",
-                    "url": "http://www.web-presence-in-china.com/content-marketing"
+                    "title": "Project Planning & Management",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/project-planning-%26-management.png",
+                    "url": "http://www.web-presence-in-china.com/project-planning-management"
                 }
             ]
         }

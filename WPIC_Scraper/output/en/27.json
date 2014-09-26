@@ -1,44 +1,45 @@
 {
-    "filename": "analytics-0",
+    "filename": "website-design",
     "data": {
-        "title": "Analytics ",
+        "title": "Website Design ",
         "category": "Technology",
-        "description": "Transform Your Data Into Decision Making Evidence",
+        "description": "An On-Brand Experience Optimized for Chinese Customers",
+        "filename": "website-design",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/analytics-0/"
+                    "markdown": "markdown/website-design/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/analytics-0/"
+                    "markdown": "markdown/website-design/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/analytics-0/"
+                    "markdown": "markdown/website-design/"
                 }
             ],
             "related": [
                 {
-                    "title": "Campaign Management Dashboards ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-9898.png",
-                    "url": "http://www.web-presence-in-china.com/campaign-management-dashboards"
+                    "title": "China Cloud Hosting ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting.png",
+                    "url": "http://www.web-presence-in-china.com/china-cloud-hosting"
                 },
                 {
-                    "title": "Market Analysis",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/marketing-analysis.png",
-                    "url": "http://www.web-presence-in-china.com/market-analysis"
+                    "title": "ICP Registration",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ICP-Registration.png",
+                    "url": "http://www.web-presence-in-china.com/icp-registration"
                 },
                 {
-                    "title": "Scraping",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/scraping.png",
-                    "url": "http://www.web-presence-in-china.com/scraping"
+                    "title": "Mobile Websites Design & Development",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-website.png",
+                    "url": "http://www.web-presence-in-china.com/mobile-websites-design-development"
                 },
                 {
-                    "title": "Website Analytics",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/web-analytics.png",
-                    "url": "http://www.web-presence-in-china.com/website-analytics"
+                    "title": "Website Deployment",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/website-deployment.png",
+                    "url": "http://www.web-presence-in-china.com/website-deployment"
                 }
             ]
         }

@@ -1,1 +1,0 @@
-<a class="imgpopup" href="infrastructure%20auditing.jpg"><img src="infrastructure%20auditing.jpg" width="940" height="483"></a>

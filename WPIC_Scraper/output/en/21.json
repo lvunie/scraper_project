@@ -1,45 +1,45 @@
 {
-    "filename": "scraping",
+    "filename": "payment-gateway",
     "data": {
-        "title": "Scraping ",
+        "title": "Payment Gateway ",
         "category": "Technology",
-        "description": "Leverage China’s Biggest Data Source – Its Web",
-        "filename": "scraping",
+        "description": "Stop Lead Loss at Its Biggest Source",
+        "filename": "payment-gateway",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/scraping/"
+                    "markdown": "markdown/payment-gateway/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/scraping/"
+                    "markdown": "markdown/payment-gateway/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/scraping/"
+                    "markdown": "markdown/payment-gateway/"
                 }
             ],
             "related": [
                 {
-                    "title": "Analytics ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/analytics-tech-green.png",
-                    "url": "http://www.web-presence-in-china.com/analytics-0"
+                    "title": "eCommerce ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/eCommerce1.png",
+                    "url": "http://www.web-presence-in-china.com/ecommerce-0"
                 },
                 {
-                    "title": "Market Analysis",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/marketing-analysis.png",
-                    "url": "http://www.web-presence-in-china.com/market-analysis"
+                    "title": "Legal & Structural Setup",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/legal-%26-structural-setup.png",
+                    "url": "http://www.web-presence-in-china.com/legal-structural-setup"
                 },
                 {
-                    "title": "Market Intelligence",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/market-intelligence.png",
-                    "url": "http://www.web-presence-in-china.com/market-intelligence"
+                    "title": "Licensing",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/licensing.png",
+                    "url": "http://www.web-presence-in-china.com/licensing"
                 },
                 {
-                    "title": "Technology Solutions",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/technology-solutions.png",
-                    "url": "http://www.web-presence-in-china.com/technology-solutions"
+                    "title": "Logistics & Fulfillment",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/logistics-%26-fulfillment.png",
+                    "url": "http://www.web-presence-in-china.com/logistics-fulfillment"
                 }
             ]
         }

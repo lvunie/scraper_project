@@ -1,1 +1,0 @@
-<a class="imgpopup" href="app_development1.jpg"><img src="app_development1.jpg" width="1200" height="1069"></a>

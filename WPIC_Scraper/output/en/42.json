@@ -1,45 +1,45 @@
 {
-    "filename": "icp-registration",
+    "filename": "regional-planning",
     "data": {
-        "title": "ICP Registration ",
+        "title": "Regional Planning ",
         "category": "Consulting",
-        "description": "The First Step in China Digital Compliance",
-        "filename": "icp-registration",
+        "description": "The Best Channels and Strategies for Each Market",
+        "filename": "regional-planning",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/icp-registration/"
+                    "markdown": "markdown/regional-planning/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/icp-registration/"
+                    "markdown": "markdown/regional-planning/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/icp-registration/"
+                    "markdown": "markdown/regional-planning/"
                 }
             ],
             "related": [
                 {
-                    "title": "China Cloud Hosting ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting.png",
-                    "url": "http://www.web-presence-in-china.com/china-cloud-hosting"
+                    "title": "Business Integration Solutions ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/business-integration-solutions-green.png",
+                    "url": "http://www.web-presence-in-china.com/business-integration-solutions-0"
                 },
                 {
-                    "title": "Content Delivery / Distribution Network (CDN)",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/content-delivery-network-green.png",
-                    "url": "http://www.web-presence-in-china.com/content-delivery-distribution-network-cdn"
+                    "title": "Channel Strategy",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/channel-strategy.png",
+                    "url": "http://www.web-presence-in-china.com/channel-strategy"
                 },
                 {
-                    "title": "Website Analytics",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/web-analytics.png",
-                    "url": "http://www.web-presence-in-china.com/website-analytics"
+                    "title": "eCommerce",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ecommerce.png",
+                    "url": "http://www.web-presence-in-china.com/ecommerce"
                 },
                 {
-                    "title": "Website Deployment",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/website-deployment.png",
-                    "url": "http://www.web-presence-in-china.com/website-deployment"
+                    "title": "Project Planning & Management",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/project-planning-%26-management.png",
+                    "url": "http://www.web-presence-in-china.com/project-planning-management"
                 }
             ]
         }

@@ -1,1 +1,0 @@
-<a class="imgpopup" href="direct%20marketing.jpg"><img src="direct%20marketing.jpg"></a>

@@ -1,1 +1,0 @@
-<a class="imgpopup" href="content%20delivery%20network.jpg"><img src="content%20delivery%20network.jpg" width="940" height="705"></a>

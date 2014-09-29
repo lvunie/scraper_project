@@ -1,1 +1,0 @@
-<a class="imgpopup" href="channel%20conflict%20strategies.jpg"><img src="channel%20conflict%20strategies.jpg" width="940" height="367"></a>

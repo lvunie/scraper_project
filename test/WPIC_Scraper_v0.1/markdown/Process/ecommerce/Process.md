@@ -1,1 +1,0 @@
-<a class="imgpopup" href="ecommerce_marketing.jpg"><img src="ecommerce%20marketing.jpg" width="940" height="705"></a>

@@ -1,33 +1,28 @@
 {
-    "filename": "systems-design",
+    "filename": "icp-registration",
     "data": {
-        "title": "Systems Design ",
+        "title": "ICP Registration ",
         "category": "Consulting",
-        "description": "Arrange and Connect the Elements of Success",
-        "filename": "systems-design",
+        "description": "The First Step in China Digital Compliance",
+        "filename": "icp-registration",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/systems-design/"
+                    "markdown": "markdown/icp-registration/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/systems-design/"
+                    "markdown": "markdown/icp-registration/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/systems-design/"
+                    "markdown": "markdown/icp-registration/"
                 }
             ],
             "related": [
                 {
-                    "title": "Business Integration Solutions ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/business-integration-solutions-green.png",
-                    "url": "http://www.web-presence-in-china.com/business-integration-solutions-0"
-                },
-                {
-                    "title": "China Cloud Hosting",
+                    "title": "China Cloud Hosting ",
                     "icon": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting.png",
                     "url": "http://www.web-presence-in-china.com/china-cloud-hosting"
                 },
@@ -37,9 +32,14 @@
                     "url": "http://www.web-presence-in-china.com/content-delivery-distribution-network-cdn"
                 },
                 {
-                    "title": "Technology Solutions",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/technology-solutions.png",
-                    "url": "http://www.web-presence-in-china.com/technology-solutions"
+                    "title": "Website Analytics",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/web-analytics.png",
+                    "url": "http://www.web-presence-in-china.com/website-analytics"
+                },
+                {
+                    "title": "Website Deployment",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/website-deployment.png",
+                    "url": "http://www.web-presence-in-china.com/website-deployment"
                 }
             ]
         }

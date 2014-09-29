@@ -1,1 +1,0 @@
-<a class="imgpopup" href="campaign_tracking_dashboards2.jpg"><img src="campaign_tracking_dashboards2.jpg" width="940" height="950"></a>

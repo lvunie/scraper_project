@@ -1,35 +1,30 @@
 {
-    "filename": "logistics-fulfillment",
+    "filename": "channel-conflict-strategies",
     "data": {
-        "title": "Logistics & Fulfillment ",
+        "title": "Channel Conflict Strategies ",
         "category": "Consulting",
-        "description": "More Than Just Provision, An Integrated Process",
-        "filename": "logistics-fulfillment",
+        "description": "Striving for Perfect Market Coverage",
+        "filename": "channel-conflict-strategies",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/logistics-fulfillment/"
+                    "markdown": "markdown/channel-conflict-strategies/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/logistics-fulfillment/"
+                    "markdown": "markdown/channel-conflict-strategies/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/logistics-fulfillment/"
+                    "markdown": "markdown/channel-conflict-strategies/"
                 }
             ],
             "related": [
                 {
-                    "title": "Business Integration Solutions ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/business-integration-solutions-green.png",
-                    "url": "http://www.web-presence-in-china.com/business-integration-solutions-0"
-                },
-                {
-                    "title": "eCommerce",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ecommerce.png",
-                    "url": "http://www.web-presence-in-china.com/ecommerce"
+                    "title": "Channel Strategy ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/channel-strategy.png",
+                    "url": "http://www.web-presence-in-china.com/channel-strategy"
                 },
                 {
                     "title": "Legal & Structural Setup",
@@ -40,6 +35,11 @@
                     "title": "Licensing",
                     "icon": "http://www.web-presence-in-china.com/sites/default/files/licensing.png",
                     "url": "http://www.web-presence-in-china.com/licensing"
+                },
+                {
+                    "title": "Project Planning & Management",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/project-planning-%26-management.png",
+                    "url": "http://www.web-presence-in-china.com/project-planning-management"
                 }
             ]
         }

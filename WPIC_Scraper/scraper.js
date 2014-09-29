@@ -9,6 +9,7 @@ var toMarkdown = require('to-markdown').toMarkdown;
 var S         = require('string');
 var fs        = require('fs');
 
+// JSON 
 var fileIndex = 0;
 var address;
 var filename;
@@ -23,7 +24,7 @@ var exec = require('child_process').exec;
 var spawn = require('child_process').spawn;
 
 
-// JSON format
+// JSON structure
 var frame = {
 	
 };
@@ -83,9 +84,6 @@ var related = [{
 
 //create output folder for each type three's JSON, markdown folder
 function createFolder(){
-
-	//var pathName = '/home/lvunie/work/scraper_project/WPIC_Scraper/output/en'; 
-	//var markdown_pathName = '/home/lvunie/work/scraper_project/WPIC_Scraper/markdown'; 
 
 	var pathName = 'output/en'; 
 	var markdown_pathName = 'markdown'; 

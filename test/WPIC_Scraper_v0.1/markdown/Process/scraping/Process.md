@@ -1,1 +1,0 @@
-<a class="imgpopup" href="web_scraping2.jpg"><img src="web_scraping2.jpg" width="1200" height="604"></a>

@@ -1,45 +1,45 @@
 {
-    "filename": "campaign-tracking-dashboards",
+    "filename": "content-localization-translations-production",
     "data": {
-        "title": "Campaign Tracking Dashboards ",
+        "title": "Content Localization & Translations Production ",
         "category": "Marketing",
-        "description": "Reliable Feedback on Chinese Media, Campaigns, & Brand Positions",
-        "filename": "campaign-tracking-dashboards",
+        "description": "Translate for Accuracy and Impact",
+        "filename": "content-localization-translations-production",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/campaign-tracking-dashboards/"
+                    "markdown": "markdown/content-localization-translations-production/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/campaign-tracking-dashboards/"
+                    "markdown": "markdown/content-localization-translations-production/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/campaign-tracking-dashboards/"
+                    "markdown": "markdown/content-localization-translations-production/"
                 }
             ],
             "related": [
                 {
-                    "title": "Campaign Management Dashboards ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-9898.png",
-                    "url": "http://www.web-presence-in-china.com/campaign-management-dashboards"
+                    "title": "Asset Localization ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/asset-localization.png",
+                    "url": "http://www.web-presence-in-china.com/asset-localization"
                 },
                 {
-                    "title": "Display Advertising",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/display-advertising.png",
-                    "url": "http://www.web-presence-in-china.com/display-advertising"
+                    "title": "Chinese Brand Development",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/brand-development-green.png",
+                    "url": "http://www.web-presence-in-china.com/chinese-brand-development"
                 },
                 {
-                    "title": "Pay-Per-Click Advertising (PPC)",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/PPC1.png",
-                    "url": "http://www.web-presence-in-china.com/ppc"
+                    "title": "Content Marketing",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-24a.png",
+                    "url": "http://www.web-presence-in-china.com/content-marketing"
                 },
                 {
-                    "title": "Website Analytics",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/web-analytics.png",
-                    "url": "http://www.web-presence-in-china.com/website-analytics"
+                    "title": "Digital Public Relations",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/digital-PR.png",
+                    "url": "http://www.web-presence-in-china.com/digital-public-relations"
                 }
             ]
         }

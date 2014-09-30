@@ -1,35 +1,35 @@
 {
-    "filename": "logistics-fulfillment",
+    "filename": "licensing",
     "data": {
-        "title": "Logistics & Fulfillment ",
+        "title": "Licensing ",
         "category": "Consulting",
-        "description": "More Than Just Provision, An Integrated Process",
-        "filename": "logistics-fulfillment",
+        "description": "Eased Market Entry Based on Trust",
+        "filename": "licensing",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/logistics-fulfillment/"
+                    "markdown": "markdown/licensing/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/logistics-fulfillment/"
+                    "markdown": "markdown/licensing/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/logistics-fulfillment/"
+                    "markdown": "markdown/licensing/"
                 }
             ],
             "related": [
                 {
-                    "title": "Business Integration Solutions ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/business-integration-solutions-green.png",
-                    "url": "http://www.web-presence-in-china.com/business-integration-solutions-0"
-                },
-                {
-                    "title": "eCommerce",
+                    "title": "eCommerce ",
                     "icon": "http://www.web-presence-in-china.com/sites/default/files/ecommerce.png",
                     "url": "http://www.web-presence-in-china.com/ecommerce"
+                },
+                {
+                    "title": "ICP Registration",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ICP-Registration.png",
+                    "url": "http://www.web-presence-in-china.com/icp-registration"
                 },
                 {
                     "title": "Legal & Structural Setup",
@@ -37,9 +37,9 @@
                     "url": "http://www.web-presence-in-china.com/legal-structural-setup"
                 },
                 {
-                    "title": "Licensing",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/licensing.png",
-                    "url": "http://www.web-presence-in-china.com/licensing"
+                    "title": "Logistics & Fulfillment",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/logistics-%26-fulfillment.png",
+                    "url": "http://www.web-presence-in-china.com/logistics-fulfillment"
                 }
             ]
         }

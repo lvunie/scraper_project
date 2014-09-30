@@ -1,45 +1,45 @@
 {
-    "filename": "ecommerce",
+    "filename": "campaign-tracking-dashboards",
     "data": {
-        "title": "eCommerce ",
+        "title": "Campaign Tracking Dashboards ",
         "category": "Marketing",
-        "description": "Seamless Sales in the World’s Largest Online Economy",
-        "filename": "ecommerce",
+        "description": "Reliable Feedback on Chinese Media, Campaigns, & Brand Positions",
+        "filename": "campaign-tracking-dashboards",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/ecommerce/"
+                    "markdown": "markdown/campaign-tracking-dashboards/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/ecommerce/"
+                    "markdown": "markdown/campaign-tracking-dashboards/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/ecommerce/"
+                    "markdown": "markdown/campaign-tracking-dashboards/"
                 }
             ],
             "related": [
                 {
-                    "title": "Graphic Design Production ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/graphic-design.png",
-                    "url": "http://www.web-presence-in-china.com/graphic-design-production"
+                    "title": "Campaign Management Dashboards ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-9898.png",
+                    "url": "http://www.web-presence-in-china.com/campaign-management-dashboards"
                 },
                 {
-                    "title": "Legal & Structural Setup",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/legal-%26-structural-setup.png",
-                    "url": "http://www.web-presence-in-china.com/legal-structural-setup"
+                    "title": "Display Advertising",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/display-advertising.png",
+                    "url": "http://www.web-presence-in-china.com/display-advertising"
                 },
                 {
-                    "title": "Payment Gateway",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/payment-gateways.png",
-                    "url": "http://www.web-presence-in-china.com/payment-gateway"
+                    "title": "Pay-Per-Click Advertising (PPC)",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/PPC1.png",
+                    "url": "http://www.web-presence-in-china.com/ppc"
                 },
                 {
-                    "title": "Website Design",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/website-design.png",
-                    "url": "http://www.web-presence-in-china.com/website-design"
+                    "title": "Website Analytics",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/web-analytics.png",
+                    "url": "http://www.web-presence-in-china.com/website-analytics"
                 }
             ]
         }

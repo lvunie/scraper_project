@@ -1,45 +1,45 @@
 {
-    "filename": "graphic-design-production",
+    "filename": "mobile-advertising",
     "data": {
-        "title": "Graphic Design Production ",
+        "title": "Mobile Advertising ",
         "category": "Marketing",
-        "description": "Your Vision, Your Message – Localized",
-        "filename": "graphic-design-production",
+        "description": "A New Channel for a Growing Segment",
+        "filename": "mobile-advertising",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/graphic-design-production/"
+                    "markdown": "markdown/mobile-advertising/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/graphic-design-production/"
+                    "markdown": "markdown/mobile-advertising/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/graphic-design-production/"
+                    "markdown": "markdown/mobile-advertising/"
                 }
             ],
             "related": [
                 {
-                    "title": "Asset Localization ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/asset-localization.png",
-                    "url": "http://www.web-presence-in-china.com/asset-localization"
+                    "title": "Display Advertising ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/display-advertising.png",
+                    "url": "http://www.web-presence-in-china.com/display-advertising"
                 },
                 {
-                    "title": "Chinese Brand Development",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/brand-development-green.png",
-                    "url": "http://www.web-presence-in-china.com/chinese-brand-development"
-                },
-                {
-                    "title": "Content Localization & Translations Production",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/content-localization.png",
-                    "url": "http://www.web-presence-in-china.com/content-localization-translations-production"
+                    "title": "Mobile Application Publishing",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon23.png",
+                    "url": "http://www.web-presence-in-china.com/mobile-application-publishing"
                 },
                 {
                     "title": "Mobile Websites Design & Development",
                     "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-website.png",
                     "url": "http://www.web-presence-in-china.com/mobile-websites-design-development"
+                },
+                {
+                    "title": "Pay-Per-Click Advertising (PPC)",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/PPC1.png",
+                    "url": "http://www.web-presence-in-china.com/ppc"
                 }
             ]
         }

@@ -135,13 +135,14 @@ rd.on('line', function(line) {
 //Scrape content from given URL
 function scrape(address){
 	
-	//get title name
+	//Title name
 	scraperjs.StaticScraper.create(address)
 	    		.scrape(function($) {
 	     		   return $("title").map(function() {
     		        	return $(this).text();
      		   	}).get();
     			}, function(text) {
+				console.log(text);
 				data.title = S(text).between('', '|').s ;
 
 				var index    = address.lastIndexOf('/');
@@ -150,8 +151,10 @@ function scrape(address){
 
 				create_markdown_folder(json.filename);
 
+				
+
  	})
-		//get categoy 
+		//Categoy 
 		.scrape(function($) {
      		   	return $(".page-title").map(function() {
     		        	return $(this).text();
@@ -161,7 +164,7 @@ function scrape(address){
 				data.category = S(text).trim().s;
    
 	})
-		//get description
+		//Description
 		.scrape(function($) {
      		   	return $(".hidden-xs").map(function() {
     		        	return $(this).text();
@@ -174,7 +177,7 @@ function scrape(address){
 				data.description = test;
 	})
 
-////////////////////////////related icon//////////////////////////////////
+		//Related icon
 		.scrape(function($) {
      		   	return $(".img-slide > img").map(function() {
     		        	return $(this).attr("src");
@@ -188,25 +191,21 @@ function scrape(address){
 	
 	})
 
-////////////////////////////related url//////////////////////////////////
+		//Related url
 		.scrape(function($) {
      		   	return $(".slide-content a").map(function() {
     		        	return $(this).attr("href");
      		   	}).get();
     			}, function(link) {
 
-				//console.log(link);
-				//console.log('-----------------------------------');
 				related[0].url  = link[0];
 				related[1].url  = link[1];
 				related[2].url  = link[2];
-				related[3].url  = link[3];
-	
+				related[3].url  = link[3];	
 	})
 
 
-//////////////////////////////////write related title//////////////////////////////////
-
+		//Related title
 		.scrape(function($) {
      		   	return $(".slide-heading").map(function() {
     		        	return $(this).text();
@@ -234,7 +233,7 @@ function scrape(address){
 				content.related = related;
    
 	})
-////////////////////////////// content ////////////////////////////////
+		// Content 
 		.scrape(function($) {
      		   	return $("#tab1").map(function() {
     		        	return $(this).html();
@@ -251,6 +250,7 @@ function scrape(address){
 				tab[0].markdown = overview_path;
    
 	})
+		// Process path
 		.scrape(function($) {
      		   	return $("#tab2 p").map(function() {
     		        	return $(this).html();
@@ -261,10 +261,8 @@ function scrape(address){
 				html = S(html).replaceAll('/sites/default/files/','').s;
 				make_tab_folder(json.filename, option, html );
 
-		//		tab[1].title = option;
-		//		tab[1].markdown = process_path;
 	})
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		//  Get pictures1 from URL 
 		.scrape(function($) {
      		   	return $(".imgpopup").map(function() {
     		        	return $(this).attr("href");
@@ -272,14 +270,13 @@ function scrape(address){
     			}, function(process) {
 
 			file_url = 'http://www.web-presence-in-china.com' + process;
-			//DOWNLOAD_DIR = '/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/' + json.filename + '/';
 			DOWNLOAD_DIR = 'markdown/' + json.filename + '/';
 
 			imgScraper(file_url, DOWNLOAD_DIR);
 	
 	})
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+		//  Get pictures2 from URL (Maybe empty)
 		.scrape(function($) {
      		   	return $(".imgpopup img").map(function() {
     		        	return $(this).attr("src");
@@ -287,7 +284,6 @@ function scrape(address){
     			}, function(process2) {
 			
 			file_url = 'http://www.web-presence-in-china.com' + process2;
-			//DOWNLOAD_DIR = '/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/' + json.filename + '/';
 			DOWNLOAD_DIR = 'markdown/' + json.filename + '/';
 
 			imgScraper(file_url, DOWNLOAD_DIR);
@@ -297,6 +293,7 @@ function scrape(address){
 			
 	})
 
+		// Impact
 		.scrape(function($) {
      		  	return $("#tab3").map(function() {
     		       		return $(this).html();
@@ -359,7 +356,6 @@ function make_tab_folder(address, option , text ){
 //////////////
 function create_markdown_folder(address){
 
-	//var option_path ='/home/lvunie/work/scraper_project/WPIC_Scraper/markdown/' + address + '/';
 	var option_path ='markdown/' + address + '/';				
 
 	mkdirp(option_path, function(err) { 
@@ -397,8 +393,6 @@ function imgScraper(file_url, DOWNLOAD_DIR){
 	
 	var file_name = url.parse(file_url).pathname.split('/').pop();
 	file_name = unescape(file_name);
-	//newName = unescape(file_url);
-	//console.log(file_name);
 
 	var file = fs.createWriteStream(DOWNLOAD_DIR + file_name);
 	

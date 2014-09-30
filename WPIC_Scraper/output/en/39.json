@@ -1,45 +1,45 @@
 {
-    "filename": "channel-conflict-strategies",
+    "filename": "icp-registration",
     "data": {
-        "title": "Channel Conflict Strategies ",
+        "title": "ICP Registration ",
         "category": "Consulting",
-        "description": "Striving for Perfect Market Coverage",
-        "filename": "channel-conflict-strategies",
+        "description": "The First Step in China Digital Compliance",
+        "filename": "icp-registration",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/channel-conflict-strategies/"
+                    "markdown": "markdown/icp-registration/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/channel-conflict-strategies/"
+                    "markdown": "markdown/icp-registration/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/channel-conflict-strategies/"
+                    "markdown": "markdown/icp-registration/"
                 }
             ],
             "related": [
                 {
-                    "title": "Channel Strategy ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/channel-strategy.png",
-                    "url": "http://www.web-presence-in-china.com/channel-strategy"
+                    "title": "China Cloud Hosting ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting.png",
+                    "url": "http://www.web-presence-in-china.com/china-cloud-hosting"
                 },
                 {
-                    "title": "Legal & Structural Setup",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/legal-%26-structural-setup.png",
-                    "url": "http://www.web-presence-in-china.com/legal-structural-setup"
+                    "title": "Content Delivery / Distribution Network (CDN)",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/content-delivery-network-green.png",
+                    "url": "http://www.web-presence-in-china.com/content-delivery-distribution-network-cdn"
                 },
                 {
-                    "title": "Licensing",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/licensing.png",
-                    "url": "http://www.web-presence-in-china.com/licensing"
+                    "title": "Website Analytics",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/web-analytics.png",
+                    "url": "http://www.web-presence-in-china.com/website-analytics"
                 },
                 {
-                    "title": "Project Planning & Management",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/project-planning-%26-management.png",
-                    "url": "http://www.web-presence-in-china.com/project-planning-management"
+                    "title": "Website Deployment",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/website-deployment.png",
+                    "url": "http://www.web-presence-in-china.com/website-deployment"
                 }
             ]
         }

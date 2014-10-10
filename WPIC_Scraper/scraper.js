@@ -301,7 +301,7 @@ function scrape(address){
 			
 			for(i = 0; i < related_img.length; i++){
 
-			DOWNLOAD_DIR = 'markdown/' + json.filename + '/' + 'related/';
+			DOWNLOAD_DIR = 'related/';
 
 			imgScraper(related_img[i], DOWNLOAD_DIR);
 

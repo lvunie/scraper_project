@@ -1,45 +1,45 @@
 {
-    "filename": "microsoft-dynamics",
+    "filename": "ecommerce-0",
     "data": {
-        "title": "Microsoft Dynamics ",
+        "title": "eCommerce ",
         "category": "Technology",
-        "description": "The Ease & Flexibility of Microsoft, Implemented for Global Efficiency",
-        "filename": "microsoft-dynamics",
+        "description": "Seamless Sales in the World’s Largest Online Economy",
+        "filename": "ecommerce-0",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/microsoft-dynamics/"
+                    "markdown": "markdown/ecommerce-0/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/microsoft-dynamics/"
+                    "markdown": "markdown/ecommerce-0/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/microsoft-dynamics/"
+                    "markdown": "markdown/ecommerce-0/"
                 }
             ],
             "related": [
                 {
-                    "title": "Business Integration Solutions ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/business-integration-solutions-green.png",
-                    "url": "http://www.web-presence-in-china.com/business-integration-solutions-0"
+                    "title": "Asset Localization ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/asset-localization.png",
+                    "url": "http://www.web-presence-in-china.com/asset-localization"
                 },
                 {
-                    "title": "Campaign Management Dashboards",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-9898.png",
-                    "url": "http://www.web-presence-in-china.com/campaign-management-dashboards"
+                    "title": "Licensing",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/licensing.png",
+                    "url": "http://www.web-presence-in-china.com/licensing"
                 },
                 {
-                    "title": "Systems Design",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/systems-design.png",
-                    "url": "http://www.web-presence-in-china.com/systems-design"
+                    "title": "Logistics & Fulfillment",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/logistics-%26-fulfillment.png",
+                    "url": "http://www.web-presence-in-china.com/logistics-fulfillment"
                 },
                 {
-                    "title": "Technology Solutions",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/technology-solutions.png",
-                    "url": "http://www.web-presence-in-china.com/technology-solutions"
+                    "title": "Payment Gateway",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/payment-gateways.png",
+                    "url": "http://www.web-presence-in-china.com/payment-gateway"
                 }
             ]
         }

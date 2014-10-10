@@ -142,7 +142,7 @@ function scrape(address){
     		        	return $(this).text();
      		   	}).get();
     			}, function(text) {
-				console.log(text);
+				//console.log(text);
 				data.title = S(text).between('', '|').s ;
 
 				var index    = address.lastIndexOf('/');
@@ -292,6 +292,23 @@ function scrape(address){
 			tab[1].markdown = DOWNLOAD_DIR;
 			
 	})
+/////////////////  Get pictures2 from URL (Maybe empty)
+		.scrape(function($) {
+     		   	return $(".img-slide img").map(function() {
+    		        	return $(this).attr("src");
+     		   	}).get();
+    			}, function(related_img) {
+			
+			for(i = 0; i < related_img.length; i++){
+
+			DOWNLOAD_DIR = 'markdown/' + json.filename + '/' + 'related/';
+
+			imgScraper(related_img[i], DOWNLOAD_DIR);
+
+			}
+			
+	})
+
 
 		// Impact
 		.scrape(function($) {
@@ -377,6 +394,8 @@ function writeToMarkdown(option_markdown, text){
 function imgScraper(file_url, DOWNLOAD_DIR){
 	// We will be downloading the files to a directory, so make sure it's there
 	// This step is not required if you have manually created the directory
+	//console.log(file_url);
+
 	var mkdir = 'mkdir -p ' + DOWNLOAD_DIR;
 	var child = exec(mkdir, function(err, stdout, stderr) {
 	    if (err) throw err;

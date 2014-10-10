@@ -1,45 +1,45 @@
 {
-    "filename": "logistics-fulfillment",
+    "filename": "project-planning-management",
     "data": {
-        "title": "Logistics & Fulfillment ",
+        "title": "Project Planning & Management ",
         "category": "Consulting",
-        "description": "More Than Just Provision, An Integrated Process",
-        "filename": "logistics-fulfillment",
+        "description": "Flexible, Accountable Planning for China Operational Objectives",
+        "filename": "project-planning-management",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/logistics-fulfillment/"
+                    "markdown": "markdown/project-planning-management/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/logistics-fulfillment/"
+                    "markdown": "markdown/project-planning-management/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/logistics-fulfillment/"
+                    "markdown": "markdown/project-planning-management/"
                 }
             ],
             "related": [
                 {
-                    "title": "Business Integration Solutions ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/business-integration-solutions-green.png",
-                    "url": "http://www.web-presence-in-china.com/business-integration-solutions-0"
+                    "title": "Campaign Management Dashboards ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-9898.png",
+                    "url": "http://www.web-presence-in-china.com/campaign-management-dashboards"
                 },
                 {
-                    "title": "eCommerce",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ecommerce.png",
-                    "url": "http://www.web-presence-in-china.com/ecommerce"
+                    "title": "Channel Strategy",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/channel-strategy.png",
+                    "url": "http://www.web-presence-in-china.com/channel-strategy"
                 },
                 {
-                    "title": "Legal & Structural Setup",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/legal-%26-structural-setup.png",
-                    "url": "http://www.web-presence-in-china.com/legal-structural-setup"
+                    "title": "Market Intelligence",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/market-intelligence.png",
+                    "url": "http://www.web-presence-in-china.com/market-intelligence"
                 },
                 {
-                    "title": "Licensing",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/licensing.png",
-                    "url": "http://www.web-presence-in-china.com/licensing"
+                    "title": "Regional Planning",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/regional-planning.png",
+                    "url": "http://www.web-presence-in-china.com/regional-planning"
                 }
             ]
         }

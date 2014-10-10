@@ -1,23 +1,23 @@
 {
-    "filename": "chinese-brand-development",
+    "filename": "graphic-design-production",
     "data": {
-        "title": "Chinese Brand Development ",
+        "title": "Graphic Design Production ",
         "category": "Marketing",
-        "description": "Positioning and Branding for the Chinese Market",
-        "filename": "chinese-brand-development",
+        "description": "Your Vision, Your Message – Localized",
+        "filename": "graphic-design-production",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/chinese-brand-development/"
+                    "markdown": "markdown/graphic-design-production/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/chinese-brand-development/"
+                    "markdown": "markdown/graphic-design-production/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/chinese-brand-development/"
+                    "markdown": "markdown/graphic-design-production/"
                 }
             ],
             "related": [
@@ -27,19 +27,19 @@
                     "url": "http://www.web-presence-in-china.com/asset-localization"
                 },
                 {
+                    "title": "Chinese Brand Development",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/brand-development-green.png",
+                    "url": "http://www.web-presence-in-china.com/chinese-brand-development"
+                },
+                {
                     "title": "Content Localization & Translations Production",
                     "icon": "http://www.web-presence-in-china.com/sites/default/files/content-localization.png",
                     "url": "http://www.web-presence-in-china.com/content-localization-translations-production"
                 },
                 {
-                    "title": "Content Marketing",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-24a.png",
-                    "url": "http://www.web-presence-in-china.com/content-marketing"
-                },
-                {
-                    "title": "Digital Public Relations",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/digital-PR.png",
-                    "url": "http://www.web-presence-in-china.com/digital-public-relations"
+                    "title": "Mobile Websites Design & Development",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-website.png",
+                    "url": "http://www.web-presence-in-china.com/mobile-websites-design-development"
                 }
             ]
         }

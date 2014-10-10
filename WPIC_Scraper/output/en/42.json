@@ -1,45 +1,45 @@
 {
-    "filename": "regional-planning",
+    "filename": "infrastructure-auditing",
     "data": {
-        "title": "Regional Planning ",
+        "title": "Infrastructure Auditing ",
         "category": "Consulting",
-        "description": "The Best Channels and Strategies for Each Market",
-        "filename": "regional-planning",
+        "description": "Establish a Clear Baseline to Improve On",
+        "filename": "infrastructure-auditing",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/regional-planning/"
+                    "markdown": "markdown/infrastructure-auditing/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/regional-planning/"
+                    "markdown": "markdown/infrastructure-auditing/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/regional-planning/"
+                    "markdown": "markdown/infrastructure-auditing/"
                 }
             ],
             "related": [
                 {
-                    "title": "Business Integration Solutions ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/business-integration-solutions-green.png",
-                    "url": "http://www.web-presence-in-china.com/business-integration-solutions-0"
+                    "title": "China Cloud Hosting ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting.png",
+                    "url": "http://www.web-presence-in-china.com/china-cloud-hosting"
                 },
                 {
-                    "title": "Channel Strategy",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/channel-strategy.png",
-                    "url": "http://www.web-presence-in-china.com/channel-strategy"
+                    "title": "Content Delivery / Distribution Network (CDN)",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/content-delivery-network-green.png",
+                    "url": "http://www.web-presence-in-china.com/content-delivery-distribution-network-cdn"
                 },
                 {
-                    "title": "eCommerce",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ecommerce.png",
-                    "url": "http://www.web-presence-in-china.com/ecommerce"
+                    "title": "Systems Design",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/systems-design.png",
+                    "url": "http://www.web-presence-in-china.com/systems-design"
                 },
                 {
-                    "title": "Project Planning & Management",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/project-planning-%26-management.png",
-                    "url": "http://www.web-presence-in-china.com/project-planning-management"
+                    "title": "Website Deployment",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/website-deployment.png",
+                    "url": "http://www.web-presence-in-china.com/website-deployment"
                 }
             ]
         }

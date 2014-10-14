@@ -475,8 +475,8 @@ The Scraper program can work well for it's all functionality, include:
 
 The purpose of this project is to scrape targrt content and store them in organized form from WPIC site. The targrt content incluces in two parts:
 
-	1. Categroy page(Technology, Marketing, Consulting), which we define them as "page2".
-	2. Detail page(all subpage under the categroy page, like "chinese-brand-development"),which we define them all as "page3".
+####1. Categroy page(Technology, Marketing, Consulting), which we define them as "page2".
+####2. Detail page(all subpage under the categroy page, like "chinese-brand-development"),which we define them all as "page3".
 
 ####The Scraper program consist of five main nodejs files:
 

@@ -493,7 +493,9 @@ URL_reader.js  --->  URL_Output.json
 scraper.js  --->  output, markdown, related
 
 --"output":   store page detail for each **page_three**.
+
 --"markdown": store page content *Overview*, *Process*, *Impact* as markdown format, and also download and save all *related* icon for each **page_three** URL.
+
 --"related":  download and save all icon for category page.
 
 **3. scraper_marketing.js:  category_output/category_marketing.json**

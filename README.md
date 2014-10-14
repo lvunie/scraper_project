@@ -473,12 +473,17 @@ The Scraper program can work well for it's all functionality, include:
 
 ## Summary for scraper project so far(10-12)
 
-The purpose of this project is to scrape targrt content and store them in organized form from WPIC site. The targrt content incluces in two parts:
+The purpose of this project is to scrape targrt content and store them in organized form from WPIC site. The targrt content incluces in two different type of pages:
 
-1. Categroy page(Technology, Marketing, Consulting), which we define them as "page2".
-2. Detail page(all subpage under the categroy page, like "chinese-brand-development"),which we define them all as "page3".
+1. Service option page(Technology, Marketing, Consulting)
+There are three different category for service option, the target content is all detail business service in each option and each their icon.
 
-####The Scraper program consist of five main nodejs files:
+2. Service detail page(more specify service detail, like "chinese-brand-development", "website-design")
+Under each service option, there are many more specify business service for each category. The target content from service detail page is the text from "Overview", "Impact" section and picture from "process". Also each detail page have its own related link to other detail pages, we need to store those information for each service page.
+
+
+####The Scraper program detail:
+The program consists of five mian javascript files as following:
 
 ######1. URL_reader.js ---> URL_Output.json
 	"URL_reader.js" reads a given URL to find out all its subURLs, and write all subURLs to "URL_Output.json".

@@ -485,23 +485,23 @@ Under each service option, there are many more specify business service for each
 ####The Scraper program detail:
 The program consists of five mian javascript files as following:
 
-######1. URL_reader.js ---> URL_Output.json
-	"URL_reader.js" reads a given URL to find out all its subURLs, and write all subURLs to "URL_Output.json".
+**1. URL_reader.js ---> URL_Output.json**
+"URL_reader.js" reads a given URL to find out all its subURLs, and write all subURLs to "URL_Output.json".
 
-######2. scraper.js   --->  output, markdown, related
+**2. scraper.js   --->  output, markdown, related**
 
-	"output":   store page detail for each "page3". 
-	"markdown": store page content "Overview", "Process", "Impact" as markdown format, and also download and save all "related" icon for each 	"page3" URL.
-	"related":  download and save all icon for category page.
+"output":   store page detail for each "page3". 
+"markdown": store page content "Overview", "Process", "Impact" as markdown format, and also download and save all "related" icon for each "page3" URL.
+"related":  download and save all icon for category page.
 
-######3. scraper_marketing.js   --->  category_output/category_marketing.json
+**3. scraper_marketing.js   --->  category_output/category_marketing.json**
 	Store page detail for marketing category. 
 
-######4. scraper_technology.js   --->  category_output/category_technology.json
-	Store page detail for technology category. 
+**4. scraper_technology.js   --->  category_output/category_technology.json**
+Store page detail for technology category. 
 
-######5. scraper_consulting.js   --->  category_output/category_consulting.json
-	Store page detail for consulting category.
+**5. scraper_consulting.js   --->  category_output/category_consulting.json**
+Store page detail for consulting category.
 
 *the reason why I spearate those category pages because I thought each categroy page may have it own element in funture, and this will be convenience for modification.
 **also there need "grunt" function to merge all json output to one.

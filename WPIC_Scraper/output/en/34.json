@@ -18,6 +18,10 @@
                 {
                     "title": "Impact",
                     "markdown": "markdown/legal-structural-setup/"
+                },
+                {
+                    "title": "Intelligence",
+                    "markdown": "markdown/legal-structural-setup/"
                 }
             ],
             "related": [

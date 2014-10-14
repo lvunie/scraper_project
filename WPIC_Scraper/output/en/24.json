@@ -18,6 +18,10 @@
                 {
                     "title": "Impact",
                     "markdown": "markdown/website-deployment/"
+                },
+                {
+                    "title": "Intelligence",
+                    "markdown": "markdown/technology-solutions/"
                 }
             ],
             "related": [

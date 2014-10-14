@@ -18,6 +18,10 @@
                 {
                     "title": "Impact",
                     "markdown": "markdown/content-delivery-distribution-network-cdn/"
+                },
+                {
+                    "title": "Intelligence",
+                    "markdown": "markdown/website-design/"
                 }
             ],
             "related": [

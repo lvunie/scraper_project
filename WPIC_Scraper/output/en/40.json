@@ -18,6 +18,10 @@
                 {
                     "title": "Impact",
                     "markdown": "markdown/channel-conflict-strategies/"
+                },
+                {
+                    "title": "Intelligence",
+                    "markdown": "markdown/market-intelligence/"
                 }
             ],
             "related": [

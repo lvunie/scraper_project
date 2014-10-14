@@ -239,6 +239,8 @@ function scrape(address){
     		        	return $(this).text();
      		   	}).get();
     			}, function(string) {
+
+				
 				string = S(string).lines();				
 				string = S(string).trim().s;
 				string = S(string).collapseWhitespace().s

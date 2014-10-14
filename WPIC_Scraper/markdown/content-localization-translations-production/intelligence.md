@@ -1,0 +1,7 @@
+## Intelligence
+ <div class="intelligence-items"> <article class="intelligence-item"> ![](http://www.web-presence-in-china.com/sites/default/files/styles/medium/public/images/2014/09/Screen%20Shot%202014-09-22%20at%205.41.46%20pm.jpg?itok=V18EtsqG) <div class="intelligence-item-content"> 
+
+### [Translation for Today&apos;s Chinese Consumer](http://www.chinadigitalreview.com/5-must-haves-to-convert-the-chinese-online-customer/ "Translation for Today&apos;s Chinese Consumer")
+
+<span style="font-size: medium;">Localizing English content for Mandarin speakers today is more a matter of recognizing that the Chinese consumer is a global consumer than considering all the differences that five thousand years of culture has had on her outlook. Connected and brand savvy, the Chinese online consumer reacts to the same cues that the principles of copywriting have always espoused. Unfortunately, most big translation companies to not have Mandarin copywriting in their wheelhouse. A better approach is to have an editor explain to a native Mandarin speaker a brand&apos;s value proposition and unique selling points. Once the materials have been translated, a Chinese copywriter can revise as needed, ensuring that the copy is conveyed with maximum impact.&#xA0;</span>
+ [Read More &#xBB;](http://www.chinadigitalreview.com/5-must-haves-to-convert-the-chinese-online-customer/ "Translation for Today&apos;s Chinese Consumer") </div> </article> </div>

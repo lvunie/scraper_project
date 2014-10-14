@@ -1,45 +1,49 @@
 {
-    "filename": "mobile-websites-design-development",
+    "filename": "payment-gateway",
     "data": {
-        "title": "Mobile Websites Design & Development ",
+        "title": "Payment Gateway ",
         "category": "Technology",
-        "description": "Profit by Adapting to China’s Mobile Revolution",
-        "filename": "mobile-websites-design-development",
+        "description": "Stop Lead Loss at Its Biggest Source",
+        "filename": "payment-gateway",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/mobile-websites-design-development/"
+                    "markdown": "markdown/payment-gateway/"
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/mobile-websites-design-development/"
+                    "markdown": "markdown/payment-gateway/"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/mobile-websites-design-development/"
+                    "markdown": "markdown/payment-gateway/"
+                },
+                {
+                    "title": "Intelligence",
+                    "markdown": "markdown/payment-gateway/"
                 }
             ],
             "related": [
                 {
-                    "title": "Mobile Advertising ",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-ads.png",
-                    "url": "http://www.web-presence-in-china.com/mobile-advertising"
+                    "title": "eCommerce ",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/eCommerce1.png",
+                    "url": "http://www.web-presence-in-china.com/ecommerce-0"
                 },
                 {
-                    "title": "Mobile Application Development",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-app-development.png",
-                    "url": "http://www.web-presence-in-china.com/mobile-application-development"
+                    "title": "Legal & Structural Setup",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/legal-%26-structural-setup.png",
+                    "url": "http://www.web-presence-in-china.com/legal-structural-setup"
                 },
                 {
-                    "title": "Mobile Application Publishing",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon23.png",
-                    "url": "http://www.web-presence-in-china.com/mobile-application-publishing"
+                    "title": "Licensing",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/licensing.png",
+                    "url": "http://www.web-presence-in-china.com/licensing"
                 },
                 {
-                    "title": "Website Deployment",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/website-deployment.png",
-                    "url": "http://www.web-presence-in-china.com/website-deployment"
+                    "title": "Logistics & Fulfillment",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/logistics-%26-fulfillment.png",
+                    "url": "http://www.web-presence-in-china.com/logistics-fulfillment"
                 }
             ]
         }

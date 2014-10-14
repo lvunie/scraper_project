@@ -18,6 +18,10 @@
                 {
                     "title": "Impact",
                     "markdown": "markdown/business-integration-solutions/"
+                },
+                {
+                    "title": "Intelligence",
+                    "markdown": "markdown/market-intelligence/"
                 }
             ],
             "related": [

@@ -21,6 +21,13 @@
                     "img_white": "http://www.web-presence-in-china.com/sites/default/files/graphic-design-white.png"
                 },
                 {
+                    "cate_heading": "Campaign Tracking Dashboards",
+                    "two_text": "Reliable Feedback on Chinese Media, Campaigns, & Brand Positions",
+                    "link": "http://www.web-presence-in-china.com/campaign-tracking-dashboards",
+                    "img_slide": "http://www.web-presence-in-china.com/sites/default/files/campaign-tracking-dashboards.png",
+                    "img_white": "http://www.web-presence-in-china.com/sites/default/files/campaign-tracking-dashboards2.png"
+                },
+                {
                     "cate_heading": "Market Analysis",
                     "two_text": "Knowledge Geared to Winning Market Share",
                     "link": "http://www.web-presence-in-china.com/market-analysis",
@@ -54,13 +61,6 @@
                     "link": "http://www.web-presence-in-china.com/website-analytics",
                     "img_slide": "http://www.web-presence-in-china.com/sites/default/files/web-analytics.png",
                     "img_white": "http://www.web-presence-in-china.com/sites/default/files/web-analytics-white.png"
-                },
-                {
-                    "cate_heading": "Campaign Tracking Dashboards",
-                    "two_text": "Reliable Feedback on Chinese Media, Campaigns, & Brand Positions",
-                    "link": "http://www.web-presence-in-china.com/campaign-tracking-dashboards",
-                    "img_slide": "http://www.web-presence-in-china.com/sites/default/files/campaign-tracking-dashboards.png",
-                    "img_white": "http://www.web-presence-in-china.com/sites/default/files/campaign-tracking-dashboards2.png"
                 },
                 {
                     "cate_heading": "eCommerce",

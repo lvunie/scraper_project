@@ -23,6 +23,7 @@ var http = require('http');
 var exec = require('child_process').exec;
 var spawn = require('child_process').spawn;
 
+// app.set('port', 3001);
 
 // JSON structure
 var frame = {
@@ -57,6 +58,9 @@ var tab = [{
              "markdown": ""
 	},
 	{
+	     "title": "",
+             "markdown": ""
+},{
 	     "title": "",
              "markdown": ""
 }];
@@ -308,6 +312,24 @@ function scrape(address){
 			}
 			
 	})
+	// Intelligence 
+		.scrape(function($) {
+     		   	return $("#tab4").map(function() {
+    		        	return $(this).html();
+     		   	}).get();
+    			}, function(html) {
+				// 当内容部存在时停止操作
+				if(html ==''){return}
+				option = 'Intelligence';
+				html = S(html).collapseWhitespace().s;
+				html = toMarkdown(html);
+	
+				intelligence_path = make_tab_folder(json.filename, option, html);
+
+				tab[3].title = option;
+				tab[3].markdown = intelligence_path;
+   
+	})
 
 
 		// Impact
@@ -420,7 +442,7 @@ function imgScraper(file_url, DOWNLOAD_DIR){
 	            file.write(data);
 	        }).on('end', function() {
 	            file.end();
-	            //console.log(file_name + ' downloaded to ' + DOWNLOAD_DIR);
+	            console.log(file_name + ' downloaded to ' + DOWNLOAD_DIR);
 	        });
 	    });
 	};

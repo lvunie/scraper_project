@@ -18,6 +18,10 @@
                 {
                     "title": "Impact",
                     "markdown": "markdown/display-advertising/"
+                },
+                {
+                    "title": "Intelligence",
+                    "markdown": "markdown/content-localization-translations-production/"
                 }
             ],
             "related": [

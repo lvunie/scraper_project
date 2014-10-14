@@ -18,6 +18,10 @@
                 {
                     "title": "Impact",
                     "markdown": "markdown/licensing/"
+                },
+                {
+                    "title": "Intelligence",
+                    "markdown": "markdown/market-intelligence/"
                 }
             ],
             "related": [

@@ -18,6 +18,10 @@
                 {
                     "title": "Impact",
                     "markdown": "markdown/scraping/"
+                },
+                {
+                    "title": "Intelligence",
+                    "markdown": "markdown/payment-gateway/"
                 }
             ],
             "related": [

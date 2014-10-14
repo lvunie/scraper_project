@@ -18,6 +18,10 @@
                 {
                     "title": "Impact",
                     "markdown": "markdown/regional-planning/"
+                },
+                {
+                    "title": "Intelligence",
+                    "markdown": "markdown/regional-planning/"
                 }
             ],
             "related": [

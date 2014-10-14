@@ -1,0 +1,7 @@
+## Intelligence
+ <div class="intelligence-items"> <article class="intelligence-item"> ![](http://www.web-presence-in-china.com/sites/default/files/styles/medium/public/images/2014/09/Screen%20Shot%202014-09-23%20at%205.12.40%20pm.jpg?itok=50Yvj4nH) <div class="intelligence-item-content"> 
+
+### [Interactive Tools = Increased Revenue](http://www.chinadigitalreview.com/enhanced-tmall-ux-enhanced-branding-revenue/ "Interactive Tools = Increased Revenue")
+
+<span style="font-size: medium;">User experience is a prime factor in conversion rate, with interactivity a key driver of good UX. One objection to third party ecommerce sites in China, such as [Tmall](http://www.tmall.com/)&#xA0;, is that opportunities for branding and UX are limited. Web Presence In China is helping break through these limitations. Leveraging Alibaba relationships and its in house digital lab, WPIC was able to create an interactive tool for both Crucial and Pantone on their Tmall stores, allowing visitors to easily discover the right product for their needs, without necessitating live assistance. Such exceptions are still rare on the Tmall platform, but WPIC&apos;s pioneering role of pushing UX on Tmall bodes well for its clients.</span>
+ [Read More &#xBB;](http://www.chinadigitalreview.com/enhanced-tmall-ux-enhanced-branding-revenue/ "Interactive Tools = Increased Revenue") </div> </article> </div>

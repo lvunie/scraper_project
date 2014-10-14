@@ -18,6 +18,10 @@
                 {
                     "title": "Impact",
                     "markdown": "markdown/analytics/"
+                },
+                {
+                    "title": "Intelligence",
+                    "markdown": "markdown/content-marketing/"
                 }
             ],
             "related": [

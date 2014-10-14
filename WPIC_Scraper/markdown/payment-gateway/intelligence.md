@@ -1,0 +1,7 @@
+## Intelligence
+ <div class="intelligence-items"> <article class="intelligence-item"> ![](http://www.web-presence-in-china.com/sites/default/files/styles/medium/public/images/2014/09/Screen%20Shot%202014-09-22%20at%205.44.55%20pm.jpg?itok=wbASJuJK) <div class="intelligence-item-content"> 
+
+### [Alipay, Unionpay Lead as China Payment Gateway Options](http://www.chinadigitalreview.com/taking-online-payments-in-china-101/ "Alipay, Unionpay Lead as China Payment Gateway Options")
+
+<span style="font-size: medium;">Alipay is China&apos;s go to online payment solution, with 76% market share. As China&apos;s only national bank card association, with over 400 member banks and 45% YoY growth, Union Pay is making ecommerce inroads. Other options lack the reach necessary to give a potential Chinese online segment the convenience they prefer. Setting up an Alipay account provides the best chance of reaching the most potential customers and instilling the highest degree of confidence in purchase, while Unionpay offers convenience in a great many online to offline scenarios. See [this guide](http://www.chinadigitalreview.com/how-to-open-an-alipay-account/) for setting up to take payments using Alipay.&#xA0;</span>
+ [Read More &#xBB;](http://www.chinadigitalreview.com/taking-online-payments-in-china-101/ "Alipay, Unionpay Lead as China Payment Gateway Options") </div> </article> </div>

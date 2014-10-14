@@ -18,6 +18,10 @@
                 {
                     "title": "Impact",
                     "markdown": "markdown/content-localization-translations-production/"
+                },
+                {
+                    "title": "Intelligence",
+                    "markdown": "markdown/content-localization-translations-production/"
                 }
             ],
             "related": [

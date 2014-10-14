@@ -18,6 +18,10 @@
                 {
                     "title": "Impact",
                     "markdown": "markdown/campaign-tracking-dashboards/"
+                },
+                {
+                    "title": "Intelligence",
+                    "markdown": "markdown/chinese-seo/"
                 }
             ],
             "related": [

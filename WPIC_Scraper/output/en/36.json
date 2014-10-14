@@ -18,6 +18,10 @@
                 {
                     "title": "Impact",
                     "markdown": "markdown/project-planning-management/"
+                },
+                {
+                    "title": "Intelligence",
+                    "markdown": "markdown/market-intelligence/"
                 }
             ],
             "related": [

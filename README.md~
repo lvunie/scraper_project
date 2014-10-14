@@ -475,11 +475,11 @@ The Scraper program can work well for it's all functionality, include:
 
 The purpose of this project is to scrape targrt content and store them in organized form from WPIC site. The targrt content incluces in two different type of pages:
 
-1. Service option page(Technology, Marketing, Consulting)
-*There are three different category for service option, the target content is all detail business service in each option and each their icon.
+1. *Service option page(Technology, Marketing, Consulting)*
+There are three different category for service option, the target content is all detail business service in each option and each their icon.
 
-2. Service detail page(more specify service detail, like "chinese-brand-development")
-*Under each service option, there are many more specify business service for each category. The target content from service detail page is the text from "Overview", "Impact" section and picture from "process". Also each detail page have its own related link to other detail pages, we need to store those information for each service page.
+2. *Service detail page(more specify service detail, like "chinese-brand-development")*
+Under each service option, there are many more specify business service for each category. The target content from service detail page is the text from "Overview", "Impact" section and picture from "process". Also each detail page have its own related link to other detail pages, we need to store those information for each service page.
 
 
 ####The Scraper program detail:

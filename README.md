@@ -498,8 +498,7 @@ The purpose of this project is to scrape targrt content and store them in organi
 ######5. scraper_consulting.js   --->  category_output/category_consulting.json
 	Store page detail for consulting category.
 
-*the reason why I spearate those category pages because I thought each categroy page may have it own element in funture, and this will be convenience for modification. 
-
+*the reason why I spearate those category pages because I thought each categroy page may have it own element in funture, and this will be convenience for modification. \n
 **also there need "grunt" function to merge all json output to one.
 
 

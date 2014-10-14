@@ -475,29 +475,28 @@ The Scraper program can work well for it's all functionality, include:
 
 The purpose of this project is to scrape targrt content and store them in organized form from WPIC site. The targrt content incluces in two parts:
 
-1. Categroy page(Technology, Marketing, Consulting), which we define them as "page2".
-2. Detail page(all subpage under the categroy page, like "chinese-brand-development"),which we define them all as "page3".
+	1. Categroy page(Technology, Marketing, Consulting), which we define them as "page2".
+	2. Detail page(all subpage under the categroy page, like "chinese-brand-development"),which we define them all as "page3".
 
 ####The Scraper program consist of five main nodejs files:
 
 ######1. URL_reader.js ---> URL_Output.json
-("URL_reader.js" reads a given URL to find out all its subURLs, and write all subURLs to "URL_Output.json".)
+	"URL_reader.js" reads a given URL to find out all its subURLs, and write all subURLs to "URL_Output.json".
 
 ######2. scraper.js   --->  output, markdown, related
-"scraper.js" reads from "URL_Output.json" to get all "page3" URL, then write output to following folder:
 
-"output":   store page detail for each "page3". 
-"markdown": store page content "Overview", "Process", "Impact" as markdown format, and also download and save all "related" icon for each "page3" URL.
-"related":  download and save all icon for category page.
+	"output":   store page detail for each "page3". 
+	"markdown": store page content "Overview", "Process", "Impact" as markdown format, and also download and save all "related" icon for each 	"page3" URL.
+	"related":  download and save all icon for category page.
 
 ######3. scraper_marketing.js   --->  category_output/category_marketing.json
-Store page detail for marketing category. 
+	Store page detail for marketing category. 
 
 ######4. scraper_technology.js   --->  category_output/category_technology.json
-Store page detail for technology category. 
+	Store page detail for technology category. 
 
 ######5. scraper_consulting.js   --->  category_output/category_consulting.json
-Store page detail for consulting category.
+	Store page detail for consulting category.
 
 *the reason why I spearate those category pages because I thought each categroy page may have it own element in funture, and this will be convenience for modification. 
 

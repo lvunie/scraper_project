@@ -476,10 +476,10 @@ The Scraper program can work well for it's all functionality, include:
 The purpose of this project is to scrape targrt content and store them in organized form from WPIC site. The targrt content incluces in two different type of pages:
 
 1. **Service option page(Technology, Marketing, Consulting)**
-There are three different category for service option, the target content is all detail business service in each option and each their icon. We defined those type of pages as **page_two** type.
+There are three different category for service option, the target content is all detail business service in each option and their icon. We defined those type of pages as **page_two** page.
 
 2. **Service detail page(more specify service detail, like "chinese-brand-development")**
-Under each service option, there are many more specify business service for each category. The target content from service detail page is the text from "Overview", "Impact" section and picture from "process". Also each detail page have its own related link to other detail pages, we need to store those information for each service page. We defined those type of pages as **page_three** type.
+Under each service option, there are many more specify business service for each category. The target content from service detail page is the text from "Overview", "Impact" section and picture from "process". Also each detail page have its own related link to other detail pages, we need to store those information for each service page. We defined those type of pages as **page_three** page.
 
 ####The Scraper program detail:
 The program consists of five mian javascript files as following:
@@ -494,11 +494,11 @@ The program consists of five mian javascript files as following:
 
 **5. scraper.js:**   
 
-"output":   a folder to store JSON for each **page_three** detail.  
-"markdown": a folder to store text for *Overview*, *Impact* in markdown(md) format from each **page_three** , and also download and save all *related* icon for each **page_three** URL.       
-"related":  download and save all icon for category page.
+"output":   a folder to store JSON for each **page_three** output.  
+"markdown": a folder to store text for *Overview*, *Impact* in markdown(md) format from each **page_three** , download and save picture for "process" section. and also save all *related* icon for each **page_three** URL.       
+"related":  download and save all icon for **page_two**.
 
-*the reason why I spearate those category pages because I thought each categroy page may have it own element in funture, and this will be convenience for modification.
+*the reason why I spearate those category pages because I thought each categroy page may have it own element in funture, and this will be convenience for modification.  
 **also there need "grunt" function to merge all json output to one.
 
 

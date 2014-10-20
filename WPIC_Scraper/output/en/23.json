@@ -9,24 +9,32 @@
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/technology-solutions/"
+                    "markdown": "markdown/technology-solutions/",
+                    "href": "#tab1",
+                    "class": ""
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/technology-solutions/"
+                    "markdown": "markdown/technology-solutions/",
+                    "href": "#tab2",
+                    "class": "active"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/technology-solutions/"
+                    "markdown": "markdown/technology-solutions/",
+                    "href": "#tab3",
+                    "class": ""
                 },
                 {
                     "title": "Intelligence",
-                    "markdown": "markdown/technology-solutions/"
+                    "markdown": "markdown/technology-solutions/",
+                    "href": "#tab4",
+                    "class": ""
                 }
             ],
             "related": [
                 {
-                    "title": "Business Integration Solutions ",
+                    "title": "Business Integration Solutions",
                     "icon": "http://www.web-presence-in-china.com/sites/default/files/business-integration-solutions-green.png",
                     "url": "http://www.web-presence-in-china.com/business-integration-solutions-0"
                 },

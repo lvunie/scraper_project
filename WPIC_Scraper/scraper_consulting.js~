@@ -11,9 +11,10 @@ var address;
 var filename;
 var title, category, content, description;
 var cate_heading, two_text, link, img_slide, img_white;
+var length_index;
 
 var three = {
-	//page: "",
+	
 };
 
 var json = { 
@@ -24,7 +25,7 @@ var json = {
 var data = {
 	title : "", 
 	description : "", 
-	filename : "", 
+	filename : "",
 	content : ""
 };
 
@@ -33,91 +34,13 @@ var content = {
 };
 
 var items = [
-	{
-		"cate_heading":"",
-		"two_text": "",
-		"link": "",
-		"img_slide": "",
-		"img_white": "",
-	},	
-	{
-		"cate_heading":"",
-		"two_text": "",
-		"link": "",
-		"img_slide": "",
-		"img_white": "",
-	},
-	{
-		"cate_heading":"",
-		"two_text": "",
-		"link": "",
-		"img_slide": "",
-		"img_white": "",
-	},
-	{
-		"cate_heading":"",
-		"two_text": "",
-		"link": "",
-		"img_slide": "",
-		"img_white": "",
-	},	
-	{
-		"cate_heading":"",
-		"two_text": "",
-		"link": "",
-		"img_slide": "",
-		"img_white": "",
-	},	
-	{
-		"cate_heading":"",
-		"two_text": "",
-		"link": "",
-		"img_slide": "",
-		"img_white": "",
-	},	
-	{
-		"cate_heading":"",
-		"two_text": "",
-		"link": "",
-		"img_slide": "",
-		"img_white": "",
-	},	
-	{
-		"cate_heading":"",
-		"two_text": "",
-		"link": "",
-		"img_slide": "",
-		"img_white": "",
-	},	
-	{
-		"cate_heading":"",
-		"two_text": "",
-		"link": "",
-		"img_slide": "",
-		"img_white": "",
-	},	
-	{
-		"cate_heading":"",
-		"two_text": "",
-		"link": "",
-		"img_slide": "",
-		"img_white": "",
-	},	
-	{
-		"cate_heading":"",
-		"two_text": "",
-		"link": "",
-		"img_slide": "",
-		"img_white": "",
-	},		
 	
 ];
 
-
+// create folder if no exist, to store category output json
 function createFolder(){
 
-	var pathName = '/home/lvunie/work/scraper_project/WPIC_Scraper/category_output/'; 
-
+	var pathName = 'category_output'; 
 
 	mkdirp(pathName, function(err) { 
 		//console.log('ok');
@@ -145,13 +68,20 @@ rd.on('line', function(line) {
 	address = S(line).between('"', '"').s;
     }
 	
-
 	var pageTwo = S(line).indexOf('category/consulting');
-	//console.log(pageTwo +': '+ address);
-	if(pageTwo > 0)
+	var categoryPage = S(line).indexOf('category/consulting');
+
+	if(categoryPage > 0)
 	{
+		console.log(address);
 		scrape(address);
 	}
+
+
+	//if(pageTwo > 0)
+	//{
+	//	scrape(address);
+	//}
 	
 });
 
@@ -161,47 +91,101 @@ rd.on('line', function(line) {
 
 function scrape(address){
 
+	// Get category title, ("title")
 	scraperjs.StaticScraper.create(address)
-	    	.scrape(function($) {
+		// Get the size of service options
+		.scrape(function($) {
+     		   	return $(".content a").map(function() {
+    		        	return $(this).attr("href");
+     		   	}).get();
+    			}, function(link) {
+			
+			length_index = link.length;
+			writeToDynamicArray(address, length_index );
+
+	})
+	
+
+}
+
+
+////////////////////////////Write content to JSON file//////////////////////////////////////////////////
+function writeToJson(address,json, outputName){
+
+	fileIndex = fileIndex +1;
+
+	var pathName = 'category_output/';
+	var outputFile = outputName + '.json'
+
+
+	var newAddress = pathName + outputFile;
+        fs.writeFile(newAddress, JSON.stringify(three, null, 4), function(err){
+        	//console.log(json);
+        })	
+}
+
+
+function writeToDynamicArray(address, length_index ){
+
+ 		scraperjs.StaticScraper.create(address)
+.scrape(function($) {
 	     		   return $("title").map(function() {
     		        	return $(this).text();
      		   	}).get();
     			}, function(string) {
 				data.title = S(string).between('', '|').s ;
  	})
-
+		// Get category description
 		.scrape(function($) {
      		   	    return $("h3").map(function() {
     		        	return $(this).text();
      		   	}).get();
     			}, function(string) {
 				data.description = S(string).trim().s;
-				//console.log(data.description);
    
 	})
 
+		//Get service title, "cate_heading"
 		.scrape(function($) {
-     		   	return $("img").map(function() {
-    		        	return $(this).attr("src");
+     		   	return $(".cate-heading.b-from-bottom").map(function() {
+    		        	return $(this).text();
      		   	}).get();
-    			}, function(link) {
+    			}, function(string) {
 
-				i_slide = 1;
-				size = link.length/2 - 1;
+				var newString = '';
+				
 
-				for(i = 0;  i < size; i++){			
+				for(i=0; i < length_index; i++)
+				{
+					newString = string[i];				
+					newString = S(newString).trim().s;
 
-					items[i].img_slide = link[i_slide];
-					i_slide = i_slide + 1;
-					items[i].img_white = link[i_slide];
-					i_slide = i_slide + 1;
+					items.push({ 
+        				"heading": newString,
+    					});
+				}			
+				
+				content.items = items;
+				//items = '';
+				
+	})
+		// Get detail description for each service option, ("two_text")
+		.scrape(function($) {
+     		   	    return $(".b-from-bottom.b-animate.inner-para.text-left").map(function() {
+    		        	return $(this).text();
+     		   	}).get();
+    			}, function(string) {
 
+			 	for(i=0; i < length_index; i++)
+				{
+					newString = string[i];				
+					newString = S(newString).trim().s;
+					items[i].two_text = newString;
 				}
-			
+   		
 	})
 
-//////////////////////////////////////start///////////////////////////////////////////
-
+		// Get "link"
 		.scrape(function($) {
      		   	    return $(".col-xs-12.col-sm-6.col-md-3 > a").map(function() {
     		        	return $(this).attr("href");
@@ -213,165 +197,27 @@ function scrape(address){
 				}
    
 	})
-///////////////////////////////////////////start////////////////////////////
-			.scrape(function($) {
-     		   	    return $(".b-from-bottom.b-animate.inner-para.text-left").map(function() {
-    		        	return $(this).text();
-     		   	}).get();
-    			}, function(string) {
-				string = S(string).lines();				
-				string = S(string).trim().s;
-				string = S(string).collapseWhitespace().s
-				
-				subtitle = S(string).between(',',',,').s;	
-				sub_index = subtitle.length + 2;
-				string = string.substring(sub_index);
-				items[0].two_text = S(subtitle).trim().s;
-
-				subtitle = S(string).between(',',',,').s;	
-				sub_index = subtitle.length + 2;
-				string = string.substring(sub_index);
-				items[1].two_text = S(subtitle).trim().s;
-
-				subtitle = S(string).between(',',',,').s;	
-				sub_index = subtitle.length + 2;
-				string = string.substring(sub_index);
-				items[2].two_text = S(subtitle).trim().s;
-
-				subtitle = S(string).between(',',',,').s;	
-				sub_index = subtitle.length + 2;
-				string = string.substring(sub_index);
-				items[3].two_text = S(subtitle).trim().s;
-
-				subtitle = S(string).between(',',',,').s;	
-				sub_index = subtitle.length + 2;
-				string = string.substring(sub_index);
-				items[4].two_text = S(subtitle).trim().s;
-
-				subtitle = S(string).between(',',',,').s;	
-				sub_index = subtitle.length + 2;
-				string = string.substring(sub_index);
-				items[5].two_text = S(subtitle).trim().s;
-
-				subtitle = S(string).between(',',',,').s;	
-				sub_index = subtitle.length + 2;
-				string = string.substring(sub_index);
-				items[6].two_text = S(subtitle).trim().s;
-
-				subtitle = S(string).between(',',',,').s;	
-				sub_index = subtitle.length + 2;
-				string = string.substring(sub_index);
-				items[7].two_text = S(subtitle).trim().s;
-
-				subtitle = S(string).between(',',',,').s;	
-				sub_index = subtitle.length + 2;
-				string = string.substring(sub_index);
-				items[8].two_text = S(subtitle).trim().s;
-
-				subtitle = S(string).between(',',',,').s;	
-				sub_index = subtitle.length + 2;
-				string = string.substring(sub_index);
-				items[9].two_text = S(subtitle).trim().s;
-
-				subtitle = S(string).between(',',' ').s;
-				items[10].two_text = string.substring(2);
-   		
-	})
-	
-///////////////////////////////////end//////////////////////////////////////////////
+		// Get icon address for each service option, ("img_slide", "img_white")
 		.scrape(function($) {
-     		   	return $(".cate-heading.b-from-bottom").map(function() {
-    		        	return $(this).text();
+     		   	return $("img").map(function() {
+    		        	return $(this).attr("src");
      		   	}).get();
-    			}, function(string) {
-				string = S(string).trim().s;
-				string = S(string).collapseWhitespace().s
+    			}, function(link) {
+				i_slide = 1;
+				size = link.length/2 - 1;
 
-///////////////////////////////////////////////////////////////////////////////////////////////////////	
-                                // temp = CB;
-				temp = S(string).between('',',').s;	
-				string = S(string).chompLeft(temp).s;	
+				for(i = 0;  i < size; i++){			
 
-				items[0].cate_heading = S(temp).trim().s;
-				//items[0].two_text = string;
-
-				temp = S(string).between(',',',').s;
-				number = temp.length + 1;
-				string = string.substring(number);
-
-				items[1].cate_heading = S(temp).trim().s;
-				//items[1].two_text = string;
-
-				temp = S(string).between(',',',').s;
-				number = temp.length + 1;
-				string = string.substring(number);
-
-				items[2].cate_heading = S(temp).trim().s;
-				//items[2].two_text = string;
-
-				temp = S(string).between(',',',').s;
-				number = temp.length + 1;
-				string = string.substring(number);
-
-				items[3].cate_heading = S(temp).trim().s;
-				//items[3].two_text = string;
-
-				temp = S(string).between(',',',').s;
-				number = temp.length + 1;
-				string = string.substring(number);
-
-				items[4].cate_heading = S(temp).trim().s;
-				//items[4].two_text = string;
-
-				temp = S(string).between(',',',').s;
-				number = temp.length + 1;
-				string = string.substring(number);
-
-				items[5].cate_heading = S(temp).trim().s;
-				//items[5].two_text = string;
-
-				temp = S(string).between(',',',').s;
-				number = temp.length + 1;
-				string = string.substring(number);
-
-				items[6].cate_heading = S(temp).trim().s;
-				//items[6].two_text = string;
-
-				temp = S(string).between(',',',').s;
-				number = temp.length + 1;
-				string = string.substring(number);
-
-				items[7].cate_heading = S(temp).trim().s;
-				//items[7].two_text = string;
-
-				temp = S(string).between(',',',').s;
-				number = temp.length + 1;
-				string = string.substring(number);
-
-				items[8].cate_heading = S(temp).trim().s;
-				//items[8].two_text = string;
-
-				temp = S(string).between(',',',').s;
-				number = temp.length + 1;
-				string = string.substring(number);
-
-				items[9].cate_heading = S(temp).trim().s;
-				//items[9].two_text = string;
-
-				temp = S(string).between(',',',').s;
-				number = temp.length + 1;
-				string = string.substring(number);
-
-				items[10].cate_heading = S(string).trim().s;
-				//items[10].two_text = string;
-
-				content.items = items;
-				
+					items[i].img_slide = link[i_slide];
+					i_slide = i_slide + 1;
+					items[i].img_white = link[i_slide];
+					i_slide = i_slide + 1;
+					
+				}
 			
-
-				
 	})
-///////////////////////////content ////////////////////////////////
+
+
 		.scrape(function($) {
      		  	return $("#tab3 p, ol").map(function() {
     		       		return $(this).text();
@@ -387,26 +233,11 @@ function scrape(address){
 				json.filename = address.slice(index+1); 
 				data.filename = json.filename;
 
-////////////////////////////////call write function////////////////////////////////////////
-				three = json;		//three.page = json;
-				writeToJson(address,three);
+				three = json; 
+				writeToJson(address,three,json.filename);
 				
 	})
-}
 
-
-////////////////////////////Write content to JSON file//////////////////////////////////////////////////
-function writeToJson(address,json){
-
-	fileIndex = fileIndex +1;
-
-	var pathName = '/home/lvunie/work/scraper_project/WPIC_Scraper/category_output/'; 
-
-	
-	var newAddress = pathName + 'category_consulting.json';
-        fs.writeFile(newAddress, JSON.stringify(three, null, 4), function(err){
-        	//console.log(json);
-        })	
 }
 
 

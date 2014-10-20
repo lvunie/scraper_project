@@ -9,24 +9,32 @@
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/legal-structural-setup/"
+                    "markdown": "markdown/legal-structural-setup/",
+                    "href": "#tab1",
+                    "class": ""
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/legal-structural-setup/"
+                    "markdown": "markdown/legal-structural-setup/",
+                    "href": "#tab2",
+                    "class": "active"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/legal-structural-setup/"
+                    "markdown": "markdown/legal-structural-setup/",
+                    "href": "#tab3",
+                    "class": ""
                 },
                 {
                     "title": "Intelligence",
-                    "markdown": "markdown/legal-structural-setup/"
+                    "markdown": "markdown/legal-structural-setup/",
+                    "href": "#tab4",
+                    "class": ""
                 }
             ],
             "related": [
                 {
-                    "title": "ICP Registration ",
+                    "title": "ICP Registration",
                     "icon": "http://www.web-presence-in-china.com/sites/default/files/ICP-Registration.png",
                     "url": "http://www.web-presence-in-china.com/icp-registration"
                 },

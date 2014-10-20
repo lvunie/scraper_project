@@ -9,24 +9,32 @@
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/icp-registration/"
+                    "markdown": "markdown/icp-registration/",
+                    "href": "#tab1",
+                    "class": ""
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/icp-registration/"
+                    "markdown": "markdown/icp-registration/",
+                    "href": "#tab2",
+                    "class": "active"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/icp-registration/"
+                    "markdown": "markdown/icp-registration/",
+                    "href": "#tab3",
+                    "class": ""
                 },
                 {
                     "title": "Intelligence",
-                    "markdown": "markdown/icp-registration/"
+                    "markdown": "markdown/icp-registration/",
+                    "href": "#tab4",
+                    "class": ""
                 }
             ],
             "related": [
                 {
-                    "title": "China Cloud Hosting ",
+                    "title": "China Cloud Hosting",
                     "icon": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting.png",
                     "url": "http://www.web-presence-in-china.com/china-cloud-hosting"
                 },

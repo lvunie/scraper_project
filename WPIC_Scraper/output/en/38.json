@@ -9,24 +9,32 @@
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/logistics-fulfillment/"
+                    "markdown": "markdown/logistics-fulfillment/",
+                    "href": "#tab1",
+                    "class": ""
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/logistics-fulfillment/"
+                    "markdown": "markdown/logistics-fulfillment/",
+                    "href": "#tab2",
+                    "class": "active"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/logistics-fulfillment/"
+                    "markdown": "markdown/logistics-fulfillment/",
+                    "href": "#tab3",
+                    "class": ""
                 },
                 {
                     "title": "Intelligence",
-                    "markdown": "markdown/market-intelligence/"
+                    "markdown": "markdown/market-intelligence/",
+                    "href": "#tab4",
+                    "class": ""
                 }
             ],
             "related": [
                 {
-                    "title": "Business Integration Solutions ",
+                    "title": "Business Integration Solutions",
                     "icon": "http://www.web-presence-in-china.com/sites/default/files/business-integration-solutions-green.png",
                     "url": "http://www.web-presence-in-china.com/business-integration-solutions-0"
                 },

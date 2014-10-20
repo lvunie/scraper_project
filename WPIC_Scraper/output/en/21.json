@@ -9,24 +9,32 @@
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/payment-gateway/"
+                    "markdown": "markdown/payment-gateway/",
+                    "href": "#tab1",
+                    "class": ""
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/payment-gateway/"
+                    "markdown": "markdown/payment-gateway/",
+                    "href": "#tab2",
+                    "class": "active"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/payment-gateway/"
+                    "markdown": "markdown/payment-gateway/",
+                    "href": "#tab3",
+                    "class": ""
                 },
                 {
                     "title": "Intelligence",
-                    "markdown": "markdown/payment-gateway/"
+                    "markdown": "markdown/payment-gateway/",
+                    "href": "#tab4",
+                    "class": ""
                 }
             ],
             "related": [
                 {
-                    "title": "eCommerce ",
+                    "title": "eCommerce",
                     "icon": "http://www.web-presence-in-china.com/sites/default/files/eCommerce1.png",
                     "url": "http://www.web-presence-in-china.com/ecommerce-0"
                 },

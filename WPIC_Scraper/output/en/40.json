@@ -9,24 +9,32 @@
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/channel-conflict-strategies/"
+                    "markdown": "markdown/channel-conflict-strategies/",
+                    "href": "#tab1",
+                    "class": ""
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/channel-conflict-strategies/"
+                    "markdown": "markdown/channel-conflict-strategies/",
+                    "href": "#tab2",
+                    "class": "active"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/channel-conflict-strategies/"
+                    "markdown": "markdown/channel-conflict-strategies/",
+                    "href": "#tab3",
+                    "class": ""
                 },
                 {
                     "title": "Intelligence",
-                    "markdown": "markdown/market-intelligence/"
+                    "markdown": "markdown/market-intelligence/",
+                    "href": "#tab4",
+                    "class": ""
                 }
             ],
             "related": [
                 {
-                    "title": "Channel Strategy ",
+                    "title": "Channel Strategy",
                     "icon": "http://www.web-presence-in-china.com/sites/default/files/channel-strategy.png",
                     "url": "http://www.web-presence-in-china.com/channel-strategy"
                 },

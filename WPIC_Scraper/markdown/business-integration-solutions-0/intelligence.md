@@ -1,0 +1,7 @@
+## Intelligence
+ <div class="intelligence-items"> <article class="intelligence-item"> ![](http://www.web-presence-in-china.com/sites/default/files/styles/medium/public/images/2014/10/Screen%20Shot%202014-10-17%20at%209.46.19%20am.jpg?itok=81_IB5z0) <div class="intelligence-item-content"> 
+
+### [Integrated Tools for Enhanced ROI](http://www.chinadigitalreview.com/enhanced-tmall-ux-enhanced-branding-revenue/ "Integrated Tools for Enhanced ROI")
+
+One factor that prevents western companies from considering Tmall as a China platform is the misconception that the ability to brand with proprietary UX is limited. WPIC has proven the contrary in its work with Crucial and Pantone. By securing permission to integrate javascript tools on the companies&apos; Tmall store pages, Chinese visitors were able to interactively select products, for richer brand experience and greater confidence in their selection. The tools also obviated the need for most live support, adding further to Crucial and Pantone&apos;s bottom lines. This is just one example of how WPIC&apos;s digital capabilities can facilitate integrative solutions that truly impact a company&apos;s viability in the China market.
+ [Read More &#xBB;](http://www.chinadigitalreview.com/enhanced-tmall-ux-enhanced-branding-revenue/ "Integrated Tools for Enhanced ROI") </div> </article> </div>

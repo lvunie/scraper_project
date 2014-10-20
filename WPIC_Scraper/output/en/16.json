@@ -9,24 +9,32 @@
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/campaign-management-dashboards/"
+                    "markdown": "markdown/campaign-management-dashboards/",
+                    "href": "#tab1",
+                    "class": ""
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/campaign-management-dashboards/"
+                    "markdown": "markdown/campaign-management-dashboards/",
+                    "href": "#tab2",
+                    "class": "active"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/campaign-management-dashboards/"
+                    "markdown": "markdown/campaign-management-dashboards/",
+                    "href": "#tab3",
+                    "class": ""
                 },
                 {
                     "title": "Intelligence",
-                    "markdown": "markdown/content-marketing/"
+                    "markdown": "markdown/content-marketing/",
+                    "href": "#tab4",
+                    "class": ""
                 }
             ],
             "related": [
                 {
-                    "title": "Analytics ",
+                    "title": "Analytics",
                     "icon": "http://www.web-presence-in-china.com/sites/default/files/analytics-marketing-green.png",
                     "url": "http://www.web-presence-in-china.com/analytics"
                 },

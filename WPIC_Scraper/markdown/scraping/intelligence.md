@@ -1,0 +1,7 @@
+## Intelligence
+ <div class="intelligence-items"> <article class="intelligence-item"> ![](http://www.web-presence-in-china.com/sites/default/files/styles/medium/public/images/2014/10/Screen%20Shot%202014-10-15%20at%205.14.05%20pm.jpg?itok=1_PnTNxg) <div class="intelligence-item-content"> 
+
+### [Scraper Programs for Smart China Data](http://www.chinadigitalreview.com/scraping-up-big-data-in-china/ "Scraper Programs for Smart China Data")
+
+Given the mountains of rich data possessed by huge Chinese portals such as Baidu and Alibaba, and the advanced capabilities of new scraping programs, the ease of gathering critical marketing information for China has never been easier or more accessible. Today customer personas, competition profiles, product pricing models, and advertising rates can be discovered and acted on with great facility. Before you consider that expensive research report based on a 2,000 person survey, go straight to the source of China&apos;s online consumer information, and get amazing market intelligence through big data gathered by scraping, and refined into smart data through our expertise.
+ [Read More &#xBB;](http://www.chinadigitalreview.com/scraping-up-big-data-in-china/ "Scraper Programs for Smart China Data") </div> </article> </div>

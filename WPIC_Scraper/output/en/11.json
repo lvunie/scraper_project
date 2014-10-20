@@ -9,24 +9,32 @@
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/display-advertising/"
+                    "markdown": "markdown/display-advertising/",
+                    "href": "#tab1",
+                    "class": ""
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/display-advertising/"
+                    "markdown": "markdown/display-advertising/",
+                    "href": "#tab2",
+                    "class": "active"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/display-advertising/"
+                    "markdown": "markdown/display-advertising/",
+                    "href": "#tab3",
+                    "class": ""
                 },
                 {
                     "title": "Intelligence",
-                    "markdown": "markdown/content-localization-translations-production/"
+                    "markdown": "markdown/content-localization-translations-production/",
+                    "href": "#tab4",
+                    "class": ""
                 }
             ],
             "related": [
                 {
-                    "title": "Campaign Tracking Dashboards ",
+                    "title": "Campaign Tracking Dashboards",
                     "icon": "http://www.web-presence-in-china.com/sites/default/files/campaign-tracking-dashboards.png",
                     "url": "http://www.web-presence-in-china.com/campaign-tracking-dashboards"
                 },

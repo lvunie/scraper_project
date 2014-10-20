@@ -9,24 +9,32 @@
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/content-marketing/"
+                    "markdown": "markdown/content-marketing/",
+                    "href": "#tab1",
+                    "class": ""
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/content-marketing/"
+                    "markdown": "markdown/content-marketing/",
+                    "href": "#tab2",
+                    "class": "active"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/content-marketing/"
+                    "markdown": "markdown/content-marketing/",
+                    "href": "#tab3",
+                    "class": ""
                 },
                 {
                     "title": "Intelligence",
-                    "markdown": "markdown/content-marketing/"
+                    "markdown": "markdown/content-marketing/",
+                    "href": "#tab4",
+                    "class": ""
                 }
             ],
             "related": [
                 {
-                    "title": "Asset Localization ",
+                    "title": "Asset Localization",
                     "icon": "http://www.web-presence-in-china.com/sites/default/files/asset-localization.png",
                     "url": "http://www.web-presence-in-china.com/asset-localization"
                 },

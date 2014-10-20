@@ -1,0 +1,7 @@
+## Intelligence
+ <div class="intelligence-items"> <article class="intelligence-item"> ![](http://www.web-presence-in-china.com/sites/default/files/styles/medium/public/images/2014/10/Screen%20Shot%202014-10-16%20at%203.41.30%20pm.jpg?itok=cksbgg5b) <div class="intelligence-item-content"> 
+
+### [Consider the Web App](http://www.chinadigitalreview.com/an-alternative-to-apps-for-china-mobility/ "Consider the Web App")
+
+<span style="font-size: small;">While apps enjoy all the popularity in China that they do in the West, for all the same reasons, there are several systemic issues that make distributing an app in China disadvantageous - chiefly a fragmented ecosystem in which a dozen large app stores divide the market, each with its own stringent procedures for publishing on its site. Then there&apos;s the fact that apps are not discoverable via conventional means such as search. The web app negates these disadvantages. Essentially a microsite, a web app provides all the functionality of a conventional app, including offline access, but can still be discovered and distributed via conventional search and advertising means. Better still, web apps are generally far faster and less costly to develop than apps. Get in touch to see if a web app can drive your engagement goals for the Chinese market.</span>
+ [Read More &#xBB;](http://www.chinadigitalreview.com/an-alternative-to-apps-for-china-mobility/ "Consider the Web App") </div> </article> </div>

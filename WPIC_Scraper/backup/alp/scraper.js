@@ -27,9 +27,6 @@ var spawn = require('child_process').spawn;
 // app.set('port', 3001);
 
 // JSON structure
-
-
-
 var frame = {
 	
 };
@@ -52,6 +49,53 @@ var content = {
 	tab : "", 
 	related : "", 
 };
+
+var tab = [{
+	     "title":    "",
+             "markdown": "",
+	     "href":     "",
+	     "class":    ""
+	},	
+	{
+	     "title":    "",
+             "markdown": "",
+	     "href":     "",
+	     "class":    ""
+	},
+	{
+	     "title":    "",
+             "markdown": "",
+	     "href":     "",
+	     "class":    ""
+	},{
+	     "title":    "",
+             "markdown": "",
+	     "href":     "",
+	     "class":    ""
+	}];
+
+tab2 = [];
+
+var related = [{
+	     "title" : "", 
+	     "icon" :  "", 
+	     "url" :   ""
+	},	
+	{
+	     "title" : "", 
+	     "icon" :  "", 
+	     "url" :   ""
+	},
+	{
+	     "title" : "", 
+	     "icon" :  "", 
+	     "url" :   ""
+	},
+	{
+	     "title" : "", 
+	     "icon" :  "", 
+	     "url" :   ""
+}];
 
 //create output folder for each type three's JSON, markdown folder
 function createFolder(){
@@ -157,12 +201,11 @@ function scrape(address){
     			}, function(link) {
 				//return when there is no content
 				if(link ==''){return};
-				related = [];
+
 				related_index = link.length;
-		
+	
 				for(i=0;i<related_index;i++)
 				{
-					createRelatedFrame()
 					related[i].icon  = link[i];
 				}
 		
@@ -217,8 +260,7 @@ function scrape(address){
 
 			DOWNLOAD_DIR = 'related/';
 
-//temp			
-			imgScraper(related_img[i], DOWNLOAD_DIR);
+//temp			imgScraper(related_img[i], DOWNLOAD_DIR);
 
 			}
 			
@@ -227,22 +269,25 @@ function scrape(address){
 //////////////////////////////////////////////////////////////////////////////////
 		//left-tabs 
 		.scrape(function($) {
+
 			return $(".left-tabs a").map(function() {
     		        	return $(this).attr("href");
      		   	}).get();
     			}, function(html) {
 				//return when there is no content
 				if(html ==''){return};
- 				tab = [];
-				tab_index = html.length;
 
+				tab_index = html.length;
 				for(i=0;i<tab_index;i++)
 				{
-					createTabFrame();
 					newChar = S(html[i]).trim().s;
 					tab[i].href = newChar;
 				}
 
+				if(tab_index == 3)
+				{
+					tab[3].href = "";
+				}	
    
 	})
 
@@ -260,9 +305,12 @@ function scrape(address){
 				{
 					newChar = S(html[i]).trim().s;
 					tab[i].class = newChar;
-					//tab.class = newChar;
 				}
 
+				if(tab_index == 3)
+				{
+					tab[3].class = "";
+				}	
    
 	})
 
@@ -281,7 +329,13 @@ function scrape(address){
 
 					tab[i].title = newChar;
 					tab[i].markdown = 'markdown/' + json.filename + '/';
-	
+
+				}
+
+				if(tab_index == 3)
+				{
+					tab[3].title = "";
+					tab[3].markdown = "";
 				}
 
 				//assign value to json format//
@@ -291,11 +345,10 @@ function scrape(address){
 
 				//call write function//
 				frame = json;
-				writeToJson(address,frame);
-	
+				writeToJson(address,frame);	
 		})
 	
-/////////////////////////////////Function/////////////////////////////////////////////////////// 
+//////////////////////////////////////////////////////////////////////////////////////////////////////// 
 		.scrape(function($) {
      		   	return $("#tab1").map(function() {
     		        	return $(this).html();
@@ -338,8 +391,7 @@ function scrape(address){
 			file_url = 'http://www.web-presence-in-china.com' + process;
 			DOWNLOAD_DIR = 'markdown/' + json.filename + '/';
 
-//temp			
-			imgScraper(file_url, DOWNLOAD_DIR);
+//temp			imgScraper(file_url, DOWNLOAD_DIR);
 	
 	})
 
@@ -353,8 +405,9 @@ function scrape(address){
 			file_url = 'http://www.web-presence-in-china.com' + process2;
 			DOWNLOAD_DIR = 'markdown/' + json.filename + '/';
 
-//temp			
-			imgScraper(file_url, DOWNLOAD_DIR);
+//temp			imgScraper(file_url, DOWNLOAD_DIR);
+
+			//tab[1].class = 'active';
 			
 	})
 
@@ -371,6 +424,11 @@ function scrape(address){
 				html = toMarkdown(html);
 	
 				intelligence_path = make_tab_folder(json.filename, option, html);
+//check point
+				glocal_test = glocal_test + 1;
+				//console.log(glocal_test);
+
+				//tab[3].class = '';
 
 	})
 
@@ -390,7 +448,10 @@ function scrape(address){
 				html = toMarkdown(html);
 
 				impact_path = make_tab_folder(json.filename, option, html );
-			
+
+				//tab[2].class = "";
+				
+
 				
 	})
 }
@@ -483,27 +544,55 @@ function imgScraper(file_url, DOWNLOAD_DIR){
 }
 
 
-function createTabFrame()
+function getRelatedItem()
+{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function non()
 {
-	tab.push({ 
-		"title":    "",
-             	"markdown": "",
-	     	"href":     "",
-	     	"class":    ""
-    	});
+			tab.push({ 
+					"title":    "",
+             				"markdown": "",
+	     				"href":     "",
+	     				"class":    ""
+    				});
 
 }
-
-
-function createRelatedFrame()
-{
-	related.push({ 
-	     "title" : "", 
-	     "icon" :  "", 
-	     "url" :   ""
-    	});
-
-}
-
 
 

@@ -1,57 +1,51 @@
 {
-    "filename": "chinese-seo",
+    "filename": "website-analytics",
     "data": {
-        "title": "Search Engine Optimization (SEO) ",
+        "title": "Website Analytics ",
         "category": "Marketing",
-        "description": "Quick Discovery and High Trust through Organic Ranking",
-        "filename": "chinese-seo",
+        "description": "Accessible Chinese Traffic Insights You Can Trust",
+        "filename": "website-analytics",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/chinese-seo/",
+                    "markdown": "markdown/website-analytics/",
                     "href": "#tab1",
                     "class": ""
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/chinese-seo/",
+                    "markdown": "markdown/website-analytics/",
                     "href": "#tab2",
                     "class": "active"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/chinese-seo/",
+                    "markdown": "markdown/website-analytics/",
                     "href": "#tab3",
-                    "class": ""
-                },
-                {
-                    "title": "Intelligence",
-                    "markdown": "markdown/chinese-seo/",
-                    "href": "#tab4",
                     "class": ""
                 }
             ],
             "related": [
+                {
+                    "title": "Analytics",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/analytics-marketing-green.png",
+                    "url": "http://www.web-presence-in-china.com/analytics"
+                },
                 {
                     "title": "Campaign Management Dashboards",
                     "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-9898.png",
                     "url": "http://www.web-presence-in-china.com/campaign-management-dashboards"
                 },
                 {
-                    "title": "Display Advertising",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/display-advertising.png",
-                    "url": "http://www.web-presence-in-china.com/display-advertising"
+                    "title": "Campaign Tracking Dashboards",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/campaign-tracking-dashboards.png",
+                    "url": "http://www.web-presence-in-china.com/campaign-tracking-dashboards"
                 },
                 {
-                    "title": "Pay-Per-Click Advertising (PPC)",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/PPC1.png",
-                    "url": "http://www.web-presence-in-china.com/ppc"
-                },
-                {
-                    "title": "Website Analytics",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/web-analytics.png",
-                    "url": "http://www.web-presence-in-china.com/website-analytics"
+                    "title": "Market Analysis",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/marketing-analysis.png",
+                    "url": "http://www.web-presence-in-china.com/market-analysis"
                 }
             ]
         }

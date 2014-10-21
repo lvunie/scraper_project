@@ -24,12 +24,8 @@ var http = require('http');
 var exec = require('child_process').exec;
 var spawn = require('child_process').spawn;
 
-// app.set('port', 3001);
 
 // JSON structure
-
-
-
 var frame = {
 	
 };
@@ -52,6 +48,51 @@ var content = {
 	tab : "", 
 	related : "", 
 };
+
+var tab = [{
+	     "title":    "",
+             "markdown": "",
+	     "href":     "",
+	     "class":    ""
+	},	
+	{
+	     "title":    "",
+             "markdown": "",
+	     "href":     "",
+	     "class":    ""
+	},
+	{
+	     "title":    "",
+             "markdown": "",
+	     "href":     "",
+	     "class":    ""
+	},{
+	     "title":    "",
+             "markdown": "",
+	     "href":     "",
+	     "class":    ""
+	}];
+
+var related = [{
+	     "title" : "", 
+	     "icon" :  "", 
+	     "url" :   ""
+	},	
+	{
+	     "title" : "", 
+	     "icon" :  "", 
+	     "url" :   ""
+	},
+	{
+	     "title" : "", 
+	     "icon" :  "", 
+	     "url" :   ""
+	},
+	{
+	     "title" : "", 
+	     "icon" :  "", 
+	     "url" :   ""
+}];
 
 //create output folder for each type three's JSON, markdown folder
 function createFolder(){
@@ -149,7 +190,7 @@ function scrape(address){
 				data.description = test;
 	})
 
-/////////////////Related icon (related start)//////////////////////
+/////////////////Related icon (related start)
 		.scrape(function($) {
      		   	return $(".img-slide > img").map(function() {
     		        	return $(this).attr("src");
@@ -157,12 +198,11 @@ function scrape(address){
     			}, function(link) {
 				//return when there is no content
 				if(link ==''){return};
-				related = [];
+
 				related_index = link.length;
-		
+	
 				for(i=0;i<related_index;i++)
 				{
-					createRelatedFrame()
 					related[i].icon  = link[i];
 				}
 		
@@ -206,7 +246,7 @@ function scrape(address){
 				content.related = related;
    
 	})
-/////////////////  Get all related icon (related end)/////////////////
+/////////////////  Get all related icon (related end)
 		.scrape(function($) {
      		   	return $(".img-slide img").map(function() {
     		        	return $(this).attr("src");
@@ -217,85 +257,12 @@ function scrape(address){
 
 			DOWNLOAD_DIR = 'related/';
 
-//temp			
 			imgScraper(related_img[i], DOWNLOAD_DIR);
 
 			}
 			
 	})
-/////////////////// CONTENT (overiver, process, impact, intelligence )
-//////////////////////////////////////////////////////////////////////////////////
-		//left-tabs 
-		.scrape(function($) {
-			return $(".left-tabs a").map(function() {
-    		        	return $(this).attr("href");
-     		   	}).get();
-    			}, function(html) {
-				//return when there is no content
-				if(html ==''){return};
- 				tab = [];
-				tab_index = html.length;
-
-				for(i=0;i<tab_index;i++)
-				{
-					createTabFrame();
-					newChar = S(html[i]).trim().s;
-					tab[i].href = newChar;
-				}
-
-   
-	})
-
-		.scrape(function($) {
-
-			return $(".left-tabs a").map(function() {
-    		        	return $(this).attr("class");
-     		   	}).get();
-    			}, function(html) {
-				//return when there is no content
-				if(html ==''){return};
-
-				tab_index = html.length;
-				for(i=0;i<tab_index;i++)
-				{
-					newChar = S(html[i]).trim().s;
-					tab[i].class = newChar;
-					//tab.class = newChar;
-				}
-
-   
-	})
-
-		.scrape(function($) {
-			return $(".left-tabs a").map(function() {
-    		        	return $(this).html();
-     		   	}).get();
-    			}, function(html) {
-		
-				tab_index = html.length;
-
-				for(i=0;i<tab_index;i++)
-				{
-					newChar = S(html[i]).trim().s;
-					//console.log(newChar);
-
-					tab[i].title = newChar;
-					tab[i].markdown = 'markdown/' + json.filename + '/';
-	
-				}
-
-				//assign value to json format//
-				content.tab = tab;
-				data.content = content;
-				json.data = data;
-
-				//call write function//
-				frame = json;
-				writeToJson(address,frame);
-	
-		})
-	
-/////////////////////////////////Function/////////////////////////////////////////////////////// 
+/////////////////// CONTENT (overiver, process, impact, intelligence ) 
 		.scrape(function($) {
      		   	return $("#tab1").map(function() {
     		        	return $(this).html();
@@ -309,7 +276,11 @@ function scrape(address){
 				html = toMarkdown(html);
 	
 				overview_path = make_tab_folder(json.filename, option, html );
-				//tab[0].class = '';
+
+				tab[0].title = option;
+				tab[0].markdown = overview_path;
+				tab[0].href = '#tab1';
+				tab[0].class = '';
    
 	})
 		// Write process path
@@ -338,7 +309,6 @@ function scrape(address){
 			file_url = 'http://www.web-presence-in-china.com' + process;
 			DOWNLOAD_DIR = 'markdown/' + json.filename + '/';
 
-//temp			
 			imgScraper(file_url, DOWNLOAD_DIR);
 	
 	})
@@ -353,27 +323,14 @@ function scrape(address){
 			file_url = 'http://www.web-presence-in-china.com' + process2;
 			DOWNLOAD_DIR = 'markdown/' + json.filename + '/';
 
-//temp			
 			imgScraper(file_url, DOWNLOAD_DIR);
+
+			tab[1].title = 'Process';
+			tab[1].markdown = DOWNLOAD_DIR;
+			tab[1].href = '#tab2';
+			tab[1].class = 'active';
 			
 	})
-
-	// Intelligence 
-		.scrape(function($) {
-     		   	return $("#tab4").map(function() {
-    		        	return $(this).html();
-     		   	}).get();
-    			}, function(html) {
-				// 当内容部存在时停止操作
-				if(html ==''){return}
-				option = 'Intelligence';
-				html = S(html).collapseWhitespace().s;
-				html = toMarkdown(html);
-	
-				intelligence_path = make_tab_folder(json.filename, option, html);
-
-	})
-
 
 		// Impact
 		.scrape(function($) {
@@ -390,9 +347,47 @@ function scrape(address){
 				html = toMarkdown(html);
 
 				impact_path = make_tab_folder(json.filename, option, html );
-			
+
+				tab[2].title = option;
+				tab[2].markdown = impact_path;
+				tab[2].href = "#tab3";
+				tab[2].class = "";
+				
 				
 	})
+
+	// Intelligence 
+		.scrape(function($) {
+     		   	return $("#tab4").map(function() {
+    		        	return $(this).html();
+     		   	}).get();
+    			}, function(html) {
+				// 当内容部存在时停止操作
+				if(html ==''){return}
+				option = 'Intelligence';
+				html = S(html).collapseWhitespace().s;
+				html = toMarkdown(html);
+	
+				intelligence_path = make_tab_folder(json.filename, option, html);
+
+				tab[3].title = option;
+				tab[3].markdown = intelligence_path;
+				tab[3].href = '#tab4';
+				tab[3].class = '';
+
+				//assign value to json format//
+				content.tab = tab;
+				data.content = content;
+				json.data = data;
+
+				//call write function//
+				frame = json;
+				writeToJson(address,frame);
+
+	})
+
+
+		
 }
 
 //////
@@ -400,10 +395,7 @@ function scrape(address){
 function writeToJson(address,json){
 
 	fileIndex = fileIndex +1;
-
-	//var pathName = '/home/lvunie/work/scraper_project/WPIC_Scraper/output/en/' + fileIndex; 
 	var pathName = 'output/en/' + fileIndex; 
-
 	
 	var newAddress = pathName + '.json';
         fs.writeFile(newAddress, JSON.stringify(frame, null, 4), function(err){
@@ -425,8 +417,7 @@ function make_tab_folder(address, option , text ){
 	return option_path;
 
 }
-
-// Create all services folder 
+//////////////
 function create_markdown_folder(address){
 
 	var option_path ='markdown/' + address + '/';				
@@ -436,7 +427,6 @@ function create_markdown_folder(address){
 	});
 }
 
-// Write content to .md file
 function writeToMarkdown(option_markdown, text){
 	
 	fs.writeFile(option_markdown, text, function(err){
@@ -445,11 +435,12 @@ function writeToMarkdown(option_markdown, text){
 
 }
 
-//Download pictures from url to a folder
+
+
+
 function imgScraper(file_url, DOWNLOAD_DIR){
 	// We will be downloading the files to a directory, so make sure it's there
 	// This step is not required if you have manually created the directory
-	//console.log(file_url);
 
 	var mkdir = 'mkdir -p ' + DOWNLOAD_DIR;
 	var child = exec(mkdir, function(err, stdout, stderr) {
@@ -481,29 +472,5 @@ function imgScraper(file_url, DOWNLOAD_DIR){
 	};
 
 }
-
-
-function createTabFrame()
-{
-	tab.push({ 
-		"title":    "",
-             	"markdown": "",
-	     	"href":     "",
-	     	"class":    ""
-    	});
-
-}
-
-
-function createRelatedFrame()
-{
-	related.push({ 
-	     "title" : "", 
-	     "icon" :  "", 
-	     "url" :   ""
-    	});
-
-}
-
 
 

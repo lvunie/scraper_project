@@ -33,9 +33,7 @@ var content = {
 	items : "",
 };
 
-var items = [
-	
-];
+
 
 // create folder if no exist, to store category output json
 function createFolder(){
@@ -68,8 +66,8 @@ rd.on('line', function(line) {
 	address = S(line).between('"', '"').s;
     }
 	
-	var pageTwo = S(line).indexOf('category/consulting');
-	var categoryPage = S(line).indexOf('category/consulting');
+	var pageTwo = S(line).indexOf('category/');
+	var categoryPage = S(line).indexOf('category/');
 
 	if(categoryPage > 0)
 	{
@@ -128,7 +126,7 @@ function writeToJson(address,json, outputName){
 function writeToDynamicArray(address, length_index ){
 
  		scraperjs.StaticScraper.create(address)
-.scrape(function($) {
+		.scrape(function($) {
 	     		   return $("title").map(function() {
     		        	return $(this).text();
      		   	}).get();
@@ -153,20 +151,21 @@ function writeToDynamicArray(address, length_index ){
     			}, function(string) {
 
 				var newString = '';
-				
+				 items = [];
 
 				for(i=0; i < length_index; i++)
 				{
 					newString = string[i];				
 					newString = S(newString).trim().s;
 
-					items.push({ 
-        				"heading": newString,
-    					});
+					createJsonFrame();
+					items[i].heading = newString;
+					//items.push({ 
+        				//"heading": newString,
+    					//});
 				}			
 				
 				content.items = items;
-				//items = '';
 				
 	})
 		// Get detail description for each service option, ("two_text")
@@ -241,7 +240,16 @@ function writeToDynamicArray(address, length_index ){
 }
 
 
-
+function createJsonFrame()
+{
+	items.push({ 
+                    "heading": "",
+                    "two_text": "",
+                    "link": "",
+                    "img_slide": "",
+                    "img_white": ""
+    	});
+}
 
 
 

@@ -1,52 +1,52 @@
 {
-    "filename": "project-planning-management",
+    "filename": "legal-structural-setup",
     "data": {
-        "title": "Project Planning & Management ",
+        "title": "Legal & Structural Setup ",
         "category": "Consulting",
-        "description": "Flexible, Accountable Planning for China Operational Objectives",
-        "filename": "project-planning-management",
+        "description": "Compliance for a Smooth Path to Revenue",
+        "filename": "legal-structural-setup",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/project-planning-management/",
+                    "markdown": "markdown/legal-structural-setup/",
                     "href": "#tab1",
                     "class": ""
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/project-planning-management/",
+                    "markdown": "markdown/legal-structural-setup/",
                     "href": "#tab2",
                     "class": "active"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/project-planning-management/",
+                    "markdown": "markdown/legal-structural-setup/",
                     "href": "#tab3",
                     "class": ""
                 },
                 {
                     "title": "Intelligence",
-                    "markdown": "markdown/market-intelligence/",
+                    "markdown": "markdown/legal-structural-setup/",
                     "href": "#tab4",
                     "class": ""
                 }
             ],
             "related": [
                 {
-                    "title": "Campaign Management Dashboards",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-9898.png",
-                    "url": "http://www.web-presence-in-china.com/campaign-management-dashboards"
+                    "title": "ICP Registration",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ICP-Registration.png",
+                    "url": "http://www.web-presence-in-china.com/icp-registration"
                 },
                 {
-                    "title": "Channel Strategy",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/channel-strategy.png",
-                    "url": "http://www.web-presence-in-china.com/channel-strategy"
+                    "title": "Licensing",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/licensing.png",
+                    "url": "http://www.web-presence-in-china.com/licensing"
                 },
                 {
-                    "title": "Market Intelligence",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/market-intelligence.png",
-                    "url": "http://www.web-presence-in-china.com/market-intelligence"
+                    "title": "Payment Gateway",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/payment-gateways.png",
+                    "url": "http://www.web-presence-in-china.com/payment-gateway"
                 },
                 {
                     "title": "Regional Planning",

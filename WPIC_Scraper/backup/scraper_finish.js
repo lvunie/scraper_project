@@ -28,7 +28,7 @@ var spawn = require('child_process').spawn;
 
 // JSON structure
 
-
+function buildJSON(){
 
 var frame = {
 	
@@ -52,6 +52,54 @@ var content = {
 	tab : "", 
 	related : "", 
 };
+
+var tab2 = [{
+	     "title":    "",
+             "markdown": "",
+	     "href":     "",
+	     "class":    ""
+	},	
+	{
+	     "title":    "",
+             "markdown": "",
+	     "href":     "",
+	     "class":    ""
+	},
+	{
+	     "title":    "",
+             "markdown": "",
+	     "href":     "",
+	     "class":    ""
+	},{
+	     "title":    "",
+             "markdown": "",
+	     "href":     "",
+	     "class":    ""
+	}];
+
+var tab = [];
+
+var related = [{
+	     "title" : "", 
+	     "icon" :  "", 
+	     "url" :   ""
+	},	
+	{
+	     "title" : "", 
+	     "icon" :  "", 
+	     "url" :   ""
+	},
+	{
+	     "title" : "", 
+	     "icon" :  "", 
+	     "url" :   ""
+	},
+	{
+	     "title" : "", 
+	     "icon" :  "", 
+	     "url" :   ""
+}];
+}
 
 //create output folder for each type three's JSON, markdown folder
 function createFolder(){
@@ -103,6 +151,77 @@ rd.on('line', function(line) {
 //Scrape content from given URL
 function scrape(address){
 	
+var frame = {
+	
+};
+
+ json = { 
+	filename : "",  
+	data: "",
+};
+
+
+ data = {
+	title : "", 
+	category : "", 
+	description : "", 
+	filename : "", 
+	content : ""
+};
+
+ content = {
+	tab : "", 
+	related : "", 
+};
+
+var tab2 = [{
+	     "title":    "",
+             "markdown": "",
+	     "href":     "",
+	     "class":    ""
+	},	
+	{
+	     "title":    "",
+             "markdown": "",
+	     "href":     "",
+	     "class":    ""
+	},
+	{
+	     "title":    "",
+             "markdown": "",
+	     "href":     "",
+	     "class":    ""
+	},{
+	     "title":    "",
+             "markdown": "",
+	     "href":     "",
+	     "class":    ""
+	}];
+
+ //tab = [];
+
+ related = [{
+	     "title" : "", 
+	     "icon" :  "", 
+	     "url" :   ""
+	},	
+	{
+	     "title" : "", 
+	     "icon" :  "", 
+	     "url" :   ""
+	},
+	{
+	     "title" : "", 
+	     "icon" :  "", 
+	     "url" :   ""
+	},
+	{
+	     "title" : "", 
+	     "icon" :  "", 
+	     "url" :   ""
+}];
+	//createJsonFrame();
+
 	//Title name
 	scraperjs.StaticScraper.create(address)
 	    		.scrape(function($) {
@@ -157,12 +276,11 @@ function scrape(address){
     			}, function(link) {
 				//return when there is no content
 				if(link ==''){return};
-				related = [];
+
 				related_index = link.length;
-		
+	
 				for(i=0;i<related_index;i++)
 				{
-					createRelatedFrame()
 					related[i].icon  = link[i];
 				}
 		
@@ -217,8 +335,7 @@ function scrape(address){
 
 			DOWNLOAD_DIR = 'related/';
 
-//temp			
-			imgScraper(related_img[i], DOWNLOAD_DIR);
+//temp			imgScraper(related_img[i], DOWNLOAD_DIR);
 
 			}
 			
@@ -238,11 +355,16 @@ function scrape(address){
 
 				for(i=0;i<tab_index;i++)
 				{
-					createTabFrame();
+					createJsonFrame();
+
 					newChar = S(html[i]).trim().s;
 					tab[i].href = newChar;
 				}
 
+				if(tab_index == 3)
+				{
+					//tab[3].href = "";
+				}	
    
 	})
 
@@ -263,6 +385,10 @@ function scrape(address){
 					//tab.class = newChar;
 				}
 
+				if(tab_index == 3)
+				{
+					//tab[3].class = "";
+				}	
    
 	})
 
@@ -284,6 +410,12 @@ function scrape(address){
 	
 				}
 
+				if(tab_index == 3)
+				{
+					//tab[3].title = "";
+					//tab[3].markdown = "";
+				}
+
 				//assign value to json format//
 				content.tab = tab;
 				data.content = content;
@@ -291,8 +423,18 @@ function scrape(address){
 
 				//call write function//
 				frame = json;
-				writeToJson(address,frame);
+				//writeToJson(address,frame);
+
+	fileIndex = fileIndex +1;
+
+	//var pathName = '/home/lvunie/work/scraper_project/WPIC_Scraper/output/en/' + fileIndex; 
+	var pathName = 'output/en/' + fileIndex; 
+
 	
+	var newAddress = pathName + '.json';
+        fs.writeFile(newAddress, JSON.stringify(frame, null, 4), function(err){
+  
+        })	
 		})
 	
 /////////////////////////////////Function/////////////////////////////////////////////////////// 
@@ -338,8 +480,7 @@ function scrape(address){
 			file_url = 'http://www.web-presence-in-china.com' + process;
 			DOWNLOAD_DIR = 'markdown/' + json.filename + '/';
 
-//temp			
-			imgScraper(file_url, DOWNLOAD_DIR);
+//temp			imgScraper(file_url, DOWNLOAD_DIR);
 	
 	})
 
@@ -353,8 +494,8 @@ function scrape(address){
 			file_url = 'http://www.web-presence-in-china.com' + process2;
 			DOWNLOAD_DIR = 'markdown/' + json.filename + '/';
 
-//temp			
-			imgScraper(file_url, DOWNLOAD_DIR);
+//temp			imgScraper(file_url, DOWNLOAD_DIR);
+
 			
 	})
 
@@ -483,7 +624,8 @@ function imgScraper(file_url, DOWNLOAD_DIR){
 }
 
 
-function createTabFrame()
+
+function createJsonFrame()
 {
 	tab.push({ 
 		"title":    "",
@@ -493,17 +635,5 @@ function createTabFrame()
     	});
 
 }
-
-
-function createRelatedFrame()
-{
-	related.push({ 
-	     "title" : "", 
-	     "icon" :  "", 
-	     "url" :   ""
-    	});
-
-}
-
 
 

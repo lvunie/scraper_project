@@ -1,34 +1,28 @@
 {
-    "filename": "china-cloud-hosting",
+    "filename": "chinalytics",
     "data": {
-        "title": "China Cloud Hosting ",
+        "title": "Chinalytics ",
         "category": "Technology",
-        "description": "Load Times are the First Step to a High Performance Site",
-        "filename": "china-cloud-hosting",
+        "description": "Custom Analytics That You Can Trust",
+        "filename": "chinalytics",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/china-cloud-hosting/",
+                    "markdown": "markdown/chinalytics/",
                     "href": "#tab1",
                     "class": ""
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/china-cloud-hosting/",
+                    "markdown": "markdown/chinalytics/",
                     "href": "#tab2",
                     "class": "active"
                 },
                 {
-                    "title": "Impact",
-                    "markdown": "markdown/china-cloud-hosting/",
+                    "title": "Subscribe",
+                    "markdown": "markdown/chinalytics/",
                     "href": "#tab3",
-                    "class": ""
-                },
-                {
-                    "title": "Intelligence",
-                    "markdown": "markdown/business-integration-solutions-0/",
-                    "href": "#tab4",
                     "class": ""
                 }
             ],

@@ -1,57 +1,51 @@
 {
-    "filename": "microsoft-dynamics",
+    "filename": "content-delivery-distribution-network-cdn",
     "data": {
-        "title": "Microsoft Dynamics ",
+        "title": "Content Delivery / Distribution Network (CDN) ",
         "category": "Technology",
-        "description": "The Ease & Flexibility of Microsoft, Implemented for Global Efficiency",
-        "filename": "microsoft-dynamics",
+        "description": "Delivering Superior Customer Experience",
+        "filename": "content-delivery-distribution-network-cdn",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/microsoft-dynamics/",
+                    "markdown": "markdown/content-delivery-distribution-network-cdn/",
                     "href": "#tab1",
                     "class": ""
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/microsoft-dynamics/",
+                    "markdown": "markdown/content-delivery-distribution-network-cdn/",
                     "href": "#tab2",
                     "class": "active"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/microsoft-dynamics/",
+                    "markdown": "markdown/content-delivery-distribution-network-cdn/",
                     "href": "#tab3",
-                    "class": ""
-                },
-                {
-                    "title": "Intelligence",
-                    "markdown": "markdown/ecommerce-0/",
-                    "href": "#tab4",
                     "class": ""
                 }
             ],
             "related": [
                 {
-                    "title": "Business Integration Solutions",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/business-integration-solutions-green.png",
-                    "url": "http://www.web-presence-in-china.com/business-integration-solutions-0"
+                    "title": "China Cloud Hosting",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting.png",
+                    "url": "http://www.web-presence-in-china.com/china-cloud-hosting"
                 },
                 {
-                    "title": "Campaign Management Dashboards",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-9898.png",
-                    "url": "http://www.web-presence-in-china.com/campaign-management-dashboards"
+                    "title": "ICP Registration",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ICP-Registration.png",
+                    "url": "http://www.web-presence-in-china.com/icp-registration"
+                },
+                {
+                    "title": "Infrastructure Auditing",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/infrastructure-auditing.png",
+                    "url": "http://www.web-presence-in-china.com/infrastructure-auditing"
                 },
                 {
                     "title": "Systems Design",
                     "icon": "http://www.web-presence-in-china.com/sites/default/files/systems-design.png",
                     "url": "http://www.web-presence-in-china.com/systems-design"
-                },
-                {
-                    "title": "Technology Solutions",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/technology-solutions.png",
-                    "url": "http://www.web-presence-in-china.com/technology-solutions"
                 }
             ]
         }

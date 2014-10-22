@@ -93,9 +93,9 @@ Reads a given URL to find out all its subURLs, then write them to "URL_Output.js
 Output the information for three types of category item and all their own services title and icons. Write data to category_output/ sort by category title.
 
 3. **scraper.js:**   
-"output":   a folder to store JSON for each **page_three** output.  
-"markdown": a folder to store text for *Overview*, *Impact* in markdown(md) format from each **page_three** , download and save picture for "process" section. and also save all *related* icon for each **page_three** URL.       
-"related":  download and save all icon for **page_two**.
+"output":   a folder to store JSON for each "page_three" output.  
+"markdown": a folder to store text for *Overview*, *Impact* in markdown(md) format from each "page_three" , download and save picture for "process" section. and also save all *related* icon for each **page_three** URL.       
+"related":  download and save all icon for "page_two".
 
 *The program can detect new service items and left-tab item as adding more content in it. But might need to add new function for scrape new target context.
 

@@ -58,20 +58,19 @@ Then go to contrib directory, run:
 `````````````````````````````````
 $ grunt concat
 `````````````````````````````````
-You already merge all josn in one!
+
+You already merge all JSON file in one!
 
 ## Usage:
 
 
-
-The Scraper program can work well for it's all functionality, include:
+The Scraper program can used for following functionality, include:
 
 1. Get all sub URLs from a given index URL.
-2. Scrape content as require and sort them in organized form.
-3. Download all require picture mark their path to markdown.
-4. Generate JSON, markdown files for each URL and store in organized way.
+2. Scrape target content and sort them in organized form(.md).
+3. Download all target picture mark their path to markdown.
+4. Generate JSON files to indicate the information of content store.
 5. Merge all JSON output files as one final output.
-
 
 
 ## Summary for scraper project so far(10-12)
@@ -85,24 +84,18 @@ There are three different category for service option, the target content is all
 Under each service option, there are many more specify business service for each category. The target content from service detail page is the text from "Overview", "Impact" section and picture from "process". Also each detail page have its own related link to other detail pages, we need to store those information for each service page. We defined those type of pages as **page_three** page.
 
 ####The Scraper program detail:
-The program consists of five mian javascript files as following:
+The program consists of three mian javascript files as following:
 
-**1. URL_reader.js:**  reads a given URL to find out all its subURLs, and write them to "URL_Output.json".   
+**1. URL_reader.js:**  reads a given URL to find out all its subURLs, then write them to "URL_Output.json".   
 
-**2. scraper_marketing.js:** Store each service title and their icon under **marketing** category. Write content to category_output/category_marketing.json. 
+**2. scraper_category.js:** output the information for three types of category item and all their own services title and icons. Write data to category_output/ sort by category title.
 
-**3. scraper_technology.js** Store each service title and their icon under **technology** category. Write conten to category_output/category_technology.json. 
-
-**4. scraper_consulting.js** Store each service title and their icon under **consulting** category. Write conten to category_output/category_consulting.json.
-
-**5. scraper.js:**   
+**3. scraper.js:**   
 
 "output":   a folder to store JSON for each **page_three** output.  
 "markdown": a folder to store text for *Overview*, *Impact* in markdown(md) format from each **page_three** , download and save picture for "process" section. and also save all *related* icon for each **page_three** URL.       
 "related":  download and save all icon for **page_two**.
 
-*the reason why I spearate those category pages because I thought each categroy page may have it own element in funture, and this will be convenience for modification.  
-**also there need "grunt" function to merge all json output to one.
 
 
 

@@ -73,7 +73,7 @@ The Scraper program can used for following functionality, include:
 5. Merge all JSON output files as one final output.
 
 
-## Summary for scraper project so far(10-12)
+## Summary for the scraper project
 
 The purpose of this project is to scrape targrt content and store them in organized form from WPIC site. The targrt content incluces in two different type of pages:
 
@@ -96,8 +96,7 @@ The program consists of three mian javascript files as following:
 "markdown": a folder to store text for *Overview*, *Impact* in markdown(md) format from each **page_three** , download and save picture for "process" section. and also save all *related* icon for each **page_three** URL.       
 "related":  download and save all icon for **page_two**.
 
-
-
+*The program can detect new service items and left-tab item as adding more content in it. But might need to add new function for scrape new target context.
 
 
 

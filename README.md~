@@ -99,7 +99,7 @@ Output the information for three types of category item and all their own servic
 
 *The program can detect new service items and left-tab item as adding more content in it. But might need to add new function for scrape new target context.
 
-Example for JSON output for a "category page(page_two)":
+####Example for JSON output for a "category page(page_two)":
 
 ```````````````````````````````
 {
@@ -243,7 +243,7 @@ Example for JSON output for a "category page(page_two)":
 ```````````````````````````````
 
 
-Example for JSON output for a "service option page(page_three)":
+####Example for JSON output for a "service option page(page_three)":
 ``````````````````````````````````
 {
     "filename": "graphic-design-production",
@@ -299,10 +299,6 @@ Example for JSON output for a "service option page(page_three)":
     }
 }
 ``````````````````````````````````
-
-*The program can detect new service items and left-tab item as adding more content in it. But might need to add new function for scrape new target context.
-
-
 
 
 

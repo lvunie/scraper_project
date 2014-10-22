@@ -94,7 +94,7 @@ Output the information for three types of category item and all their own servic
 
 3. **scraper.js:**   
 "output":   a folder to store JSON for each "page_three" output.  
-"markdown": a folder to store text for *Overview*, *Impact* in markdown(md) format from each "page_three" , download and save picture for "process" section. and also save all *related* icon for each **page_three** URL.       
+"markdown": a folder to store text for *Overview*, *Impact* in markdown(md) format from each "page_three" , download and save picture for "process" section. and also save all *related* icon for each *page_three* URL.       
 "related":  download and save all icon for "page_two".
 
 *The program can detect new service items and left-tab item as adding more content in it. But might need to add new function for scrape new target context.

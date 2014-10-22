@@ -246,53 +246,59 @@ Output the information for three types of category item and all their own servic
 ####Example for JSON output for a "service option page(page_three)":
 ``````````````````````````````````
 {
-    "filename": "graphic-design-production",
+    "filename": "ppc",
     "data": {
-        "title": "Graphic Design Production ",
+        "title": "Pay-Per-Click Advertising (PPC) ",
         "category": "Marketing",
-        "description": "Your Vision, Your Message – Localized",
-        "filename": "graphic-design-production",
+        "description": "Highest Conversion Rates at the Lowest Cost Per Conversion",
+        "filename": "ppc",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/graphic-design-production/",
+                    "markdown": "markdown/ppc/",
                     "href": "#tab1",
                     "class": ""
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/graphic-design-production/",
+                    "markdown": "markdown/ppc/",
                     "href": "#tab2",
                     "class": "active"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/graphic-design-production/",
+                    "markdown": "markdown/ppc/",
                     "href": "#tab3",
+                    "class": ""
+                },
+                {
+                    "title": "Intelligence",
+                    "markdown": "markdown/ppc/",
+                    "href": "#tab4",
                     "class": ""
                 }
             ],
             "related": [
                 {
-                    "title": "Asset Localization",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/asset-localization.png",
-                    "url": "http://www.web-presence-in-china.com/asset-localization"
+                    "title": "Campaign Management Dashboards",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-9898.png",
+                    "url": "http://www.web-presence-in-china.com/campaign-management-dashboards"
                 },
                 {
-                    "title": "Chinese Brand Development",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/brand-development-green.png",
-                    "url": "http://www.web-presence-in-china.com/chinese-brand-development"
+                    "title": "Display Advertising",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/display-advertising.png",
+                    "url": "http://www.web-presence-in-china.com/display-advertising"
                 },
                 {
-                    "title": "Content Localization & Translations Production",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/content-localization.png",
-                    "url": "http://www.web-presence-in-china.com/content-localization-translations-production"
+                    "title": "Search Engine Optimization (SEO)",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/SEO.png",
+                    "url": "http://www.web-presence-in-china.com/chinese-seo"
                 },
                 {
-                    "title": "Mobile Websites Design & Development",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-website.png",
-                    "url": "http://www.web-presence-in-china.com/mobile-websites-design-development"
+                    "title": "Website Analytics",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/web-analytics.png",
+                    "url": "http://www.web-presence-in-china.com/website-analytics"
                 }
             ]
         }

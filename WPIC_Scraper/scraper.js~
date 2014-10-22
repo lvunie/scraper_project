@@ -27,9 +27,6 @@ var spawn = require('child_process').spawn;
 // app.set('port', 3001);
 
 // JSON structure
-
-
-
 var frame = {
 	
 };
@@ -38,7 +35,6 @@ var json = {
 	filename : "",  
 	data: "",
 };
-
 
 var data = {
 	title : "", 
@@ -53,7 +49,7 @@ var content = {
 	related : "", 
 };
 
-//create output folder for each type three's JSON, markdown folder
+///////// Create output directory for each service option's (.md) file and, (.json) file//////////
 function createFolder(){
 
 	var pathName = 'output/en'; 
@@ -67,10 +63,11 @@ function createFolder(){
 
 }
 
+// Run function to create output directory for each service option's (.md) file and, (.json) file
 createFolder();
 
 
-//open JOSN file to get each URL 
+//open a JOSN file to get all URLs 
     readline = require('readline');
 
 var rd = readline.createInterface({
@@ -90,6 +87,8 @@ rd.on('line', function(line) {
 	var about_page = S(address).indexOf('about-us');
 	var index_page  = S(address).indexOf('category');
 
+	// Select target URL for scraping content
+	//(For here, ignore "about-us" page and "category"page)
 	if((about_page >0) || (index_page)>0)
 	{
 
@@ -100,7 +99,7 @@ rd.on('line', function(line) {
 });
 
 
-//Scrape content from given URL
+////////////Scrape content from given URL////////////
 function scrape(address){
 	
 	//Title name
@@ -149,7 +148,8 @@ function scrape(address){
 				data.description = test;
 	})
 
-/////////////////Related icon (related start)//////////////////////
+///////////////////////Related icon (related start)//////////////////////
+		//Related link
 		.scrape(function($) {
      		   	return $(".img-slide > img").map(function() {
     		        	return $(this).attr("src");
@@ -157,6 +157,8 @@ function scrape(address){
     			}, function(link) {
 				//return when there is no content
 				if(link ==''){return};
+				
+				// Set Json structure for "related" array
 				related = [];
 				related_index = link.length;
 		
@@ -166,7 +168,6 @@ function scrape(address){
 					related[i].icon  = link[i];
 				}
 		
-	
 	})
 
 		//Related url
@@ -187,7 +188,6 @@ function scrape(address){
 		
 	})
 
-
 		//Related title 
 		.scrape(function($) {
      		   	return $(".slide-heading").map(function() {
@@ -206,26 +206,26 @@ function scrape(address){
 				content.related = related;
    
 	})
-/////////////////  Get all related icon (related end)/////////////////
+		// Download all related picture and save in 'related/' directory
 		.scrape(function($) {
      		   	return $(".img-slide img").map(function() {
     		        	return $(this).attr("src");
      		   	}).get();
     			}, function(related_img) {
 			
-			for(i = 0; i < related_img.length; i++){
-
-			DOWNLOAD_DIR = 'related/';
-
-//temp			
-			imgScraper(related_img[i], DOWNLOAD_DIR);
-
+			for(i = 0; i < related_img.length; i++)
+			{
+				DOWNLOAD_DIR = 'related/';		
+				imgScraper(related_img[i], DOWNLOAD_DIR);
 			}
 			
 	})
+
 /////////////////// CONTENT (overiver, process, impact, intelligence )
 //////////////////////////////////////////////////////////////////////////////////
-		//left-tabs 
+
+		//left-tabs
+		// Get "href"tab description 
 		.scrape(function($) {
 			return $(".left-tabs a").map(function() {
     		        	return $(this).attr("href");
@@ -233,6 +233,8 @@ function scrape(address){
     			}, function(html) {
 				//return when there is no content
 				if(html ==''){return};
+
+				//Set Json structure for "tab" array
  				tab = [];
 				tab_index = html.length;
 
@@ -245,7 +247,7 @@ function scrape(address){
 
    
 	})
-
+		// Get "class" tab description
 		.scrape(function($) {
 
 			return $(".left-tabs a").map(function() {
@@ -260,12 +262,10 @@ function scrape(address){
 				{
 					newChar = S(html[i]).trim().s;
 					tab[i].class = newChar;
-					//tab.class = newChar;
 				}
-
    
 	})
-
+		// Get "title", "markdown" tab description
 		.scrape(function($) {
 			return $(".left-tabs a").map(function() {
     		        	return $(this).html();
@@ -277,25 +277,26 @@ function scrape(address){
 				for(i=0;i<tab_index;i++)
 				{
 					newChar = S(html[i]).trim().s;
-					//console.log(newChar);
 
 					tab[i].title = newChar;
 					tab[i].markdown = 'markdown/' + json.filename + '/';
 	
 				}
 
-				//assign value to json format//
+				//Assign value to json structure//
 				content.tab = tab;
 				data.content = content;
 				json.data = data;
 
-				//call write function//
+				//Write to output//
 				frame = json;
 				writeToJson(address,frame);
 	
 		})
-	
-/////////////////////////////////Function/////////////////////////////////////////////////////// 
+//////////////
+/////////////////////////////////Main content scraping/////////////////////////////////////////////////////// 
+		
+		// Get "Overview"(tab1) content
 		.scrape(function($) {
      		   	return $("#tab1").map(function() {
     		        	return $(this).html();
@@ -309,7 +310,6 @@ function scrape(address){
 				html = toMarkdown(html);
 	
 				overview_path = make_tab_folder(json.filename, option, html );
-				//tab[0].class = '';
    
 	})
 		// Write process path
@@ -326,7 +326,7 @@ function scrape(address){
 				make_tab_folder(json.filename, option, html );
 
 	})
-		//  Get Process pictures1 from URL 
+		// Get Process pictures1 from URL 
 		.scrape(function($) {
      		   	return $(".imgpopup").map(function() {
     		        	return $(this).attr("href");
@@ -337,8 +337,7 @@ function scrape(address){
 
 			file_url = 'http://www.web-presence-in-china.com' + process;
 			DOWNLOAD_DIR = 'markdown/' + json.filename + '/';
-
-//temp			
+	
 			imgScraper(file_url, DOWNLOAD_DIR);
 	
 	})
@@ -352,13 +351,12 @@ function scrape(address){
 			
 			file_url = 'http://www.web-presence-in-china.com' + process2;
 			DOWNLOAD_DIR = 'markdown/' + json.filename + '/';
-
-//temp			
+		
 			imgScraper(file_url, DOWNLOAD_DIR);
 			
 	})
 
-	// Intelligence 
+		// Intelligence(tab4) 
 		.scrape(function($) {
      		   	return $("#tab4").map(function() {
     		        	return $(this).html();
@@ -374,8 +372,7 @@ function scrape(address){
 
 	})
 
-
-		// Impact
+		// Impact(tab3)
 		.scrape(function($) {
      		  	return $("#tab3").map(function() {
     		       		return $(this).html();
@@ -390,7 +387,6 @@ function scrape(address){
 				html = toMarkdown(html);
 
 				impact_path = make_tab_folder(json.filename, option, html );
-			
 				
 	})
 }
@@ -404,7 +400,6 @@ function writeToJson(address,json){
 	//var pathName = '/home/lvunie/work/scraper_project/WPIC_Scraper/output/en/' + fileIndex; 
 	var pathName = 'output/en/' + fileIndex; 
 
-	
 	var newAddress = pathName + '.json';
         fs.writeFile(newAddress, JSON.stringify(frame, null, 4), function(err){
   
@@ -412,7 +407,7 @@ function writeToJson(address,json){
 }
 
 //////
-////////////////////////////create folder for markdown//////////////////////////////////////////////////
+////////////////////////////Create folder for markdown//////////////////////////////////////////////////
 function make_tab_folder(address, option , text ){
 
 	var option_path ='markdown/' + address + '/';			
@@ -445,7 +440,7 @@ function writeToMarkdown(option_markdown, text){
 
 }
 
-//Download pictures from url to a folder
+// Download pictures from url to a folder
 function imgScraper(file_url, DOWNLOAD_DIR){
 	// We will be downloading the files to a directory, so make sure it's there
 	// This step is not required if you have manually created the directory
@@ -482,7 +477,6 @@ function imgScraper(file_url, DOWNLOAD_DIR){
 
 }
 
-
 function createTabFrame()
 {
 	tab.push({ 
@@ -493,7 +487,6 @@ function createTabFrame()
     	});
 
 }
-
 
 function createRelatedFrame()
 {

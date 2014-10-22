@@ -1,0 +1,30 @@
+var fs        = require('fs');
+var grunt     = require('grunt');
+
+
+module.exports = function(grunt){
+
+	grunt.loadNpmTasks('grunt-contrib-concat');
+
+grunt.initConfig({
+    pkg: grunt.file.readJSON('package.json'),
+    concat: {
+        json: {
+            src: ['/home/lvunie/work/scraper_project/WPIC_Scraper/output/en/*.json'],
+            dest: 'combined.json',
+            options: {
+                // Added to the top of the file
+                banner: '{"three": [',
+                // Will be added at the end of the file
+                footer: "]}",
+                separator: ','
+            }
+        }
+    }
+});
+	
+};
+
+
+
+

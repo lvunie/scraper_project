@@ -120,6 +120,8 @@ function writeToJson(address,json, outputName){
 
 function writeToDynamicArray(address, length_index ){
 
+		// Get category title
+
  		scraperjs.StaticScraper.create(address)
 		.scrape(function($) {
 	     		   return $("title").map(function() {
@@ -211,7 +213,7 @@ function writeToDynamicArray(address, length_index ){
 			
 	})
 
-
+		// 
 		.scrape(function($) {
      		  	return $("#tab3 p, ol").map(function() {
     		       		return $(this).text();

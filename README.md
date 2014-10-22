@@ -86,12 +86,13 @@ Under each category page, there are many more specify business service for each 
 ####The Scraper program detail:
 The program consists of three mian javascript files as following:
 
-**1. URL_reader.js:**  reads a given URL to find out all its subURLs, then write them to "URL_Output.json".   
+**1. URL_reader.js:**  
+Reads a given URL to find out all its subURLs, then write them to "URL_Output.json".   
 
-**2. scraper_category.js:** output the information for three types of category item and all their own services title and icons. Write data to category_output/ sort by category title.
+**2. scraper_category.js:**  
+Output the information for three types of category item and all their own services title and icons. Write data to category_output/ sort by category title.
 
 **3. scraper.js:**   
-
 "output":   a folder to store JSON for each **page_three** output.  
 "markdown": a folder to store text for *Overview*, *Impact* in markdown(md) format from each **page_three** , download and save picture for "process" section. and also save all *related* icon for each **page_three** URL.       
 "related":  download and save all icon for **page_two**.

@@ -1,57 +1,57 @@
 {
-    "filename": "scraping",
+    "filename": "website-deployment",
     "data": {
-        "title": "Scraping ",
+        "title": "Website Deployment ",
         "category": "Technology",
-        "description": "Leverage China’s Biggest Data Source – Its Web",
-        "filename": "scraping",
+        "description": "‘Bridge the Gap’, ‘Span the Pass’… ‘Zip Line the Ravine’?",
+        "filename": "website-deployment",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/scraping/",
+                    "markdown": "markdown/website-deployment/",
                     "href": "#tab1",
                     "class": ""
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/scraping/",
+                    "markdown": "markdown/website-deployment/",
                     "href": "#tab2",
                     "class": "active"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/scraping/",
+                    "markdown": "markdown/website-deployment/",
                     "href": "#tab3",
                     "class": ""
                 },
                 {
                     "title": "Intelligence",
-                    "markdown": "markdown/scraping/",
+                    "markdown": "markdown/website-deployment/",
                     "href": "#tab4",
                     "class": ""
                 }
             ],
             "related": [
                 {
-                    "title": "Analytics",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/analytics-tech-green.png",
-                    "url": "http://www.web-presence-in-china.com/analytics-0"
+                    "title": "China Cloud Hosting",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting.png",
+                    "url": "http://www.web-presence-in-china.com/china-cloud-hosting"
                 },
                 {
-                    "title": "Market Analysis",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/marketing-analysis.png",
-                    "url": "http://www.web-presence-in-china.com/market-analysis"
+                    "title": "Content Delivery / Distribution Network (CDN)",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/content-delivery-network-green.png",
+                    "url": "http://www.web-presence-in-china.com/content-delivery-distribution-network-cdn"
                 },
                 {
-                    "title": "Market Intelligence",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/market-intelligence.png",
-                    "url": "http://www.web-presence-in-china.com/market-intelligence"
+                    "title": "Mobile Websites Design & Development",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-website.png",
+                    "url": "http://www.web-presence-in-china.com/mobile-websites-design-development"
                 },
                 {
-                    "title": "Technology Solutions",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/technology-solutions.png",
-                    "url": "http://www.web-presence-in-china.com/technology-solutions"
+                    "title": "Website Design",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/website-design.png",
+                    "url": "http://www.web-presence-in-china.com/website-design"
                 }
             ]
         }

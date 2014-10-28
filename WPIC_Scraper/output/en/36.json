@@ -1,57 +1,51 @@
 {
-    "filename": "legal-structural-setup",
+    "filename": "licensing",
     "data": {
-        "title": "Legal & Structural Setup ",
+        "title": "Licensing ",
         "category": "Consulting",
-        "description": "Compliance for a Smooth Path to Revenue",
-        "filename": "legal-structural-setup",
+        "description": "Eased Market Entry Based on Trust",
+        "filename": "licensing",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/legal-structural-setup/",
+                    "markdown": "markdown/licensing/",
                     "href": "#tab1",
                     "class": ""
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/legal-structural-setup/",
+                    "markdown": "markdown/licensing/",
                     "href": "#tab2",
                     "class": "active"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/legal-structural-setup/",
+                    "markdown": "markdown/licensing/",
                     "href": "#tab3",
-                    "class": ""
-                },
-                {
-                    "title": "Intelligence",
-                    "markdown": "markdown/legal-structural-setup/",
-                    "href": "#tab4",
                     "class": ""
                 }
             ],
             "related": [
+                {
+                    "title": "eCommerce",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ecommerce.png",
+                    "url": "http://www.web-presence-in-china.com/ecommerce"
+                },
                 {
                     "title": "ICP Registration",
                     "icon": "http://www.web-presence-in-china.com/sites/default/files/ICP-Registration.png",
                     "url": "http://www.web-presence-in-china.com/icp-registration"
                 },
                 {
-                    "title": "Licensing",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/licensing.png",
-                    "url": "http://www.web-presence-in-china.com/licensing"
+                    "title": "Legal & Structural Setup",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/legal-%26-structural-setup.png",
+                    "url": "http://www.web-presence-in-china.com/legal-structural-setup"
                 },
                 {
-                    "title": "Payment Gateway",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/payment-gateways.png",
-                    "url": "http://www.web-presence-in-china.com/payment-gateway"
-                },
-                {
-                    "title": "Regional Planning",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/regional-planning.png",
-                    "url": "http://www.web-presence-in-china.com/regional-planning"
+                    "title": "Logistics & Fulfillment",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/logistics-%26-fulfillment.png",
+                    "url": "http://www.web-presence-in-china.com/logistics-fulfillment"
                 }
             ]
         }

@@ -1,41 +1,36 @@
 {
-    "filename": "licensing",
+    "filename": "channel-conflict-strategies",
     "data": {
-        "title": "Licensing ",
+        "title": "Channel Conflict Strategies ",
         "category": "Consulting",
-        "description": "Eased Market Entry Based on Trust",
-        "filename": "licensing",
+        "description": "Striving for Perfect Market Coverage",
+        "filename": "channel-conflict-strategies",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/licensing/",
+                    "markdown": "markdown/channel-conflict-strategies/",
                     "href": "#tab1",
                     "class": ""
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/licensing/",
+                    "markdown": "markdown/channel-conflict-strategies/",
                     "href": "#tab2",
                     "class": "active"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/licensing/",
+                    "markdown": "markdown/channel-conflict-strategies/",
                     "href": "#tab3",
                     "class": ""
                 }
             ],
             "related": [
                 {
-                    "title": "eCommerce",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ecommerce.png",
-                    "url": "http://www.web-presence-in-china.com/ecommerce"
-                },
-                {
-                    "title": "ICP Registration",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ICP-Registration.png",
-                    "url": "http://www.web-presence-in-china.com/icp-registration"
+                    "title": "Channel Strategy",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/channel-strategy.png",
+                    "url": "http://www.web-presence-in-china.com/channel-strategy"
                 },
                 {
                     "title": "Legal & Structural Setup",
@@ -43,9 +38,14 @@
                     "url": "http://www.web-presence-in-china.com/legal-structural-setup"
                 },
                 {
-                    "title": "Logistics & Fulfillment",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/logistics-%26-fulfillment.png",
-                    "url": "http://www.web-presence-in-china.com/logistics-fulfillment"
+                    "title": "Licensing",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/licensing.png",
+                    "url": "http://www.web-presence-in-china.com/licensing"
+                },
+                {
+                    "title": "Project Planning & Management",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/project-planning-%26-management.png",
+                    "url": "http://www.web-presence-in-china.com/project-planning-management"
                 }
             ]
         }

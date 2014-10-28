@@ -1,57 +1,51 @@
 {
-    "filename": "website-design",
+    "filename": "chinalytics",
     "data": {
-        "title": "Website Design ",
+        "title": "Chinalytics ",
         "category": "Technology",
-        "description": "An On-Brand Experience Optimized for Chinese Customers",
-        "filename": "website-design",
+        "description": "Custom Analytics That You Can Trust",
+        "filename": "chinalytics",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/website-design/",
+                    "markdown": "markdown/chinalytics/",
                     "href": "#tab1",
                     "class": ""
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/website-design/",
+                    "markdown": "markdown/chinalytics/",
                     "href": "#tab2",
                     "class": "active"
                 },
                 {
-                    "title": "Impact",
-                    "markdown": "markdown/website-design/",
+                    "title": "Subscribe",
+                    "markdown": "markdown/chinalytics/",
                     "href": "#tab3",
-                    "class": ""
-                },
-                {
-                    "title": "Intelligence",
-                    "markdown": "markdown/website-design/",
-                    "href": "#tab4",
                     "class": ""
                 }
             ],
             "related": [
+                {
+                    "title": "Business Integration Solutions",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/business-integration-solutions-green.png",
+                    "url": "http://www.web-presence-in-china.com/business-integration-solutions-0"
+                },
                 {
                     "title": "China Cloud Hosting",
                     "icon": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting.png",
                     "url": "http://www.web-presence-in-china.com/china-cloud-hosting"
                 },
                 {
-                    "title": "ICP Registration",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ICP-Registration.png",
-                    "url": "http://www.web-presence-in-china.com/icp-registration"
+                    "title": "Scraping",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/scraping.png",
+                    "url": "http://www.web-presence-in-china.com/scraping"
                 },
                 {
-                    "title": "Mobile Websites Design & Development",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-website.png",
-                    "url": "http://www.web-presence-in-china.com/mobile-websites-design-development"
-                },
-                {
-                    "title": "Website Deployment",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/website-deployment.png",
-                    "url": "http://www.web-presence-in-china.com/website-deployment"
+                    "title": "Systems Design",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/systems-design.png",
+                    "url": "http://www.web-presence-in-china.com/systems-design"
                 }
             ]
         }

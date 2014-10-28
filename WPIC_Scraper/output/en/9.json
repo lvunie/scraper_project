@@ -1,57 +1,51 @@
 {
-    "filename": "chinese-seo",
+    "filename": "ecommerce",
     "data": {
-        "title": "Search Engine Optimization (SEO) ",
+        "title": "eCommerce ",
         "category": "Marketing",
-        "description": "Quick Discovery and High Trust through Organic Ranking",
-        "filename": "chinese-seo",
+        "description": "Seamless Sales in the World’s Largest Online Economy",
+        "filename": "ecommerce",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/chinese-seo/",
+                    "markdown": "markdown/ecommerce/",
                     "href": "#tab1",
                     "class": ""
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/chinese-seo/",
+                    "markdown": "markdown/ecommerce/",
                     "href": "#tab2",
                     "class": "active"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/chinese-seo/",
+                    "markdown": "markdown/ecommerce/",
                     "href": "#tab3",
-                    "class": ""
-                },
-                {
-                    "title": "Intelligence",
-                    "markdown": "markdown/chinese-seo/",
-                    "href": "#tab4",
                     "class": ""
                 }
             ],
             "related": [
                 {
-                    "title": "Campaign Management Dashboards",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-9898.png",
-                    "url": "http://www.web-presence-in-china.com/campaign-management-dashboards"
+                    "title": "Graphic Design Production",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/graphic-design.png",
+                    "url": "http://www.web-presence-in-china.com/graphic-design-production"
                 },
                 {
-                    "title": "Display Advertising",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/display-advertising.png",
-                    "url": "http://www.web-presence-in-china.com/display-advertising"
+                    "title": "Legal & Structural Setup",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/legal-%26-structural-setup.png",
+                    "url": "http://www.web-presence-in-china.com/legal-structural-setup"
                 },
                 {
-                    "title": "Pay-Per-Click Advertising (PPC)",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/PPC1.png",
-                    "url": "http://www.web-presence-in-china.com/ppc"
+                    "title": "Payment Gateway",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/payment-gateways.png",
+                    "url": "http://www.web-presence-in-china.com/payment-gateway"
                 },
                 {
-                    "title": "Website Analytics",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/web-analytics.png",
-                    "url": "http://www.web-presence-in-china.com/website-analytics"
+                    "title": "Website Design",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/website-design.png",
+                    "url": "http://www.web-presence-in-china.com/website-design"
                 }
             ]
         }

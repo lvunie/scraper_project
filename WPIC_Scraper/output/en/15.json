@@ -1,51 +1,51 @@
 {
-    "filename": "campaign-management-dashboards",
+    "filename": "digital-public-relations",
     "data": {
-        "title": "Campaign Management Dashboards ",
+        "title": "Digital Public Relations ",
         "category": "Marketing",
-        "description": "Transparency Equals Efficiency",
-        "filename": "campaign-management-dashboards",
+        "description": "Broad Reach with Next Steps",
+        "filename": "digital-public-relations",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/campaign-management-dashboards/",
+                    "markdown": "markdown/digital-public-relations/",
                     "href": "#tab1",
                     "class": ""
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/campaign-management-dashboards/",
+                    "markdown": "markdown/digital-public-relations/",
                     "href": "#tab2",
                     "class": "active"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/campaign-management-dashboards/",
+                    "markdown": "markdown/digital-public-relations/",
                     "href": "#tab3",
                     "class": ""
                 }
             ],
             "related": [
                 {
-                    "title": "Analytics",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/analytics-marketing-green.png",
-                    "url": "http://www.web-presence-in-china.com/analytics"
+                    "title": "Asset Localization",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/asset-localization.png",
+                    "url": "http://www.web-presence-in-china.com/asset-localization"
                 },
                 {
-                    "title": "Campaign Tracking Dashboards",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/campaign-tracking-dashboards.png",
-                    "url": "http://www.web-presence-in-china.com/campaign-tracking-dashboards"
+                    "title": "Chinese Brand Development",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/brand-development-green.png",
+                    "url": "http://www.web-presence-in-china.com/chinese-brand-development"
                 },
                 {
-                    "title": "Market Analysis",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/marketing-analysis.png",
-                    "url": "http://www.web-presence-in-china.com/market-analysis"
+                    "title": "Content Localization & Translations Production",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/content-localization.png",
+                    "url": "http://www.web-presence-in-china.com/content-localization-translations-production"
                 },
                 {
-                    "title": "Website Analytics",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/web-analytics.png",
-                    "url": "http://www.web-presence-in-china.com/website-analytics"
+                    "title": "Content Marketing",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-24a.png",
+                    "url": "http://www.web-presence-in-china.com/content-marketing"
                 }
             ]
         }

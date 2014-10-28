@@ -1,0 +1,7 @@
+## Intelligence
+ <div class="intelligence-items"> <article class="intelligence-item"> ![](http://www.web-presence-in-china.com/sites/default/files/styles/medium/public/images/2014/10/Screen%20Shot%202014-10-23%20at%202.48.57%20pm.jpg?itok=GR0eyoCh) <div class="intelligence-item-content"> 
+
+### [Integration for the Chinese Travel Market](http://www.chinadigitalreview.com/how-to-profit-from-chinas-two-biggest-travel-sites/ "Integration for the Chinese Travel Market")
+
+One need only to look at China&apos;s two biggest travel platforms, Qunar and C-trip, to realize that omni-integration drives the modern Chinese online experience. Both sites have the informational variety of Trip Advisor, combined with the streaming, real-time commercial capabilities of Expedia. Integrating with either of these sites APIs can drive Chinese tourists to your western travel platform. From a broader perspective, designing a system that allows for mobility, easy payment, popular Chinese social media integration (WeChat) and other functionality, is key to building the kind of online China presence that will drive long-term branding and ROI in the market.
+ [Read More &#xBB;](http://www.chinadigitalreview.com/how-to-profit-from-chinas-two-biggest-travel-sites/ "Integration for the Chinese Travel Market") </div> </article> </div>

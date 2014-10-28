@@ -1,0 +1,7 @@
+## Intelligence
+ <div class="intelligence-items"> <article class="intelligence-item"> ![](http://www.web-presence-in-china.com/sites/default/files/styles/medium/public/images/2014/10/Screen%20Shot%202014-10-24%20at%201.37.25%20pm.jpg?itok=pcIZNhg8) <div class="intelligence-item-content"> 
+
+### [Deploying a Chinese Travel Website ](http://www.chinadigitalreview.com/4-web-design-tips-to-attract-chinese-tourists/ "Deploying a Chinese Travel Website ")
+
+Our work with travel organizations hones best practice in website deployment. Travel organization sites typically require complex integration, thorough localization including multimedia, and incorporation of elements representing different stakeholders. Such sites are also designed for high traffic, requiring the very best hosting solutions. To ensure rapid delivery of most critical high impact multimedia, placing dynamic assets on a CDN network is necessary, as well as mainland hosting. Even domain registration can present challenges, as pinyin representations of western place names are frequently already registered by domain squatters and other opportunists seeking arbitrage buy-out scenarios. Finally, testing must be extremely rigourous, as clean, compelling user experience of the destination is 90% of the message.&#xA0;
+ [Read More &#xBB;](http://www.chinadigitalreview.com/4-web-design-tips-to-attract-chinese-tourists/ "Deploying a Chinese Travel Website ") </div> </article> </div>

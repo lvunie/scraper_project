@@ -1,5 +1,7 @@
 ## Intelligence
- <div class="intelligence-items"> <article class="intelligence-item"> ![](http://www.web-presence-in-china.com/sites/default/files/styles/medium/public?itok=ABIGDp-N) <div class="intelligence-item-content"> 
+ <div class="intelligence-items"> <article class="intelligence-item"> ![](http://www.web-presence-in-china.com/sites/default/files/styles/medium/public/images/2014/10/Screen%20Shot%202014-10-27%20at%201.53.05%20pm.jpg?itok=2xK55lXY) <div class="intelligence-item-content"> 
 
 ### [Online Store Central to Sound Regional Planning](http://www.chinadigitalreview.com/3-ways-your-china-online-store-beats-the-socks-off-your-china-physical-store/ "Online Store Central to Sound Regional Planning")
+
+<span style="font-size: medium;">The massive resources necessitated by Chinese brick and mortar distribution have long been known, making it a vertical profitable mostly for established global brands. The other method, Chinese distributors, is fraught with all the problems that handing over your brand to a third party entail. Thus the critical necessity of supplementing if not driving penetration of the world&apos;s largest market with the targeted, scalable strategies that online commerce entails. Measuring the market, mapping personas, then pulling targeted demos with a mixture of paid and owned advertising to high-converting digital platforms has proven the highest-ROI method of expanding China market share, period.&#xA0;</span>
  [Read More &#xBB;](http://www.chinadigitalreview.com/3-ways-your-china-online-store-beats-the-socks-off-your-china-physical-store/ "Online Store Central to Sound Regional Planning") </div> </article> </div>

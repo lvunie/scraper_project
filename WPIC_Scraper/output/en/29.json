@@ -1,36 +1,41 @@
 {
-    "filename": "chinalytics",
+    "filename": "content-delivery-distribution-network-cdn",
     "data": {
-        "title": "Chinalytics ",
+        "title": "Content Delivery / Distribution Network (CDN) ",
         "category": "Technology",
-        "description": "Custom Analytics That You Can Trust",
-        "filename": "chinalytics",
+        "description": "Delivering Superior Customer Experience",
+        "filename": "content-delivery-distribution-network-cdn",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/chinalytics/",
+                    "markdown": "markdown/content-delivery-distribution-network-cdn/",
                     "href": "#tab1",
                     "class": ""
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/chinalytics/",
+                    "markdown": "markdown/content-delivery-distribution-network-cdn/",
                     "href": "#tab2",
                     "class": "active"
                 },
                 {
-                    "title": "Subscribe",
-                    "markdown": "markdown/chinalytics/",
+                    "title": "Impact",
+                    "markdown": "markdown/content-delivery-distribution-network-cdn/",
                     "href": "#tab3",
                     "class": ""
                 }
             ],
             "related": [
                 {
-                    "title": "Content Delivery / Distribution Network (CDN)",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/content-delivery-network-green.png",
-                    "url": "http://www.web-presence-in-china.com/content-delivery-distribution-network-cdn"
+                    "title": "China Cloud Hosting",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting.png",
+                    "url": "http://www.web-presence-in-china.com/china-cloud-hosting"
+                },
+                {
+                    "title": "ICP Registration",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ICP-Registration.png",
+                    "url": "http://www.web-presence-in-china.com/icp-registration"
                 },
                 {
                     "title": "Infrastructure Auditing",
@@ -41,11 +46,6 @@
                     "title": "Systems Design",
                     "icon": "http://www.web-presence-in-china.com/sites/default/files/systems-design.png",
                     "url": "http://www.web-presence-in-china.com/systems-design"
-                },
-                {
-                    "title": "Website Deployment",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/website-deployment.png",
-                    "url": "http://www.web-presence-in-china.com/website-deployment"
                 }
             ]
         }

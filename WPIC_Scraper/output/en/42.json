@@ -1,57 +1,51 @@
 {
-    "filename": "icp-registration",
+    "filename": "business-integration-solutions",
     "data": {
-        "title": "ICP Registration ",
+        "title": "Business Integration Solutions ",
         "category": "Consulting",
-        "description": "The First Step in China Digital Compliance",
-        "filename": "icp-registration",
+        "description": "Aligning Your Processes with Your Technology",
+        "filename": "business-integration-solutions",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/icp-registration/",
+                    "markdown": "markdown/business-integration-solutions/",
                     "href": "#tab1",
                     "class": ""
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/icp-registration/",
+                    "markdown": "markdown/business-integration-solutions/",
                     "href": "#tab2",
                     "class": "active"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/icp-registration/",
+                    "markdown": "markdown/business-integration-solutions/",
                     "href": "#tab3",
-                    "class": ""
-                },
-                {
-                    "title": "Intelligence",
-                    "markdown": "markdown/icp-registration/",
-                    "href": "#tab4",
                     "class": ""
                 }
             ],
             "related": [
                 {
-                    "title": "China Cloud Hosting",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting.png",
-                    "url": "http://www.web-presence-in-china.com/china-cloud-hosting"
+                    "title": "Logistics & Fulfillment",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/logistics-%26-fulfillment.png",
+                    "url": "http://www.web-presence-in-china.com/logistics-fulfillment"
                 },
                 {
-                    "title": "Content Delivery / Distribution Network (CDN)",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/content-delivery-network-green.png",
-                    "url": "http://www.web-presence-in-china.com/content-delivery-distribution-network-cdn"
+                    "title": "Microsoft Dynamics",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/microsoft-dynamics.png",
+                    "url": "http://www.web-presence-in-china.com/microsoft-dynamics"
                 },
                 {
-                    "title": "Website Analytics",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/web-analytics.png",
-                    "url": "http://www.web-presence-in-china.com/website-analytics"
+                    "title": "Project Planning & Management",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/project-planning-%26-management.png",
+                    "url": "http://www.web-presence-in-china.com/project-planning-management"
                 },
                 {
-                    "title": "Website Deployment",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/website-deployment.png",
-                    "url": "http://www.web-presence-in-china.com/website-deployment"
+                    "title": "Systems Design",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/systems-design.png",
+                    "url": "http://www.web-presence-in-china.com/systems-design"
                 }
             ]
         }

@@ -43,7 +43,7 @@ Before run this program you need to run URL_reader.js first to get whole URLs, t
 `````````````````````````````````
 $ nodejs URL_reader.js
 $ nodejs scraper.js
-$ nodejs scraper_category.js
+$ nodejs scraper_category.js 
 `````````````````````````````````
 
 After running the command above, you already get all output JSON file and markdown file, as require, we also need to merge all json file as one. All the merge function can be finish by using "grunt"

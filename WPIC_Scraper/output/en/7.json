@@ -1,28 +1,34 @@
 {
-    "filename": "campaign-tracking-dashboards",
+    "filename": "chinese-seo",
     "data": {
-        "title": "Campaign Tracking Dashboards ",
+        "title": "Search Engine Optimization (SEO) ",
         "category": "Marketing",
-        "description": "Reliable Feedback on Chinese Media, Campaigns, & Brand Positions",
-        "filename": "campaign-tracking-dashboards",
+        "description": "Quick Discovery and High Trust through Organic Ranking",
+        "filename": "chinese-seo",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/campaign-tracking-dashboards/",
+                    "markdown": "markdown/chinese-seo/",
                     "href": "#tab1",
                     "class": ""
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/campaign-tracking-dashboards/",
+                    "markdown": "markdown/chinese-seo/",
                     "href": "#tab2",
                     "class": "active"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/campaign-tracking-dashboards/",
+                    "markdown": "markdown/chinese-seo/",
                     "href": "#tab3",
+                    "class": ""
+                },
+                {
+                    "title": "Intelligence",
+                    "markdown": "markdown/chinese-seo/",
+                    "href": "#tab4",
                     "class": ""
                 }
             ],

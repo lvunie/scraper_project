@@ -1,0 +1,75 @@
+{
+    "menus": [
+        {
+            "menu": "Marketing",
+            "b_class": "caret",
+            "menu_url": "http://www.web-presence-in-china.com/category/marketing",
+            "sub_menu": [
+                "Chinese Brand Development",
+                "Graphic Design Production",
+                "Website Analytics",
+                "Campaign Tracking Dashboards",
+                "Market Analysis",
+                "Mobile Advertising",
+                "Pay-Per-Click Advertising (PPC)",
+                "Search Engine Optimization (SEO)",
+                "eCommerce",
+                "Content Localization & Translations Production",
+                "Display Advertising",
+                "Content Marketing",
+                "Direct Marketing",
+                "Channel Strategy",
+                "Campaign Management Dashboards",
+                "Digital Public Relations",
+                "Asset Localization",
+                "Analytics"
+            ]
+        },
+        {
+            "menu": "Technology",
+            "b_class": "caret",
+            "menu_url": "http://www.web-presence-in-china.com/category/technology",
+            "sub_menu": [
+                "Analytics",
+                "Business Integration Solutions",
+                "China Cloud Hosting",
+                "Content Delivery / Distribution Network (CDN)",
+                "eCommerce",
+                "Microsoft Dynamics",
+                "Mobile Application Development",
+                "Mobile Application Publishing",
+                "Mobile Websites Design & Development",
+                "Payment Gateway",
+                "Scraping",
+                "Technology Solutions",
+                "Website Deployment",
+                "Website Design",
+                "Chinalytics"
+            ]
+        },
+        {
+            "menu": "Consulting",
+            "b_class": "caret",
+            "menu_url": "http://www.web-presence-in-china.com/category/consulting",
+            "sub_menu": [
+                "Legal & Structural Setup",
+                "Licensing",
+                "Logistics & Fulfillment",
+                "Market Intelligence",
+                "Project Planning & Management",
+                "Business Integration Solutions",
+                "Channel Conflict Strategies",
+                "ICP Registration",
+                "Infrastructure Auditing",
+                "Systems Design",
+                "Regional Planning"
+            ]
+        },
+        {
+            "menu": "Engage",
+            "b_class": "",
+            "menu_url": "http://www.web-presence-in-china.com/about-us",
+            "sub_menu": ""
+        }
+    ]
+}

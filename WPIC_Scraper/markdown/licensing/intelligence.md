@@ -1,0 +1,9 @@
+## Intelligence
+ <div class="intelligence-items"> <article class="intelligence-item"> ![](http://www.web-presence-in-china.com/sites/default/files/styles/medium/public/images/2014/11/Screen%20Shot%202014-11-05%20at%201.28.15%20pm_1.jpg?itok=E_iXE2s2) <div class="intelligence-item-content"> 
+
+### [Licensing SaaS in China](http://www.chinadigitalreview.com/the-coming-saas-market-in-china/ "Licensing SaaS in China")
+
+<span style="font-size: medium;">The strictures around licensing software as a service represent the complexity but ultimate opportunity in the Chinese market. Foreign companies are not allowed to launch SaaS in China unless partnered with an appropriately licensed Chinese entity. IBM&apos;s partnership with Tencent to provide cloud hosting and SaaS service to Chinese SMEs, particularly in the healthcare industry, shows at the very least a growing availability of aligned partners who seek to work synergistically with western firms, in order to have global impact. </span>
+
+<span style="font-size: medium;">Other options include partnering with a western managed firm which possesses the proper Chinese licenses for tech development and promotion, such as Web Presence in China. No longer does mandatory Chinese partnership involve being at the legal mercy of a non-aligned, exploitative Chinese agency. So while licensing in China is still a process demanding the utmost in due diligence and circumspection, as international licensing always is, the options are becoming steadily more robust.</span>
+ [Read More &#xBB;](http://www.chinadigitalreview.com/the-coming-saas-market-in-china/ "Licensing SaaS in China") </div> </article> </div>

@@ -9,6 +9,18 @@ var toMarkdown = require('to-markdown').toMarkdown;
 var S         = require('string');
 var fs        = require('fs');
 
+
+//////////error detect///////////
+var error_index = 0;
+var error_index2 = 0;
+var error_index_overview = 0;
+var error_index_process = 0;
+var error_index_impact = 0;
+var error_index_intellenge = 0;
+var result = 0;
+var result_done = 0;
+/////////////////////////////////
+
 // JSON 
 var fileIndex = 0;
 var address;
@@ -25,6 +37,7 @@ var exec = require('child_process').exec;
 var spawn = require('child_process').spawn;
 
 // app.set('port', 3001);
+
 
 // JSON structure
 var frame = {
@@ -291,6 +304,9 @@ function scrape(address){
 				//Write to output//
 				frame = json;
 				writeToJson(address,frame);
+
+				error_index2++;
+				console.log('task: '+error_index2+ '  ' + address );
 	
 		})
 //////////////
@@ -309,7 +325,7 @@ function scrape(address){
 				html = S(html).collapseWhitespace().s;
 				html = toMarkdown(html);
 	
-				overview_path = make_tab_folder(json.filename, option, html );
+				var overview_result =  make_tab_folder(json.filename, option, html );
    
 	})
 		// Write process path
@@ -318,11 +334,13 @@ function scrape(address){
     		        	return $(this).html();
      		   	}).get();
     			}, function(html) {
+
 				//return when there is no content
 				if(html ==''){return};
 				
 				option = 'Process';
 				html = S(html).replaceAll('/sites/default/files/','').s;
+
 				make_tab_folder(json.filename, option, html );
 
 	})
@@ -367,8 +385,8 @@ function scrape(address){
 				option = 'Intelligence';
 				html = S(html).collapseWhitespace().s;
 				html = toMarkdown(html);
-	
-				intelligence_path = make_tab_folder(json.filename, option, html);
+
+				make_tab_folder(json.filename, option, html);
 
 	})
 
@@ -386,7 +404,9 @@ function scrape(address){
 				html = S(html).decodeHTMLEntities().s;
 				html = toMarkdown(html);
 
-				impact_path = make_tab_folder(json.filename, option, html );
+				make_tab_folder(json.filename, option, html );
+
+				console.log('--------------------------------------------------');
 				
 	})
 //new
@@ -403,20 +423,13 @@ function scrape(address){
 
 			for(i = 0; i < htmlIndex; i++)
 			{
-				console.log(html[i]);
+				//console.log(html[i]);
 				imgScraper(html[i], DOWNLOAD_DIR);
 			} 			
-
 				
 	})
 
-
-
-
 }
-
-
-
 
 
 //////
@@ -439,15 +452,19 @@ function writeToJson(address,json){
 function make_tab_folder(address, option , text ){
 
 	var option_path ='markdown/' + address + '/';			
-		
+	var md_result = 0;
+	
 	option = option.toLowerCase();
 
-	var option_markdown = option_path + '/' +  option  +'.md';
+	var option_markdown = option_path +  option  +'.md';
+
+
 	writeToMarkdown(option_markdown, text);
-			
-	return option_path;
+
+	return md_result;
 
 }
+
 
 // Create all services folder 
 function create_markdown_folder(address){
@@ -455,17 +472,19 @@ function create_markdown_folder(address){
 	var option_path ='markdown/' + address + '/';				
 
 	mkdirp(option_path, function(err) { 
-		//console.log('ok');
+
 	});
 }
 
 // Write content to .md file
 function writeToMarkdown(option_markdown, text){
-	
-	fs.writeFile(option_markdown, text, function(err){
-       	
-	});
 
+console.log('start writing..... ' + option_markdown);
+	
+	
+	fs.writeFile(option_markdown, text);
+       		
+	return;
 }
 
 // Download pictures from url to a folder

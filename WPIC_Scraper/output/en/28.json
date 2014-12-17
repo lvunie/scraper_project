@@ -1,51 +1,57 @@
 {
-    "filename": "china-cloud-hosting",
+    "filename": "scraping",
     "data": {
-        "title": "China Cloud Hosting ",
+        "title": "Scraping ",
         "category": "Technology",
-        "description": "Load Times are the First Step to a High Performance Site",
-        "filename": "china-cloud-hosting",
+        "description": "Leverage China’s Biggest Data Source – Its Web",
+        "filename": "scraping",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/china-cloud-hosting/",
+                    "markdown": "markdown/scraping/",
                     "href": "#tab1",
                     "class": ""
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/china-cloud-hosting/",
+                    "markdown": "markdown/scraping/",
                     "href": "#tab2",
                     "class": "active"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/china-cloud-hosting/",
+                    "markdown": "markdown/scraping/",
                     "href": "#tab3",
+                    "class": ""
+                },
+                {
+                    "title": "Intelligence",
+                    "markdown": "markdown/scraping/",
+                    "href": "#tab4",
                     "class": ""
                 }
             ],
             "related": [
                 {
-                    "title": "Content Delivery / Distribution Network (CDN)",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/content-delivery-network-green.png",
-                    "url": "http://www.web-presence-in-china.com/content-delivery-distribution-network-cdn"
+                    "title": "Analytics",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/analytics-tech-green.png",
+                    "url": "http://www.web-presence-in-china.com/analytics-0"
                 },
                 {
-                    "title": "Infrastructure Auditing",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/infrastructure-auditing.png",
-                    "url": "http://www.web-presence-in-china.com/infrastructure-auditing"
+                    "title": "Market Analysis",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/marketing-analysis.png",
+                    "url": "http://www.web-presence-in-china.com/market-analysis"
                 },
                 {
-                    "title": "Systems Design",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/systems-design.png",
-                    "url": "http://www.web-presence-in-china.com/systems-design"
+                    "title": "Market Intelligence",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/market-intelligence.png",
+                    "url": "http://www.web-presence-in-china.com/market-intelligence"
                 },
                 {
-                    "title": "Website Deployment",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/website-deployment.png",
-                    "url": "http://www.web-presence-in-china.com/website-deployment"
+                    "title": "Technology Solutions",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/technology-solutions.png",
+                    "url": "http://www.web-presence-in-china.com/technology-solutions"
                 }
             ]
         }

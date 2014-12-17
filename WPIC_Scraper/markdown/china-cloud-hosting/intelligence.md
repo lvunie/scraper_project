@@ -1,0 +1,7 @@
+## Intelligence
+ <div class="intelligence-items"> <article class="intelligence-item"> ![](http://www.web-presence-in-china.com/sites/default/files/styles/medium/public/images/2014/11/Screen%20Shot%202014-11-11%20at%204.34.39%20pm.jpg?itok=iV9CfSHf) <div class="intelligence-item-content"> 
+
+### [Hosting for Chinese Internet Users](http://www.chinadigitalreview.com/guides/how-to/a-5-point-checklist-for-china-digital-transformation/ "Hosting for Chinese Internet Users")
+
+<span style="font-size: medium;">Data and infrastructure are key considerations for the overall success of a Chinese ecommerce channel. If you set up on a third party site, you lose control of your data, albeit state of the art in-country hosting is assured. On the other hand, hosting one&apos;s own site in China demands registration, and considerably more resources to ensure performance that compares to western speeds. Meanwhile, cloud hosting solutions grow more robust even for delivery on the China mainland, including storage of static files. Conclusion: no out-of-the-box solution exists for cloud hosting in China. Sharing your vision and resource parameters with a tech-capable in-country partner such as Web Presence In China is the only approach to finding a bespoke solution that marries speed and reliability with accessibility.</span>
+ [Read More &#xBB;](http://www.chinadigitalreview.com/guides/how-to/a-5-point-checklist-for-china-digital-transformation/ "Hosting for Chinese Internet Users") </div> </article> </div>

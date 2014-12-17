@@ -1,51 +1,57 @@
 {
-    "filename": "mobile-application-publishing",
+    "filename": "business-integration-solutions-0",
     "data": {
-        "title": "Mobile Application Publishing ",
+        "title": "Business Integration Solutions ",
         "category": "Technology",
-        "description": "Helping You Navigate a Path to ROI",
-        "filename": "mobile-application-publishing",
+        "description": "Aligning Your Processes with Your Technology",
+        "filename": "business-integration-solutions-0",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/mobile-application-publishing/",
+                    "markdown": "markdown/business-integration-solutions-0/",
                     "href": "#tab1",
                     "class": ""
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/mobile-application-publishing/",
+                    "markdown": "markdown/business-integration-solutions-0/",
                     "href": "#tab2",
                     "class": "active"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/mobile-application-publishing/",
+                    "markdown": "markdown/business-integration-solutions-0/",
                     "href": "#tab3",
+                    "class": ""
+                },
+                {
+                    "title": "Intelligence",
+                    "markdown": "markdown/business-integration-solutions-0/",
+                    "href": "#tab4",
                     "class": ""
                 }
             ],
             "related": [
                 {
-                    "title": "Licensing",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/licensing.png",
-                    "url": "http://www.web-presence-in-china.com/licensing"
+                    "title": "Logistics & Fulfillment",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/logistics-%26-fulfillment.png",
+                    "url": "http://www.web-presence-in-china.com/logistics-fulfillment"
                 },
                 {
-                    "title": "Mobile Advertising",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-ads.png",
-                    "url": "http://www.web-presence-in-china.com/mobile-advertising"
+                    "title": "Microsoft Dynamics",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/microsoft-dynamics.png",
+                    "url": "http://www.web-presence-in-china.com/microsoft-dynamics"
                 },
                 {
-                    "title": "Mobile Application Development",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-app-development.png",
-                    "url": "http://www.web-presence-in-china.com/mobile-application-development"
+                    "title": "Systems Design",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/systems-design.png",
+                    "url": "http://www.web-presence-in-china.com/systems-design"
                 },
                 {
-                    "title": "Mobile Websites Design & Development",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-website.png",
-                    "url": "http://www.web-presence-in-china.com/mobile-websites-design-development"
+                    "title": "Technology Solutions",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/technology-solutions.png",
+                    "url": "http://www.web-presence-in-china.com/technology-solutions"
                 }
             ]
         }

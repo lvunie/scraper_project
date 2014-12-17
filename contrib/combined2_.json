@@ -109,13 +109,6 @@
                     "img_white": "http://www.web-presence-in-china.com/sites/default/files/graphic-design-white.png"
                 },
                 {
-                    "heading": "Market Analysis",
-                    "two_text": "Knowledge Geared to Winning Market Share",
-                    "link": "http://www.web-presence-in-china.com/market-analysis",
-                    "img_slide": "http://www.web-presence-in-china.com/sites/default/files/marketing-analysis.png",
-                    "img_white": "http://www.web-presence-in-china.com/sites/default/files/marketing-analysis-white.png"
-                },
-                {
                     "heading": "Mobile Advertising",
                     "two_text": "A New Channel for a Growing Segment",
                     "link": "http://www.web-presence-in-china.com/mobile-advertising",
@@ -149,6 +142,13 @@
                     "link": "http://www.web-presence-in-china.com/campaign-tracking-dashboards",
                     "img_slide": "http://www.web-presence-in-china.com/sites/default/files/campaign-tracking-dashboards.png",
                     "img_white": "http://www.web-presence-in-china.com/sites/default/files/campaign-tracking-dashboards2.png"
+                },
+                {
+                    "heading": "Market Analysis",
+                    "two_text": "Knowledge Geared to Winning Market Share",
+                    "link": "http://www.web-presence-in-china.com/market-analysis",
+                    "img_slide": "http://www.web-presence-in-china.com/sites/default/files/marketing-analysis.png",
+                    "img_white": "http://www.web-presence-in-china.com/sites/default/files/marketing-analysis-white.png"
                 },
                 {
                     "heading": "eCommerce",
@@ -193,18 +193,18 @@
                     "img_white": "http://www.web-presence-in-china.com/sites/default/files/channel-strategy-white.png"
                 },
                 {
-                    "heading": "Digital Public Relations",
-                    "two_text": "Broad Reach with Next Steps",
-                    "link": "http://www.web-presence-in-china.com/digital-public-relations",
-                    "img_slide": "http://www.web-presence-in-china.com/sites/default/files/digital-PR.png",
-                    "img_white": "http://www.web-presence-in-china.com/sites/default/files/digital-PR-white.png"
-                },
-                {
                     "heading": "Campaign Management Dashboards",
                     "two_text": "Transparency Equals Efficiency",
                     "link": "http://www.web-presence-in-china.com/campaign-management-dashboards",
                     "img_slide": "http://www.web-presence-in-china.com/sites/default/files/icon-9898.png",
                     "img_white": "http://www.web-presence-in-china.com/sites/default/files/icon-9898A.png"
+                },
+                {
+                    "heading": "Digital Public Relations",
+                    "two_text": "Broad Reach with Next Steps",
+                    "link": "http://www.web-presence-in-china.com/digital-public-relations",
+                    "img_slide": "http://www.web-presence-in-china.com/sites/default/files/digital-PR.png",
+                    "img_white": "http://www.web-presence-in-china.com/sites/default/files/digital-PR-white.png"
                 },
                 {
                     "heading": "Asset Localization",

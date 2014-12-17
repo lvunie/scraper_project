@@ -1,33 +1,33 @@
 {
-    "filename": "technology-solutions",
+    "filename": "microsoft-dynamics",
     "data": {
-        "title": "Technology Solutions ",
+        "title": "Microsoft Dynamics ",
         "category": "Technology",
-        "description": "Enter and Excel in China’s Technology-Driven Markets",
-        "filename": "technology-solutions",
+        "description": "The Ease & Flexibility of Microsoft, Implemented for Global Efficiency",
+        "filename": "microsoft-dynamics",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/technology-solutions/",
+                    "markdown": "markdown/microsoft-dynamics/",
                     "href": "#tab1",
                     "class": ""
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/technology-solutions/",
+                    "markdown": "markdown/microsoft-dynamics/",
                     "href": "#tab2",
                     "class": "active"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/technology-solutions/",
+                    "markdown": "markdown/microsoft-dynamics/",
                     "href": "#tab3",
                     "class": ""
                 },
                 {
                     "title": "Intelligence",
-                    "markdown": "markdown/technology-solutions/",
+                    "markdown": "markdown/microsoft-dynamics/",
                     "href": "#tab4",
                     "class": ""
                 }
@@ -39,19 +39,19 @@
                     "url": "http://www.web-presence-in-china.com/business-integration-solutions-0"
                 },
                 {
-                    "title": "China Cloud Hosting",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting.png",
-                    "url": "http://www.web-presence-in-china.com/china-cloud-hosting"
-                },
-                {
-                    "title": "Scraping",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/scraping.png",
-                    "url": "http://www.web-presence-in-china.com/scraping"
+                    "title": "Campaign Management Dashboards",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-9898.png",
+                    "url": "http://www.web-presence-in-china.com/campaign-management-dashboards"
                 },
                 {
                     "title": "Systems Design",
                     "icon": "http://www.web-presence-in-china.com/sites/default/files/systems-design.png",
                     "url": "http://www.web-presence-in-china.com/systems-design"
+                },
+                {
+                    "title": "Technology Solutions",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/technology-solutions.png",
+                    "url": "http://www.web-presence-in-china.com/technology-solutions"
                 }
             ]
         }

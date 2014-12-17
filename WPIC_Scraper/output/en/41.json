@@ -1,57 +1,57 @@
 {
-    "filename": "infrastructure-auditing",
+    "filename": "project-planning-management",
     "data": {
-        "title": "Infrastructure Auditing ",
+        "title": "Project Planning & Management ",
         "category": "Consulting",
-        "description": "Establish a Clear Baseline to Improve On",
-        "filename": "infrastructure-auditing",
+        "description": "Flexible, Accountable Planning for China Operational Objectives",
+        "filename": "project-planning-management",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/infrastructure-auditing/",
+                    "markdown": "markdown/project-planning-management/",
                     "href": "#tab1",
                     "class": ""
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/infrastructure-auditing/",
+                    "markdown": "markdown/project-planning-management/",
                     "href": "#tab2",
                     "class": "active"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/infrastructure-auditing/",
+                    "markdown": "markdown/project-planning-management/",
                     "href": "#tab3",
                     "class": ""
                 },
                 {
                     "title": "Intelligence",
-                    "markdown": "markdown/infrastructure-auditing/",
+                    "markdown": "markdown/project-planning-management/",
                     "href": "#tab4",
                     "class": ""
                 }
             ],
             "related": [
                 {
-                    "title": "China Cloud Hosting",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting.png",
-                    "url": "http://www.web-presence-in-china.com/china-cloud-hosting"
+                    "title": "Campaign Management Dashboards",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-9898.png",
+                    "url": "http://www.web-presence-in-china.com/campaign-management-dashboards"
                 },
                 {
-                    "title": "Content Delivery / Distribution Network (CDN)",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/content-delivery-network-green.png",
-                    "url": "http://www.web-presence-in-china.com/content-delivery-distribution-network-cdn"
+                    "title": "Channel Strategy",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/channel-strategy.png",
+                    "url": "http://www.web-presence-in-china.com/channel-strategy"
                 },
                 {
-                    "title": "Systems Design",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/systems-design.png",
-                    "url": "http://www.web-presence-in-china.com/systems-design"
+                    "title": "Market Intelligence",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/market-intelligence.png",
+                    "url": "http://www.web-presence-in-china.com/market-intelligence"
                 },
                 {
-                    "title": "Website Deployment",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/website-deployment.png",
-                    "url": "http://www.web-presence-in-china.com/website-deployment"
+                    "title": "Regional Planning",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/regional-planning.png",
+                    "url": "http://www.web-presence-in-china.com/regional-planning"
                 }
             ]
         }

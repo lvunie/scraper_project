@@ -1,0 +1,7 @@
+## Intelligence
+ <div class="intelligence-items"> <article class="intelligence-item"> ![](http://www.web-presence-in-china.com/sites/default/files/styles/medium/public/images/2014/11/screen_shot_2014-11-14_at_5.56.14_pm.jpg?itok=Eq-FQ6V5) <div class="intelligence-item-content"> 
+
+### [Localization for Chinese Markets](http://www.chinadigitalreview.com/the-chinese-consumer/know-your-role-web-design-with-the-chinese-in-mind/ "Localization for Chinese Markets")
+
+<span style="font-size: medium;">Best practice localization for the Chinese market means conveying you western value proposition as authentically as possible, while making the user experience as intuitive and streamlined as possible for Mandarin visitors. It most certainly does not, however, require displays of cultural understanding or other well-intended, yet ultimately misgiven tactics. When it comes to quality, Chinese customers have a distinct preference for western brands, and want to know your offering is of western provenance, rather than that the western company respects Chinese culture. A quick browse through Tmall and other major B2C sites proves this point, as western looking models predominate for higher-price-point items.</span>
+ [Read More &#xBB;](http://www.chinadigitalreview.com/the-chinese-consumer/know-your-role-web-design-with-the-chinese-in-mind/ "Localization for Chinese Markets") </div> </article> </div>

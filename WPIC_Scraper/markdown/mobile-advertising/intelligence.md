@@ -1,0 +1,9 @@
+## Intelligence
+ <div class="intelligence-items"> <article class="intelligence-item"> ![](http://www.web-presence-in-china.com/sites/default/files/styles/medium/public/images/2014/11/screen_shot_2014-11-28_at_4.50.50_pm_0.jpg?itok=ukMCNS-3) <div class="intelligence-item-content"> 
+
+### [Mobile Advertising in China - A Developing Industry](http://www.chinadigitalreview.com/a-chinless-wanda-steps-into-chinese-020/ "Mobile Advertising in China - A Developing Industry")
+
+<span style="font-size: medium;">Yes, more than 80% of Chinese use mobile devices for accessing the Internet. This means that sites must be mobilely responsive, and that your ads are best served from China servers with advanced hosting options to ensure phones can view the through their slower networks. But it does not necessarily mandate a specifically mobile ad campaign. Mobile ads usually refer to in-app advertising, and this industry is embryonic at best in China. There are many ad networks that promise targeted in-app ads and reporting, but the delivery is much less robust than the pitch. The networks are seldom tech-enabled for best-practice ad-serving, and metrics are less than reliable when compared with independent reporting.&#xA0;</span>
+
+<span style="font-size: medium;">The way forward lies in partnering with an experienced firm that has established partnerships with a range of networks, in order to access the best inventory and ensure reliable delivery and measurement. Western companies from Canada to Chile use WPIC for mobile advertising campaigns that are on-brand, responsive, and highest conversion rate for lowest cost per conversion.</span>
+ [Read More &#xBB;](http://www.chinadigitalreview.com/a-chinless-wanda-steps-into-chinese-020/ "Mobile Advertising in China - A Developing Industry") </div> </article> </div>

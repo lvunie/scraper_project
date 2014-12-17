@@ -1,0 +1,7 @@
+## Intelligence
+ <div class="intelligence-items"> <article class="intelligence-item"> ![](http://www.web-presence-in-china.com/sites/default/files/styles/medium/public/images/2014/10/Screen%20Shot%202014-10-29%20at%203.35.17%20pm.jpg?itok=XggA2fra) <div class="intelligence-item-content"> 
+
+### [Chinese eCommerce and Channel Conflict](http://www.chinadigitalreview.com/death-of-the-daigou-dusk-for-chinas-gray-market-era/ "Chinese eCommerce and Channel Conflict")
+
+<span style="font-size: medium;">For a long time the daigou, or unlicensed agent, was a primary channel for distributing western goods, especially luxury goods, to Chinese consumers. Current legislation is cracking down on the daigou, but pre-established distribution channels can present challenges to the organization committed to penetrating the online market. Often such organizations find that distributors with varying degrees of legitimacy are already using online platforms to increase sales. Different platforms have different levels of commitment to helping bona fide western organizations clear out the gray market on their site, with leading platforms Alibaba and JD being the most committed, due largely to their stake in helping customers have access to guaranteed foreign products.</span>
+ [Read More &#xBB;](http://www.chinadigitalreview.com/death-of-the-daigou-dusk-for-chinas-gray-market-era/ "Chinese eCommerce and Channel Conflict") </div> </article> </div>

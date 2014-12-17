@@ -1,0 +1,7 @@
+## Intelligence
+ <div class="intelligence-items"> <article class="intelligence-item"> ![](http://www.web-presence-in-china.com/sites/default/files/styles/medium/public/images/2014/12/screen_shot_2014-12-02_at_12.48.07_pm.jpg?itok=m3Terlfv) <div class="intelligence-item-content"> 
+
+### [China&apos;s SaaS Market &amp; the Analytics Boom](http://www.chinadigitalreview.com/the-coming-saas-market-in-china/ "China&apos;s SaaS Market &amp; the Analytics Boom")
+
+<span style="font-size: medium;">China&apos;s SaaS is rising in proportion to its booming Internet economy, an industry driven by data. Analytics can be looked at as the systematic extraction of value from data. Therefore, the application of best practice analytics makes a difference at all phases of an SaaS offering: defining the opportunity, developing the product, testing its effectiveness, rolling it out efficiently, and driving growth. Big Data, Smart Data, the Internet of Things, all concepts derive from the increasing value of information. Analytics is the tool for creating optimal value from data.</span>
+ [Read More &#xBB;](http://www.chinadigitalreview.com/the-coming-saas-market-in-china/ "China&apos;s SaaS Market &amp; the Analytics Boom") </div> </article> </div>

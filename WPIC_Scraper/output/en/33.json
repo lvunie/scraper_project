@@ -1,57 +1,57 @@
 {
-    "filename": "legal-structural-setup",
+    "filename": "technology-solutions",
     "data": {
-        "title": "Legal & Structural Setup ",
-        "category": "Consulting",
-        "description": "Compliance for a Smooth Path to Revenue",
-        "filename": "legal-structural-setup",
+        "title": "Technology Solutions ",
+        "category": "Technology",
+        "description": "Enter and Excel in China’s Technology-Driven Markets",
+        "filename": "technology-solutions",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/legal-structural-setup/",
+                    "markdown": "markdown/technology-solutions/",
                     "href": "#tab1",
                     "class": ""
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/legal-structural-setup/",
+                    "markdown": "markdown/technology-solutions/",
                     "href": "#tab2",
                     "class": "active"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/legal-structural-setup/",
+                    "markdown": "markdown/technology-solutions/",
                     "href": "#tab3",
                     "class": ""
                 },
                 {
                     "title": "Intelligence",
-                    "markdown": "markdown/legal-structural-setup/",
+                    "markdown": "markdown/technology-solutions/",
                     "href": "#tab4",
                     "class": ""
                 }
             ],
             "related": [
                 {
-                    "title": "ICP Registration",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ICP-Registration.png",
-                    "url": "http://www.web-presence-in-china.com/icp-registration"
+                    "title": "Business Integration Solutions",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/business-integration-solutions-green.png",
+                    "url": "http://www.web-presence-in-china.com/business-integration-solutions-0"
                 },
                 {
-                    "title": "Licensing",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/licensing.png",
-                    "url": "http://www.web-presence-in-china.com/licensing"
+                    "title": "China Cloud Hosting",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting.png",
+                    "url": "http://www.web-presence-in-china.com/china-cloud-hosting"
                 },
                 {
-                    "title": "Payment Gateway",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/payment-gateways.png",
-                    "url": "http://www.web-presence-in-china.com/payment-gateway"
+                    "title": "Scraping",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/scraping.png",
+                    "url": "http://www.web-presence-in-china.com/scraping"
                 },
                 {
-                    "title": "Regional Planning",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/regional-planning.png",
-                    "url": "http://www.web-presence-in-china.com/regional-planning"
+                    "title": "Systems Design",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/systems-design.png",
+                    "url": "http://www.web-presence-in-china.com/systems-design"
                 }
             ]
         }

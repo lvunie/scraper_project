@@ -1,0 +1,7 @@
+## Intelligence
+ <div class="intelligence-items"> <article class="intelligence-item"> ![](http://www.web-presence-in-china.com/sites/default/files/styles/medium/public/images/2014/11/Screen%20Shot%202014-11-06%20at%201.27.10%20pm.jpg?itok=8omDrhDA) <div class="intelligence-item-content"> 
+
+### [2 Benefits of a Content Delivery Network (CDN) in China](http://www.chinadigitalreview.com/fast-times-in-china-speeding-up-your-site-with-a-turbo-tech-solution/ "2 Benefits of a Content Delivery Network (CDN) in China")
+
+If you have a big, media rich site, even hosting inside China&apos;s firewall does not ensure the critical fast load times Chinese users expect, albeit living in a vast country with suboptimal Internet infrastructure. Hosting static content such as videos and picture galleries on a China CDN is thus a next step in being sure that sites load quickly, whether the visitor is in Harbin or Hainan. Furthermore, a more involved CDN solution can bypass the necessity to host inside the China firewall altogether, for larger companies with security and other concerns with such hosting.
+ [Read More &#xBB;](http://www.chinadigitalreview.com/fast-times-in-china-speeding-up-your-site-with-a-turbo-tech-solution/ "2 Benefits of a Content Delivery Network (CDN) in China") </div> </article> </div>

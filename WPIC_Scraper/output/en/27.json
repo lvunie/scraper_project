@@ -1,57 +1,57 @@
 {
-    "filename": "business-integration-solutions-0",
+    "filename": "payment-gateway",
     "data": {
-        "title": "Business Integration Solutions ",
+        "title": "Payment Gateway ",
         "category": "Technology",
-        "description": "Aligning Your Processes with Your Technology",
-        "filename": "business-integration-solutions-0",
+        "description": "Stop Lead Loss at Its Biggest Source",
+        "filename": "payment-gateway",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/business-integration-solutions-0/",
+                    "markdown": "markdown/payment-gateway/",
                     "href": "#tab1",
                     "class": ""
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/business-integration-solutions-0/",
+                    "markdown": "markdown/payment-gateway/",
                     "href": "#tab2",
                     "class": "active"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/business-integration-solutions-0/",
+                    "markdown": "markdown/payment-gateway/",
                     "href": "#tab3",
                     "class": ""
                 },
                 {
                     "title": "Intelligence",
-                    "markdown": "markdown/business-integration-solutions-0/",
+                    "markdown": "markdown/payment-gateway/",
                     "href": "#tab4",
                     "class": ""
                 }
             ],
             "related": [
                 {
+                    "title": "eCommerce",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/eCommerce1.png",
+                    "url": "http://www.web-presence-in-china.com/ecommerce-0"
+                },
+                {
+                    "title": "Legal & Structural Setup",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/legal-%26-structural-setup.png",
+                    "url": "http://www.web-presence-in-china.com/legal-structural-setup"
+                },
+                {
+                    "title": "Licensing",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/licensing.png",
+                    "url": "http://www.web-presence-in-china.com/licensing"
+                },
+                {
                     "title": "Logistics & Fulfillment",
                     "icon": "http://www.web-presence-in-china.com/sites/default/files/logistics-%26-fulfillment.png",
                     "url": "http://www.web-presence-in-china.com/logistics-fulfillment"
-                },
-                {
-                    "title": "Microsoft Dynamics",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/microsoft-dynamics.png",
-                    "url": "http://www.web-presence-in-china.com/microsoft-dynamics"
-                },
-                {
-                    "title": "Systems Design",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/systems-design.png",
-                    "url": "http://www.web-presence-in-china.com/systems-design"
-                },
-                {
-                    "title": "Technology Solutions",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/technology-solutions.png",
-                    "url": "http://www.web-presence-in-china.com/technology-solutions"
                 }
             ]
         }

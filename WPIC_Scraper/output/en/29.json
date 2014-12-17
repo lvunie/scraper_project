@@ -1,51 +1,57 @@
 {
-    "filename": "content-delivery-distribution-network-cdn",
+    "filename": "mobile-application-publishing",
     "data": {
-        "title": "Content Delivery / Distribution Network (CDN) ",
+        "title": "Mobile Application Publishing ",
         "category": "Technology",
-        "description": "Delivering Superior Customer Experience",
-        "filename": "content-delivery-distribution-network-cdn",
+        "description": "Helping You Navigate a Path to ROI",
+        "filename": "mobile-application-publishing",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/content-delivery-distribution-network-cdn/",
+                    "markdown": "markdown/mobile-application-publishing/",
                     "href": "#tab1",
                     "class": ""
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/content-delivery-distribution-network-cdn/",
+                    "markdown": "markdown/mobile-application-publishing/",
                     "href": "#tab2",
                     "class": "active"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/content-delivery-distribution-network-cdn/",
+                    "markdown": "markdown/mobile-application-publishing/",
                     "href": "#tab3",
+                    "class": ""
+                },
+                {
+                    "title": "Intelligence",
+                    "markdown": "markdown/mobile-application-publishing/",
+                    "href": "#tab4",
                     "class": ""
                 }
             ],
             "related": [
                 {
-                    "title": "China Cloud Hosting",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting.png",
-                    "url": "http://www.web-presence-in-china.com/china-cloud-hosting"
+                    "title": "Licensing",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/licensing.png",
+                    "url": "http://www.web-presence-in-china.com/licensing"
                 },
                 {
-                    "title": "ICP Registration",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ICP-Registration.png",
-                    "url": "http://www.web-presence-in-china.com/icp-registration"
+                    "title": "Mobile Advertising",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-ads.png",
+                    "url": "http://www.web-presence-in-china.com/mobile-advertising"
                 },
                 {
-                    "title": "Infrastructure Auditing",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/infrastructure-auditing.png",
-                    "url": "http://www.web-presence-in-china.com/infrastructure-auditing"
+                    "title": "Mobile Application Development",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-app-development.png",
+                    "url": "http://www.web-presence-in-china.com/mobile-application-development"
                 },
                 {
-                    "title": "Systems Design",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/systems-design.png",
-                    "url": "http://www.web-presence-in-china.com/systems-design"
+                    "title": "Mobile Websites Design & Development",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-website.png",
+                    "url": "http://www.web-presence-in-china.com/mobile-websites-design-development"
                 }
             ]
         }

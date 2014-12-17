@@ -1,57 +1,57 @@
 {
-    "filename": "market-intelligence",
+    "filename": "business-integration-solutions",
     "data": {
-        "title": "Market Intelligence ",
+        "title": "Business Integration Solutions ",
         "category": "Consulting",
-        "description": "Knowledge Geared to Winning Market Share",
-        "filename": "market-intelligence",
+        "description": "Aligning Your Processes with Your Technology",
+        "filename": "business-integration-solutions",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/market-intelligence/",
+                    "markdown": "markdown/business-integration-solutions/",
                     "href": "#tab1",
                     "class": ""
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/market-intelligence/",
+                    "markdown": "markdown/business-integration-solutions/",
                     "href": "#tab2",
                     "class": "active"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/market-intelligence/",
+                    "markdown": "markdown/business-integration-solutions/",
                     "href": "#tab3",
                     "class": ""
                 },
                 {
                     "title": "Intelligence",
-                    "markdown": "markdown/market-intelligence/",
+                    "markdown": "markdown/business-integration-solutions/",
                     "href": "#tab4",
                     "class": ""
                 }
             ],
             "related": [
                 {
-                    "title": "Channel Conflict Strategies",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/channel-conflict-strategies.png",
-                    "url": "http://www.web-presence-in-china.com/channel-conflict-strategies"
+                    "title": "Logistics & Fulfillment",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/logistics-%26-fulfillment.png",
+                    "url": "http://www.web-presence-in-china.com/logistics-fulfillment"
                 },
                 {
-                    "title": "Channel Strategy",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/channel-strategy.png",
-                    "url": "http://www.web-presence-in-china.com/channel-strategy"
+                    "title": "Microsoft Dynamics",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/microsoft-dynamics.png",
+                    "url": "http://www.web-presence-in-china.com/microsoft-dynamics"
                 },
                 {
-                    "title": "Market Analysis",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/marketing-analysis.png",
-                    "url": "http://www.web-presence-in-china.com/market-analysis"
+                    "title": "Project Planning & Management",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/project-planning-%26-management.png",
+                    "url": "http://www.web-presence-in-china.com/project-planning-management"
                 },
                 {
-                    "title": "Scraping",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/scraping.png",
-                    "url": "http://www.web-presence-in-china.com/scraping"
+                    "title": "Systems Design",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/systems-design.png",
+                    "url": "http://www.web-presence-in-china.com/systems-design"
                 }
             ]
         }

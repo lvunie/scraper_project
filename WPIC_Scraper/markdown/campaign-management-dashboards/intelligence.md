@@ -1,0 +1,7 @@
+## Intelligence
+ <div class="intelligence-items"> <article class="intelligence-item"> ![](http://www.web-presence-in-china.com/sites/default/files/styles/medium/public/images/2014/11/screen_shot_2014-11-18_at_4.21.04_pm.jpg?itok=ESQwgCgZ) <div class="intelligence-item-content"> 
+
+### [Custom Dashboard for Smart China Data](http://www.chinadigitalreview.com/guides/how-to/expanding-into-china-3-steps-for-the-sme/ "Custom Dashboard for Smart China Data")
+
+<span style="font-size: medium;">Long term performance marketing campaigns have much greater returns whith a custom dashboard implemented. The ability for all designated stakeholders to track leads and next steps, while gathering maximum data on the user, helps refine campaigns, making spends much more efficient. As the campaign continues, underperforming ads can be cut, while high performance ads can be increased. Regions of China not drawing traffic or leads can be excluded from advertising reach parameters. Information on devices can inform decisions about further spend. Meanwhile, both local and international offices share this data seamlessly for low-stress reporting and high transparency.</span>
+ [Read More &#xBB;](http://www.chinadigitalreview.com/guides/how-to/expanding-into-china-3-steps-for-the-sme/ "Custom Dashboard for Smart China Data") </div> </article> </div>

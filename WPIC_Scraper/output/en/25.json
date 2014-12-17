@@ -1,33 +1,33 @@
 {
-    "filename": "website-deployment",
+    "filename": "content-delivery-distribution-network-cdn",
     "data": {
-        "title": "Website Deployment ",
+        "title": "Content Delivery / Distribution Network (CDN) ",
         "category": "Technology",
-        "description": "‘Bridge the Gap’, ‘Span the Pass’… ‘Zip Line the Ravine’?",
-        "filename": "website-deployment",
+        "description": "Delivering Superior Customer Experience",
+        "filename": "content-delivery-distribution-network-cdn",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/website-deployment/",
+                    "markdown": "markdown/content-delivery-distribution-network-cdn/",
                     "href": "#tab1",
                     "class": ""
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/website-deployment/",
+                    "markdown": "markdown/content-delivery-distribution-network-cdn/",
                     "href": "#tab2",
                     "class": "active"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/website-deployment/",
+                    "markdown": "markdown/content-delivery-distribution-network-cdn/",
                     "href": "#tab3",
                     "class": ""
                 },
                 {
                     "title": "Intelligence",
-                    "markdown": "markdown/website-deployment/",
+                    "markdown": "markdown/content-delivery-distribution-network-cdn/",
                     "href": "#tab4",
                     "class": ""
                 }
@@ -39,19 +39,19 @@
                     "url": "http://www.web-presence-in-china.com/china-cloud-hosting"
                 },
                 {
-                    "title": "Content Delivery / Distribution Network (CDN)",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/content-delivery-network-green.png",
-                    "url": "http://www.web-presence-in-china.com/content-delivery-distribution-network-cdn"
+                    "title": "ICP Registration",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ICP-Registration.png",
+                    "url": "http://www.web-presence-in-china.com/icp-registration"
                 },
                 {
-                    "title": "Mobile Websites Design & Development",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-website.png",
-                    "url": "http://www.web-presence-in-china.com/mobile-websites-design-development"
+                    "title": "Infrastructure Auditing",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/infrastructure-auditing.png",
+                    "url": "http://www.web-presence-in-china.com/infrastructure-auditing"
                 },
                 {
-                    "title": "Website Design",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/website-design.png",
-                    "url": "http://www.web-presence-in-china.com/website-design"
+                    "title": "Systems Design",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/systems-design.png",
+                    "url": "http://www.web-presence-in-china.com/systems-design"
                 }
             ]
         }

@@ -1,0 +1,7 @@
+## Intelligence
+ <div class="intelligence-items"> <article class="intelligence-item"> ![](http://www.web-presence-in-china.com/sites/default/files/styles/medium/public/images/2014/10/Screen%20Shot%202014-10-31%20at%202.06.09%20pm.jpg?itok=CRQkozlk) <div class="intelligence-item-content"> 
+
+### [Project Planning &amp; Management to Attract Chinese RE Investment](http://www.chinadigitalreview.com/attracting-chinese-real-estate-investment-a-rough-guide/ "Project Planning &amp; Management to Attract Chinese RE Investment")
+
+Few ecommerce categories reflect the need for proper planning and management more than that of real estate services for the Chinese market. Given the size of investment that counts as a conversion, the level of risk facing the customer, and the profusion of conflicting information in an online environment saturated with content, sound project planning and management is essential to realizing ROI. In this case, that planning involves rigorous schedule for not only design and implementation of a website, but also content marketing, a sales funnel easily more than a year long, and considerations for the myriad contingencies on which a successful sale depend.
+ [Read More &#xBB;](http://www.chinadigitalreview.com/attracting-chinese-real-estate-investment-a-rough-guide/ "Project Planning &amp; Management to Attract Chinese RE Investment") </div> </article> </div>

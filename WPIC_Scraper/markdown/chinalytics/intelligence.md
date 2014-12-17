@@ -1,0 +1,7 @@
+## Intelligence
+ <div class="intelligence-items"> <article class="intelligence-item"> ![](http://www.web-presence-in-china.com/sites/default/files/styles/medium/public/images/2014/11/screen_shot_2014-11-25_at_9.20.26_am.jpg?itok=Y3-r-C0o) <div class="intelligence-item-content"> 
+
+### [The Chinalytics Difference](http://chinalytics.com/ "The Chinalytics Difference")
+
+Accurate measurement of digital tactics is every bit as important in China as in the West. It is also just as neglected by the average organization engaged in digital marketing. Google&apos;s blockage in China increases the arbitrage opportunity for western companies that understand the importance of accurate measurement. Chinalytics delivers that opportunity. A creation of WPIC&apos;s China Digital Labs, Chinalytics not only replaces but outdoes Google Analytics for China data. Intuitive, simple, and utterly reliable, Chinalytics delivers accurate data you can make dependable decisions on. Priced at a fraction of the only alternative, Omniture, Chinalytics grants the advantage of superior data and the ROI of having access to it.
+ [Read More &#xBB;](http://chinalytics.com/ "The Chinalytics Difference") </div> </article> </div>

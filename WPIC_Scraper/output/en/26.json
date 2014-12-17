@@ -1,52 +1,52 @@
 {
-    "filename": "website-design",
+    "filename": "mobile-websites-design-development",
     "data": {
-        "title": "Website Design ",
+        "title": "Mobile Websites Design & Development ",
         "category": "Technology",
-        "description": "An On-Brand Experience Optimized for Chinese Customers",
-        "filename": "website-design",
+        "description": "Profit by Adapting to China’s Mobile Revolution",
+        "filename": "mobile-websites-design-development",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/website-design/",
+                    "markdown": "markdown/mobile-websites-design-development/",
                     "href": "#tab1",
                     "class": ""
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/website-design/",
+                    "markdown": "markdown/mobile-websites-design-development/",
                     "href": "#tab2",
                     "class": "active"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/website-design/",
+                    "markdown": "markdown/mobile-websites-design-development/",
                     "href": "#tab3",
                     "class": ""
                 },
                 {
                     "title": "Intelligence",
-                    "markdown": "markdown/website-design/",
+                    "markdown": "markdown/mobile-websites-design-development/",
                     "href": "#tab4",
                     "class": ""
                 }
             ],
             "related": [
                 {
-                    "title": "China Cloud Hosting",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting.png",
-                    "url": "http://www.web-presence-in-china.com/china-cloud-hosting"
+                    "title": "Mobile Advertising",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-ads.png",
+                    "url": "http://www.web-presence-in-china.com/mobile-advertising"
                 },
                 {
-                    "title": "ICP Registration",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ICP-Registration.png",
-                    "url": "http://www.web-presence-in-china.com/icp-registration"
+                    "title": "Mobile Application Development",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-app-development.png",
+                    "url": "http://www.web-presence-in-china.com/mobile-application-development"
                 },
                 {
-                    "title": "Mobile Websites Design & Development",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-website.png",
-                    "url": "http://www.web-presence-in-china.com/mobile-websites-design-development"
+                    "title": "Mobile Application Publishing",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon23.png",
+                    "url": "http://www.web-presence-in-china.com/mobile-application-publishing"
                 },
                 {
                     "title": "Website Deployment",

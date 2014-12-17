@@ -1,0 +1,11 @@
+## Intelligence
+ <div class="intelligence-items"> <article class="intelligence-item"> ![](http://www.web-presence-in-china.com/sites/default/files/styles/medium/public/images/2014/12/screen_shot_2014-12-04_at_2.50.31_pm.jpg?itok=gSMG8ghC) <div class="intelligence-item-content"> 
+
+### [China&apos;s PR Industry Needs Digital Transformation](http://www.chinadigitalreview.com/pr-in-china-needs-a-digital-makeover/ "China&apos;s PR Industry Needs Digital Transformation")
+
+<span style="font-size: medium;">PR and Communications firms are well aware of the need to radically transform in order to embrace the realities of digital outreach, where traditional networks and methods of pushing out messaging has become largely ineffective. The situation demands a new mindset that embraces the lack of control established media agencies have in controlling the message, and the realites of dealing with an audience that ignores anything but overt transparency and split-second responses.&#xA0;</span>
+
+<span style="font-size: medium;">A sound approach to digitally transforming PR digitally begins and ends with robust analytic measurement, of the target audience, its habbits, its platforms, and the reach of digital messaging. In other words, the qualitative proficiency communications firms have relied on must now be married to quantitative procedures based on best practice technological methodology.&#xA0;</span>
+
+<span style="font-size: medium;">Web Presence in China is committed to prioritizing a western organization&apos;s unique value proposition over the cultural complexities of the Chinese audience, and communicating a western brand as authentically as possible. WPIC&apos;s digital PR and communications utilizes tech-supported methodology at each phase of the campaign, from planning to post-campaign reportage. This approach takes the mystery out of PR-oriented ROI, so that western firms can make sound decisions based on the resultant data.</span>
+ [Read More &#xBB;](http://www.chinadigitalreview.com/pr-in-china-needs-a-digital-makeover/ "China&apos;s PR Industry Needs Digital Transformation") </div> </article> </div>

@@ -1,57 +1,57 @@
 {
-    "filename": "ecommerce-0",
+    "filename": "licensing",
     "data": {
-        "title": "eCommerce ",
-        "category": "Technology",
-        "description": "Seamless Sales in the World’s Largest Online Economy",
-        "filename": "ecommerce-0",
+        "title": "Licensing ",
+        "category": "Consulting",
+        "description": "Eased Market Entry Based on Trust",
+        "filename": "licensing",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/ecommerce-0/",
+                    "markdown": "markdown/licensing/",
                     "href": "#tab1",
                     "class": ""
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/ecommerce-0/",
+                    "markdown": "markdown/licensing/",
                     "href": "#tab2",
                     "class": "active"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/ecommerce-0/",
+                    "markdown": "markdown/licensing/",
                     "href": "#tab3",
                     "class": ""
                 },
                 {
                     "title": "Intelligence",
-                    "markdown": "markdown/ecommerce-0/",
+                    "markdown": "markdown/licensing/",
                     "href": "#tab4",
                     "class": ""
                 }
             ],
             "related": [
                 {
-                    "title": "Asset Localization",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/asset-localization.png",
-                    "url": "http://www.web-presence-in-china.com/asset-localization"
+                    "title": "eCommerce",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ecommerce.png",
+                    "url": "http://www.web-presence-in-china.com/ecommerce"
                 },
                 {
-                    "title": "Licensing",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/licensing.png",
-                    "url": "http://www.web-presence-in-china.com/licensing"
+                    "title": "ICP Registration",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/ICP-Registration.png",
+                    "url": "http://www.web-presence-in-china.com/icp-registration"
+                },
+                {
+                    "title": "Legal & Structural Setup",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/legal-%26-structural-setup.png",
+                    "url": "http://www.web-presence-in-china.com/legal-structural-setup"
                 },
                 {
                     "title": "Logistics & Fulfillment",
                     "icon": "http://www.web-presence-in-china.com/sites/default/files/logistics-%26-fulfillment.png",
                     "url": "http://www.web-presence-in-china.com/logistics-fulfillment"
-                },
-                {
-                    "title": "Payment Gateway",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/payment-gateways.png",
-                    "url": "http://www.web-presence-in-china.com/payment-gateway"
                 }
             ]
         }

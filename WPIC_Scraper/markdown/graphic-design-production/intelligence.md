@@ -1,0 +1,9 @@
+## Intelligence
+ <div class="intelligence-items"> <article class="intelligence-item"> ![](http://www.web-presence-in-china.com/sites/default/files/styles/medium/public/images/2014/12/screen_shot_2014-12-05_at_11.03.25_am.jpg?itok=IHe2mkg6) <div class="intelligence-item-content"> 
+
+### [Graphic Design with the Chinese in Mind](http://www.chinadigitalreview.com/know-your-role-web-design-with-the-chinese-in-mind/ "Graphic Design with the Chinese in Mind")
+
+<span style="font-size: medium;">Effective graphic design for Chinese consumers _does_ involve cultural understanding, but not the kind most westerners think. You see, modern Chinese culture is consumer culture. Just like westerners, Chinese define themselves through their purchases. This explains the western brand advantage, since Chinese brands are mistrusted, and typically bought only for price point. Quality &amp; authenticity are seen as coming from the West. This does much to explain why so much graphic design on Chinese sites focuses on western themes and western models. Go to TMall and scroll a bit if in doubt.&#xA0;</span>
+
+<span style="font-size: medium;">Therefore, the right approach to Chinese graphic design production is not to create imagery that shows you understand traditional Chinese culture. Instead, the idea is to keep your brand as authentic as possible, emphasizing your western brand advantage. Yes, messaging must be translated for both accuracy _and_ impact. But the Chinese want the real you, the real brand story, not one contextualized to communicate respect for traditional Chinese culture. Authenticity first, authenticity last, for increased engagement at all points in between.&#xA0;</span>
+ [Read More &#xBB;](http://www.chinadigitalreview.com/know-your-role-web-design-with-the-chinese-in-mind/ "Graphic Design with the Chinese in Mind") </div> </article> </div>

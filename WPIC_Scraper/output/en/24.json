@@ -1,51 +1,57 @@
 {
-    "filename": "chinalytics",
+    "filename": "mobile-application-development",
     "data": {
-        "title": "Chinalytics ",
+        "title": "Mobile Application Development ",
         "category": "Technology",
-        "description": "Custom Analytics That You Can Trust",
-        "filename": "chinalytics",
+        "description": "Build for China, or Scale for China",
+        "filename": "mobile-application-development",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/chinalytics/",
+                    "markdown": "markdown/mobile-application-development/",
                     "href": "#tab1",
                     "class": ""
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/chinalytics/",
+                    "markdown": "markdown/mobile-application-development/",
                     "href": "#tab2",
                     "class": "active"
                 },
                 {
-                    "title": "Subscribe",
-                    "markdown": "markdown/chinalytics/",
+                    "title": "Impact",
+                    "markdown": "markdown/mobile-application-development/",
                     "href": "#tab3",
+                    "class": ""
+                },
+                {
+                    "title": "Intelligence",
+                    "markdown": "markdown/mobile-application-development/",
+                    "href": "#tab4",
                     "class": ""
                 }
             ],
             "related": [
                 {
-                    "title": "Business Integration Solutions",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/business-integration-solutions-green.png",
-                    "url": "http://www.web-presence-in-china.com/business-integration-solutions-0"
+                    "title": "Asset Localization",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/asset-localization.png",
+                    "url": "http://www.web-presence-in-china.com/asset-localization"
                 },
                 {
-                    "title": "China Cloud Hosting",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/china-cloud-hosting.png",
-                    "url": "http://www.web-presence-in-china.com/china-cloud-hosting"
+                    "title": "Mobile Advertising",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-ads.png",
+                    "url": "http://www.web-presence-in-china.com/mobile-advertising"
                 },
                 {
-                    "title": "Scraping",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/scraping.png",
-                    "url": "http://www.web-presence-in-china.com/scraping"
+                    "title": "Mobile Application Publishing",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon23.png",
+                    "url": "http://www.web-presence-in-china.com/mobile-application-publishing"
                 },
                 {
-                    "title": "Systems Design",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/systems-design.png",
-                    "url": "http://www.web-presence-in-china.com/systems-design"
+                    "title": "Mobile Websites Design & Development",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/mobile-website.png",
+                    "url": "http://www.web-presence-in-china.com/mobile-websites-design-development"
                 }
             ]
         }

@@ -1,0 +1,7 @@
+## Intelligence
+ <div class="intelligence-items"> <article class="intelligence-item"> ![](http://www.web-presence-in-china.com/sites/default/files/styles/medium/public/images/2014/12/screen_shot_2014-12-01_at_3.20.11_pm.jpg?itok=3RcgNhxx) <div class="intelligence-item-content"> 
+
+### [Winning in China with Superior Market Analysis](http://www.chinadigitalreview.com/five-trends-defining-the-new-chinese-outbound-traveler/ "Winning in China with Superior Market Analysis")
+
+<span style="font-size: medium;">The best market analysis derives from superior qualitative and quantitative data. WPIC&apos;s firm belief that today&apos;s Chinese consumer is a global consumer informs our qualitative approach on all campaigns. This principle is increasingly upheld as industries such as Tourism confirm that the Chinese outbound traveler is increasingly independent and sophisticated, as well as booking online. The granular data that informs our channel strategy, from ad spends per vertical to most-desired platforms, is programmatically acquired, via scraping and other technological approaches. Taken together, WPIC market analysis provides a crystal clear picture of your China market segment from both 50,000 and buzzing the control tower.</span>
+ [Read More &#xBB;](http://www.chinadigitalreview.com/five-trends-defining-the-new-chinese-outbound-traveler/ "Winning in China with Superior Market Analysis") </div> </article> </div>

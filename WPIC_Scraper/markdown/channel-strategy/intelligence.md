@@ -1,0 +1,7 @@
+## Intelligence
+ <div class="intelligence-items"> <article class="intelligence-item"> ![](http://www.web-presence-in-china.com/sites/default/files/styles/medium/public/images/2014/11/screen_shot_2014-11-19_at_12.48.54_pm.jpg?itok=2BgSnWzm) <div class="intelligence-item-content"> 
+
+### [Choosing a B2B online Channel](http://www.chinadigitalreview.com/ecommerce/tmall-b2b/ "Choosing a B2B online Channel")
+
+Successful online B2B lead generation and sales in China has traditionally meant localization of a heavy, centralized company website. China&apos;s online revolution has meant a rapid development of popular platforms, however, as well as consolidation of the Chinese ecosystem by giants such as Baidu, Alibaba, and Tencent. Therefore, decentralizing web presence for distribution to these giants&apos; platforms is a savvy way to drive traffic, branding, and leads, even for B2B organizations. Tmall, Alibaba&apos;s B2C platform, for example, has evolved to the point where there is a significant amount of B2B traffic, as can be seen from the copious large order sales taking place for brands such as Crucial, Pantone, and Costco. This means that choosing the best channel strategy takes into account the dynamic nature of China&apos;s ever-evolving Internet, as well as taking into consideration programmatically-gathered data to apprise of the contingencies for each potential channel.
+ [Read More &#xBB;](http://www.chinadigitalreview.com/ecommerce/tmall-b2b/ "Choosing a B2B online Channel") </div> </article> </div>

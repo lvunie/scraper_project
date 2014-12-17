@@ -1,0 +1,7 @@
+## Intelligence
+ <div class="intelligence-items"> <article class="intelligence-item"> ![](http://www.web-presence-in-china.com/sites/default/files/styles/medium/public/images/2014/10/Screen%20Shot%202014-10-30%20at%2010.56.14%20am.jpg?itok=dMIYgaM8) <div class="intelligence-item-content"> 
+
+### [Integration for Better Business on Tmall](http://www.chinadigitalreview.com/enhanced-tmall-ux-enhanced-branding-revenue/ "Integration for Better Business on Tmall")
+
+Tmall&apos;s many developments make it a preferable model for China ecommerce than setting up a stand alone site. One of those developments is the ability to integrate special tools, as Web Presence In China undertook for clients Pantone and Crucial. Integrating the product selector tools that drove sales on their western sites increased UX, efficiencies, and sales on their Tmall stores. Undertaking that integration involved a complex process of applying to and persuading appropriate Alibaba personnel to allow these onsite exceptions, and then working with Alibaba&apos;s Chinese API to implement robust replicas of these tools.&#xA0;
+ [Read More &#xBB;](http://www.chinadigitalreview.com/enhanced-tmall-ux-enhanced-branding-revenue/ "Integration for Better Business on Tmall") </div> </article> </div>

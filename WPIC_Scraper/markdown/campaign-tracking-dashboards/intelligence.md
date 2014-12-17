@@ -1,0 +1,7 @@
+## Intelligence
+ <div class="intelligence-items"> <article class="intelligence-item"> ![](http://www.web-presence-in-china.com/sites/default/files/styles/medium/public/images/2014/11/screen_shot_2014-11-26_at_5.09.11_pm.jpg?itok=ph9OWFg3) <div class="intelligence-item-content"> 
+
+### [Dashboards Close the Loop in China](http://www.chinadigitalreview.com/a-5-point-checklist-for-china-digital-transformation/ "Dashboards Close the Loop in China")
+
+<span style="font-size: medium;">There is no underestimating the benefit of a campaign tracking dashboard in driving ROI on an initiative, as well as closing the inevitable gaps between China stakeholders and western management. The ability to track digital efforts and adjust grants the flexibility so essential to maintaining competitive advantage in the digital age. Ironically, tracking &amp; resultant action steps is easily the most neglected aspect of digital marketing. Most organizations have the tools, such as global brand CRMs, which unfortunately are often too complex or not geared to easily get a diverse group of stakeholders in seamless and easy communication over campaign data. A WPIC campaign dashboard is custom-built for real-time measurement, closed loop reporting, and clear next steps for optimizing spend and reaching targets.</span>
+ [Read More &#xBB;](http://www.chinadigitalreview.com/a-5-point-checklist-for-china-digital-transformation/ "Dashboards Close the Loop in China") </div> </article> </div>

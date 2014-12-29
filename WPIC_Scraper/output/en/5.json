@@ -1,57 +1,57 @@
 {
-    "filename": "chinese-brand-development",
+    "filename": "website-analytics",
     "data": {
-        "title": "Chinese Brand Development ",
+        "title": "Website Analytics ",
         "category": "Marketing",
-        "description": "Positioning and Branding for the Chinese Market",
-        "filename": "chinese-brand-development",
+        "description": "Accessible Chinese Traffic Insights You Can Trust",
+        "filename": "website-analytics",
         "content": {
             "tab": [
                 {
                     "title": "Overview",
-                    "markdown": "markdown/chinese-brand-development/",
+                    "markdown": "markdown/website-analytics/",
                     "href": "#tab1",
                     "class": ""
                 },
                 {
                     "title": "Process",
-                    "markdown": "markdown/chinese-brand-development/",
+                    "markdown": "markdown/website-analytics/",
                     "href": "#tab2",
                     "class": "active"
                 },
                 {
                     "title": "Impact",
-                    "markdown": "markdown/chinese-brand-development/",
+                    "markdown": "markdown/website-analytics/",
                     "href": "#tab3",
                     "class": ""
                 },
                 {
                     "title": "Intelligence",
-                    "markdown": "markdown/chinese-brand-development/",
+                    "markdown": "markdown/website-analytics/",
                     "href": "#tab4",
                     "class": ""
                 }
             ],
             "related": [
                 {
-                    "title": "Asset Localization",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/asset-localization.png",
-                    "url": "http://www.web-presence-in-china.com/asset-localization"
+                    "title": "Analytics",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/analytics-marketing-green.png",
+                    "url": "http://www.web-presence-in-china.com/analytics"
                 },
                 {
-                    "title": "Content Localization & Translations Production",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/content-localization.png",
-                    "url": "http://www.web-presence-in-china.com/content-localization-translations-production"
+                    "title": "Campaign Management Dashboards",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-9898.png",
+                    "url": "http://www.web-presence-in-china.com/campaign-management-dashboards"
                 },
                 {
-                    "title": "Content Marketing",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/icon-24a.png",
-                    "url": "http://www.web-presence-in-china.com/content-marketing"
+                    "title": "Campaign Tracking Dashboards",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/campaign-tracking-dashboards.png",
+                    "url": "http://www.web-presence-in-china.com/campaign-tracking-dashboards"
                 },
                 {
-                    "title": "Digital Public Relations",
-                    "icon": "http://www.web-presence-in-china.com/sites/default/files/digital-PR.png",
-                    "url": "http://www.web-presence-in-china.com/digital-public-relations"
+                    "title": "Market Analysis",
+                    "icon": "http://www.web-presence-in-china.com/sites/default/files/marketing-analysis.png",
+                    "url": "http://www.web-presence-in-china.com/market-analysis"
                 }
             ]
         }

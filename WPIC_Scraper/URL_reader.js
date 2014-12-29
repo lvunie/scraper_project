@@ -14,6 +14,7 @@ var menu;
 var menu_size = 0;
 var menu_tag = { 
 	menus : "",
+	SubURLs: "",
 };
 
 var menu_size = 0;
@@ -91,20 +92,44 @@ router.on('http://www.web-presence-in-china.com/')
 				}
 
 	})
-		// Get submenu title
+		// Get ........
+		.scrape(function($) {
+     		   	    return $(".container.dropdown-menu a").map(function() {
+    		        	//return $(this).text();
+				return $(this).attr("href")
+     		   	}).get();
+    			}, function(text) {
+			
+			var text_index =  text.length;
+
+			console.log(text_index);				
+			//console.log(string);
+
+		var new_text = S(text).trim().s; 
+		    new_text = S(new_text).lines();
+		
+		menu_tag.SubURLs = new_text;
+
+		fs.writeFile("new_output.json", JSON.stringify(new_text, null, 4), function(err){
+  
+        	})
+	})
+
+	
+	// Get submenu title
 		.scrape(function($) {
      		   	    return $(".container.dropdown-menu").map(function() {
     		        	return $(this).text();
      		   	}).get();
     			}, function(string) {
 				var string_size =  string.length;
+
 				for(var i = 0; i < string_size; i++)
 				{
 					var new_string = S(string[i]).trim().s;
 					new_string = S(new_string).lines();
 
 					var index = new_string.length;
-					console.log(index);
 
 					var newArray = [];
 					for(var j = 0; j < index; j++)
@@ -115,13 +140,14 @@ router.on('http://www.web-presence-in-china.com/')
 						}
 					}
 					
-					console.log(newArray);
 					menus[i].sub_menu = newArray;
 				}
 			
 			menu_tag.menus = menus;
 			writeToJson('menu.json',menu_tag);
 	})
+
+	//$(".dropdown>a").eq(0).siblings()
 
 router.route("http://www.web-presence-in-china.com/", function() {
     console.log("URLs gotten!");

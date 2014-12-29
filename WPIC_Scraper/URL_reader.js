@@ -108,7 +108,7 @@ router.on('http://www.web-presence-in-china.com/')
 		var new_text = S(text).trim().s; 
 		    new_text = S(new_text).lines();
 		
-		menu_tag.SubURLs = new_text;
+		menu_tag.SubURLs = text;
 
 		fs.writeFile("new_output.json", JSON.stringify(new_text, null, 4), function(err){
   
